@@ -6,6 +6,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores.chroma import Chroma
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
+from streamlit_mic_recorder import mic_recorder
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
@@ -36,6 +37,9 @@ def handle_userinput(user_question):
         else:
             st.write(bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
 
+def translate(audio):
+    return
+
 def main():
     load_dotenv()
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
@@ -48,6 +52,17 @@ def main():
 
     st.header("ChauwkBot (multiple PDFs)")
     user_question = st.text_input("Ask a question about your documents:")
+
+    voice_recording_column, send_button_column = st.columns(2)
+    with voice_recording_column:
+        voice_recording=mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording")
+    with send_button_column:
+        send_button = st.button("Send", key="send_button")
+    
+    if voice_recording:
+        translation = translate(voice_recording["bytes"])
+    
+    print(voice_recording)
     if user_question:
         handle_userinput(user_question)
 

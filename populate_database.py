@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
 
-
 def main():
     load_dotenv()
     # Check if the database should be cleared (using the --clear flag).
