@@ -8,7 +8,7 @@ It stores the document embeddings in a persistent Chroma database. The chatbot i
 
 Audio support in development, where users can converse with the bot in Indian languages with the help of Bhashini API.
 
-*Tanay Agrawal*
+*Tanay Agrawal, Ayush Agarwal*
 
 ## API Reference
 This project uses OpenAI's APIs. However, integrating HuggingFace models instead is a entirely free option, albeit slower than OpenAI.
