@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain.vectorstores.chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
