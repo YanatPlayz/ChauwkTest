@@ -7,10 +7,16 @@ from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
+from bhashini_translator import Bhashini
+import base64
+import requests
+import os
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
-
+sourceLanguage = "en"
+targetLanguage = "hi"
+bhashini = Bhashini(sourceLanguage, targetLanguage)
 def get_vectorstore():
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
@@ -37,9 +43,6 @@ def handle_userinput(user_question):
         else:
             st.write(bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
 
-def translate(audio):
-    return
-
 def main():
     load_dotenv()
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
@@ -55,14 +58,16 @@ def main():
 
     voice_recording_column, send_button_column = st.columns(2)
     with voice_recording_column:
-        voice_recording=mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording")
+        voice_recording=mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording", format="wav")
     with send_button_column:
         send_button = st.button("Send", key="send_button")
     
     if voice_recording:
-        translation = translate(voice_recording["bytes"])
-    
-    print(voice_recording)
+        audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
+        text = bhashini.asr_nmt(audio_base64_string)
+        print(text)
+        #print(translation)
+
     if user_question:
         handle_userinput(user_question)
 
