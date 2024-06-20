@@ -15,10 +15,10 @@ import os
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
 
+
 def get_vectorstore():
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-    st.write("✅ Loaded the database!")
     return db
 
 def get_conversation_chain(vectorstore):
@@ -38,7 +38,6 @@ def handle_userinput(user_question):
     bhashini = Bhashini(sourceLanguage, targetLanguage)
     response = st.session_state.conversation({'question': user_question})
     st.session_state.chat_history = response['chat_history']
-
     for i, message in enumerate(st.session_state.chat_history):
         if i % 2 == 0:
             st.write(user_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
@@ -82,13 +81,8 @@ def main():
     if not user_question:
         user_question = None
         voice_recording=None
-
-    with st.sidebar:
-        if st.button("Load Database"):
-            with st.spinner("Loading"):
-                vectorstore = get_vectorstore()
-                st.session_state.conversation = get_conversation_chain(vectorstore)
-
-
+    
+    vectorstore = get_vectorstore()
+    st.session_state.conversation = get_conversation_chain(vectorstore)
 if __name__ == '__main__':
     main()
