@@ -32,8 +32,9 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def handle_userinput(user_question):
-    sourceLanguage = "en"
-    targetLanguage = "ta"
+    sourceLanguage = "ta"
+    targetLanguage = "en"
+    sourceLanguage, targetLanguage = targetLanguage, sourceLanguage
     bhashini = Bhashini(sourceLanguage, targetLanguage)
     response = st.session_state.conversation({'question': user_question})
     st.session_state.chat_history = response['chat_history']
