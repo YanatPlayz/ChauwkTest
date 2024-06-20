@@ -8,7 +8,7 @@ from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
-import base64
+import base64   
 import requests
 import os
 
@@ -32,6 +32,9 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def handle_userinput(user_question):
+    sourceLanguage = "en"
+    targetLanguage = "ta"
+    bhashini = Bhashini(sourceLanguage, targetLanguage)
     response = st.session_state.conversation({'question': user_question})
     st.session_state.chat_history = response['chat_history']
 
@@ -39,11 +42,11 @@ def handle_userinput(user_question):
         if i % 2 == 0:
             st.write(user_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
         else:
-            st.write(bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
+            st.write(bot_template.replace("{{MSG}}", bhashini.translate(message.content)), unsafe_allow_html=True)
 
 def main():
     load_dotenv()
-    sourceLanguage = "hi"
+    sourceLanguage = "ta"
     targetLanguage = "en"
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
@@ -63,12 +66,13 @@ def main():
         send_button = st.button("Send", key="send_button")
 
     if send_button:
+        bhashini = Bhashini(sourceLanguage, targetLanguage)
         if user_question:
+            user_question = bhashini.translate(user_question)
             handle_userinput(user_question)
             user_question = None
         elif voice_recording: 
             audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
-            bhashini = Bhashini(sourceLanguage, targetLanguage)
             text = bhashini.asr_nmt(audio_base64_string)
             user_question = text
             handle_userinput(user_question)
