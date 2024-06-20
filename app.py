@@ -14,9 +14,7 @@ import os
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
-sourceLanguage = "en"
-targetLanguage = "hi"
-bhashini = Bhashini(sourceLanguage, targetLanguage)
+
 def get_vectorstore():
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
@@ -45,6 +43,8 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
+    sourceLanguage = "ta"
+    targetLanguage = "en"
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
 
@@ -61,15 +61,22 @@ def main():
         voice_recording=mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording", format="wav")
     with send_button_column:
         send_button = st.button("Send", key="send_button")
-    
-    if voice_recording:
-        audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
-        text = bhashini.asr_nmt(audio_base64_string)
-        print(text)
-        #print(translation)
 
-    if user_question:
-        handle_userinput(user_question)
+    if send_button:
+        if user_question:
+            handle_userinput(user_question)
+            user_question = None
+        elif voice_recording: 
+            audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
+            bhashini = Bhashini(sourceLanguage, targetLanguage)
+            text = bhashini.asr_nmt(audio_base64_string)
+            user_question = text
+            handle_userinput(user_question)
+            voice_recording = None
+
+    if not user_question:
+        user_question = None
+        voice_recording=None
 
     with st.sidebar:
         if st.button("Load Database"):
