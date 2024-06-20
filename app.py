@@ -43,7 +43,7 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    sourceLanguage = "ta"
+    sourceLanguage = "hi"
     targetLanguage = "en"
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
