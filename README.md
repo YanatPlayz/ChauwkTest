@@ -11,7 +11,7 @@ Audio support in development, where users can converse with the bot in Indian la
 *Tanay Agrawal, Ayush Agarwal*
 
 ## API Reference
-This project uses OpenAI's APIs. However, integrating HuggingFace models instead is a entirely free option, albeit slower than OpenAI.
+This project uses OpenAI's APIs. However, integrating HuggingFace models instead is a entirely free option, albeit slower than OpenAI. Add these to a .env file to load using dotenv.
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
