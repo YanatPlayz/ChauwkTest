@@ -19,6 +19,7 @@ DATA_PATH = "data"
 def get_vectorstore():
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    st.write("✅ Loaded the database!")
     return db
 
 def get_conversation_chain(vectorstore):
@@ -82,7 +83,11 @@ def main():
         user_question = None
         voice_recording=None
     
-    vectorstore = get_vectorstore()
-    st.session_state.conversation = get_conversation_chain(vectorstore)
+    with st.sidebar:
+        if st.button("Load Database"):
+            with st.spinner("Loading"):
+                vectorstore = get_vectorstore()
+                st.session_state.conversation = get_conversation_chain(vectorstore)
+
 if __name__ == '__main__':
     main()
