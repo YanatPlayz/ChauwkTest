@@ -5,7 +5,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
-from htmlTemplates import css, bot_template, user_template, voice_response
+from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
 import base64   
