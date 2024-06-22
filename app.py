@@ -5,7 +5,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
-from htmlTemplates import css, bot_template, user_template
+from htmlTemplates import css, bot_template, user_template, voice_response
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
 import base64   
@@ -33,7 +33,7 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def handle_userinput(user_question):
-    sourceLanguage = "ta"
+    sourceLanguage = "hi"
     targetLanguage = "en"
     sourceLanguage, targetLanguage = targetLanguage, sourceLanguage
     bhashini = Bhashini(sourceLanguage, targetLanguage)
@@ -44,10 +44,12 @@ def handle_userinput(user_question):
             st.write(user_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
         else:
             st.write(bot_template.replace("{{MSG}}", bhashini.translate(message.content)), unsafe_allow_html=True)
-
+            aud = base64.b64decode(bhashini.nmt_tts(message.content))
+            st.audio(aud,format="audio/wav")
+            
 def main():
     load_dotenv()
-    sourceLanguage = "ta"
+    sourceLanguage = "hi"
     targetLanguage = "en"
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
