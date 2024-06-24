@@ -8,13 +8,13 @@ from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
-import base64   
-import requests
-import os
+import base64
+import uuid
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
-
+sourceLanguage = "hi"
+targetLanguage = "en"
 
 def get_vectorstore():
     embedding_function = get_embedding_function()
@@ -33,24 +33,44 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def handle_userinput(user_question):
-    sourceLanguage = "hi"
-    targetLanguage = "en"
-    sourceLanguage, targetLanguage = targetLanguage, sourceLanguage
-    bhashini = Bhashini(sourceLanguage, targetLanguage)
+    bhashini = Bhashini("en", sourceLanguage)
     response = st.session_state.conversation({'question': user_question})
     st.session_state.chat_history = response['chat_history']
-    for i, message in enumerate(st.session_state.chat_history):
+
+    chat_history = response['chat_history']
+    translated_new_messages = []
+
+    for index, message in enumerate(chat_history):
+        message_id = str(index)
+        if message_id not in st.session_state.translated_messages_record:
+            st.session_state.translated_messages_record.add(message_id)
+            if hasattr(message, 'content'):
+                translated_message_content = bhashini.translate(getattr(message, 'content'))
+                if index % 2 == 0:
+                    base64_aud = ""
+                else:
+                    bhashini2 = Bhashini(sourceLanguage, targetLanguage)
+                    base64_aud = bhashini2.tts(translated_message_content)
+
+                translated_new_messages.append({
+                    'text': translated_message_content,
+                    'audio': base64_aud
+                })
+
+    st.session_state.translated_chat_history.extend(translated_new_messages)
+    for i, message_data in enumerate(st.session_state.translated_chat_history):
+        translated_message = message_data['text']
+        base64_aud = message_data['audio']
+
         if i % 2 == 0:
-            st.write(user_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
+            st.write(user_template.replace("{{MSG}}", translated_message), unsafe_allow_html=True)
         else:
-            st.write(bot_template.replace("{{MSG}}", bhashini.translate(message.content)), unsafe_allow_html=True)
-            aud = base64.b64decode(bhashini.nmt_tts(message.content))
-            st.audio(aud,format="audio/wav")
+            st.write(bot_template.replace("{{MSG}}", translated_message), unsafe_allow_html=True)
+            st.audio(base64.b64decode(base64_aud), format="audio/wav")
+            
             
 def main():
     load_dotenv()
-    sourceLanguage = "hi"
-    targetLanguage = "en"
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
 
@@ -58,6 +78,10 @@ def main():
         st.session_state.conversation = None
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
+    if "translated_chat_history" not in st.session_state:
+        st.session_state.translated_chat_history = []
+    if "translated_messages_record" not in st.session_state:
+        st.session_state.translated_messages_record = set()
 
     st.header("ChauwkBot (multiple PDFs)")
     user_question = st.text_input("Ask a question about your documents:")
@@ -69,13 +93,14 @@ def main():
         send_button = st.button("Send", key="send_button")
 
     if send_button:
-        bhashini = Bhashini(sourceLanguage, targetLanguage)
         if user_question:
+            bhashini = Bhashini(sourceLanguage, "en")
             user_question = bhashini.translate(user_question)
             handle_userinput(user_question)
             user_question = None
         elif voice_recording: 
             audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
+            bhashini = Bhashini(sourceLanguage, targetLanguage)
             text = bhashini.asr_nmt(audio_base64_string)
             user_question = text
             handle_userinput(user_question)
@@ -84,7 +109,7 @@ def main():
     if not user_question:
         user_question = None
         voice_recording=None
-    
+
     with st.sidebar:
         if st.button("Load Database"):
             with st.spinner("Loading"):
