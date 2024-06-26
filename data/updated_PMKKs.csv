@@ -1,0 +1,723 @@
+S. No.,TC ID,TC State,District,PC,TP Name
+1,TC041077,Andhra Pradesh,Anantapur,Anantapur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+2,TC040374,Andhra Pradesh,Anantapur,Hindupur,Rooman Technologies Private Limited
+3,TC052972,Andhra Pradesh,Chittoor,Chittoor,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+4,TC040376,Andhra Pradesh,Chittoor,Tirupati,Rooman Technologies Private Limited
+5,TC059033,Andhra Pradesh,East Godavari,Amalapuram,Datapro Computers Private Limited
+6,TC059026,Andhra Pradesh,East Godavari,Rajahmundry,Datapro Computers Private Limited
+7,TC041441,Andhra Pradesh,East Godavari,Kakinada,ICA Edu Skills Private Limited
+8,TC037375,Andhra Pradesh,Guntur,Guntur,Synchroserve Global Solutions Private Limited
+9,TC052979,Andhra Pradesh,Guntur,Narasaraopet,Synchroserve Global Solutions Private Limited
+10,TC037951,Andhra Pradesh,Kadapa,Kadapa,Synchroserve Global Solutions Private Limited
+11,TC052965,Andhra Pradesh,Krishna,Machilipatnam,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+12,TC041989,Andhra Pradesh,Krishna,Vijaywada,Synchroserve Global Solutions Private Limited
+13,TC040098,Andhra Pradesh,Kurnool,Kurnool,Rooman Technologies Private Limited
+14,TC106081,Andhra Pradesh,Kurnool,Nandyal,Shri Proskills
+15,TC040610,Andhra Pradesh,Nellore,Nellore,Rooman Technologies Private Limited
+16,TC048245,Andhra Pradesh,Prakasam,Bapatla,Synchroserve Global Solutions Private Limited
+17,TC029001,Andhra Pradesh,Prakasam,Ongole,Synchroserve Global Solutions Private Limited
+18,TC100246,Andhra Pradesh,Srikakulam,Araku,Datapro Computers Private Limited
+19,TC041099,Andhra Pradesh,Srikakulam,Srikakulam,ICA Edu Skills Private Limited
+20,TC040780,Andhra Pradesh,Visakhapatanam,Visakhapatnam,ICA Edu Skills Private Limited
+21,TC109896,Andhra Pradesh,Visakhapatanam,Anakapalle,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+22,TC041094,Andhra Pradesh,Vizianagaram,Vizianagaram,ICA Edu Skills Private Limited
+23,TC041096,Andhra Pradesh,West Godavari,Eluru,ICA Edu Skills Private Limited
+24,TC100110,Andhra Pradesh,West Godavari,Narsapuram,Shri Proskills
+25,TC113165,Arunachal Pradesh,Changlang,Arunachal East,De Unique Educational Society
+26,TC143696,Arunachal Pradesh,East Kameng,Arunachal West,Council of Education And Skill Development Trust
+27,TC110505,Arunachal Pradesh,East Siang,Arunachal East,JITM Skills Private Limited
+28,TC105095,Arunachal Pradesh,Lohit,Arunachal East,De Unique Educational Society
+29,TC104454,Arunachal Pradesh,Lower Siang,Arunachal East,JITM Skills Private Limited
+30,TC127009,Arunachal Pradesh,Lower Subansiri,Arunachal West,Council of Education And Skill Development Trust
+31,TC105110,Arunachal Pradesh,Namsai,Arunachal East,De Unique Educational Society
+32,TC104034,Arunachal Pradesh,Papum Pare,Arunachal West,Smart Brains Engineers & Technologist Private Limited
+33,TC110508,Arunachal Pradesh,Tirap,Arunachal East,JITM Skills Private Limited
+34,TC115170,Arunachal Pradesh,West Siang,Arunachal West,De Unique Educational Society
+35,TC027871,Assam,Baksa,Kokrajhar,Orion Edutech Private Limited
+36,TC059089,Assam,Barpeta,Barpeta,JITM Skills Private Limited
+37,TC022284,Assam,Biswanath,Tezpur,Care Educational & Welfare Society
+38,TC113900,Assam,Bongaigaon,Barpeta,Britti Prosikshan Private Limited
+39,TC100151,Assam,Cachar,Silchar,Medhavi Foundation
+40,TC028097,Assam,Chirang,Kokrajhar,Orion Edutech Private Limited
+41,TC031858,Assam,Darrang,Mangaldoi,Orion Edutech Private Limited
+42,TC114444,Assam,Dhubri,Dhubri,Bhartiya Samruddhi Investments & Consulting  Services Limited
+43,TC101916,Assam,Dima Hasao,Autonomous District,Mahatma Gandhi University
+44,TC114423,Assam,Goalpara,Dhubri,Bhartiya Samruddhi Investments & Consulting  Services Limited
+45,TC040415,Assam,Golaghat,Kaliabor,Care Educational & Welfare Society
+46,TC113376,Assam,Hailakandi,Karimganj,Medhavi Foundation
+47,TC061988,Assam,Hojai,Nagaon,Mahatma Gandhi University
+48,TC040547,Assam,Jorhat,Jorhat,Care Educational & Welfare Society
+49,TC040341,Assam,Kamrup,Guwahati,Orion Edutech Private Limited
+50,TC037346,Assam,Kamrup Metro,Guwahati,Orion Edutech Private Limited
+51,TC022325,Assam,Karbi Anglong,Autonomous District,Care Educational & Welfare Society
+52,TC101080,Assam,Karimganj,Karimganj,Mahatma Gandhi University
+53,TC121841,Assam,Kokrajhar,Kokrajhar,Britti Prosikshan Private Limited
+54,TC123918,Assam,Lakhimpur,Lakhimpur,Bhartiya Samruddhi Investments & Consulting  Services Limited
+55,TC125890,Assam,Majuli,Lakhimpur,Care Educational & Welfare Society
+56,TC027747,Assam,Marigaon,Nagaon,Orion Edutech Private Limited
+57,TC113561,Assam,Nagaon,Kaliabor,Mahatma Gandhi University
+58,TC100801,Assam,Nalbari,Mangaldoi,JITM Skills Private Limited
+59,TC022261,Assam,Sonitpur,Tezpur,Care Educational & Welfare Society
+60,TC123907,Assam,South Salmara Mancachar,Dhubri,Bhartiya Samruddhi Investments & Consulting  Services Limited
+61,TC040529,Assam,Udalguri,Mangaldoi,Care Educational & Welfare Society
+62,TC040403,Assam,West Karbi Anglong,Autonomous District,Care Educational & Welfare Society
+63,TC049346,Bihar,Araria,Araria,Ashpra Skills Private Limited
+64,TC112225,Bihar,Arwal,Jehanabad,ADS Skill Private Limited
+65,TC040422,Bihar,Aurangabad,Aurangabad,Rooman Technologies Private Limited
+66,TC059082,Bihar,Banka,Banka,JITM Skills Private Limited
+67,TC040551,Bihar,Begusarai,Begusarai,Vision India Services Private Limited
+68,TC100674,Bihar,Bhagalpur,Bhagalpur,AISECT Limited (AISECT SKILLS MISSION)
+69,TC031781,Bihar,Bhojpur,Arrah,Orion Edutech Private Limited
+70,TC040334,Bihar,Buxar,Buxar,Orion Edutech Private Limited
+71,TC040555,Bihar,Darbhanga,Darbhanga,Vision India Services Private Limited
+72,TC027593,Bihar,Purbi Champaran,East Champaran,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+73,TC039496,Bihar,Gaya,Gaya,Rooman Technologies Private Limited
+74,TC057354,Bihar,Gopalganj,Gopalganj,ADS Skill Private Limited
+75,TC059130,Bihar,Jamui,Jamui,Medhavi Foundation
+76,TC032062,Bihar,Jehanabad,Jehanabad,Orion Edutech Private Limited
+77,TC039951,Bihar,Kaimur (Bhabua),Sasaram,Orion Edutech Private Limited
+78,TC040414,Bihar,Katihar,Katihar,Ashpra Skills Private Limited
+79,TC058662,Bihar,Khagaria,Khagaria,JITM Skills Private Limited
+80,TC040417,Bihar,Kishanganj,Kishanganj,Ashpra Skills Private Limited
+81,TC045828,Bihar,Lakhisarai,Munger,Vision India Services Private Limited
+82,TC062415,Bihar,Madhepura,Madhepura,JITM Skills Private Limited
+83,TC041018,Bihar,Madhubani,Madhubani,Ashpra Skills Private Limited
+84,TC057650,Bihar,Madhubani,Jhanjharpur,Datapro Computers Private Limited
+85,TC102778,Bihar,Munger,Munger,Bhartiya Samruddhi Investments & Consulting  Services Limited
+86,TC019816,Bihar,Muzaffarpur,Muzaffarpur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+87,TC046465,Bihar,Muzaffarpur,Vaishali,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+88,TC040377,Bihar,Nalanda,Nalanda,Rooman Technologies Private Limited
+89,TC040423,Bihar,Nawada,Nawada,Rooman Technologies Private Limited
+90,TC041428,Bihar,Patna,Patna Sahib,ICA Edu Skills Private Limited
+91,TC040310,Bihar,Patna,Patliputra,Orion Edutech Private Limited
+92,TC041020,Bihar,Purnia,Purnia,Ashpra Skills Private Limited
+93,TC052896,Bihar,Rohtas,Karakat,Ashpra Skills Private Limited
+94,TC039652,Bihar,Rohtas,Sasaram,Orion Edutech Private Limited
+95,TC059269,Bihar,Saharsa,Madhepura,JITM Skills Private Limited
+96,TC042021,Bihar,Samastipur,Samastipur,Vision India Services Private Limited
+97,TC000052,Bihar,Saran,Maharajganj,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+98,TC041451,Bihar,Saran,Saran,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+99,TC052454,Bihar,Saran,Saran,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+100,TC014416,Bihar,Saran,Saran,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+101,TC003206,Bihar,Saran,Saran,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+102,TC057595,Bihar,Sheikhpura,Jamui,Bhartiya Samruddhi Investments & Consulting  Services Limited
+103,TC100113,Bihar,Sheohar,Sheohar,The Manav Kalyan Avam Vikas Sanstha
+104,TC108204,Bihar,Sitamarhi,Sitamarhi,The Manav Kalyan Avam Vikas Sanstha
+105,TC040325,Bihar,Siwan,Maharajganj,Funfirst Global Skillers Private Limited
+106,TC027722,Bihar,Siwan,Siwan,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+107,TC041017,Bihar,Supaul,Supaul,Ashpra Skills Private Limited
+108,TC042020,Bihar,Vaishali,Hajipur,Vision India Services Private Limited
+109,TC111460,Bihar,Vaishali,Ujiyarpur,Vision India Services Private Limited
+110,TC100179,Bihar,Pashchim Champaran,West Champaran,ADS Skill Private Limited
+111,TC040347,Chandigarh,Chandigarh,Chandigarh,Edujobs Academy Private Limited
+112,TC041170,Chhattisgarh,Baloda Bazar,Raipur,Care Educational & Welfare Society
+113,TC040778,Chhattisgarh,Balrampur,Surguja,Ashpra Skills Private Limited
+114,TC015971,Chhattisgarh,Bemetara,Durg,AISECT Limited (AISECT SKILLS MISSION)
+115,TC042104,Chhattisgarh,Bijapur,Bastar,AISECT Limited (AISECT SKILLS MISSION)
+116,TC029182,Chhattisgarh,Bilaspur,Bilaspur,AISECT Limited (AISECT SKILLS MISSION)
+117,TC014412,Chhattisgarh,Durg,Durg,AISECT Limited (AISECT SKILLS MISSION)
+118,TC027469,Chhattisgarh,Gariyaband,Mahasamund,Care Educational & Welfare Society
+119,TC041172,Chhattisgarh,Janjgir-Champa,Janjgir-Champa,Care Educational & Welfare Society
+120,TC040410,Chhattisgarh,Jashpur,Raigarh,Ashpra Skills Private Limited
+121,TC044662,Chhattisgarh,Kabirdham,Rajnandgaon,AISECT Limited (AISECT SKILLS MISSION)
+122,TC111041,Chhattisgarh,Kondagaon,Bastar,AISECT Limited (AISECT SKILLS MISSION)
+123,TC040022,Chhattisgarh,Korba,Korba,AISECT Limited (AISECT SKILLS MISSION)
+124,TC041012,Chhattisgarh,Korea,Korba,Ashpra Skills Private Limited
+125,TC040429,Chhattisgarh,Mahasamund,Mahasamund,Care Educational & Welfare Society
+126,TC014364,Chhattisgarh,Mungeli,Bilaspur,AISECT Limited (AISECT SKILLS MISSION)
+127,TC015668,Chhattisgarh,Narayanpur,Bastar,AISECT Limited (AISECT SKILLS MISSION)
+128,TC041202,Chhattisgarh,Raigarh,Raigarh,AISECT Limited (AISECT SKILLS MISSION)
+129,TC014986,Chhattisgarh,Raipur,Raipur,AISECT Limited (AISECT SKILLS MISSION)
+130,TC040364,Chhattisgarh,Rajnandgaon,Rajnandgaon,AISECT Limited (AISECT SKILLS MISSION)
+131,TC041104,Chhattisgarh,Surajpur,Surguja,Ashpra Skills Private Limited
+132,TC041011,Chhattisgarh,Surguja,Surguja,Ashpra Skills Private Limited
+133,TC040361,Chhattisgarh,Uttar Bastar Kanker,Kanker,AISECT Limited (AISECT SKILLS MISSION)
+134,TC118864,Delhi,East Delhi,East Delhi,GS Techno Innovations Private Limited
+135,TC039648,Delhi,New Delhi,New Delhi,Orion Edutech Private Limited
+136,TC062533,Delhi,North Delhi,North West Delhi,De Unique Educational Society
+137,TC103438,Delhi,North East Delhi,North East Delhi,Foresight Edutech Private Limited
+138,TC039437,Delhi,North West Delhi,North West Delhi,IACM Smart Learn Limited
+139,TC100401,Delhi,Shahdara,East Delhi,De Unique Educational Society
+140,TC000010,Delhi,South Delhi (Okhla),South Delhi,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+141,TC104453,Delhi,South East Delhi,South Delhi,JITM Skills Private Limited
+142,TC040370,Delhi,South West Delhi (Najafgarh),West Delhi,Don Bosco Tech Society
+143,TC059399,Goa,South Goa,South Goa,Silver Oak Shops & Office Co-Op Housing Society Limited
+144,TC041449,Gujarat,Ahmedabad,Ahmedabad West,ICA Edu Skills Private Limited
+145,TC055977,Gujarat,Amreli,Amreli,Care Educational & Welfare Society
+146,TC054761,Gujarat,Anand,Anand,Care Educational & Welfare Society
+147,TC040367,Gujarat,Bharuch,Bharuch,NIFA Infocomp Services Private Limited
+148,TC100111,Gujarat,Bhavnagar,Bhavnagar,Care Educational & Welfare Society
+149,TC041826,Gujarat,Botad,Bhavnagar,Care Educational & Welfare Society
+150,TC041917,Gujarat,Chottaudaipur,Chottaudaipur,NIFA Infocomp Services Private Limited
+151,TC040404,Gujarat,Dahod,Dahod,NIFA Infocomp Services Private Limited
+152,TC061413,Gujarat,Devbhoomi Dwarka,Jamnagar,De Unique Educational Society
+153,TC110038,Gujarat,Gandhinagar,Ahmedabad East,Silver Oak Shops & Office Co-Op Housing Society Limited
+154,TC060945,Gujarat,Gir Somnath,Junagadh,De Unique Educational Society
+155,TC040351,Gujarat,Jamnagar,Jamnagar,ICA Edu Skills Private Limited
+156,TC058872,Gujarat,Junagadh,Junagadh,JITM Skills Private Limited
+157,TC040349,Gujarat,Kachchh,Kachchh,ICA Edu Skills Private Limited
+158,TC055943,Gujarat,Kheda,Kheda,Care Educational & Welfare Society
+159,TC114454,Gujarat,Mahisagar,Panchmahal,Silver Oak Shops & Office Co-Op Housing Society Limited
+160,TC040350,Gujarat,Morbi,Kachchh,ICA Edu Skills Private Limited
+161,TC040481,Gujarat,Narmada,Chottaudaipur,NIFA Infocomp Services Private Limited
+162,TC055033,Gujarat,Navsari,Navsari,Care Educational & Welfare Society
+163,TC041204,Gujarat,Panchmahal,Panchmahal,NIFA Infocomp Services Private Limited
+164,TC057878,Gujarat,Porbandar,Porbandar,Bhartiya Samruddhi Investments & Consulting  Services Limited
+165,TC058638,Gujarat,Rajkot,Rajkot,Bhartiya Samruddhi Investments & Consulting  Services Limited
+166,TC048771,Gujarat,Surat,Surat,Care Educational & Welfare Society
+167,TC040348,Gujarat,Surendranagar,Surendranagar,ICA Edu Skills Private Limited
+168,TC054943,Gujarat,Tapi,Bardoli,Care Educational & Welfare Society
+169,TC053596,Gujarat,The Dangs,Valsad,Care Educational & Welfare Society
+170,TC041926,Gujarat,Vadodara,Vadodara,NIFA Infocomp Services Private Limited
+171,TC056325,Gujarat,Valsad,Valsad,Care Educational & Welfare Society
+172,TC035884,Haryana,Ambala,Ambala,ICA Edu Skills Private Limited
+173,TC032560,Haryana,Bhiwani,Bhiwani- Mahendragarh,Orion Edutech Private Limited
+174,TC034803,Haryana,Faridabad,Faridabad,Innovision Limited
+175,TC101941,Haryana,Faridabad,Faridabad,Hettich India Private Limited
+176,TC040751,Haryana,Fatehabad,Sirsa,Centum Workskills India Limited
+177,TC040995,Haryana,Gurugram,Gurgaon,Innovision Limited
+178,TC058643,Haryana,Gurugram,Gurgaon,Jet Serve Aviation Pvt. Ltd.
+179,TC058572,Haryana,Gurugram,Gurgaon,Maruti Suzuki India Limited
+180,TC018696,Haryana,Hisar,Hisar,Centum Workskills India Limited
+181,TC032468,Haryana,Jhajjar,Rohtak,Orion Edutech Private Limited
+182,TC040328,Haryana,Jind,Sonipat,Centum Workskills India Limited
+183,TC012073,Haryana,Kaithal,Kurukshetra,Centum Workskills India Limited
+184,TC035790,Haryana,Karnal,Karnal,ICA Edu Skills Private Limited
+185,TC038057,Haryana,Kurukshetra,Kurukshetra,ICA Edu Skills Private Limited
+186,TC034079,Haryana,Mahendragarh,Bhiwani- Mahendragarh,Innovision Limited
+187,TC039983,Haryana,Mewat,Gurgaon,Innovision Limited
+188,TC033971,Haryana,Palwal,Faridabad,Innovision Limited
+189,TC041427,Haryana,Panchkula,Ambala,ICA Edu Skills Private Limited
+190,TC032846,Haryana,Panipat,Karnal,Orion Edutech Private Limited
+191,TC040495,Haryana,Rewari,Gurgaon,Innovision Limited
+192,TC032729,Haryana,Rohtak,Rohtak,Orion Edutech Private Limited
+193,TC046563,Haryana,Sirsa,Sirsa,Centum Workskills India Limited
+194,TC032809,Haryana,Sonipat,Sonipat,Orion Edutech Private Limited
+195,TC038140,Haryana,Yamunanagar,Ambala,ICA Edu Skills Private Limited
+196,TC030731,Himachal Pradesh,Bilaspur,Hamirpur,Calance Software Private Limited
+197,TC040616,Himachal Pradesh,Chamba,Kangra,De Unique Educational Society
+198,TC059278,Himachal Pradesh,Hamirpur,Hamirpur,JITM Skills Private Limited
+199,TC057991,Himachal Pradesh,Kangra,Kangra,De Unique Educational Society
+200,TC110066,Himachal Pradesh,Kinnaur,Mandi,JITM Skills Private Limited
+201,TC058874,Himachal Pradesh,Kullu,Mandi,JITM Skills Private Limited
+202,TC056069,Himachal Pradesh,Mandi,Mandi,De Unique Educational Society
+203,TC107509,Himachal Pradesh,Shimla,Shimla,Calance Software Private Limited
+204,TC040393,Himachal Pradesh,Sirmaur,Shimla,Calance Software Private Limited
+205,TC032953,Himachal Pradesh,Solan,Shimla,Calance Software Private Limited
+206,TC054767,Himachal Pradesh,Una,Hamirpur,De Unique Educational Society
+207,TC027136,Jammu And Kashmir,Anantnag,Anantnag,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+208,TC016579,Jammu And Kashmir,Badgam,Srinagar,Orion Edutech Private Limited
+209,TC050929,Jammu And Kashmir,Badgam,Srinagar,Orion Edutech Private Limited
+210,TC062806,Jammu And Kashmir,Bandipora,Baramulla,Mosaic Workskills Private Limited
+211,TC120885,Jammu And Kashmir,Baramulla,Baramulla,Care Educational & Welfare Society
+212,TC118699,Jammu And Kashmir,Ganderbal,Srinagar,Mosaic Workskills Private Limited
+213,TC000750,Jammu And Kashmir,Jammu,Jammu,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+214,TC100171,Jammu And Kashmir,Kathua,Udhampur,GK Educational Trust
+215,TC118688,Jammu And Kashmir,Kishtwar,Udhampur,National Paramedical Sciences Society
+216,TC100163,Jammu And Kashmir,Kulgam,Anantnag,Care Educational & Welfare Society
+217,TC010370,Jammu And Kashmir,Kupwara,Baramulla,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+218,TC100172,Jammu And Kashmir,Poonch,Jammu,GK Educational Trust
+219,TC101655,Jammu And Kashmir,Pulwama,Anantnag,Care Educational & Welfare Society
+220,TC059569,Jammu And Kashmir,Ramban,Udhampur,Shri Vishwamitra Shikshan Samiti
+221,TC117192,Jammu And Kashmir,Reasi,Udhampur,GK Educational Trust
+222,TC120098,Jammu And Kashmir,Samba,Jammu,Orion Edutech Private Limited
+223,TC040550,Jammu And Kashmir,Srinagar,Srinagar,Rooman Technologies Private Limited
+224,TC100460,Jammu And Kashmir,Udhampur,Udhampur,GK Educational Trust
+225,TC041934,Jharkhand,Chatra,Chatra,Vikas Bharti Bishunpur
+226,TC042828,Jharkhand,Dhanbad,Dhanbad,Ashpra Skills Private Limited
+227,TC041921,Jharkhand,Dumka,Dumka,Ashpra Skills Private Limited
+228,TC041067,Jharkhand,Garhwa,Palamu,Vikas Bharti Bishunpur
+229,TC041931,Jharkhand,Gumla,Lohardaga,Vikas Bharti Bishunpur
+230,TC101181,Jharkhand,Hazaribagh,Hazaribagh,Medhavi Foundation
+231,TC041453,Jharkhand,Jamtara,Dumka,Ashpra Skills Private Limited
+232,TC040768,Jharkhand,Khunti,Khunti,Ashpra Skills Private Limited
+233,TC059088,Jharkhand,Koderma,Koderma,JITM Skills Private Limited
+234,TC041939,Jharkhand,Latehar,Chatra,Vikas Bharti Bishunpur
+235,TC100256,Jharkhand,Lohardaga,Lohardaga,AISECT Limited (AISECT SKILLS MISSION)
+236,TC042164,Jharkhand,Pakur,Rajmahal,Ashpra Skills Private Limited
+237,TC040705,Jharkhand,Palamu,Palamu,Vikas Bharti Bishunpur
+238,TC052726,Jharkhand,Pashchimi Singhbhum,Singhbhum,Ashpra Skills Private Limited
+239,TC040772,Jharkhand,Purbi Singhbhum,Jamshedpur,Ashpra Skills Private Limited
+240,TC115183,Jharkhand,Ramgarh,Hazaribagh,Star Secutech Pvt. Ltd.
+241,TC040394,Jharkhand,Ranchi,Ranchi,Don Bosco Tech Society
+242,TC041927,Jharkhand,Sahibganj,Rajmahal,Ashpra Skills Private Limited
+243,TC040407,Jharkhand,Seraikela- Kharsawan,Singhbhum,Ashpra Skills Private Limited
+244,TC041461,Jharkhand,Simdega,Khunti,Ashpra Skills Private Limited
+245,TC041880,Karnataka,Bagalkot,Bagalkot,ICA Edu Skills Private Limited
+246,TC040786,Karnataka,Bangalore Rural,Chikkaballapur,Rooman Technologies Private Limited
+247,TC041168,Karnataka,Bangalore Urban,Bangalore North,Don Bosco Tech Society
+248,TC016338,Karnataka,Bangalore Urban,Bangalore Central,Rooman Technologies Private Limited
+249,TC016371,Karnataka,Bangalore Urban,Bangalore North,Rooman Technologies Private Limited
+250,TC040759,Karnataka,Bangalore Urban,Bangalore Rural,Rooman Technologies Private Limited
+251,TC109773,Karnataka,Bangalore Urban,Bangalore South,UTL Technologies Limited
+252,TC054968,Karnataka,Belgaum,Chikkodi,Empower Pragati Vocational & Staffing Private Limited
+253,TC040330,Karnataka,Belgaum,Belgaum,Rooman Technologies Private Limited
+254,TC041455,Karnataka,Bellary,Bellary,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+255,TC041029,Karnataka,Bidar,Bidar,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+256,TC040346,Karnataka,Bijapur,Bijapur,ICA Edu Skills Private Limited
+257,TC040338,Karnataka,Chamarajanagar,Chamarajanagar,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+258,TC040803,Karnataka,Chikkaballapur,Chikkaballapur,Rooman Technologies Private Limited
+259,TC053215,Karnataka,Chikmagalur,Udupi Chikmagaluru,ICA Edu Skills Private Limited
+260,TC030580,Karnataka,Chitradurga,Chitradurga,ICA Edu Skills Private Limited
+261,TC015037,Karnataka,Dakshina Kannada,Dakshina Kannada,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+262,TC041113,Karnataka,Davangere,Davangere,Rooman Technologies Private Limited
+263,TC040509,Karnataka,Dharwad,Dharwad,ICA Edu Skills Private Limited
+264,TC029160,Karnataka,Gadag,Haveri,ICA Edu Skills Private Limited
+265,TC043660,Karnataka,Gulbarga,Gulbarga,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+266,TC039279,Karnataka,Hassan,Hassan,ICA Edu Skills Private Limited
+267,TC040375,Karnataka,Haveri,Haveri,Rooman Technologies Private Limited
+268,TC042070,Karnataka,Kodagu,Mysore,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+269,TC040373,Karnataka,Kolar,Kolar,Rooman Technologies Private Limited
+270,TC040344,Karnataka,Koppal,Koppal,ICA Edu Skills Private Limited
+271,TC015035,Karnataka,Mandya,Mandya,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+272,TC030341,Karnataka,Mysore,Mysore,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+273,TC042103,Karnataka,Raichur,Raichur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+274,TC039488,Karnataka,Ramanagara,Bangalore Rural,Rooman Technologies Private Limited
+275,TC040787,Karnataka,Shimoga,Shimoga,Rooman Technologies Private Limited
+276,TC040487,Karnataka,Tumkur,Tumkur,ICA Edu Skills Private Limited
+277,TC043164,Karnataka,Udupi,Udupi Chikmagaluru,Rooman Technologies Private Limited
+278,TC040413,Karnataka,Uttara Kannada,Uttara Kannada,ICA Edu Skills Private Limited
+279,TC041022,Karnataka,Yadgir,Raichur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+280,TC028482,Kerala,Alapuza,Alapuza,Edujobs Academy Private Limited
+281,TC041066,Kerala,Ernakulam,Chalakudy,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+282,TC124861,Kerala,Ernakulam,Ernakulam,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+283,TC041065,Kerala,Idukki,Idukki,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+284,TC112328,Kerala,Kannur,Vadakara,JITM Skills Private Limited
+285,TC116080,Kerala,Kannur,Kannur,JITM Skills Private Limited
+286,TC113331,Kerala,Kasargod,Kasargod,JITM Skills Private Limited
+287,TC101176,Kerala,Kollam,Mavelikara,De Unique Educational Society
+288,TC028492,Kerala,Kollam,Kollam,Edujobs Academy Private Limited
+289,TC050799,Kerala,Kottayam,Kottayam,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+290,TC110504,Kerala,Kozhikode,Kozhikode,JITM Skills Private Limited
+291,TC180728,Kerala,Malappuram,Malappuram,Ascensive Educare Private Limited
+292,TC124023,Kerala,Malappuram,Ponnani,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+293,TC042131,Kerala,Palakkad,Palakkad,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+294,TC030260,Kerala,Pattanamthitta,Pattanamthitta,Edujobs Academy Private Limited
+295,TC041028,Kerala,Thiruvananthpur am,Thiruvananthpur am,Edujobs Academy Private Limited
+296,TC124005,Kerala,Thiruvananthpur am,Attingal,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+297,TC043708,Kerala,Thrissur,Alathur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+298,TC124017,Kerala,Thrissur,Thrissur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+299,TC110118,Kerala,Wayanad,Wayanad,JITM Skills Private Limited
+300,TC156383,Ladakh,Kargil,Ladakh,National Paramedical Sciences Society
+301,TC042001,Ladakh,Leh,Ladakh,Care Educational & Welfare Society
+302,TC040384,Madhya Pradesh,Agar Malwa,Dewas,AISECT Limited (AISECT SKILLS MISSION)
+303,TC109544,Madhya Pradesh,Alirajpur,Ratlam,Mahendra Skills Training and Development Private Limited
+304,TC014154,Madhya Pradesh,Anuppur,Shahdol,AISECT Limited (AISECT SKILLS MISSION)
+305,TC015490,Madhya Pradesh,Ashok Nagar,Guna,AISECT Limited (AISECT SKILLS MISSION)
+306,TC025482,Madhya Pradesh,Balaghat,Balaghat,Calance Software Private Limited
+307,TC105865,Madhya Pradesh,Barwani,Khargone,Mahendra Skills Training and Development Private Limited
+308,TC040779,Madhya Pradesh,Betul,Betul,ICA Edu Skills Private Limited
+309,TC109072,Madhya Pradesh,Bhind,Bhind,AISECT Limited (AISECT SKILLS MISSION)
+310,TC026455,Madhya Pradesh,Bhopal,Bhopal,AISECT Limited (AISECT SKILLS MISSION)
+311,TC041456,Madhya Pradesh,Burhanpur,Khandwa,ICA Edu Skills Private Limited
+312,TC040356,Madhya Pradesh,Chhattarpur,Tikamgarh,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+313,TC030840,Madhya Pradesh,Chhindwara,Chhindwara,Calance Software Private Limited
+314,TC040556,Madhya Pradesh,Damoh,Damoh,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+315,TC041058,Madhya Pradesh,Datia,Bhind,Mahendra Skills Training and Development Private Limited
+316,TC041991,Madhya Pradesh,Dewas,Dewas,ICA Edu Skills Private Limited
+317,TC029563,Madhya Pradesh,Dhar,Dhar,Centum Workskills India Limited
+318,TC025144,Madhya Pradesh,Dindori,Mandla,Calance Software Private Limited
+319,TC029678,Madhya Pradesh,East Nimar (Khandwa),Khandwa,Centum Workskills India Limited
+320,TC040425,Madhya Pradesh,Guna,Guna,Mahendra Skills Training and Development Private Limited
+321,TC108960,Madhya Pradesh,Gwalior,Gwalior,Mahendra Skills Training and Development Private Limited
+322,TC041992,Madhya Pradesh,Harda,Betul,ICA Edu Skills Private Limited
+323,TC040552,Madhya Pradesh,Hoshangabad,Hoshangabad,ICA Edu Skills Private Limited
+324,TC026924,Madhya Pradesh,Indore,Indore,Centum Workskills India Limited
+325,TC057373,Madhya Pradesh,Indore,Indore,Mosaic Workskills Private Limited
+326,TC040359,Madhya Pradesh,Jabalpur,Jabalpur,AISECT Limited (AISECT SKILLS MISSION)
+327,TC040553,Madhya Pradesh,Jhabua,Ratlam,Calance Software Private Limited
+328,TC040383,Madhya Pradesh,Katni,Khajuraho,AISECT Limited (AISECT SKILLS MISSION)
+329,TC030942,Madhya Pradesh,Mandla,Mandla,Calance Software Private Limited
+330,TC042063,Madhya Pradesh,Mandsaur,Mandsaur,Calance Software Private Limited
+331,TC108798,Madhya Pradesh,Morena,Morena,AISECT Limited (AISECT SKILLS MISSION)
+332,TC040392,Madhya Pradesh,Narsinghpur,Hoshangabad,Calance Software Private Limited
+333,TC041276,Madhya Pradesh,Neemuch,Mandsaur,Calance Software Private Limited
+334,TC037555,Madhya Pradesh,Panna,Khajuraho,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+335,TC025701,Madhya Pradesh,Raisen,Vidisha,AISECT Limited (AISECT SKILLS MISSION)
+336,TC041061,Madhya Pradesh,Rajgarh,Rajgarh,Mahendra Skills Training and Development Private Limited
+337,TC107743,Madhya Pradesh,Ratlam,Ratlam,Calance Software Private Limited
+338,TC027876,Madhya Pradesh,Rewa,Rewa,Mahendra Skills Training and Development Private Limited
+339,TC040784,Madhya Pradesh,Sagar,Sagar,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+340,TC028040,Madhya Pradesh,Satna,Satna,Mahendra Skills Training and Development Private Limited
+341,TC034872,Madhya Pradesh,Sehore,Bhopal,AISECT Limited (AISECT SKILLS MISSION)
+342,TC034634,Madhya Pradesh,Seoni,Balaghat,Calance Software Private Limited
+343,TC013312,Madhya Pradesh,Shahdol,Shahdol,AISECT Limited (AISECT SKILLS MISSION)
+344,TC041176,Madhya Pradesh,Shajapur,Dewas,AISECT Limited (AISECT SKILLS MISSION)
+345,TC114343,Madhya Pradesh,Sheopur,Morena,Mosaic Workskills Private Limited
+346,TC117905,Madhya Pradesh,Shivpuri,Guna,Mosaic Workskills Private Limited
+347,TC027983,Madhya Pradesh,Sidhi,Sidhi,Mahendra Skills Training and Development Private Limited
+348,TC038162,Madhya Pradesh,Singrauli,Sidhi,Mahendra Skills Training and Development Private Limited
+349,TC039581,Madhya Pradesh,Tikamgarh,Tikamgarh,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+350,TC040424,Madhya Pradesh,Ujjain,Ujjain,Calance Software Private Limited
+351,TC040324,Madhya Pradesh,Umaria,Shahdol,AISECT Limited (AISECT SKILLS MISSION)
+352,TC040428,Madhya Pradesh,Vidisha,Vidisha,Mahendra Skills Training and Development Private Limited
+353,TC040611,Madhya Pradesh,West Nimar (Khargone),Khargone,ICA Edu Skills Private Limited
+354,TC059288,Maharashtra,Ahmednagar,Shirdi,Pratt Muller Distributors Limited
+355,TC059166,Maharashtra,Ahmednagar,Ahmednagar,Silver Oak Shops & Office Co-Op Housing Society Limited
+356,TC041918,Maharashtra,Akola,Akola,Orion Edutech Private Limited
+357,TC040387,Maharashtra,Amravati,Amravati,Orion Edutech Private Limited
+358,TC051271,Maharashtra,Aurangabad,Aurangabad,Empower Pragati Vocational & Staffing Private Limited
+359,TC109303,Maharashtra,Beed,Beed,Gautam Buddh Welfare Society
+360,TC040357,Maharashtra,Bhandara,Bhandara Gondia,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+361,TC047404,Maharashtra,Buldhana,Buldhana,Orion Edutech Private Limited
+362,TC041076,Maharashtra,Chandrapur,Chandrapur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+363,TC054554,Maharashtra,Dhule,Dhule,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+364,TC041021,Maharashtra,Gadchiroli,Gadchiroli- Chimur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+365,TC043812,Maharashtra,Gondia,Bhandara Gondia,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+366,TC108419,Maharashtra,Hingoli,Hingoli,Mosaic Workskills Private Limited
+367,TC059291,Maharashtra,Jalgaon,Raver,Pratt Muller Distributors Limited
+368,TC047665,Maharashtra,Jalgaon,Jalgaon,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+369,TC054807,Maharashtra,Jalna,Jalna,Empower Pragati Vocational & Staffing Private Limited
+370,TC040418,Maharashtra,Kolhapur,Kolhapur,Rooman Technologies Private Limited
+371,TC051425,Maharashtra,Latur,Latur,Empower Pragati Vocational & Staffing Private Limited
+372,TC106192,Maharashtra,Nagpur,Ramtek,Mahendra Skills Training and Development Private Limited
+373,TC040358,Maharashtra,Nagpur,Nagpur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+374,TC052759,Maharashtra,Nanded,Nanded,Empower Pragati Vocational & Staffing Private Limited
+375,TC042076,Maharashtra,Nandurbar,Nandurbar,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+376,TC062207,Maharashtra,Nashik,Dindori,Pratt Muller Distributors Limited
+377,TC042072,Maharashtra,Nashik,Nashik,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+378,TC041093,Maharashtra,Osmanabad,Osmanabad,Rooman Technologies Private Limited
+379,TC052351,Maharashtra,Palghar,Palgarh,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+380,TC058987,Maharashtra,Parbhani,Parbhani,Mosaic Workskills Private Limited
+381,TC115304,Maharashtra,Pune,Baramati,Centum Workskills India Limited
+382,TC040389,Maharashtra,Pune,Shirur,Funfirst Global Skillers Private Limited
+383,TC127276,Maharashtra,Pune,Maval,National Yuva Cooperative Society
+384,TC042007,Maharashtra,Pune,Pune,Rooman Technologies Private Limited
+385,TC062309,Maharashtra,Raigad,Maval,Jawaharlal Nehru Port Trust
+386,TC100854,Maharashtra,Raigad,Raigad,Pratt Muller Distributors Limited
+387,TC040807,Maharashtra,Sangli,Sangli,Rooman Technologies Private Limited
+388,TC042009,Maharashtra,Satara,Satara,Rooman Technologies Private Limited
+389,TC100254,Maharashtra,Solapur,Solapur,Mosaic Workskills Private Limited
+390,TC059400,Maharashtra,Solapur,Madha,Silver Oak Shops & Office Co-Op Housing Society Limited
+391,TC062506,Maharashtra,Thane,Bhiwandi,Funfirst Global Skillers Private Limited
+392,TC054552,Maharashtra,Thane,Thane,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+393,TC102585,Maharashtra,Thane,Kalyan,Silver Oak Shops & Office Co-Op Housing Society Limited
+394,TC040562,Maharashtra,Wardha,Wardha,Orion Edutech Private Limited
+395,TC051424,Maharashtra,Washim,Yavatmal- Washim,Empower Pragati Vocational & Staffing Private Limited
+396,TC040959,Maharashtra,Yavatmal,Yavatmal- Washim,Orion Edutech Private Limited
+397,TC125806,Manipur,Bishnupur,Inner Manipur,St. Joan's Education Society
+398,TC103192,Manipur,Chandel,Outer Manipur,JITM Skills Private Limited
+399,TC103202,Manipur,Churcahndpur,Outer Manipur,JITM Skills Private Limited
+400,TC042008,Manipur,Imphal West,Inner Manipur,Rooman Technologies Private Limited
+401,TC103157,Manipur,Jiribam,Outer Manipur,JITM Skills Private Limited
+402,TC119471,Manipur,Kakching,-,St. Joan's Education Society
+403,TC123761,Manipur,Kamjong,-,JITM Skills Private Limited
+404,TC126855,Manipur,Kangpokpi,-,Star Secutech Pvt. Ltd.
+405,TC103166,Manipur,Noney,Outer Manipur,JITM Skills Private Limited
+406,TC113323,Manipur,Pherzwal,Outer Manipur,JITM Skills Private Limited
+407,TC044768,Manipur,Senapati,Outer Manipur,Don Bosco Tech Society
+408,TC050626,Manipur,Tamenglong,Outer Manipur,Don Bosco Tech Society
+409,TC103175,Manipur,Tengnoupal,Outer Manipur,JITM Skills Private Limited
+410,TC042010,Manipur,Thoubal,Inner Manipur,Rooman Technologies Private Limited
+411,TC127446,Manipur,Ukhrul,Outer Manipur,JITM Skills Private Limited
+412,TC127491,Meghalaya,East Jaintia Hills,Shillong,Care Educational & Welfare Society
+413,TC115467,Meghalaya,East Khasi Hills,Shillong,Ascensive Educare Private Limited
+414,TC008885,Meghalaya,Ri Bhoi,Shillong,Care Educational & Welfare Society
+415,TC127175,Meghalaya,West Garo Hills,Tura,Care Educational & Welfare Society
+416,TC054735,Meghalaya,West Jaintia Hills,Shillong,Care Educational & Welfare Society
+417,TC056378,Meghalaya,West Khasi Hills,Shillong,Care Educational & Welfare Society
+418,TC115699,Mizoram,Aizwal,Mizoram,Medhavi Foundation
+419,TC113321,Mizoram,Champhai,Mizoram,JITM Skills Private Limited
+420,TC127144,Mizoram,Kolasib,Mizoram,GS Techno Innovations Private Limited
+421,TC040286,Nagaland,Dimapur,Nagaland,Orion Edutech Private Limited
+422,TC056148,Nagaland,Mokokchung,Nagaland,Empower Pragati Vocational & Staffing Private Limited
+423,TC115464,Nagaland,Peren,Nagaland,JITM Skills Private Limited
+424,TC141326,Odisha,Angul,Dhenkanal,Siksha Trust
+425,TC034934,Odisha,Balangir,Balangir,Datapro Computers Private Limited
+426,TC041010,Odisha,Balasore,Bhadrak,Gram Tarang Employability Training Services Limited
+427,TC057998,Odisha,Bargarh,Bargarh,Datapro Computers Private Limited
+428,TC040574,Odisha,Baudh,Kandhamal,Datapro Computers Private Limited
+429,TC008799,Odisha,Cuttack,Cuttack,Datapro Computers Private Limited
+430,TC053339,Odisha,Dhenkanal,Dhenkanal,Datapro Computers Private Limited
+431,TC013988,Odisha,Gajapati,Berhampur,Gram Tarang Employability Training Services Limited
+432,TC059011,Odisha,Ganjam,Aska,Datapro Computers Private Limited
+433,TC040542,Odisha,Ganjam,Berhampur,Gram Tarang Employability Training Services Limited
+434,TC040490,Odisha,Jagatsinghapur,Jagatsinghapur,Gram Tarang Employability Training Services Limited
+435,TC123985,Odisha,Jajpur,Jajpur,Siksha Trust
+436,TC055491,Odisha,Kalahandi,Kalahandi,Sri Sri Rural Development Programme Trust
+437,TC106324,Odisha,Kandhamal,Kandhamal,Datapro Computers Private Limited
+438,TC040353,Odisha,Kendrapara,Kendrapara,Gram Tarang Employability Training Services Limited
+439,TC018687,Odisha,Khordha,Bhubaneshwar,Datapro Computers Private Limited
+440,TC040567,Odisha,Koraput,Koraput,Gram Tarang Employability Training Services Limited
+441,TC040612,Odisha,Malkangiri,Nabarangpur,Gram Tarang Employability Training Services Limited
+442,TC111416,Odisha,Mayurbhanj,Mayurbhanj,Siksha Trust
+443,TC108053,Odisha,Nabarangapur,Nabarangpur,Datapro Computers Private Limited
+444,TC001698,Odisha,Nayagarh,Puri,Datapro Computers Private Limited
+445,TC119176,Odisha,Nuapada,Kalahandi,Datapro Computers Private Limited
+446,TC040412,Odisha,Puri,Puri,Gram Tarang Employability Training Services Limited
+447,TC017851,Odisha,Rayagada,Koraput,Gram Tarang Employability Training Services Limited
+448,TC053336,Odisha,Subarnapur (Sonepur),Balangir,Datapro Computers Private Limited
+449,TC033274,Odisha,Sundargarh,Sundargarh,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+450,TC106231,Puducherry,Karaikal,Puducherry,Rural Education and Environment Protection (REEP) Trust
+451,TC100418,Puducherry,Mahe,Puducherry,Namastasye Services Private Limited
+452,TC107418,Puducherry,Puducherry,Puducherry,IHT Network Ltd.
+453,TC057981,Puducherry,Yanam,Puducherry,Datapro Computers Private Limited
+454,TC162787,Punjab,Amritsar,Amritsar,Youth Welfare Council of India
+455,TC042077,Punjab,Barnala,Sangrur,Empower Pragati Vocational & Staffing Private Limited
+456,TC041967,Punjab,Bathinda,Bhatinda,Empower Pragati Vocational & Staffing Private Limited
+457,TC041995,Punjab,Faridkot,Faridkot,ICA Edu Skills Private Limited
+458,TC041997,Punjab,Fatehgarh Sahib,Fatehgarh Sahib,ICA Edu Skills Private Limited
+459,TC055466,Punjab,Fazilka,Firozpur,Dreamweaver Edutrack Private Limited
+460,TC058505,Punjab,Firozpur,Firozpur,Dreamweaver Edutrack Private Limited
+461,TC060948,Punjab,Gurdaspur,Gurdaspur,De Unique Educational Society
+462,TC059087,Punjab,Hoshiarpur,Hoshiarpur,JITM Skills Private Limited
+463,TC042095,Punjab,Jalandhar,Jalandhar,Dreamweaver Edutrack Private Limited
+464,TC059037,Punjab,Kapurthala,Khadoor Sahib,JITM Skills Private Limited
+465,TC051237,Punjab,Ludhiana,Ludhiana,ICA Edu Skills Private Limited
+466,TC052581,Punjab,Ludhiana,Fatehgarh Sahib,Rockman Industries Ltd
+467,TC042075,Punjab,Mansa,Bhatinda,Empower Pragati Vocational & Staffing Private Limited
+468,TC041454,Punjab,Moga,Faridkot,ICA Edu Skills Private Limited
+469,TC059272,Punjab,Pathankot,Gurdaspur,JITM Skills Private Limited
+470,TC048096,Punjab,Patiala,Patiala,Empower Pragati Vocational & Staffing Private Limited
+471,TC053930,Punjab,Rupnagar / Ropar,Anandpur Sahib,Dreamweaver Edutrack Private Limited
+472,TC041996,Punjab,Sahibzada Ajit Singh Nagar,Anandpur Sahib,ICA Edu Skills Private Limited
+473,TC051663,Punjab,Sahibzada Ajit Singh Nagar,Anandpur Sahib,Mentor Skills
+474,TC041966,Punjab,Sangrur,Sangrur,Empower Pragati Vocational & Staffing Private Limited
+475,TC042091,Punjab,Shahid Bhagat Singh Nagar,Anandpur Sahib,Dreamweaver Edutrack Private Limited
+476,TC041452,Punjab,Shri Muktsar Sahib,Firozpur,ICA Edu Skills Private Limited
+477,TC053863,Punjab,Tarn Taran,Khadoor Sahib,Dreamweaver Edutrack Private Limited
+478,TC106753,Rajasthan,Ajmer,Ajmer,NIFA Infocomp Services Private Limited
+479,TC055373,Rajasthan,Alwar,Alwar,Empower Pragati Vocational & Staffing Private Limited
+480,TC040366,Rajasthan,Banswara,Banswara,NIFA Infocomp Services Private Limited
+481,TC029201,Rajasthan,Baran,Jhalawar-Baran,NIFA Infocomp Services Private Limited
+482,TC115323,Rajasthan,Barmer,Barmer,Foresight Edutech Private Limited
+483,TC048793,Rajasthan,Bharatpur,Bharatpur,Empower Pragati Vocational & Staffing Private Limited
+484,TC133957,Rajasthan,Bhilwara,Bhilwara,NIFA Infocomp Services Private Limited
+485,TC040781,Rajasthan,Bikaner,Bikaner,ICA Edu Skills Private Limited
+486,TC041181,Rajasthan,Bundi,Kota,NIFA Infocomp Services Private Limited
+487,TC029763,Rajasthan,Chittorgarh,Chittorgarh,NIFA Infocomp Services Private Limited
+488,TC039360,Rajasthan,Churu,Churu,ICA Edu Skills Private Limited
+489,TC046235,Rajasthan,Dausa,Dausa,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+490,TC052951,Rajasthan,Dholpur,Karauli-Dholpur,Empower Pragati Vocational & Staffing Private Limited
+491,TC040406,Rajasthan,Dungarpur,Banswara,NIFA Infocomp Services Private Limited
+492,TC038071,Rajasthan,Ganganagar,Ganganagar,ICA Edu Skills Private Limited
+493,TC029890,Rajasthan,Hanumangarh,Ganganagar,ICA Edu Skills Private Limited
+494,TC056606,Rajasthan,Jaipur,Jaipur Rural,Foresight Edutech Private Limited
+495,TC000230,Rajasthan,Jaipur,Jaipur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+496,TC054577,Rajasthan,Jaipur,Jaipur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+497,TC040486,Rajasthan,Jaisalmer,Barmer,ICA Edu Skills Private Limited
+498,TC059273,Rajasthan,Jalore,Jalore,JITM Skills Private Limited
+499,TC041922,Rajasthan,Jhalawar,Jhalawar-Baran,NIFA Infocomp Services Private Limited
+500,TC041806,Rajasthan,Jhunjhunun,Jhunjhunun,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+501,TC058033,Rajasthan,Jodhpur,Jodhpur,Foresight Edutech Private Limited
+502,TC055534,Rajasthan,Karauli,Karauli-Dholpur,Empower Pragati Vocational & Staffing Private Limited
+503,TC129708,Rajasthan,Kota,Kota,NIFA Infocomp Services Private Limited
+504,TC035466,Rajasthan,Nagaur,Nagaur,ICA Edu Skills Private Limited
+505,TC059083,Rajasthan,Pali,Pali,JITM Skills Private Limited
+506,TC029586,Rajasthan,Pratapgarh,Udaipur,NIFA Infocomp Services Private Limited
+507,TC040368,Rajasthan,Rajsamand,Rajsamand,NIFA Infocomp Services Private Limited
+508,TC040796,Rajasthan,Sikar,Sikar,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+509,TC100916,Rajasthan,Sirohi,Jalore,Foresight Edutech Private Limited
+510,TC029574,Rajasthan,Tonk,Tonk-Sawai Madhopur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+511,TC003628,Rajasthan,Udaipur,Udaipur,NIFA Infocomp Services Private Limited
+512,TC127120,Sikkim,Sikkim East,Sikkim,Medhavi Foundation
+513,TC124158,Sikkim,South Sikkim,Sikkim,Gautam Buddh Welfare Society
+514,TC104457,Sikkim,West Sikkim,Sikkim,JITM Skills Private Limited
+515,TC052776,Tamil Nadu,Ariyalur,Chidambaram,Jeyram Educational Trust
+516,TC040900,Tamil Nadu,Chennai,Chennai Central,Rooman Technologies Private Limited
+517,TC105850,Tamil Nadu,Chennai,Chennai North,Rural Education and Environment Protection (REEP) Trust
+518,TC042120,Tamil Nadu,Chennai,Chennai South,UTL Technologies Limited
+519,TC040386,Tamil Nadu,Coimbatore,Coimbatore,Aaruthal Foundation
+520,TC035531,Tamil Nadu,Cuddalore,Cuddalore,UTL Technologies Limited
+521,TC059182,Tamil Nadu,Dharmapuri,Dharmapuri,Silver Oak Shops & Office Co-Op Housing Society Limited
+522,TC041019,Tamil Nadu,Dindigul,Dindigul,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+523,TC021286,Tamil Nadu,Erode,Erode,Aaruthal Foundation
+524,TC100170,Tamil Nadu,Kanchipuram,Kanchipuram,Jeyram Educational Trust
+525,TC017230,Tamil Nadu,Kanyakumari,Kanyakumari,STC Technologies Private Limited
+526,TC040385,Tamil Nadu,Karur,Karur,Aaruthal Foundation
+527,TC059177,Tamil Nadu,Krishnagiri,Krishnagiri,Silver Oak Shops & Office Co-Op Housing Society Limited
+528,TC042083,Tamil Nadu,Madurai,Madurai,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+529,TC017182,Tamil Nadu,Nagapattinam,Nagapattinam,UTL Technologies Limited
+530,TC038117,Tamil Nadu,Namakkal,Namakkal,Aaruthal Foundation
+531,TC041137,Tamil Nadu,Nilgiris,Nilgiris,Aaruthal Foundation
+532,TC056396,Tamil Nadu,Perambalur,Perambalur,Jeyram Educational Trust
+533,TC049627,Tamil Nadu,Ramanathapura m,Ramanathapura m,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+534,TC109056,Tamil Nadu,Salem,Salem,AISECT Limited (AISECT SKILLS MISSION)
+535,TC049633,Tamil Nadu,Sivaganga,Sivaganga,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+536,TC111797,Tamil Nadu,Thanjavur,Thanjavur,Jeyram Educational Trust
+537,TC033855,Tamil Nadu,Theni,Theni,STC Technologies Private Limited
+538,TC017001,Tamil Nadu,Thiruvallur,Thiruvallur,UTL Technologies Limited
+539,TC010347,Tamil Nadu,Thoothukudi,Thoothukudi,STC Technologies Private Limited
+540,TC056823,Tamil Nadu,Tiruchirapalli,Tiruchirapalli,Jeyram Educational Trust
+541,TC028477,Tamil Nadu,Tirunelveli,Tirunelveli,STC Technologies Private Limited
+542,TC042082,Tamil Nadu,Tiruppur,Tiruppur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+543,TC116299,Tamil Nadu,Tiruvannamalai,Arani,IHT Network Ltd.
+544,TC114958,Tamil Nadu,Tiruvannamalai,Tiruvannamalai,IHT Network Ltd.
+545,TC106152,Tamil Nadu,Tiruvarur,Nagapattinam,Rural Education and Environment Protection (REEP) Trust
+546,TC127256,Tamil Nadu,Vellore,Arakkonam,IHT Network Ltd.
+547,TC042117,Tamil Nadu,Vellore,Vellore,UTL Technologies Limited
+548,TC017180,Tamil Nadu,Viluppuram,Viluppuram,UTL Technologies Limited
+549,TC031533,Tamil Nadu,Virudhunagar,Virudhunagar,STC Technologies Private Limited
+550,TC027331,Telangana,Adilabad,Adilabad,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+551,TC059061,Telangana,Bhadradri Kothagudem,Mahabubabad,Datapro Computers Private Limited
+552,TC000496,Telangana,Hyderabad,Secunderabad,Synchroserve Global Solutions Private Limited
+553,TC037484,Telangana,Hyderabad,Hyderabad,Synchroserve Global Solutions Private Limited
+554,TC060328,Telangana,Jagtial,Nizamabad,Datapro Computers Private Limited
+555,TC114081,Telangana,Jangaon,Nalgonda,Ultimate Energy Resource Pvt. Ltd.
+556,TC027323,Telangana,Jayashankar Bhupalapally,Peddapalli,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+557,TC115537,Telangana,Jogulamba Gadwal,Nagarkurnool,Synchroserve Global Solutions Private Limited
+558,TC127146,Telangana,Kamareddy,-,Synchroserve Global Solutions Private Limited
+559,TC057973,Telangana,Karimnagar,Karimnagar,Datapro Computers Private Limited
+560,TC027310,Telangana,Khammam,Khammam,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+561,TC118029,Telangana,Komaram Bheem,-,Datapro Computers Private Limited
+562,TC015862,Telangana,Mahbubnagar,Mahbubnagar,Synchroserve Global Solutions Private Limited
+563,TC107390,Telangana,Mancherial,Peddapalli,Ultimate Energy Resource Pvt. Ltd.
+564,TC037485,Telangana,Medak,Zahirabad,Synchroserve Global Solutions Private Limited
+565,TC021072,Telangana,Medchal- Malkajgiri,Malkajgiri,Synchroserve Global Solutions Private Limited
+566,TC052563,Telangana,Nagarkurnool,Nagarkurnool,SEWA International
+567,TC041819,Telangana,Nalgonda,Nalgonda,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+568,TC111789,Telangana,Nirmal,Adilabad,Datapro Computers Private Limited
+569,TC037646,Telangana,Nizamabad,Nizamabad,Synchroserve Global Solutions Private Limited
+570,TC105545,Telangana,Peddapalli,Peddapalli,Datapro Computers Private Limited
+571,TC110748,Telangana,Rajanna Siricilla,Karimnagar,Datapro Computers Private Limited
+572,TC037480,Telangana,Rangareddy,Chevella,Synchroserve Global Solutions Private Limited
+573,TC037485,Telangana,Sangareddy,Medak,Synchroserve Global Solutions Private Limited
+574,TC107356,Telangana,Suryapet,Nalgonda,Ultimate Energy Resource Pvt. Ltd.
+575,TC110004,Telangana,Vikarabad,Chevella,Super Intellectual Technologies Private Limited
+576,TC125711,Telangana,Wanaparthy,-,Synchroserve Global Solutions Private Limited
+577,TC112440,Telangana,Warangal Rural,Mahabubabad,Gautam Buddh Welfare Society
+578,TC108658,Telangana,Yadadri Bhuvanagiri,Bhongir,Datapro Computers Private Limited
+579,TC111223,Tripura,Dhalai,Tripura East,Valeur Fabtex Private Limited
+580,TC055102,Tripura,Gomati,Tripura East,Orion Edutech Private Limited
+581,TC111502,Tripura,Unakoti,Tripura East,Ascensive Educare Private Limited
+582,TC059275,Tripura,West Tripura,Tripura West,Orion Edutech Private Limited
+583,TC045078,Uttar Pradesh,Agra,Fatehpur Sikri,De Unique Educational Society
+584,TC008189,Uttar Pradesh,Agra,Agra,NIFA Infocomp Services Private Limited
+585,TC040319,Uttar Pradesh,Aligarh,Aligarh,Vision India Services Private Limited
+586,TC040326,Uttar Pradesh,Allahabad,Phulpur,Funfirst Global Skillers Private Limited
+587,TC041810,Uttar Pradesh,Allahabad,Allahabad,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+588,TC049173,Uttar Pradesh,Ambedkar Nagar,Ambedkar Nagar,Social Action for Welfare and Cultural Advancement
+589,TC028952,Uttar Pradesh,Amethi,Amethi,Social Action for Welfare and Cultural Advancement
+590,TC040421,Uttar Pradesh,Amroha / Jyotiba Phule Nagar,Amroha,Empower Pragati Vocational & Staffing Private Limited
+591,TC040402,Uttar Pradesh,Auraiya,Etawah,Care Educational & Welfare Society
+592,TC108599,Uttar Pradesh,Azamgarh,Azamgarh,AISECT Limited (AISECT SKILLS MISSION)
+593,TC059073,Uttar Pradesh,Azamgarh,Lalganj,De Unique Educational Society
+594,TC005681,Uttar Pradesh,Badaun,Badaun,Mahendra Skills Training and Development Private Limited
+595,TC031693,Uttar Pradesh,Baghpat,Baghpat,Empower Pragati Vocational & Staffing Private Limited
+596,TC105767,Uttar Pradesh,Bahraich,Kaiserganj,Bhartiya Samruddhi Investments & Consulting  Services Limited
+597,TC028039,Uttar Pradesh,Bahraich,Bahraich,Mahendra Skills Training and Development Private Limited
+598,TC060914,Uttar Pradesh,Ballia,Salempur,De Unique Educational Society
+599,TC058875,Uttar Pradesh,Ballia,Ballia,JITM Skills Private Limited
+600,TC045088,Uttar Pradesh,Balrampur,Shravasti,Social Action for Welfare and Cultural Advancement
+601,TC036710,Uttar Pradesh,Banda,Banda,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+602,TC044685,Uttar Pradesh,Barabanki,Barabanki,Social Action for Welfare and Cultural Advancement
+603,TC059041,Uttar Pradesh,Bareilly,Aonla,De Unique Educational Society
+604,TC003373,Uttar Pradesh,Bareilly,Bareilly,Mahendra Skills Training and Development Private Limited
+605,TC046280,Uttar Pradesh,Basti,Basti,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+606,TC040340,Uttar Pradesh,Bijnor,Bijnor,Empower Pragati Vocational & Staffing Private Limited
+607,TC110549,Uttar Pradesh,Bijnor,Nagina,Social Action for Welfare and Cultural Advancement
+608,TC032000,Uttar Pradesh,Bulandshahar,Bulandshahr,Empower Pragati Vocational & Staffing Private Limited
+609,TC116498,Uttar Pradesh,Chandauli,Chandauli,Star Secutech Pvt. Ltd.
+610,TC100492,Uttar Pradesh,Chitrakoot,Banda,AISECT Limited (AISECT SKILLS MISSION)
+611,TC057749,Uttar Pradesh,Deoria,Bansgaon,De Unique Educational Society
+612,TC040499,Uttar Pradesh,Deoria,Deoria,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+613,TC040322,Uttar Pradesh,Etah,Etah,Vision India Services Private Limited
+614,TC040992,Uttar Pradesh,Etawah,Etawah,Care Educational & Welfare Society
+615,TC044994,Uttar Pradesh,Faizabad,Faizabad,Social Action for Welfare and Cultural Advancement
+616,TC040288,Uttar Pradesh,Farrukhabad,Farrukhabad,Vision India Services Private Limited
+617,TC040337,Uttar Pradesh,Fatehpur,Fatehpur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+618,TC007434,Uttar Pradesh,Firozabad,Firozabad,NIFA Infocomp Services Private Limited
+619,TC110065,Uttar Pradesh,Gautam Buddha Nagar,Gautam Buddha Nagar,JITM Skills Private Limited
+620,TC019819,Uttar Pradesh,Ghaziabad,Ghaziabad,Empower Pragati Vocational & Staffing Private Limited
+621,TC039631,Uttar Pradesh,Ghazipur,Ghazipur,Orion Edutech Private Limited
+622,TC044735,Uttar Pradesh,Gonda,Gonda,Social Action for Welfare and Cultural Advancement
+623,TC040541,Uttar Pradesh,Gorakhpur,Gorakhpur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+624,TC042084,Uttar Pradesh,Hamirpur,Hamirpur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+625,TC041135,Uttar Pradesh,Hapur,Ghaziabad,Empower Pragati Vocational & Staffing Private Limited
+626,TC024929,Uttar Pradesh,Hardoi,Hardoi,Mahendra Skills Training and Development Private Limited
+627,TC041919,Uttar Pradesh,Hathras,Hathras,NIFA Infocomp Services Private Limited
+628,TC112865,Uttar Pradesh,Jalaun,Jalaun,AISECT Limited (AISECT SKILLS MISSION)
+629,TC057754,Uttar Pradesh,Jaunpur,Jaunpur,De Unique Educational Society
+630,TC059586,Uttar Pradesh,Jaunpur,Machlishahr,Jan Kalyan Sewa Samiti
+631,TC100495,Uttar Pradesh,Jhansi,Jhansi,AISECT Limited (AISECT SKILLS MISSION)
+632,TC041924,Uttar Pradesh,Kannauj,Kannauj,NIFA Infocomp Services Private Limited
+633,TC111629,Uttar Pradesh,Kanpur Dehat,Akbarpur,AISECT Limited (AISECT SKILLS MISSION)
+634,TC040400,Uttar Pradesh,Kanpur Nagar,Kanpur Nagar,Care Educational & Welfare Society
+635,TC061645,Uttar Pradesh,Kanpur Nagar,Misrikh,Mahendra Skills Training and Development Private Limited
+636,TC045859,Uttar Pradesh,Kasganj (Kashiram Nagar),Etah,Vision India Services Private Limited
+637,TC040580,Uttar Pradesh,Kaushambi,Kaushambi,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+638,TC059035,Uttar Pradesh,Kushinagar,Kushinagar,JITM Skills Private Limited
+639,TC026431,Uttar Pradesh,Lakhimpur Kheri / Kheri,Lakhimpur Kheri,Mahendra Skills Training and Development Private Limited
+640,TC059593,Uttar Pradesh,Lalitpur,Jhansi,Mahendra Skills Training and Development Private Limited
+641,TC105399,Uttar Pradesh,Lucknow,Mohanlalganj,AISECT Limited (AISECT SKILLS MISSION)
+642,TC015992,Uttar Pradesh,Lucknow,Lucknow,Mahendra Skills Training and Development Private Limited
+643,TC055410,Uttar Pradesh,Maharajganj,Maharajganj,ADS Skill Private Limited
+644,TC033434,Uttar Pradesh,Mahoba,Hamirpur,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+645,TC041209,Uttar Pradesh,Mainpuri,Mainpuri,NIFA Infocomp Services Private Limited
+646,TC059085,Uttar Pradesh,Mau,Ghosi,JITM Skills Private Limited
+647,TC020093,Uttar Pradesh,Meerut,Meerut,Empower Pragati Vocational & Staffing Private Limited
+648,TC041814,Uttar Pradesh,Mirzapur,Mirzapur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+649,TC040420,Uttar Pradesh,Moradabad,Moradabad,Empower Pragati Vocational & Staffing Private Limited
+650,TC040352,Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,Empower Pragati Vocational & Staffing Private Limited
+651,TC005657,Uttar Pradesh,Pilibhit,Pilibhit,Mahendra Skills Training and Development Private Limited
+652,TC052591,Uttar Pradesh,Pilibhit,Pilibhit,Mahendra Skills Training and Development Private Limited
+653,TC041815,Uttar Pradesh,Pratapgarh,Pratapgarh,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+654,TC030443,Uttar Pradesh,Rae Bareli,Rae Bareli,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+655,TC008800,Uttar Pradesh,Rampur,Rampur,Mahendra Skills Training and Development Private Limited
+656,TC020088,Uttar Pradesh,Saharanpur,Saharanpur,Empower Pragati Vocational & Staffing Private Limited
+657,TC040419,Uttar Pradesh,Sambhal,Sambhal,Empower Pragati Vocational & Staffing Private Limited
+658,TC060627,Uttar Pradesh,Sant Kabir Nagar,Sant Kabir Nagar,Social Action for Welfare and Cultural Advancement
+659,TC041148,Uttar Pradesh,Sant Ravidas Nagar,Bhadohi,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+660,TC016876,Uttar Pradesh,Shahjahanpur,Shahjahanpur,Mahendra Skills Training and Development Private Limited
+661,TC041134,Uttar Pradesh,Shamli,Kairana,Empower Pragati Vocational & Staffing Private Limited
+662,TC038150,Uttar Pradesh,Shravasti,Shravasti,Mahendra Skills Training and Development Private Limited
+663,TC041289,Uttar Pradesh,Siddharthnagar,Domariyaganj,Quess Corp Limited (Excelus Learning Solutions Private Limited)
+664,TC028102,Uttar Pradesh,Sitapur,Sitapur,Mahendra Skills Training and Development Private Limited
+665,TC118513,Uttar Pradesh,Sonbhadra,Robertsganj,Mahendra Skills Training and Development Private Limited
+666,TC040614,Uttar Pradesh,Sultanpur,Sultanpur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+667,TC003118,Uttar Pradesh,Unnao,Unnao,Care Educational & Welfare Society
+668,TC013057,Uttar Pradesh,Varanasi,Varanasi,Orion Edutech Private Limited
+669,TC040650,Uttarakhand,Almora,Almora,JITM Skills Private Limited
+670,TC040654,Uttarakhand,Bageshwar,Almora,JITM Skills Private Limited
+671,TC041929,Uttarakhand,Chamoli,Garhwal,SEWA International
+672,TC040652,Uttarakhand,Champawat,Almora,JITM Skills Private Limited
+673,TC041920,Uttarakhand,Dehradun,Tehri Garhwal,SEWA International
+674,TC041069,Uttarakhand,Haridwar,Haridwar,SEWA International
+675,TC040815,Uttarakhand,Nainital,Nainital-Udham Singh Nagar,JITM Skills Private Limited
+676,TC041178,Uttarakhand,Pauri Garhwal,Garhwal,SEWA International
+677,TC040656,Uttarakhand,Pithoragarh,Almora,JITM Skills Private Limited
+678,TC041928,Uttarakhand,Rudraprayag,Garhwal,SEWA International
+679,TC040729,Uttarakhand,Tehri Garhwal,Tehri Garhwal,SEWA International
+680,TC040641,Uttarakhand,Udham Singh Nagar,Nainital-Udham Singh Nagar,JITM Skills Private Limited
+681,TC041925,Uttarakhand,Uttarkashi,Tehri Garhwal,SEWA International
+682,TC040494,West Bengal,Alipurduar,Alipurduar,Orion Edutech Private Limited
+683,TC040804,West Bengal,Bankura,Bankura,Edujobs Academy Private Limited
+684,TC016069,West Bengal,Bardhaman Paschim,Bardhaman- Durgapur,Edujobs Academy Private Limited
+685,TC039290,West Bengal,Bardhaman Paschim,Asansol,ICA Edu Skills Private Limited
+686,TC040554,West Bengal,Bardhaman Purba,Barddhaman Purba,ICA Edu Skills Private Limited
+687,TC039657,West Bengal,Birbhum,Birbhum,Orion Edutech Private Limited
+688,TC041822,West Bengal,Cooch Behar,Cooch Behar,Orion Edutech Private Limited
+689,TC041935,West Bengal,Dakshin Dinajpur,Balurghat,Orion Edutech Private Limited
+690,TC040497,West Bengal,Darjeeling,Darjeeling,Orion Edutech Private Limited
+691,TC040507,West Bengal,Hooghly,Arambag,ICA Edu Skills Private Limited
+692,TC038160,West Bengal,Hooghly,Sreerampore,ICA Edu Skills Private Limited
+693,TC041930,West Bengal,Hooghly,Hooghly,Orion Edutech Private Limited
+694,TC024955,West Bengal,Hooghly,Sreerampore,Orion Edutech Private Limited
+695,TC041041,West Bengal,Howrah,Uluberia,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+696,TC009174,West Bengal,Howrah,Howrah,Orion Edutech Private Limited
+697,TC039630,West Bengal,Jalpaiguri,Jalpaiguri,Orion Edutech Private Limited
+698,TC041004,West Bengal,Kolkata,Kolkata Dakshin,Orion Edutech Private Limited
+699,TC042171,West Bengal,Kolkata,Kolkata Uttar,Orion Edutech Private Limited
+700,TC047657,West Bengal,Malda,Malda Uttar,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+701,TC039522,West Bengal,Malda,Malda Dakshin,Orion Edutech Private Limited
+702,TC038940,West Bengal,Midnapore East,Tamluk,Edujobs Academy Private Limited
+703,TC108892,West Bengal,Midnapore East,Kanthi,Medhavi Foundation
+704,TC040756,West Bengal,Midnapore West,Ghatal,Edujobs Academy Private Limited
+705,TC046270,West Bengal,Midnapore West,Medinipur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+706,TC115286,West Bengal,Murshidabad,Jangipur,Centum Workskills India Limited
+707,TC046261,West Bengal,Murshidabad,Baharampur,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+708,TC059145,West Bengal,Murshidabad,Murshidabad,Orion Edutech Private Limited
+709,TC029960,West Bengal,Nadia,Krishnanagar,ICA Edu Skills Private Limited
+710,TC040883,West Bengal,Nadia,Bangaon,Orion Edutech Private Limited
+711,TC034790,West Bengal,Nadia,Ranaghat,Orion Edutech Private Limited
+712,TC052819,West Bengal,North 24 Parganas,Dum Dum,IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+713,TC003695,West Bengal,North 24 Parganas,Barasat,Orion Edutech Private Limited
+714,TC052779,West Bengal,North 24 Parganas,Barasat,Orion Edutech Private Limited
+715,TC041122,West Bengal,North 24 Parganas,Barasat,Orion Edutech Private Limited
+716,TC015358,West Bengal,North 24 Parganas,Barasat,Orion Edutech Private Limited
+717,TC040482,West Bengal,North 24 Parganas,Barrackpore,Orion Edutech Private Limited
+718,TC036736,West Bengal,Purulia,Purulia,Edujobs Academy Private Limited
+719,TC040488,West Bengal,South 24 Parganas,Jaynagar,ICA Edu Skills Private Limited
+720,TC026841,West Bengal,South 24 Parganas,Diamond Harbour,Orion Edutech Private Limited
+721,TC041821,West Bengal,South 24 Parganas,Jadavpur,Orion Edutech Private Limited
+722,TC028479,West Bengal,Uttar Dinajpur,Raiganj,Orion Edutech Private Limited

@@ -1,7 +1,6 @@
 .env
 venv/
-data/
 bhashini/
 chroma/
 translation.py
-data/
+faiss_index
