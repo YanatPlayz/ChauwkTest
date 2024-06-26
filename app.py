@@ -9,7 +9,6 @@ from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
 import base64
-import uuid
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
@@ -23,7 +22,7 @@ def get_vectorstore():
     return db
 
 def get_conversation_chain(vectorstore):
-    llm = ChatOpenAI()
+    llm = ChatOpenAI(model="gpt-3.5-turbo-0125")
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
         llm = llm,
@@ -34,7 +33,8 @@ def get_conversation_chain(vectorstore):
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
-    response = st.session_state.conversation({'question': user_question})
+    prompt = f"Make the conversation casual. Try to use simpler and more common words. User: {user_question}"
+    response = st.session_state.conversation({'question': prompt})
     st.session_state.chat_history = response['chat_history']
 
     chat_history = response['chat_history']
@@ -44,11 +44,14 @@ def handle_userinput(user_question):
         message_id = str(index)
         if message_id not in st.session_state.translated_messages_record:
             st.session_state.translated_messages_record.add(message_id)
+            st.write("Translating new message: ", message)
             if hasattr(message, 'content'):
                 translated_message_content = bhashini.translate(getattr(message, 'content'))
                 if index % 2 == 0:
+                    st.write("User message, no need for audio: ", message)
                     base64_aud = ""
                 else:
+                    st.write("Bot response, generating audio: ", message)
                     bhashini2 = Bhashini(sourceLanguage, targetLanguage)
                     base64_aud = bhashini2.tts(translated_message_content)
 
@@ -83,8 +86,8 @@ def main():
     if "translated_messages_record" not in st.session_state:
         st.session_state.translated_messages_record = set()
 
-    st.header("ChauwkBot (multiple PDFs)")
-    user_question = st.text_input("Ask a question about your documents:")
+    st.header("Chauwk Bot")
+    user_question = st.text_input("Ask away!")
 
     voice_recording_column, send_button_column = st.columns(2)
     with voice_recording_column:

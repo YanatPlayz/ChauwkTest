@@ -37,7 +37,7 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://media.istockphoto.com/id/1410538853/photo/young-man-in-the-public-park.webp?b=1&s=170667a&w=0&k=20&c=pGdjFVdK-_BhTa6PMy5VNcXdbxVNngzg-OPzMfJKrG8=">
+        <img src="https://i.ibb.co/hHQxW1d/Screenshot-2024-06-22-at-4-22-44-PM.png">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
