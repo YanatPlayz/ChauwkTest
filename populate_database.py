@@ -9,7 +9,7 @@ from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data"
+DATA_PATH = "data/D"
 
 def main():
     load_dotenv()
