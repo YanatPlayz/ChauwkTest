@@ -12,7 +12,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import pandas as pd
 
-CHROMA_PATH = "faiss_index"
+CHROMA_PATH = "faiss_index_2"
 DATA_PATH = "data/D"
 EMBED = embed = get_embedding_function()
 
@@ -27,12 +27,12 @@ def main():
     loader = CSVLoader(file_path='./data/updated_Model_Career_Centres.csv')
     data = loader.load_and_split()
     db = FAISS.from_documents(data, EMBED)
-    db.save_local("faiss_index")
+    db.save_local(CHROMA_PATH)
 
     loader = CSVLoader(file_path='./data/updated_PMKKs.csv')
     data = loader.load_and_split()
     db = FAISS.from_documents(data, EMBED)
-    saved_db = FAISS.load_local("faiss_index", EMBED, allow_dangerous_deserialization=True)
+    saved_db = FAISS.load_local(CHROMA_PATH, EMBED, allow_dangerous_deserialization=True)
     saved_db.merge_from(db)
 
     documents = load_documents()
@@ -51,7 +51,6 @@ def store_to_df(store):
     data_rows = []
     for k in v_dict.keys():
         doc_name = v_dict[k].metadata['source'].split('/')[-1]
-        #page_number = v_dict[k].metadata['page']+1
         content = v_dict[k].page_content
         data_rows.append({"chunk_id":k, "document" :doc_name, "content": content})
     vector_df = pd.DataFrame(data_rows)
