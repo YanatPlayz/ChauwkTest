@@ -34,10 +34,11 @@ def get_conversation_chain(vectorstore):
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
-    prompt = f"Make the conversation casual. Try to use simpler and more common words. User: {user_question}"
-    response = st.session_state.conversation({'question': prompt})
-    st.session_state.chat_history = response['chat_history']
 
+    processed_question = f"Make the conversation casual, use slang, and keep response as concise as possible. Try to use simpler and more common words. Use the centered dot in bullet points for only lengthy responses rather than a paragraph. User: {user_question}"
+
+    response = st.session_state.conversation({'question': processed_question})
+    st.session_state.chat_history = response['chat_history']
     chat_history = response['chat_history']
     translated_new_messages = []
 
@@ -45,14 +46,17 @@ def handle_userinput(user_question):
         message_id = str(index)
         if message_id not in st.session_state.translated_messages_record:
             st.session_state.translated_messages_record.add(message_id)
-            st.write("Translating new message: ", message)
             if hasattr(message, 'content'):
-                translated_message_content = bhashini.translate(getattr(message, 'content'))
                 if index % 2 == 0:
-                    st.write("User message, no need for audio: ", message)
+                    st.write("Recieving message with original prompt, will cut for translation: ", message)
+                    user_question_content = getattr(message, 'content').split("User: ")[1]
+                    translated_message_content = bhashini.translate(user_question_content)
+                    st.write("User message, no need for audio: ", user_question_content)
                     base64_aud = ""
                 else:
-                    st.write("Bot response, generating audio: ", message)
+                    bot_question_content = getattr(message, 'content')
+                    translated_message_content = bhashini.translate(bot_question_content)
+                    st.write("Bot response, generating audio: ", bot_question_content)
                     bhashini2 = Bhashini(sourceLanguage, targetLanguage)
                     base64_aud = bhashini2.tts(translated_message_content)
 
