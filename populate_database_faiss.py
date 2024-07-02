@@ -12,7 +12,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import pandas as pd
 
-CHROMA_PATH = "faiss_index_2"
+CHROMA_PATH = "faiss_index"
 DATA_PATH = "data/D"
 EMBED = embed = get_embedding_function()
 
@@ -34,7 +34,7 @@ def main():
     db = FAISS.from_documents(data, EMBED)
     saved_db = FAISS.load_local(CHROMA_PATH, EMBED, allow_dangerous_deserialization=True)
     saved_db.merge_from(db)
-
+    
     documents = load_documents()
     chunks = split_documents(documents)
     db_pdf = FAISS.from_documents(chunks, EMBED)
