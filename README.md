@@ -57,3 +57,6 @@ python populate_database.py
 streamlit run app.py
 ```
 
+## Appendix
+
+Integrated bhashini-translator module from https://github.com/dteklavya/bhashini_translator, a big thank you to whoever created this!
