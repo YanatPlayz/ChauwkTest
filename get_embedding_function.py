@@ -1,5 +1,5 @@
-from langchain_openai import OpenAIEmbeddings
+from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 
 def get_embedding_function():
-    embeddings = OpenAIEmbeddings()
+    embeddings = FastEmbedEmbeddings()
     return embeddings

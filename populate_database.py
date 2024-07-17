@@ -1,5 +1,6 @@
 import argparse
 import os
+import glob
 import shutil
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -9,7 +10,9 @@ from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data"
+DATA_PATH = "./data/"
+
+llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
 def main():
     load_dotenv()
@@ -34,8 +37,8 @@ def load_documents():
 
 def split_documents(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=800,
-        chunk_overlap=80,
+        chunk_size=256,
+        chunk_overlap=200,
         length_function=len,
         is_separator_regex=False,
     )
@@ -52,7 +55,7 @@ def add_to_chroma(chunks: list[Document]):
     chunks_with_ids = calculate_chunk_ids(chunks)
 
     # Add or Update the documents.
-    existing_items = db.get(include=[])  # IDs are always included by default
+    existing_items = db.get(include=[])
     existing_ids = set(existing_items["ids"])
     print(f"Number of existing documents in DB: {len(existing_ids)}")
 
