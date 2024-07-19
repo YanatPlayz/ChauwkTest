@@ -8,3 +8,4 @@ faiss_index2
 storage
 data/
 D/
+app_llama_parse.py
