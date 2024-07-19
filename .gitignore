@@ -4,7 +4,7 @@ bhashini/
 chroma/
 translation.py
 faiss_index
-faiss_index_2
+faiss_index2
 storage
 data/
-chroma
+D/

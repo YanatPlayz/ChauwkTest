@@ -12,7 +12,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import pandas as pd
 
-CHROMA_PATH = "faiss_index"
+CHROMA_PATH = "faiss_index2"
 DATA_PATH = "data/D"
 EMBED = embed = get_embedding_function()
 
@@ -24,21 +24,16 @@ def main():
         print("✨ Clearing Database")
         clear_database()
 
-    loader = CSVLoader(file_path='./data/updated_Model_Career_Centres.csv')
+    loader = CSVLoader(file_path='./D/CSV/TrainingCenterListDump.csv')
     data = loader.load_and_split()
     db = FAISS.from_documents(data, EMBED)
     db.save_local(CHROMA_PATH)
 
-    loader = CSVLoader(file_path='./data/updated_PMKKs.csv')
+    loader = CSVLoader(file_path='./D/CSV/Jan Shikshan Sansthan - Vocational Training Courses.csv')
     data = loader.load_and_split()
     db = FAISS.from_documents(data, EMBED)
     saved_db = FAISS.load_local(CHROMA_PATH, EMBED, allow_dangerous_deserialization=True)
     saved_db.merge_from(db)
-    
-    documents = load_documents()
-    chunks = split_documents(documents)
-    db_pdf = FAISS.from_documents(chunks, EMBED)
-    saved_db.merge_from(db_pdf)
 
     show_vstore(saved_db)
 

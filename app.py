@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain_community.vectorstores import Chroma
-#from langchain_community.vectorstores import FAISS
+#from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
@@ -18,8 +18,8 @@ targetLanguage = "en"
 
 def get_vectorstore():
     embedding_function = get_embedding_function()
-    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-    #db = FAISS.load_local("faiss_index", embedding_function, allow_dangerous_deserialization=True)
+    #db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    db = FAISS.load_local("faiss_index2", embedding_function, allow_dangerous_deserialization=True)
     st.write("✅ Loaded the database!")
     return db
 
