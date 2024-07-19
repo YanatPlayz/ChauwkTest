@@ -7,9 +7,9 @@ parser = LlamaParse(
     api_key=os.getenv("LLAMA_CLOUD_API_KEY"),
     result_type="markdown",
     skip_diagonal_text=True,
-    parsing_instruction="The provided documents contain many tables with addresses. If the state column is empty, that row refers to the state from the row before. Be precise in extracting information. ",
+    parsing_instruction="The provided documents contain many tables with addresses. If the state column is empty, that row refers to the state from the row before. Be precise in extracting information.",
 )
 
 # sync
-documents = parser.load_data("./data/Model_Career_Centres.pdf")
+documents = parser.load_data("./data/List_of_Model_Career_Centers.xlsx")
 print(documents)
