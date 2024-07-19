@@ -36,7 +36,7 @@ def get_conversation_chain(vectorstore):
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
 
-    processed_question = f"Make the conversation casual, use slang, and keep response as concise as possible. Try to use simpler and more common words. Use the centered dot in bullet points for only lengthy responses rather than a paragraph. User: {user_question}"
+    processed_question = f"Try to use simpler and more common words. Make the conversation casual but professional and keep response as concise as possible. Use bullet points for lengthy responses. Ask clarifying questions if needed to provide a more accurate response. User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
