@@ -40,23 +40,20 @@ def load_documents():
     parser = LlamaParse(
         api_key=llamaparse_api_key,
         result_type="markdown",
-        parsing_instruction="The provided documents contain many tables with addresses. If the state column is empty, that row refers to the state from the row before. Be precise in extracting information.",
+        parsing_instruction="The provided documents contain many tables with addresses. If the state value is empty, that row refers to the state from the row before, be sure to add that state to that row while parsing. Be precise in extracting information.",
         skip_diagonal_text=True
     )
     print("loaded parser")
     file_extractor = {".pdf": parser}
     llama_documents = SimpleDirectoryReader(input_dir=DATA_PATH, file_extractor=file_extractor).load_data()
-    print("llama parse documents")
-    print(llama_documents)
+    print("created llama_parse documents")
     with open('llama_parsed/output.md', 'a') as f: 
         for doc in llama_documents:
             f.write(doc.text + '\n')
-    print("created output.md")
-    loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
+    """ loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
     documents = loader.load()
-    print("final documents")
-    print(documents)
-    return documents
+    print("initialized final documents") """
+    return llama_documents
 
 
 def split_documents(documents: list[Document]):
