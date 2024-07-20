@@ -2,12 +2,14 @@ import argparse
 import os
 import glob
 import shutil
-from langchain_community.document_loaders import PyPDFDirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
 from get_embedding_function import get_embedding_function
 from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
+from llama_parse import LlamaParse
+from llama_index.core import SimpleDirectoryReader
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "./data/"
@@ -16,23 +18,45 @@ llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
 def main():
     load_dotenv()
-    # Check if the database should be cleared (using the --clear flag).
+    # Check if the database should be cleared (using the --reset flag).
     parser = argparse.ArgumentParser()
     parser.add_argument("--reset", action="store_true", help="Reset the database.")
     args = parser.parse_args()
+
+    os.makedirs('llama_parsed', exist_ok=True)
+    
     if args.reset:
         print("✨ Clearing Database")
         clear_database()
 
-    # Create (or update) the data store.
+    # Update data store.
     documents = load_documents()
     chunks = split_documents(documents)
     add_to_chroma(chunks)
 
 
 def load_documents():
-    document_loader = PyPDFDirectoryLoader(DATA_PATH)
-    return document_loader.load()
+    print("loading documents")
+    parser = LlamaParse(
+        api_key=llamaparse_api_key,
+        result_type="markdown",
+        parsing_instruction="The provided documents contain many tables with addresses. If the state column is empty, that row refers to the state from the row before. Be precise in extracting information.",
+        skip_diagonal_text=True
+    )
+    print("loaded parser")
+    file_extractor = {".pdf": parser}
+    llama_documents = SimpleDirectoryReader(input_dir=DATA_PATH, file_extractor=file_extractor).load_data()
+    print("llama parse documents")
+    print(llama_documents)
+    with open('llama_parsed/output.md', 'a') as f: 
+        for doc in llama_documents:
+            f.write(doc.text + '\n')
+    print("created output.md")
+    loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
+    documents = loader.load()
+    print("final documents")
+    print(documents)
+    return documents
 
 
 def split_documents(documents: list[Document]):
@@ -46,20 +70,17 @@ def split_documents(documents: list[Document]):
 
 
 def add_to_chroma(chunks: list[Document]):
-    # Load the existing database.
     db = Chroma(
         persist_directory=CHROMA_PATH, embedding_function=get_embedding_function()
     )
 
-    # Calculate Page IDs.
     chunks_with_ids = calculate_chunk_ids(chunks)
 
-    # Add or Update the documents.
     existing_items = db.get(include=[])
     existing_ids = set(existing_items["ids"])
     print(f"Number of existing documents in DB: {len(existing_ids)}")
 
-    # Only add documents that don't exist in the DB.
+    # only add documents that don't exist in the database
     new_chunks = []
     for chunk in chunks_with_ids:
         if chunk.metadata["id"] not in existing_ids:
@@ -76,7 +97,7 @@ def add_to_chroma(chunks: list[Document]):
 
 def calculate_chunk_ids(chunks):
 
-    # This will create IDs like "data/monopoly.pdf:6:2"
+    # Create IDs, eg: "data/Model_Career_Centres.pdf:6:2"
     # Page Source : Page Number : Chunk Index
 
     last_page_id = None
@@ -87,17 +108,14 @@ def calculate_chunk_ids(chunks):
         page = chunk.metadata.get("page")
         current_page_id = f"{source}:{page}"
 
-        # If the page ID is the same as the last one, increment the index.
         if current_page_id == last_page_id:
             current_chunk_index += 1
         else:
             current_chunk_index = 0
 
-        # Calculate the chunk ID.
         chunk_id = f"{current_page_id}:{current_chunk_index}"
         last_page_id = current_page_id
 
-        # Add it to the page meta-data.
         chunk.metadata["id"] = chunk_id
 
     return chunks
@@ -106,6 +124,11 @@ def calculate_chunk_ids(chunks):
 def clear_database():
     if os.path.exists(CHROMA_PATH):
         shutil.rmtree(CHROMA_PATH)
+    output_path = 'llama_parsed/output.md'
+    if os.path.exists(output_path):
+        with open(output_path, 'w') as f:
+            f.write('')
+        print("✨ Cleared output.md")
 
 
 if __name__ == "__main__":
