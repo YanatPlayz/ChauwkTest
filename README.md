@@ -1,25 +1,21 @@
 
 # Chauwk Assistance Chatbot
 
-
-This repository holds custom code for a chatbot that answers questions about local pdf data.
-
-It stores the document embeddings in a persistent Chroma database. The chatbot is based on OpenAI's APIs, using the  *GPT-3.5-turbo-0125* model for the conversational chat and the *Text-embedding-ada-002-v2* model for embedding tasks.
-
-Audio support in development, where users can converse with the bot in Indian languages with the help of Bhashini API.
+This folder holds custom code for a chatbot that answers questions in both text and speech input about local pdf data. Users can converse with the bot in Indian languages with the help of Bhashini API.
 
 *Tanay Agrawal, Ayush Agarwal*
 
 ## API Reference
-This project uses OpenAI's APIs. However, integrating HuggingFace models instead is a entirely free option, albeit slower than OpenAI. Add these to a .env file to load using dotenv.
+This project uses OpenAI's GPT-4o-mini model for LLM tasks and LlamaParse for document parsing. However, integrating HuggingFace and/or other models instead is a entirely free option. Add these to a .env file to load using dotenv.
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `OPENAI_API_KEY` | `string` | Your OpenAI API key. **Required**  |
-| `HUGGINGFACEHUB_API_TOKEN` | `string` | If needed. **Optional**  |
+| `LLAMA_CLOUD_API_KEY` | `string` | LlamaCloud API key for parsing. **Required**|
 | `userId` | `string` | Bhashini API userId. **Required**  |
 | `ulcaApiKey` | `string` | Bhashini ulcaApiKey. **Required**  |
 | `InferenceApiKey` | `string` | Bhashini InferenceApiKey. **Required**  |
+| `HUGGINGFACEHUB_API_TOKEN` | `string` | If needed. **Optional**  |
 
 ## Run Locally
 
