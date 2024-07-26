@@ -50,15 +50,15 @@ def load_documents():
     with open('llama_parsed/output.md', 'a') as f: 
         for doc in llama_documents:
             f.write(doc.text + '\n')
-    """ loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
+    loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
     documents = loader.load()
-    print("initialized final documents") """
-    return llama_documents
+    print("initialized final documents")
+    return documents
 
 
 def split_documents(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=256,
+        chunk_size=512,
         chunk_overlap=200,
         length_function=len,
         is_separator_regex=False,

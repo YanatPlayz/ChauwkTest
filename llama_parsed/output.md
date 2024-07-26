@@ -1,103 +1,25 @@
-#
-
 # List of Approved Model Career Centre
 
-S.No
-State/UT
-Location
-Address
-
-1.
-Assam
-Guwahati, Employment Exchange
-District Employment Exchange, Guwahati AK Azad Road, Rehabari, Guwahati-8
-
-2.
-Assam
-Jorhat, Employment Exchange
-The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat-14, Assam.
-
-3.
-Assam
-Haflong, Employment Exchange
-District Employment Exchange, Boildura, Haflong, Assam 788819
-
-4.
-Assam
-Silchar, Employment Exchange
-District Employment Exchange, Silchar, District Cachar, Assam
-
-5.
-Assam
-Nagaon, Employment Exchange
-District Employment Exchange, Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam
-
-6.
-Assam
-NCSC for DA (Erstwhile VRC), Guwahati
-NCSC for DA (Erstwhile VRC), Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016
-
-7.
-Andaman & Nicobar Islands
-Port Blair - EEX
-Employment Exchange, Supply Lane Port Blair A&N Island 744101
-
-8.
-Andhra Pradesh
-Chittoor, Employment Exchange
-District Employment Exchange, Govt ITI Campus, Kongareddypalli, PutturRoad, Chittoor, AP
-
-9.
-Andhra Pradesh
-Anantapur, Employment Exchange
-District Employment Exchange, Court Road, Ananthapuram-515001
-
-10.
-Andhra Pradesh
-Rashtriya Sanskrit Vidyapeeth, Tirupati
-Rashtriya Sanskrit Vidyapeeth, Tirupati 517507
-
-11.
-Andhra Pradesh
-Kurnool, Employment Exchange
-District Employment Exchange Near Konda Reddy Buruju, Behind Printing Press, Kurnool District
-
-12.
-Andhra Pradesh
-Kakinada Employment Exchange
-District Employment Exchange, Govt.I.T.I, Campus, Kakinada
-
-13.
-Andhra Pradesh
-Vijaywada Employment Exchange
-District Employment Exchange, Govt. ITI Campus, Vijayawada, Andhra Pradesh
-
-14.
-Andhra Pradesh
-Vishakapatnam (Technical & Unskilled) Employment Exchange
-District Employment Exchange, Technical and Unskilled, Industrial Estate, Vishakapatnam
-
-15.
-Andhra Pradesh
-Nellore, District Employment Exchange
-District Employment Exchange, Auto Nagar, Nellore, Andhra Pradesh 524004
-
-16.
-Arunanchal Pradesh
-Itanagar Employment Exchange
-District Employment Exchange, C- Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111
-
-17.
-Bihar
-Muzaffarpur, Employment Exchange
-Sub Regional Employment Exchange, ITI Campus, Gannipur, Muzaffarpur, Bihar
-
-18.
-Bihar
-Patna, Employment Exchange
-Sub Regional Employment Exchange, Patna, Bihar
-#
-
+|S.No|State/UT|Location|Address|
+|---|---|---|---|
+|1.|Assam|Guwahati, Employment Exchange|District Employment Exchange, Guwahati AK Azad Road, Rehabari, Guwahati-8|
+|2.|Assam|Jorhat, Employment Exchange|The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat-14, Assam.|
+|3.|Assam|Haflong, Employment Exchange|District Employment Exchange, Boildura, Haflong, Assam 788819|
+|4.|Assam|Silchar, Employment Exchange|District Employment Exchange, Silchar, District Cachar, Assam|
+|5.|Assam|Nagaon, Employment Exchange|District Employment Exchange, Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam|
+|6.|Assam|NCSC for DA (Erstwhile VRC), Guwahati|NCSC for DA (Erstwhile VRC), Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016|
+|7.|Andaman & Nicobar Islands|Port Blair - EEX|Employment Exchange, Supply Lane Port Blair A&N Island 744101|
+|8.|Andhra Pradesh|Chittoor, Employment Exchange|District Employment Exchange, Govt ITI Campus, Kongareddypalli, Puttur Road, Chittoor, AP|
+|9.|Andhra Pradesh|Anantapur, Employment Exchange|District Employment Exchange, Court Road, Ananthapuram-515001|
+|10.|Andhra Pradesh|Rashtriya Sanskrit Vidyapeeth, Tirupati|Rashtriya Sanskrit Vidyapeeth, Tirupati 517507|
+|11.|Andhra Pradesh|Kurnool, Employment Exchange|District Employment Exchange Near Konda Reddy Buruju, Behind Printing Press, Kurnool District|
+|12.|Andhra Pradesh|Kakinada Employment Exchange|District Employment Exchange, Govt.I.T.I, Campus, Kakinada|
+|13.|Andhra Pradesh|Vijaywada Employment Exchange|District Employment Exchange, Govt. ITI Campus, Vijayawada, Andhra Pradesh|
+|14.|Andhra Pradesh|Vishakapatnam (Technical & Unskilled) Employment Exchange|District Employment Exchange, Technical and Unskilled, Industrial Estate, Vishakapatnam|
+|15.|Andhra Pradesh|Nellore, District Employment Exchange|District Employment Exchange, Auto Nagar, Nellore, Andhra Pradesh 524004|
+|16.|Arunanchal Pradesh|Itanagar Employment Exchange|District Employment Exchange, C- Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111|
+|17.|Bihar|Muzaffarpur, Employment Exchange|Sub Regional Employment Exchange, ITI Campus, Gannipur, Muzaffarpur, Bihar|
+|18.|Bihar|Patna, Employment Exchange|Sub Regional Employment Exchange, Patna, Bihar|
 # Employment Exchanges
 
 State
@@ -177,15 +99,13 @@ Assistant Director Employment
 
 Gujarat
 Bharuch
-Employment Exchange Office
+District Employment Exchange Office
 B/H Jilla Ayojan Bhavan, Old Collector Office Compound, Bharuch, Dist.- Bharuch, State Gujarat
 
 Gujarat
 Jamnagar
 Office of Assistant Director (Employment)
 In The ITI Campus, ITI Hostel Building, Opp. ST Bus Stand, Jamnagar, Dist- Jamanagar Gujarat
-#
-
 # Employment Exchanges
 
 State
@@ -282,8 +202,6 @@ Karnataka
 Hassan
 District Employment Exchange
 Government ITI Premises, B.M. Road Hassan 573201
-#
-
 # Employment Exchanges
 
 |State|City|Address|
@@ -319,9 +237,9 @@ Government ITI Premises, B.M. Road Hassan 573201
 |Madhya Pradesh|Indore|Employment Exchange|District Employment Exchange, 10 Polo Ground, Near district industries centre, Indore, Madhya Pradesh|
 |Madhya Pradesh|Rewa|Employment Exchange|District Employment Office near priyadarshini talkees Amaihya road Rewa MP|
 |Madhya Pradesh|Ujjain|Employment Exchange|District Employment Office, 153, Mahashwera Nagar, Near Iskcon Temple, Ujjain, MP|
-|Madhya Pradesh|Devi Ahilya University, Indore| |Takshshila Campus, Khandwa Road, Indore - 452001|
-|Madhya Pradesh|AISECT, Indore| |AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall CourseRoad, Opp. IDA Building, Indore|
-|Manipur|Imphal|CAREER CLINIQUE, Imphal|DM College of Arts Library, Chinmeirong, Imphal 795001|
+|Madhya Pradesh|Indore|Devi Ahilya University|Takshshila Campus, Khandwa Road, Indore - 452001|
+|Madhya Pradesh|Indore|AISECT, Indore|AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall CourseRoad, Opp. IDA Building, Indore|
+|Manipur|Imphal|CAREER CLINIQUE|DM College of Arts Library, Chinmeirong, Imphal 795001|
 |Manipur|Imphal|NIELIT Imphal|MCC NIELIT, Singjamei Kshetri Leikai, Khongman, Imphal, Manipur 795008|
 |State|City|Organization|Address|
 |---|---|---|---|
@@ -341,9 +259,7 @@ Government ITI Premises, B.M. Road Hassan 573201
 |Punjab|Fatehgarhsahib|District Employment Exchange|Fatehgarh Sahib, Punjab|
 |Punjab|Amritsar|Guru Nanak Dev University|Placement Departmnet M.R.S. Bhawan Guru Nanak Dev Univ. Amritsar Punjab 143005|
 |Rajasthan|Kota|District Employment Exchange|R.B. Road Nayapura Kota Rajasthan|
-#
-
-# Employment Offices
+# Employment Exchanges
 
 |State|City|Address|
 |---|---|---|
@@ -362,19 +278,17 @@ Government ITI Premises, B.M. Road Hassan 573201
 |Sikkim|Dentam Bazar|State Institute of Capacity Building (SICB), Karfectar, Dentam Bazar, West Sikkim, Sikkim|
 |Tamil Nadu|Coimbatore|District Employment Office, Mettupalayam Road ITI Campus GN Mills Post Coimbatore 641029, Tamil Nadu|
 |Tamil Nadu|Vellore|District Employment Office, Government ITI Campus, Melmonavur, Vellore-10, Tamil Nadu|
-|Tamil Nadu|Chennai|98 / 1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032|
-|Tamil Nadu|Salem|District Employment Office, Near Govt. Women Art College, Gorimedu, Salem - 8, Tamil Nadu|
+|Tamil Nadu|Chennai|98/1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032|
+|Tamil Nadu|Salem|District Employment Office, Near Govt. Women Art College, Gorimedu, Salem-8, Tamil Nadu|
 |Tamil Nadu|Thiruvallur|District Employment Office, District Collectorate Master Plan Campus, Thiruvallur, Tamil Nadu|
-|Tamil Nadu|Tirunelveli|District Employment Office, District Collectorate Campus, Kokkirakulam, Tirunelveli–627 009, Tamil Nadu|
-#
-
+|Tamil Nadu|Tirunelveli|District Employment Office, District Collectorate Campus, Kokkirakulam, Tirunelveli-627 009, Tamil Nadu|
 # Employment Offices
 
 |State|City|Address|
 |---|---|---|
 |Tamil Nadu|Udhagamandalam|District Employment Office, Additional District Employment Exchange, Collectorate Floor, Block 4, 1st Floor, Fingar PO, UDHAGAMANDALAM - 6|
-|Tamil Nadu|Villupuram|District Employment Office, District Employment Exchange, Collectorate Master Plan Complex, Ceo Office Back Side, Villupuram 605602|
-|Tamil Nadu|Virudhunagar|District Employment Office, Virudhunagar DEX, Govt. ITI Campus, Sulakarai, Virudhunagar–626 003|
+|Tamil Nadu|Villupuram|District Employment Office, Collectorate Master Plan Complex, Ceo Office Back Side, Villupuram 605602|
+|Tamil Nadu|Virudhunagar|District Employment Office, Govt. ITI Campus, Sulakarai, Virudhunagar–626 003|
 |Tripura|Agartala|District Employment Exchange, Office Lane, Agartala, West Tripura, 799001|
 |Tripura|Dharmanagar|District Employment Exchange, Office Tilla, Dharmanagar, North Tripura, Tripura|
 |Tripura|Agartala|NCSC for DA (Erstwhile VRC), Abhoy Nagar, Agartala-799 005, Tripura (West)|
@@ -389,30 +303,26 @@ Government ITI Premises, B.M. Road Hassan 573201
 |Uttar Pradesh|Meerut|Regional Employment Office Collectorate Compound Meerut UP|
 |Uttar Pradesh|Bundelkhand University, Jhansi|Univ. Employment information and counseling center, Bundelkhand Univ. Kanpur Road Jhansi 284128 UP|
 |Uttar Pradesh|Moradabad|Regional Employment Exchange, Kant road, Behind Vivekanand hospital, Moradabad|
-#
-
-# Employment Offices
-
 |Organization|Address|State|
 |---|---|---|
-|National Institute of Career Service, Noida|NICS, A-49, Sector- 62, Opposite Nokia Building, Noida|Uttar Pradesh|
-|University of Allahabad, Allahabad|UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Dept. Of Electronics of Communication, Univ. Of Allahabad 211002|Uttar Pradesh|
+|National Institute of Career Service, Noida|NICS, A-49, Sector- 62, Opposite Nokia Building, Noida| |
+|University of Allahabad, Allahabad|UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Dept. Of Electronics of Communication, Univ. Of Allahabad 211002|UP|
 |FICCI, Greater Noida|FICCI, Tansen Marg, New Delhi-110001| |
-|NIELIT, Gorakhpur|MMM Engineering College Campus, Deoria Road, Gorakhpur-273010|Uttar Pradesh|
-|Banaras Hindu University|UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Ruiya Hostel Medical Block 1st Floor BHU – 221005|Uttar Pradesh|
-|NCSC for DA (Erstwhile VRC), Kanpur|NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.)|Uttar Pradesh|
-|Mirzapur, Regional Employment Exchange|UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001|Uttar Pradesh|
-|Barailly, District Employment Exchange|Regional Employment Office, Civil Lines, Barerilly|Uttar Pradesh|
-|Agra, District Employment Exchange|Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra|Uttar Pradesh|
-|Saharanpur, District Employment Exchange|Regional Employment Office, Saharanpur|Uttar Pradesh|
-|Gonda, District Employment Exchange|Regional Employment Exchange Civil line Gonda|Uttar Pradesh|
-|Faizabad, District Employment Exchange|Regional Employment Exchange, Faizabad, Pin Code -224001|Uttar Pradesh|
-|Basti, District Employment Exchange|Regional Employment Office, Katra Moorghat Eoad, Basti 272001|Uttar Pradesh|
-|Sitapur, District Employment Exchange|District Employment Office Near G.I.T.I. SITAPUR|Uttar Pradesh|
-|Bijnor, District Employment Exchange|District Employment Office, Bijnor|Uttar Pradesh|
-|Lakhimpurkhiri, District Employment Exchange|District Employment Office Near DIET Rajapur Kheri -262701|Uttar Pradesh|
-|Hardoi, District Employment Exchange|District Employment Officer, District Employment Office NEAR ITI, HARDOI -241001|Uttar Pradesh|
-|Muzaffarnagar, Employment Exchange|Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar|Uttar Pradesh|
+|NIELIT, Gorakhpur|MMM Engineering College Campus, Deoria Road, Gorakhpur-273010| |
+|Banaras Hindu University|UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Ruiya Hostel Medical Block 1st Floor BHU – 221005 UP| |
+|NCSC for DA (Erstwhile VRC), Kanpur|NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.)| |
+|Mirzapur, Regional Employment Exchange|UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001 (UP)| |
+|Barailly, District Employment Exchange|Regional Employment Office, Civil Lines, Barerilly| |
+|Agra, District Employment Exchange|Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra (UP)| |
+|Saharanpur, District Employment Exchange|Regional Employment Office, Saharanpur, UP| |
+|Gonda, District Employment Exchange|Regional Employment Exchange Civil line Gonda(U.P.)| |
+|Faizabad, District Employment Exchange|Regional Employment Exchange, Faizabad, Pin Code -224001| |
+|Basti, District Employment Exchange|Regional Employment Office, Katra Moorghat Eoad, Basti 272001, UP| |
+|Sitapur, District Employment Exchange|District Employment Office Near G.I.T.I. SITAPUR| |
+|Bijnor, District Employment Exchange|District Employment Office, Bijnor, Uttar Pradesh| |
+|Lakhimpurkhiri, District Employment Exchange|District Employment Office Near DIET Rajapur Kheri -262701| |
+|Hardoi, District Employment Exchange|District Employment Officer, District Employment Office NEAR ITI, HARDOI -241001| |
+|Muzaffarnagar, Employment Exchange|Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar, UP| |
 |Amity University|Amity University, Sector 125, Noda-201313| |
 |State|City|Address|
 |---|---|---|
@@ -431,14 +341,14 @@ Government ITI Premises, B.M. Road Hassan 573201
 |West Bengal|Siliguri|District Employment Exchange Siliguri, Kolkata, PO Siliguri, Dist. Darjeeling Pin 734401 West Bengal|
 |West Bengal|Kolkata|Swastik Institute of IT, Salt Lake Incubation Centre, Module-1B, Sector-5, Salt Lake, Kolkata-700091|
 |West Bengal|Kolkata|2COMS, Consulting Pvt. Ltd., Edujobs Academy, 388 Block G, New Alipore, Kolkata-700053|
-#
-
 # List of MCCs on Non-Funded Basis
 
-|City|State|Country|
-|---|---|---|
-|New York|New York|USA|
-|Los Angeles|California|USA|
-|Chicago|Illinois|USA|
-|Houston|Texas|USA|
-|Miami|Florida|USA|
+|City|State|
+|---|---|
+|City1|State1|
+|City2|State2|
+|City3|State3|
+|City4|State3|
+|City5|State4|
+|City6|State4|
+|City7|State5|

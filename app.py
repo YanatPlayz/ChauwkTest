@@ -3,13 +3,15 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
+from langchain_community.retrievers import BM25Retriever
+from langchain.retrievers import EnsembleRetriever
 from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
 import base64
-import uuid
+from populate_database import load_documents, split_documents
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
@@ -19,18 +21,33 @@ targetLanguage = "en"
 def get_vectorstore():
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    documents = load_documents()
+    chunks = split_documents(documents)
     st.write("✅ Loaded the database!")
-    return db
+    return db, chunks
 
-def get_conversation_chain(vectorstore):
+def get_conversation_chain(vectorstore, chunks):
     llm = ChatOpenAI(model="gpt-4o-mini")
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
-    conversation_chain = ConversationalRetrievalChain.from_llm(
-        llm = llm,
-        retriever = vectorstore.as_retriever(),
-        memory = memory
+    
+    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    
+    keyword_retriever = BM25Retriever.from_documents(chunks)
+    keyword_retriever.k = 2
+    
+    ensemble_retriever = EnsembleRetriever(
+        retrievers=[vectorstore_retriever, keyword_retriever],
+        weights=[0.05, 0.95]
     )
+    
+    conversation_chain = ConversationalRetrievalChain.from_llm(
+        llm=llm,
+        retriever=ensemble_retriever,
+        memory=memory
+    )
+    
     return conversation_chain
+
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
@@ -76,7 +93,6 @@ def handle_userinput(user_question):
             st.write(bot_template.replace("{{MSG}}", translated_message), unsafe_allow_html=True)
             st.audio(base64.b64decode(base64_aud), format="audio/wav")
             
-            
 def main():
     load_dotenv()
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
@@ -96,7 +112,7 @@ def main():
 
     voice_recording_column, send_button_column = st.columns(2)
     with voice_recording_column:
-        voice_recording=mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording", format="wav")
+        voice_recording = mic_recorder(start_prompt="Start recording", stop_prompt="Stop recording", format="wav")
     with send_button_column:
         send_button = st.button("Send", key="send_button")
 
@@ -106,7 +122,7 @@ def main():
             user_question = bhashini.translate(user_question)
             handle_userinput(user_question)
             user_question = None
-        elif voice_recording: 
+        elif voice_recording:
             audio_base64_string = base64.b64encode(voice_recording['bytes']).decode('utf-8')
             bhashini = Bhashini(sourceLanguage, targetLanguage)
             text = bhashini.asr_nmt(audio_base64_string)
@@ -116,13 +132,13 @@ def main():
 
     if not user_question:
         user_question = None
-        voice_recording=None
+        voice_recording = None
 
     with st.sidebar:
         if st.button("Load Database"):
             with st.spinner("Loading"):
-                vectorstore = get_vectorstore()
-                st.session_state.conversation = get_conversation_chain(vectorstore)
+                vectorstore, chunks = get_vectorstore()
+                st.session_state.conversation = get_conversation_chain(vectorstore, chunks)
 
 if __name__ == '__main__':
     main()
