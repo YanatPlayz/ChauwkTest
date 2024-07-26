@@ -10,9 +10,11 @@ from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
+import pickle
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "./data/"
+CHUNKS_PATH = "processed_chunks.pkl"
 
 llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
@@ -32,6 +34,7 @@ def main():
     # Update data store.
     documents = load_documents()
     chunks = split_documents(documents)
+    save_chunks(chunks)
     add_to_chroma(chunks)
 
 
@@ -55,6 +58,20 @@ def load_documents():
     print("initialized final documents")
     return documents
 
+def save_chunks(chunks: list[Document]):
+    with open(CHUNKS_PATH, 'wb') as f:
+        pickle.dump(chunks, f)
+    print(f"✅ Saved {len(chunks)} chunks to {CHUNKS_PATH}")
+
+def load_chunks():
+    if os.path.exists(CHUNKS_PATH):
+        with open(CHUNKS_PATH, 'rb') as f:
+            chunks = pickle.load(f)
+        print(f"✅ Loaded {len(chunks)} chunks from {CHUNKS_PATH}")
+        return chunks
+    else:
+        print("❌ No saved chunks found. Please run populate_database.py first.")
+        return None
 
 def split_documents(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
@@ -121,12 +138,13 @@ def calculate_chunk_ids(chunks):
 def clear_database():
     if os.path.exists(CHROMA_PATH):
         shutil.rmtree(CHROMA_PATH)
+    if os.path.exists(CHUNKS_PATH):
+        os.remove(CHUNKS_PATH)
     output_path = 'llama_parsed/output.md'
     if os.path.exists(output_path):
         with open(output_path, 'w') as f:
             f.write('')
-        print("✨ Cleared output.md")
-
+    print("✨ Cleared database, chunks, and output.md")
 
 if __name__ == "__main__":
     main()

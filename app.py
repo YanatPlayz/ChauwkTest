@@ -11,7 +11,7 @@ from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini
 import base64
-from populate_database import load_documents, split_documents
+from populate_database import load_chunks
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
@@ -20,10 +20,12 @@ targetLanguage = "en"
 
 def get_vectorstore():
     embedding_function = get_embedding_function()
+    chunks = load_chunks()
+    if chunks is None:
+        st.error("No saved chunks found. Please run populate_database.py first.")
+        return None, None
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-    documents = load_documents()
-    chunks = split_documents(documents)
-    st.write("✅ Loaded the database!")
+    st.write("✅ Loaded the database")
     return db, chunks
 
 def get_conversation_chain(vectorstore, chunks):
