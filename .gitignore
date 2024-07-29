@@ -3,3 +3,6 @@ venv/
 data/
 chroma/
 llama_parsed/
+processed_chunks.pkl
+__pycache__/
+.vscode/

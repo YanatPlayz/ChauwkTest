@@ -12,6 +12,8 @@ from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
 import pickle
 
+# change to check if chunks are already saved in chroma before parsing instead of after...
+
 CHROMA_PATH = "chroma"
 DATA_PATH = "./data/"
 CHUNKS_PATH = "processed_chunks.pkl"
@@ -37,13 +39,18 @@ def main():
     save_chunks(chunks)
     add_to_chroma(chunks)
 
-
 def load_documents():
     print("loading documents")
     parser = LlamaParse(
         api_key=llamaparse_api_key,
         result_type="markdown",
-        parsing_instruction="The provided documents contain many tables with addresses. If the state value is empty, that row refers to the state from the row before, be sure to add that state to that row while parsing. Be precise in extracting information.",
+        parsing_instruction="""
+            Remove all table formatting. 
+            One row per line.
+            Use previous row's state if empty.
+            Include all cell info for each row.
+            Use headers for each field (e.g., State: Assam, Address: -----, District: -----).
+            Adjust headers based on the specific table's contents.""",
         skip_diagonal_text=True
     )
     print("loaded parser")

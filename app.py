@@ -35,7 +35,7 @@ def get_conversation_chain(vectorstore, chunks):
     vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
     
     keyword_retriever = BM25Retriever.from_documents(chunks)
-    keyword_retriever.k = 2
+    keyword_retriever.k = 3
     
     ensemble_retriever = EnsembleRetriever(
         retrievers=[vectorstore_retriever, keyword_retriever],
@@ -54,7 +54,7 @@ def get_conversation_chain(vectorstore, chunks):
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
 
-    processed_question = f"Use addresses and make sure they are correct. Try to use simpler and more common words. Make the conversation casual but professional. Use bullet points for lengthy responses. User: {user_question}"
+    processed_question = f"Keep it accurate and use addresses. Try to use simpler and more common words. Make the conversation casual but professional. Use bullet points for lengthy responses. User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
