@@ -5,6 +5,9 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.prompts import ChatPromptTemplate
+from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_community.vectorstores import Chroma
 from get_embedding_function import get_embedding_function
 from htmlTemplates import css, bot_template, user_template
@@ -28,33 +31,69 @@ def get_vectorstore():
     st.write("✅ Loaded the database")
     return db, chunks
 
-def get_conversation_chain(vectorstore, chunks):
-    llm = ChatOpenAI(model="gpt-4o-mini")
-    memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
+def get_improved_retriever(vectorstore, chunks):
+    # Vector store retriever
+    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
     
-    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    # Keyword retriever
+    bm25_retriever = BM25Retriever.from_documents(chunks)
+    bm25_retriever.k = 5
     
-    keyword_retriever = BM25Retriever.from_documents(chunks)
-    keyword_retriever.k = 3
-    
+    # Ensemble retriever
     ensemble_retriever = EnsembleRetriever(
-        retrievers=[vectorstore_retriever, keyword_retriever],
-        weights=[0.05, 0.95]
+        retrievers=[vectorstore_retriever, bm25_retriever],
+        weights=[0.7, 0.3]
     )
     
-    conversation_chain = ConversationalRetrievalChain.from_llm(
+    # Contextual compression
+    llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
+    compressor = LLMChainExtractor.from_llm(llm)
+    
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor,
+        base_retriever=ensemble_retriever
+    )
+    
+    return compression_retriever
+
+def get_conversation_chain(retriever):
+    system_prompt = """You are a helpful assistant for the Government of India's National Career Service. 
+    Provide accurate, concise information about career centers, job opportunities, and related services. 
+    Use simple language and give specific details when available. If unsure, say so."""
+    
+    human_prompt = """Context: {context}
+    
+    Human: {question}
+    
+    Assistant: Let's approach this step-by-step:
+    1) First, I'll review the relevant information from the context.
+    2) Then, I'll provide a clear and concise answer to your question.
+    3) If any details are missing or unclear, I'll mention that.
+    
+    Here's my response:
+    """
+    
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", system_prompt),
+        ("human", human_prompt),
+    ])
+    
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    
+    chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
-        retriever=ensemble_retriever,
-        memory=memory
+        retriever=retriever,
+        memory=ConversationBufferMemory(memory_key='chat_history', return_messages=True),
+        combine_docs_chain_kwargs={"prompt": prompt}
     )
     
-    return conversation_chain
+    return chain
 
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
 
-    processed_question = f"Keep it accurate and use addresses. Try to use simpler and more common words. Make the conversation casual but professional. Use bullet points for lengthy responses. User: {user_question}"
+    processed_question = f"User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
@@ -140,7 +179,8 @@ def main():
         if st.button("Load Database"):
             with st.spinner("Loading"):
                 vectorstore, chunks = get_vectorstore()
-                st.session_state.conversation = get_conversation_chain(vectorstore, chunks)
+                retriever = get_improved_retriever(vectorstore, chunks)
+                st.session_state.conversation = get_conversation_chain(retriever)
 
 if __name__ == '__main__':
     main()

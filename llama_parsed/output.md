@@ -1,934 +1,1173 @@
-State: Andaman & Nicobar Island, Address: -----, District: North and Middle Andaman, PC: Andaman and Nicobar Islands, Year of Allocation: 2022, District Category: C
-State: Sikkim, Address: -----, District: North Sikkim, PC: Sikkim, Year of Allocation: 2019, District Category: C
-State: Tripura, Address: -----, District: North Tripura, PC: Tripura East, Year of Allocation: 2019, District Category: B
-State: Nagaland, Address: -----, District: Phek, PC: Nagaland, Year of Allocation: 2019, District Category: C
-State: Telangana, Address: -----, District: Rangareddy, PC: -----, Year of Allocation: 2022, District Category: A
-State: Odisha, Address: -----, District: Sambalpur, PC: Sambalpur, Year of Allocation: 2016, District Category: B
-State: Mizoram, Address: -----, District: Serchhip, PC: Mizoram, Year of Allocation: 2019, District Category: C
-State: Telangana, Address: -----, District: Siddipet, PC: -----, Year of Allocation: 2018, District Category: A
-State: Andaman & Nicobar Island, Address: -----, District: South Andaman, PC: Andaman and Nicobar Islands, Year of Allocation: 2022, District Category: B
-State: Tripura, Address: -----, District: South Tripura, PC: -----, Year of Allocation: 2019, District Category: B
-State: Tamil Nadu, Address: -----, District: Thiruvallur, PC: Sriperumbudur, Year of Allocation: 2018, District Category: A
-State: Gujarat, Address: -----, District: Vadodara, PC: -----, Year of Allocation: 2022, District Category: A
-State: Delhi, Address: -----, District: West Delhi, PC: West Delhi, Year of Allocation: 2018, District Category: A
-State: Nagaland, Address: -----, District: Wokha, PC: Nagaland, Year of Allocation: 2019, District Category: C
-State: Karnataka, Address: -----, District: Bangalore Urban, PC: -----, Year of Allocation: 2022, District Category: A
-State: West Bengal, Address: -----, District: Birbhum, PC: Bolpur, Year of Allocation: 2022, District Category: A
-State: Delhi, Address: -----, District: Central Delhi, PC: Chandini Chowk, Year of Allocation: 2019, District Category: B
-State: Dadra & Nagar Haveli, Address: -----, District: Dadra & Nagar Haveli, PC: Dadra & Nagar Haveli, Year of Allocation: 2022, District Category: B
-State: Dadra & Nagar, Address: -----, District: Daman, PC: Daman & Diu, Year of Allocation: 2022, District Category: B
-State: Odisha, Address: -----, District: Debagarh(Deograh), PC: Sambalpur, Year of Allocation: 2016, District Category: B
-State: Assam, Address: -----, District: Dhemaji, PC: Lakhimpur, Year of Allocation: 2018, District Category: B
-State: Meghalaya, Address: -----, District: East Garo Hills, PC: -----, Year of Allocation: 2018, District Category: B
-State: Uttar Pradesh, Address: -----, District: Gautam Buddha Nagar, PC: -----, Year of Allocation: 2022, District Category: A
-State: Haryana, Address: -----, District: Gurugram, PC: -----, Year of Allocation: 2022, District Category: A
-State: Odisha, Address: -----, District: Jharsuguda, PC: Bargarh, Year of Allocation: 2016, District Category: B
-State: West Bengal, Address: -----, District: Kalimpong, PC: -----, Year of Allocation: 2019, District Category: B
-State: Odisha, Address: -----, District: Kendujhar, PC: Kendujhar, Year of Allocation: 2016, District Category: A
-State: Tripura, Address: -----, District: Khowai, PC: Tripura East, Year of Allocation: 2019, District Category: B
-State: Nagaland, Address: -----, District: Longleng, PC: Nagaland, Year of Allocation: 2019, District Category: C
-State: Mizoram, Address: -----, District: Lunglei, PC: Mizoram, Year of Allocation: 2019, District Category: C
-State: Telangana, Address: -----, District: Mahabubabad, PC: -----, Year of Allocation: 2019, District Category: B
-State: Mizoram, Address: -----, District: Mamit, PC: Mizoram, Year of Allocation: 2019, District Category: C
-State: West Bengal, Address: -----, District: Midnapore West, PC: Jhargram, Year of Allocation: 2022, District Category: A
-State: Maharashtra, Address: -----, District: Mumbai City, PC: Mumbai South, Year of Allocation: 2022, District Category: A
-State: Maharashtra, Address: -----, District: Mumbai Suburban, PC: Mumbai North Central, Year of Allocation: 2022, District Category: A
-State: Maharashtra, Address: -----, District: Mumbai Suburban, PC: Mumbai North, Year of Allocation: 2022, Category: A
-State: Tamil Nadu, Address: -----, District: Nagapattinam, PC: Mayiladuturai, Year of Allocation: 2018, Category: A
-State: West Bengal, Address: -----, District: North 24 Parganas, PC: Basirhat, Year of Allocation: 2022, Category: A
-State: Assam, Location: Guwahati, Employment Exchange, Address: District Employment Exchange, Guwahati AK Azad Road, Rehabari, Guwahati-8
-State: Assam, Location: Jorhat, Employment Exchange, Address: The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat-14, Assam
-State: Assam, Location: Haflong, Employment Exchange, Address: District Employment Exchange, Boildura, Haflong, Assam 788819
-State: Assam, Location: Silchar, Employment Exchange, Address: District Employment Exchange, Silchar, District Cachar, Assam
-State: Assam, Location: Nagaon, Employment Exchange, Address: District Employment Exchange, Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam
-State: Assam, Location: NCSC for DA (Erstwhile VRC), Guwahati, Address: NCSC for DA (Erstwhile VRC), Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016
-State: Andaman & Nicobar Islands, Location: Port Blair - EEX, Address: Employment Exchange, Supply Lane Port Blair A&N Island 744101
-State: Andhra Pradesh, Location: Chittoor, Employment Exchange, Address: District Employment Exchange, Govt ITI Campus, Kongareddypalli, PutturRoad, Chittoor, AP
-State: Andhra Pradesh, Location: Anantapur, Employment Exchange, Address: District Employment Exchange, Court Road, Ananthapuram-515001
-State: Andhra Pradesh, Location: Rashtriya Sanskrit Vidyapeeth, Tirupati, Address: Rashtriya Sanskrit Vidyapeeth, Tirupati 517507
-State: Andhra Pradesh, Location: Kurnool, Employment Exchange, Address: District Employment Exchange Near Konda Reddy Buruju, Behind Printing Press, Kurnool District
-State: Andhra Pradesh, Location: Kakinada Employment Exchange, Address: District Employment Exchange, Govt.I.T.I, Campus, Kakinada
-State: Andhra Pradesh, Location: Vijaywada Employment Exchange, Address: District Employment Exchange, Govt. ITI Campus, Vijayawada, Andhra Pradesh
-State: Andhra Pradesh, Location: Vishakapatnam (Technical & Unskilled) Employment Exchange, Address: District Employment Exchange, Technical and Unskilled, Industrial Estate, Vishakapatnam
-State: Andhra Pradesh, Location: Nellore, District Employment Exchange, Address: District Employment Exchange, Auto Nagar, Nellore, Andhra Pradesh 524004
-State: Arunanchal Pradesh, Location: Itanagar Employment Exchange, Address: District Employment Exchange, C- Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111
-State: Bihar, Location: Muzaffarpur, Employment Exchange, Address: Sub Regional Employment Exchange, ITI Campus, Gannipur, Muzaffarpur, Bihar
-State: Bihar, Location: Patna, Employment Exchange, Address: Sub Regional Employment Exchange, Patna, Bihar
-State: Bihar, Address: Radha Rani Sinha Road, Labour court Campus, Bhagalpur, District: Bhagalpur
-State: Chhattisgarh, Address: Malviya Nagar Chowk, Jailroad, Durg, District: Durg
-State: Chhattisgarh, Address: Near RTO Office, Jagadalpur, Bastar-494001, District: Bastar
-State: Chhattisgarh, Address: Koni, Bilaspur, District: Bilaspur
-State: Chhattisgarh, Address: Sarguja, Ambikapur, District: Ambikapur
-State: Delhi, Address: Sector-4, R.K. Puram, New Delhi-110022, District: R.K Puram
-State: Delhi, Address: Plot No. 9-11, KarkarDooma, Vikas Marg, Delhi-110092, District: NCSC for DA (Erstwhile VRC)Delhi
-State: Goa, Address: Shram Shakti Bhawan, 4th floor, Patto Plaza, Panaji, Goa-403 001, District: Panaji
-State: Gujarat, Address: C-5, Narmada Bhawan, Jail Road, Vadodara 390001, District: Vadodara
-State: Gujarat, Address: C-5, Govt MS Building, Nanpura, Surat, District: Surat
-State: Gujarat, Address: F 5/6, Anexy Building, Bahumali Bhavan, Bhavnagar, District: Bhavnagar
-State: Gujarat, Address: Vallabh Vidyanagar-388120 Gujarat, District: Sardar Patel University, Anand
-State: Gujarat, Address: Block No.1, m.s Building, Rajmahal Campus Mehsana, District: Mehsana
-State: Gujarat, Address: 1/3, Multistore building, opp. Race course, Rajkot, District: Rajkot
-State: Gujarat, Address: B/H Jilla Ayojan Bhavan, Old Collector Office Compound, Bharuch, Dist.- Bharuch, State Gujarat, District: Bharuch
-State: Gujarat, Address: In The ITI Campus, ITI Hostel Building, Opp. ST Bus Stand, Jamnagar, Dist- Jamanagar Gujarat, District: Jamnagar
-State: Gujarat, District: Ahemdabad, Address: Assistant Director (Employment) Office, Asarva Bahumali Bhawan, Block - D, 1st Floor, Near Girdharnagar Asarva, Ahmedabad
-State: Haryana, District: Hisar, Address: Divisional Employment Office, Mini Secretariat, Hisar
-State: Haryana, District: Gurgaon, Address: MCC CII, 249-F, Sector-18, Udyog Vihar, Phase- IV, Gurgaon 122 015, Haryana
-State: Himachal Pradesh, District: Una, Address: District Employment Exchange, Truck union Road, Near Bus Stand, Una, H.P., 174403
-State: Himachal Pradesh, District: Shimla, Address: Regional Employment Exchange, U.S. Club, H.P. Shimla -1
-State: Jammu and Kashmir, District: Samba, Address: District Employment & Counselling Centre, Nandhi Hills, Samba Jammu, J&K
-State: Jammu and Kashmir, District: Baramulla, Address: District Employment & Counselling Centre, Baramulla, J&K
-State: Jammu and Kashmir, District: Doda, Address: District Employment & Counselling Centre, Doda, J&K
-State: Jammu and Kashmir, District: Pulwama, Address: District Employment Exchange and Counselling Centre, Behind BDO Office, Pulwama-192301, Jammu and Kashmir
-State: Jammu and Kashmir, District: Reasi, Address: District Employment & Counselling Centre, REASI, J&K
-State: Jammu and Kashmir, District: Leh (Laddakh), Address: NIELIT, Old Education Building Near PWD Office Council Secratariat, Leh Ladakh
-State: Jammu and Kashmir, District: Srinagar, Address: NIELIT, SIDCO Electronics Complex, Old Airport Road, Rangreth, Srinagar
-State: Jharkhand, District: Ranchi, Address: Sub Regional Employment Exchange, Ranchi, Jharkhand
-State: Jharkhand, District: Ghatsila East Singham, Address: District Employment Exchange Ghatsila, East Singhbhum
-State: Jharkhand, District: Chandil Sarai Kharaswa, Address: District Employment Exchange, Chandil, Saraikela Kharsawan
-State: Jharkhand, District: Dhanbad, Address: District Employment Exchange office, Kumardhubi, Dhanbad
-State: Karanatka, District: Mysuru, Address: District Employment Exchange Karnataka, Institute of Agricultural Marketing Building Hunsur Road Mysore-570006 Karnataka
-State: Karanatka, District: Hasan, Address: District Employment Exchange, Government ITI Premises, B.M. Road Hassan 573201
-State: Karnataka, City: Hubli, Employment Exchange: District Employment Exchange Dharwad, Address: Rashtrakavi Kuvempu Road, Navanagar Hubli-580025
-State: Karnataka, City: Kalaburgi, Employment Exchange: District Employment Exchange, Address: Behind Govt. ITI College, MSK Mill Road, Kalaburgi
-State: Karnataka, City: Tumkur, District Employment Exchange: District Employment Exchange, Address: District Education Training Centree Building, Opp. DCC Bank, SBM Road, Church Circle, TUMKUR- 572102
-State: Karnataka, City: Kolar, District Employment Exchange: District Employment Exchange, Address: Antharagange Road, Near KSRTC Bus Stand, Kolar-563101
-State: Karnataka, City: Davengere, District Employment Exchange: District Employment Exchange, Address: Devangere, Room no 51, 2nd Floor, Dist. Administrative Complex, P. B Road, Devangere-577006
-State: Karnataka, City: Bellari, District Employment Exchange: District Employment Exchange, Address: Behind Taluk office, Ballari-583101
-State: Karnataka, City: Manglore, District Employment Exchange: District Employment Exchange, Address: Mangalore Corporation Building, Lalbagh, Ground floor, Mangalore-575003
-State: Karnataka, City: Bengaluru, Employment Exchange: DON BOSCO, Address: MCC Don Bosco Skill Mission, Bannerghatta Road, SOS Post, Bangalore 560076
-State: Kerala, City: Thiruvananthapuram, Employment Exchange: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Address: Kerala University, Thiruvananthapuram, Kerala
-State: Kerala, City: Calicut, Employment Exchange: NIELIT, Address: MCC NIELIT, P.O. Box No. 5 ,NIT Campus PO Calicut-673601
-State: Kerala, City: Kannur, Employment Exchange: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Address: University Employment Information & Guidance Bureau, Kannur
-State: Lakshwadeep, City: Kavaratti, Employment Exchange: District Employment Exchange, Address: Kavaratti 682555
-State: Maharasthra, City: Yavatmal, Employment Exchange: District Employment & Self Employment Guidance Centre, Address: 3rd Floor, Udyog Bhawan, Darwha Road, Yavatmal 445001
-State: Maharasthra, City: Aurangabad, Employment Exchange: NIELIT, Address: MCC NIELIT, CEDIT Campus, Dr. BAM University Campus, Aurangabad 431004
-State: Maharasthra, City: Mumbai, Employment Exchange: CII, Address: MCC CII Maharashtra State Office, 105 Kakad Chambers, 132 Annie Besant Road, Worli, Mumbai- 400018, Maharashtra
-State: Maharashtra, City: Pune, Name: CLFRS, Address: CLR Facility Services Ltd., B-2, 2nd Floor, Minar Apartments, Law College Road, Erandwana, Pune-411004
-State: Maharashtra, City: Pune, Name: YASHSHWEE Pune, Address: 7, Amit Court, CTS No. 95A, Behind Mangala Theatre, Shivaji Nagar, Pune-5
-State: Maharashtra, City: Osmanabad, Name: Employment District Skill Development, Employment & Exchange, Address: Entrepreneurship Guidance Centre, Central administrative building, ground floor, Osmanabad
-State: Maharashtra, City: Thane, Name: District Employment Exchange, Address: District Skill Development, Employment & Entrepreneurship Guidance Centre, Old Treasury Office, Collectorate compound, Subhaschandra marg, Thane 40061
-State: Meghalaya, City: Shillong, Name: Employment Exchange, Address: Divisional Employment Exchange, Shilong
-State: Meghalaya, City: Tura, Name: Employment Exchange, Address: District Employment Exchange, Araimile, Tura, Meghalaya
-State: Madhya Pradesh, City: Gwalior, Name: Employment Exchange, Address: District Employment Office, Motimahal Near Baijataal Gwalior 0751-242 1641
-State: Madhya Pradesh, City: Shivpuri, Name: Employment Exchange, Address: District Employment Exchange, Court Road, Sadar Bazar, Shivpuri, Madhya Pradesh 473551
-State: Madhya Pradesh, City: Bhopal, Name: Employment Exchange, Address: District Employment Exchange, Idgah Hills, Bhopal
-State: Madhya Pradesh, City: Jabalpur, Name: Employment Exchange, Address: District Employment Exchange, Udyog Bhawan Katanga near to TV tower Jabalpur, Madhya Pradesh
-State: Madhya Pradesh, City: Sagar, Name: Employment Exchange, Address: District Employment Exchange, Sagar
-State: Madhya Pradesh, City: Indore, Name: Employment Exchange, Address: District Employment Exchange, 10 Polo Ground, Near district industries centre, Indore, Madhya Pradesh
-State: Madhya Pradesh, City: Rewa, Name: Employment Exchange, Address: District Employment Office near priyadarshini talkees Amaihya road Rewa MP
-State: Madhya Pradesh, City: Ujjain, Name: Employment Exchange, Address: District Employment Office, 153, Mahashwera Nagar, Near Iskcon Temple, Ujjain, MP
-State: Madhya Pradesh, City: Indore, Name: Devi Ahilya University, Address: Takshshila Campus, Khandwa Road, Indore - 452001
-State: Madhya Pradesh, City: Indore, Name: AISECT, Address: AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall CourseRoad, Opp. IDA Building, Indore
-State: Manipur, City: Imphal, Name: CAREER CLINIQUE, Address: DM College of Arts Library, Chinmeirong, Imphal 795001
-State: Manipur, City: Imphal, Name: NIELIT Imphal, Address: MCC NIELIT, Singjamei Kshetri Leikai, Khongman, Imphal, Manipur 795008
-State: Nagaland, Address: Kohima, Employment Exchange Regional Employment Exchange, Directorate of Employment, Skill Development & Entrepreneurship, NH-61, Above High School Junction, Kohima, 797001 Nagaland
-State: Nagaland, Address: CAREER CLINIQUE Career Cliniq, B-7, c/o Directorate of Employment & Craftsmen Training, High School Junction, Kohima – 797001 Nagaland
-State: Odisha, Address: Sambalpur, Employment Exchange District Employment Exchange, Sambhalpur, Bhutapada Chowk, JailRoad, Sambhalpur
-State: Odisha, Address: Dhenkanal, Employment Exchange District Employment Exchange, Dhenaknal, Odisha
-State: Odisha, Address: Rourkela, Employment Exchange District Employment Exchange Rourkela, Dist. Sundargarh
-State: Odisha, Address: Cuttack, Employment Exchange District Employment Exchange, Cuttack, Odisha
-State: Odisha, Address: CUTM, Khurda CUTM, H I G 5-P has e II, Duplex, Pokhoriput, BDA, Bhubanewar 751020
-State: Odisha, Address: NCSC for DA (Erstwhile VRC), Bhubaneswar NCSC for DA (Erstwhile VRC), Plot No. 1,2, 5 & 6, Adjacent to Indira Gandhi Ayurvedic College, PO Khandgiri, Odisha-751030
-State: Odisha, Address: Berhampur, District Employment Exchange District Employment Exchange, Ganjam, Berhampur
-State: Odisha, Address: Koraput, District Employment Exchange District Employment Exchange, Koraput (Odisha)
-State: Odisha, Address: Model Career Centre, Park Line, Jagannathpur, KEONJHAR Kendujhar, odisha – 758001
-State: Puducherry, Address: Puducherry, Employment Exchange District Employment Exchange, Labour complex, Gandhinagar, Vazhudhavur road, Puducherry 6505009
-State: Punjab, Address: Bathinda, Employment Exchange District Employment Exchange, Rojgar Bhawan Opp. MALL, Near post office (Bhatinda), Punjab
-State: Punjab, Address: Fatehgarhsahib, Employment Exchange District Employment Exchange Fatehgarh Sahib, Punjab
-State: Punjab, Address: Guru Nanak Dev University, Amritsar Placement Departmnet M.R.S. Bhawan Guru Nanak Dev Univ. Amritsar Punjab 143005
-State: Rajasthan, Address: Kota, Employment Exchange District Employment Exchange, R.B. Road Nayapura Kota Rajasthan
-State: Rajasthan, City: Bikaner, Address: Sub Regional Employment Office Chopra Katla, Rani Bazar, District: Bikaner
-State: Rajasthan, City: Bharatpur, Address: District Employment Office, District: Bharatpur
-State: Rajasthan, City: Jaipur, Address: District Employment Exchange, J - 8A, EMI Campus, Jhalana Institutional Area, Jhalana Doongri, Jaipur - 302004
-State: Rajasthan, City: Alwar, Address: District Employment Exchange, Sanjay Nagar, Moti Doongri, District: Alwar
-State: Rajasthan, City: Dausa, Address: District Employment Office Dausa, Employment Office Building Collectorate Campus Dausa
-State: Rajasthan, City: Jhalawar, Address: Employment Office, Room No 106-108, MINI SECRETARIAT, Jhalawar Pin - 326001
-State: Rajasthan, City: Jhunjhunu, Address: Sub Regional Employment Office, Collectorate Campus, District: Jhunjhunu
-State: Rajasthan, City: Pali, Address: District Employment Office, Collectorate Campus, District: Pali
-State: Rajasthan, City: Sawai Madhopur, Address: District Employment Exchange, Collectrate campus, District: Sawai Madhopur
-State: Rajasthan, City: Sirohi, Address: District Employment Office, Collectorate Campus, District: Sirohi
-State: Sikkim, City: Gangtok, Address: State Institute of Capacity Building, Dept of Labour, Govt of Sikkim, Gangtok
-State: Sikkim, City: Jorethang, Address: State Institute of Capacity Building (SICB), Karfectar, Jorethang, South Sikkim-737121
-State: Sikkim, City: Dentam Bazar, Address: State Institute of Capacity Building (SICB), Karfectar, Dentam Bazar, West Sikkim
-State: Tamil Nadu, City: Coimbatore, Address: District Employment Office, Mettupalayam Road ITI Campus GN Mills Post Coimbatore 641029
-State: Tamil Nadu, City: Vellore, Address: District Employment Office, Government ITI Campus, Melmonavur, Vellore-10
-State: Tamil Nadu, City: Chennai, Address: 98 / 1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032
-State: Tamil Nadu, City: Salem, Address: District Employment Office, Near Govt. Women Art College, Gorimedu, Salem - 8
-State: Tamil Nadu, City: Thiruvallur, Address: District Employment Office, District Collectorate Master Plan Campus, Thiruvallur
-State: Tamil Nadu, City: Tirunelveli, Address: District Employment Office, District Collectorate Campus, Kokkirakulam, Tirunelveli–627 009
-State: Tamil Nadu, Address: Udhagamandalam, District Employment Office, Additional District Employment Collectorate Floor, Block 4, 1st Floor, Fingar PO, UDHAGAMANDALAM - 6
-State: Tamil Nadu, Address: Villupuram, District Employment Exchange, District Employment Office,Collectorate Master Plan Complex, Ceo Office Back Side, Villupuram 605602
-State: Tamil Nadu, Address: Virudhunagar DEX, District Employment Office, Govt. ITI Campus, Sulakarai, Virudhunagar–626 003
-State: Tripura, Address: Agartala, Employment Exchange, District Employment Exchange, Office Lane, Agartala, West Tripura, 799001
-State: Tripura, Address: Dharmanagar, Employment Exchange, District Employment Exchange, Office Tilla, Dharmanagar, North Tripura, Tripura
-State: Tripura, Address: NCSC for DA (Erstwhile VRC), Agartala, NCSC for DA (Erstwhile VRC), Abhoy Nagar, Agartala-799 005, Tripura (West)
-State: Telangana, Address: Hyderabad Cl & T, Employment Exchange, Dist. Employment Exchange, Clerical & Technical, Hyd Govt. ITI Campus, Vijaynagar Colony, Mallepally, Hyd – 500057
-State: Telangana, Address: Warangal, Employment Exchange, Dist. Employment Exchange Warangal Govt. ITI Campus Mulugu Road, Warangal - 506007
-State: Telangana, Address: Osmania University, Hyderabad, University Employment Information Guidance Bureau,Osmania University, Hyderabad, Telangana- 500 022
-State: Telangana, Address: Khammam, Employment Exchange, District Employment Exchange , R&B Quarters, Near TNGO's Function Hall Land mark TDP office, Khammam-507002
-State: Telangana, Address: Mancherial, Employment Exchange, District Employment Exchange , Govt. ITI Campus, Ballampally Road, Macherial Dist. 504208
-State: Telangana, Address: Rangareddy, Employment Exchange, District Employment Exchange , Govt. ITI Campus, Mallepally, Hyderabad, Rangareddy, Dist 500057
-State: Uttar Pradesh, Address: Lucknow Employment Exchange, Rojgar Bhawan, Guru Govind Singh Marg, Lucknow, Uttar Pradesh
-State: Uttar Pradesh, Address: Ghaziabad, Employment Exchange, District Employment Exchange, Ghaziabad, Uttar Pradesh
-State: Uttar Pradesh, Address: Meerut, Employment Exchange, Regional Employment Office Collectorate Compound Meerut UP
-State: Uttar Pradesh, Address: Bundelkhand University, Jhansi, Univ. Employment information and counciling certre, Bundelkhand Univ. Kanpur Road Jhansi 284128 UP
-State: Uttar Pradesh, Address: Moradabad, Employment Exchange, Regional Employment Exchange, Kant road, Behind Vivekanand hospital, Moradabad
-State: Uttar Pradesh, Address: NICS, A-49, Sector- 62, Opposite Nokia Building, Noida, District: Noida
-State: Uttar Pradesh, Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Dept. Of Electronics of Communication, Univ. Of Allahabad 211002 UP, District: Allahabad
-State: Uttar Pradesh, Address: FICCI, Tansen Marg, New Delhi-110001, District: Greater Noida
-State: Uttar Pradesh, Address: MMM Engineering College Campus, Deoria Road, Gorakhpur-273010, District: Gorakhpur
-State: Uttar Pradesh, Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Ruiya Hostel Medical Block 1st Floor BHU – 221005 UP, District: Banaras Hindu University
-State: Uttar Pradesh, Address: NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.), District: Kanpur
-State: Uttar Pradesh, Address: UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001 (UP), District: Mirzapur
-State: Uttar Pradesh, Address: Regional Employment Office, Civil Lines, Barerilly, District: Barailly
-State: Uttar Pradesh, Address: Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra (UP), District: Agra
-State: Uttar Pradesh, Address: Regional Employment Office, Saharanpur, UP, District: Saharanpur
-State: Uttar Pradesh, Address: Regional Employment Exchange Civil line Gonda(U.P.), District: Gonda
-State: Uttar Pradesh, Address: Regional Employment Exchange, Faizabad, Pin Code -224001, District: Faizabad
-State: Uttar Pradesh, Address: Regional Employment Office, Katra Moorghat Eoad, Basti 272001, UP, District: Basti
-State: Uttar Pradesh, Address: District Employment Office Near G.I.T.I. SITAPUR, District: Sitapur
-State: Uttar Pradesh, Address: District Employment Office, Bijnor, Uttar Pradesh, District: Bijnor
-State: Uttar Pradesh, Address: District Employment Office Near DIET Rajapur Kheri -262701, District: Lakhimpurkhiri
-State: Uttar Pradesh, Address: District Employment Officer, District Employment Office NEAR ITI, HARDOI -241001, District: Hardoi
-State: Uttar Pradesh, Address: Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar, UP, District: Muzaffarnagar
-State: Uttar Pradesh, Address: Amity University, Sector 125, Noda-201313, District: Amity University
-State: Uttarakhand, Address: Model Career Centre, Regional Employment Exchange Office, 4 Convent Road, Near Parade Ground, Dehradun, District: Dehradun
-State: Uttarakhand, Address: Model Career Centre/Employment Office, Near CMO Office, Police Line, Rudarpur, Udham Singh Nagar, District: Udham Singh Nagar
-State: Uttarakhand, Address: Regional District Employment Exchange, Almora, Pt.J.Joshi Govt.I.T.I. Brighten Corner Almora, District: Almora
-State: West Bengal, Address: Sub Regional Employment Exchange, Asansol, CDBlock, SenRelaigh Colony, Kanyapur Distt Burdwan, District: Kolkata
-State: West Bengal, Address: 188, Raja Subodh Chandra Mallick Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032, District: Asansol
-State: West Bengal, Address: National Institute of Electronics and Information Technology, Jadavpur University Campus, Kolkata, West Bengal-700032, District: NIELIT, Kolkata
-State: West Bengal, Address: District Employment Exchange Berhampur, Old Collectorate Building, PO- Berhampur, Dt. Murshidabad, Pin- 742101, West Bengal, District: Berhampur, Sub District Employment Exchange
-State: West Bengal, Address: District Employment Exchange Budgebudge, Bahala Industrial Estate, Block 2, 620 Diamond Harbour Road, Dist. South 24 Parganas West Bengal, District: Burdwan
-State: West Bengal, Address: District Employment Exchange Burdwan, Purta Bhawan (3rd Floor & 7th Floor) Sripally, PO- Sadarghata, Purba Burdwan, Pin - 713109 West Bengal, District: Durgapur, Sub Regional Employment Exchange
-State: West Bengal, Address: Sub Regional Employment Exchange Durgapur, ADDA Administrative Buildings, 1st floor, City Centre, PO Durgapur, Dist. Paschim Burdwan, PIN 713216, West Bengal, District: Khidirpur, Sub Regional Employment Exchange
-State: West Bengal, Address: Sub Regional Employment Exchange Khidirpur, 99/1 Karl Marx Sarani Kolkata 700023 West Bengal, District: Krishnagar, Sub Regional Employment Exchange
-State: West Bengal, Address: District Employment Exchange Krishnagar, Old Collectorate Buildings, PO Krishnagar, Dist. Nadia, PIN 741101 West Bengal, District: Budgebudge, District Employment Exchange
-State: West Bengal, Address: District Employment Exchange Siliguri, Kolkata, PO Siliguri, Dist. Darjeeling Pin 734401West Bengal, District: Siliguri, District Employment Exchange
-State: West Bengal, Address: Swastik Institute of IT, Salt Lake Incubation Centre, Module-1B, Sector-5, Salt Lake, Kolkata-700091, District: Swastik Computer Education, Kolkata
-State: West Bengal, Address: 2COMS, Consulting Pvt. Ltd., Edujobs Academy, 388 Block G, New Alipore, Kolkata-700053, District: Edujobs Academy, Kolkata (Under Process)
-State: -----, Address: -----, District: -----, Number of MCCs: 07, Funding Basis: Non-Funded.
-State: Andhra Pradesh, District: Anantapur, PC: Anantapur, TP Name: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC ID: TC041077
-State: Andhra Pradesh, District: Anantapur, PC: Hindupur, TP Name: Rooman Technologies Private Limited, TC ID: TC040374
-State: Andhra Pradesh, District: Chittoor, PC: Chittoor, TP Name: IL&FS Skills Development Corporation Limited (Learnet Skills Limited), TC ID: TC052972
-State: Andhra Pradesh, District: Chittoor, PC: Tirupati, TP Name: Rooman Technologies Private Limited, TC ID: TC040376
-State: Andhra Pradesh, District: East Godavari, PC: Amalapuram, TP Name: Datapro Computers Private Limited, TC ID: TC059033
-State: Andhra Pradesh, District: East Godavari, PC: Rajahmundry, TP Name: Datapro Computers Private Limited, TC ID: TC059026
-State: Andhra Pradesh, District: East Godavari, PC: Kakinada, TP Name: ICA Edu Skills Private Limited, TC ID: TC041441
-State: Andhra Pradesh, District: Guntur, PC: Guntur, TP Name: Synchroserve Global Solutions Private Limited, TC ID: TC037375
-State: Andhra Pradesh, District: Guntur, PC: Narasaraopet, TP Name: Synchroserve Global Solutions Private Limited, TC ID: TC052979
-State: Andhra Pradesh, Address: Kadapa, District: Kadapa, Company: Synchroserve Global Solutions Private Limited
-State: Andhra Pradesh, Address: Krishna, District: Machilipatnam, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Andhra Pradesh, Address: Krishna, District: Vijaywada, Company: Synchroserve Global Solutions Private Limited
-State: Andhra Pradesh, Address: Kurnool, District: Kurnool, Company: Rooman Technologies Private Limited
-State: Andhra Pradesh, Address: Kurnool, District: Nandyal, Company: Shri Proskills
-State: Andhra Pradesh, Address: Nellore, District: Nellore, Company: Rooman Technologies Private Limited
-State: Andhra Pradesh, Address: Prakasam, District: Bapatla, Company: Synchroserve Global Solutions Private Limited
-State: Andhra Pradesh, Address: Prakasam, District: Ongole, Company: Synchroserve Global Solutions Private Limited
-State: Andhra Pradesh, Address: Srikakulam, District: Araku, Company: Datapro Computers Private Limited
-State: Andhra Pradesh, Address: Srikakulam, District: Srikakulam, Company: ICA Edu Skills Private Limited
-State: Andhra Pradesh, Address: Visakhapatanam, District: Visakhapatnam, Company: ICA Edu Skills Private Limited
-State: Andhra Pradesh, Address: Visakhapatanam, District: Anakapalle, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Andhra Pradesh, District: Vizianagaram, Address: -----, Company: ICA Edu Skills Private Limited
-State: Andhra Pradesh, District: West Godavari, Address: Eluru, Company: ICA Edu Skills Private Limited
-State: Andhra Pradesh, District: West Godavari, Address: Narsapuram, Company: Shri Proskills
-State: Arunachal Pradesh, District: Changlang, Address: Arunachal East, Company: De Unique Educational Society
-State: Arunachal Pradesh, District: East Kameng, Address: Arunachal West, Company: Council of Education And Skill Development Trust
-State: Arunachal Pradesh, District: East Siang, Address: Arunachal East, Company: JITM Skills Private Limited
-State: Arunachal Pradesh, District: Lohit, Address: Arunachal East, Company: De Unique Educational Society
-State: Arunachal Pradesh, District: Lower Siang, Address: Arunachal East, Company: JITM Skills Private Limited
-State: Arunachal Pradesh, District: Lower Subansiri, Address: Arunachal West, Company: Council of Education And Skill Development Trust
-State: Arunachal Pradesh, District: Namsai, Address: Arunachal East, Company: De Unique Educational Society
-State: Arunachal Pradesh, District: Papum Pare, Address: Arunachal West, Company: Smart Brains Engineers & Technologist Private Limited
-State: Arunachal Pradesh, District: Tirap, Address: Arunachal East JITM Skills Private Limited
-State: Arunachal Pradesh, District: West Siang, Address: Arunachal West De Unique Educational Society
-State: Assam, District: Baksa, Address: Kokrajhar Orion Edutech Private Limited
-State: Assam, District: Barpeta, Address: Barpeta JITM Skills Private Limited
-State: Assam, District: Biswanath, Address: Tezpur Care Educational & Welfare Society
-State: Assam, District: Bongaigaon, Address: Barpeta Britti Prosikshan Private Limited
-State: Assam, District: Cachar, Address: Silchar Medhavi Foundation
-State: Assam, District: Chirang, Address: Kokrajhar Orion Edutech Private Limited
-State: Assam, District: Darrang, Address: Mangaldoi Orion Edutech Private Limited
-State: Assam, District: Dhubri, Address: Dhubri Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Assam, District: Dima Hasao, Address: Autonomous District Mahatma Gandhi University
-State: Assam, Address: Goalpara, District: Dhubri, Organization: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Assam, Address: Golaghat, District: Kaliabor, Organization: Care Educational & Welfare Society
-State: Assam, Address: Hailakandi, District: Karimganj, Organization: Medhavi Foundation
-State: Assam, Address: Hojai, District: Nagaon, Organization: Mahatma Gandhi University
-State: Assam, Address: Jorhat, District: Jorhat, Organization: Care Educational & Welfare Society
-State: Assam, Address: Kamrup, District: Guwahati, Organization: Orion Edutech Private Limited
-State: Assam, Address: Kamrup Metro, District: Guwahati, Organization: Orion Edutech Private Limited
-State: Assam, Address: Karbi Anglong Autonomous District, District: Autonomous, Organization: Care Educational & Welfare Society
-State: Assam, Address: Karimganj, District: Karimganj, Organization: Mahatma Gandhi University
-State: Assam, Address: Kokrajhar, District: Kokrajhar, Organization: Britti Prosikshan Private Limited
-State: Assam, Address: Lakhimpur, District: Lakhimpur, Organization: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Assam, Address: Majuli, District: Lakhimpur, Organization: Care Educational & Welfare Society
-State: Assam, Address: Marigaon, District: Nagaon, Organization: Orion Edutech Private Limited
-State: Assam, Address: Nagaon, District: Kaliabor, Organization: Mahatma Gandhi University
-State: Assam, Address: Nalbari, District: Mangaldoi, Organization: JITM Skills Private Limited
-State: Assam, Address: Sonitpur, District: Tezpur, Organization: Care Educational & Welfare Society
-State: Assam, Address: South Salmara Mancachar, District: Dhubri, Organization: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Assam, Address: Udalguri, District: Mangaldoi, Organization: Care Educational & Welfare Society
-State: Assam, Address: West Karbi Anglong District, District: Autonomous District, Organization: Care Educational & Welfare Society
-State: Bihar, Address: Araria, District: Araria, Organization: Ashpra Skills Private Limited
-State: Bihar, Address: Arwal, District: Jehanabad, Organization: ADS Skill Private Limited
-State: Bihar, Address: Aurangabad, District: Aurangabad, Organization: Rooman Technologies Private Limited
-State: Bihar, Address: Banka, District: Banka, Organization: JITM Skills Private Limited
-State: Bihar, Address: Begusarai, District: Begusarai, Organization: Vision India Services Private Limited
-State: Bihar, Address: Bhagalpur, District: Bhagalpur, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Bihar, Address: Bhojpur, District: Arrah, Organization: Orion Edutech Private Limited
-State: Bihar, Address: Buxar, District: Buxar, Company: Orion Edutech Private Limited
-State: Bihar, Address: Darbhanga, District: Darbhanga, Company: Vision India Services Private Limited
-State: Bihar, Address: Purbi Champaran, District: East Champaran, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Bihar, Address: Gaya, District: Gaya, Company: Rooman Technologies Private Limited
-State: Bihar, Address: Gopalganj, District: Gopalganj, Company: ADS Skill Private Limited
-State: Bihar, Address: Jamui, District: Jamui, Company: Medhavi Foundation
-State: Bihar, Address: Jehanabad, District: Jehanabad, Company: Orion Edutech Private Limited
-State: Bihar, Address: Kaimur (Bhabua), District: Sasaram, Company: Orion Edutech Private Limited
-State: Bihar, Address: Katihar, District: Katihar, Company: Ashpra Skills Private Limited
-State: Bihar, Address: Khagaria, District: Khagaria, Company: JITM Skills Private Limited
-State: Bihar, Address: Kishanganj, District: Kishanganj, Company: Ashpra Skills Private Limited
-State: Bihar, Address: -----, District: Lakhisarai, Company Name: Vision India Services Private Limited
-State: Bihar, Address: -----, District: Madhepura, Company Name: JITM Skills Private Limited
-State: Bihar, Address: -----, District: Madhubani, Company Name: Ashpra Skills Private Limited
-State: Bihar, Address: -----, District: Madhubani, Company Name: Datapro Computers Private Limited
-State: Bihar, Address: -----, District: Munger, Company Name: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Bihar, Address: -----, District: Muzaffarpur, Company Name: Corporation Limited (Learnet Skills Limited) - IL&FS Skills Development
-State: Bihar, Address: -----, District: Muzaffarpur, Company Name: Corporation Limited (Learnet Skills Limited) - IL&FS Skills Development
-State: Bihar, Address: -----, District: Nalanda, Company Name: Rooman Technologies Private Limited
-State: Bihar, Address: Nawada, District: Nawada, Company: Rooman Technologies Private Limited
-State: Bihar, Address: Patna, District: Patna Sahib, Company: ICA Edu Skills Private Limited
-State: Bihar, Address: Patna, District: Patliputra, Company: Orion Edutech Private Limited
-State: Bihar, Address: Purnia, District: Purnia, Company: Ashpra Skills Private Limited
-State: Bihar, Address: Rohtas, District: Karakat, Company: Ashpra Skills Private Limited
-State: Bihar, Address: Rohtas, District: Sasaram, Company: Orion Edutech Private Limited
-State: Bihar, Address: Saharsa, District: Madhepura, Company: JITM Skills Private Limited
-State: Bihar, Address: Samastipur, District: Samastipur, Company: Vision India Services Private Limited
-State: Bihar, Address: Saran, District: Maharajganj, Company: Corporation Limited (Learnet Skills Limited)
-State: Bihar, Address: Saran, District: Saran, Company: Corporation Limited (Learnet Skills Limited)
-State: Bihar, Address: Saran, District: Saran, Organization: IL&FS Skills Development, TC Number: TC052454
-State: Bihar, Address: Saran, District: Saran, Organization: IL&FS Skills Development, TC Number: TC014416
-State: Bihar, Address: Saran, District: Saran, Organization: IL&FS Skills Development, TC Number: TC003206
-State: Bihar, Address: Sheikhpura, District: Jamui, Organization: Bhartiya Samruddhi Investments & Consulting Services Limited, TC Number: TC057595
-State: Bihar, Address: Sheohar, District: Sheohar, Organization: The Manav Kalyan Avam Vikas Sanstha, TC Number: TC100113
-State: Bihar, Address: Sitamarhi, District: Sitamarhi, Organization: The Manav Kalyan Avam Vikas Sanstha, TC Number: TC108204
-State: Bihar, Address: Siwan, District: Maharajganj, Organization: Funfirst Global Skillers Private Limited, TC Number: TC040325
-State: Bihar, Address: Siwan, District: Siwan, Organization: IL&FS Skills Development, TC Number: TC027722
-State: Bihar, Address: Supaul, District: Supaul, Organization: Ashpra Skills Private Limited, TC Number: TC041017
-State: Bihar, Address: Vaishali, District: Hajipur, Organization: Vision India Services Private Limited, TC Number: TC042020
-State: Bihar, Address: Vaishali, District: Ujiyarpur, Company: Vision India Services Private Limited
-State: Bihar, Address: Pashchim Champaran, District: Champaran, Company: ADS Skill Private Limited
-State: Chandigarh, Address: Chandigarh, District: Chandigarh, Company: Edujobs Academy Private Limited
-State: Chhattisgarh, Address: Baloda Bazar, District: Raipur, Company: Care Educational & Welfare Society
-State: Chhattisgarh, Address: Balrampur, District: Surguja, Company: Ashpra Skills Private Limited
-State: Chhattisgarh, Address: Bemetara, District: Durg, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Bijapur, District: Bastar, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Bilaspur, District: Bilaspur, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Durg, District: Durg, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Gariyaband, District: Mahasamund, Company: Care Educational & Welfare Society
-State: Chhattisgarh, Address: Janjgir-Champa, District: Janjgir-Champa, Company: Care Educational & Welfare Society
-State: Chhattisgarh, Address: Jashpur, District: Raigarh, Company: Ashpra Skills Private Limited
-State: Chhattisgarh, Address: Kabirdham, District: Rajnandgaon, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Kondagaon, District: Bastar, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: Korba, District: Korba, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Korea, Company: Ashpra Skills Private Limited
-State: Chhattisgarh, Address: -----, District: Mahasamund, Company: Care Educational & Welfare Society
-State: Chhattisgarh, Address: -----, District: Mungeli, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Narayanpur, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Raigarh, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Raipur, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Rajnandgaon, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Chhattisgarh, Address: -----, District: Surajpur, Company: Ashpra Skills Private Limited
-State: Chhattisgarh, Address: -----, District: Surguja, Company: Ashpra Skills Private Limited
-State: Chhattisgarh, Address: -----, District: Uttar Bastar Kanker, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Delhi, Address: -----, District: East Delhi, Company: GS Techno Innovations Private Limited
-State: Delhi, Address: -----, District: New Delhi, Company: Orion Edutech Private Limited
-State: Delhi, Address: -----, District: North Delhi, Company: De Unique Educational Society
-State: Delhi, Address: North East Delhi, District: North East Delhi, Company: LimitedForesight Edutech Private
-State: Delhi, Address: North West Delhi Delhi, District: North West, Company: IACM Smart Learn Limited
-State: Delhi, Address: Shahdara, District: East Delhi, Company: De Unique Educational Society
-State: Delhi, Address: (Okhla), District: South Delhi, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Delhi, Address: South East Delhi, District: South Delhi, Company: JITM Skills Private Limited
-State: Delhi, Address: South West Delhi (Najafgarh), District: West Delhi, Company: Don Bosco Tech Society
-State: Goa, Address: South Goa, District: South Goa, Company: Silver Oak Shops & Office Co-Op Housing Society Limited
-State: Gujarat, Address: Ahmedabad, District: Ahmedabad West, Company: ICA Edu Skills Private Limited
-State: Gujarat, Address: Amreli, District: Amreli, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Anand, District: Anand, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Bharuch, District: Bharuch, Company Name: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Bhavnagar, District: Bhavnagar, Company Name: Care Educational & Welfare Society
-State: Gujarat, Address: Botad, District: Bhavnagar, Company Name: Care Educational & Welfare Society
-State: Gujarat, Address: Chottaudaipur, District: Chottaudaipur, Company Name: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Dahod, District: Dahod, Company Name: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Devbhoomi Dwarka, District: Jamnagar, Company Name: De Unique Educational Society
-State: Gujarat, Address: Gandhinagar, District: Ahmedabad East Housing Society LimitedSilver Oak Shops & Office Co-Op
-State: Gujarat, Address: Gir Somnath, District: Junagadh, Company Name: De Unique Educational Society
-State: Gujarat, Address: Jamnagar, District: Jamnagar, Company: ICA Edu Skills Private Limited
-State: Gujarat, Address: Junagadh, District: Junagadh, Company: JITM Skills Private Limited
-State: Gujarat, Address: Kachchh, District: Kachchh, Company: ICA Edu Skills Private Limited
-State: Gujarat, Address: Kheda, District: Kheda, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Mahisagar, District: Panchmahal, Company: Silver Oak Shops & Office Co-Op Housing Society Limited
-State: Gujarat, Address: Morbi, District: Kachchh, Company: ICA Edu Skills Private Limited
-State: Gujarat, Address: Narmada, District: Chottaudaipur, Company: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Navsari, District: Navsari, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Panchmahal, District: Panchmahal, Company: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Porbandar, District: Porbandar, Company: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Gujarat, Address: Rajkot, District: Rajkot, Company: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Gujarat, Address: Surat, District: Surat, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Surendranagar, District: Surendranagar, Company: ICA Edu Skills Private Limited
-State: Gujarat, Address: Tapi, District: Bardoli, Company: Care Educational & Welfare Society
-State: Gujarat, Address: The Dangs, District: Valsad, Company: Care Educational & Welfare Society
-State: Gujarat, Address: Vadodara, District: Vadodara, Company: NIFA Infocomp Services Private Limited
-State: Gujarat, Address: Valsad, District: Valsad, Company: Care Educational & Welfare Society
-State: Haryana, Address: Ambala, District: Ambala, Company: ICA Edu Skills Private Limited
-State: Haryana, Address: Bhiwani, District: Bhiwani-Mahendragarh, Company: Orion Edutech Private Limited
-State: Haryana, Address: Faridabad, District: Faridabad, Company: Innovision Limited
-State: Haryana, Address: Faridabad, District: Faridabad, Company: Hettich India Private Limited
-State: Haryana, Address: Fatehabad, District: Sirsa, Company: Centum Workskills India Limited
-State: Haryana, Address: Gurugram, District: Gurgaon, Company: Innovision Limited
-State: Haryana, Address: Gurugram, District: Gurgaon, Company: Jet Serve Aviation Pvt. Ltd.
-State: Haryana, Address: Gurugram, District: Gurgaon, Company: Maruti Suzuki India Limited
-State: Haryana, Address: Hisar, District: Hisar, Company: Centum Workskills India Limited
-State: Haryana, Address: Jhajjar, District: Rohtak, Company: Orion Edutech Private Limited
-State: Haryana, Address: Jind, District: Sonipat, Company: Centum Workskills India Limited
-State: Haryana, Address: Kaithal, District: Kurukshetra, Company: Centum Workskills India Limited
-State: Haryana, Address: Karnal, District: Karnal, Company: ICA Edu Skills Private Limited
-State: Haryana, Address: Kurukshetra, District: Kurukshetra, Company: ICA Edu Skills Private Limited
-State: Haryana, Address: Mahendragarh, District: Bhiwani-Mahendragarh, Company: Innovision Limited
-State: Haryana, Address: Mewat, District: Gurgaon, Company: Innovision Limited
-State: Haryana, Address: Palwal, District: Faridabad, Company: Innovision Limited
-State: Haryana, Address: Panchkula, District: Ambala, Company: ICA Edu Skills Private Limited
-State: Haryana, Address: Panipat, District: Karnal, Company: Orion Edutech Private Limited
-State: Haryana, Address: Rewari, District: Gurgaon, Company: Innovision Limited
-State: Haryana, Address: Rohtak, District: Rohtak, Company: Orion Edutech Private Limited
-State: Haryana, Address: Sirsa, District: Sirsa, Company: Centum Workskills India Limited
-State: Haryana, Address: Sonipat, District: Sonipat, Company: Orion Edutech Private Limited
-State: Haryana, Address: Yamunanagar, District: Ambala, Company: ICA Edu Skills Private Limited
-State: Himachal Pradesh, Address: Bilaspur, District: Hamirpur, Company: Calance Software Private Limited
-State: Himachal Pradesh, Address: Chamba, District: Kangra, Company: De Unique Educational Society
-State: Himachal Pradesh, Address: Hamirpur, District: Hamirpur, Company: JITM Skills Private Limited
-State: Himachal Pradesh, District: Kangra, Address: De Unique Educational Society
-State: Himachal Pradesh, District: Kinnaur, Address: JITM Skills Private Limited
-State: Himachal Pradesh, District: Kullu, Address: JITM Skills Private Limited
-State: Himachal Pradesh, District: Mandi, Address: De Unique Educational Society
-State: Himachal Pradesh, District: Shimla, Address: Calance Software Private Limited
-State: Himachal Pradesh, District: Sirmaur, Address: Calance Software Private Limited
-State: Himachal Pradesh, District: Solan, Address: Calance Software Private Limited
-State: Himachal Pradesh, District: Una, Address: De Unique Educational Society
-State: Jammu And Kashmir, District: Anantnag, Address: Corporation Limited (Learnet Skills Limited)
-State: Jammu And Kashmir, District: Badgam, Address: Orion Edutech Private Limited
-State: Jammu And Kashmir, District: Bandipora, Address: Mosaic Workskills Private Limited
-State: Jammu And Kashmir, District: Baramulla, Address: Care Educational & Welfare Society
-State: Jammu And Kashmir, District: Ganderbal, Address: Mosaic Workskills Private Limited
-State: Jammu And Kashmir, District: Jammu, Address: Corporation Limited (Learnet Skills Limited)
-State: Jammu And Kashmir, District: Kathua, Address: GK Educational Trust
-State: Jammu And Kashmir, District: Kishtwar, Address: National Paramedical Sciences Society
-State: Jammu And Kashmir, District: Kulgam, Address: Care Educational & Welfare Society
-State: Jammu And Kashmir, District: Kupwara, Address: Corporation Limited (Learnet Skills Limited)
-State: Jammu And Kashmir, District: Poonch, Address: GK Educational Trust
-State: Jammu And Kashmir, District: Pulwama, Address: Care Educational & Welfare Society
-State: Jammu And Kashmir, District: Ramban, Address: Shri Vishwamitra Shikshan Samiti
-State: Jammu And Kashmir, District: Reasi, Address: GK Educational Trust
-State: Jammu And Kashmir, District: Samba, Address: Orion Edutech Private Limited
-State: Jammu And Kashmir, Address: -----, District: Srinagar, Company: Rooman Technologies Private Limited
-State: Jammu And Kashmir, Address: -----, District: Udhampur, Company: GK Educational Trust
-State: Jharkhand, Address: -----, District: Chatra, Company: Vikas Bharti Bishunpur
-State: Jharkhand, Address: -----, District: Dhanbad, Company: Ashpra Skills Private Limited
-State: Jharkhand, Address: -----, District: Dumka, Company: Ashpra Skills Private Limited
-State: Jharkhand, Address: -----, District: Palamu, Company: Vikas Bharti Bishunpur
-State: Jharkhand, Address: -----, District: Lohardaga, Company: Vikas Bharti Bishunpur
-State: Jharkhand, Address: -----, District: Hazaribagh, Company: Medhavi Foundation
-State: Jharkhand, Address: -----, District: Dumka, Company: Ashpra Skills Private Limited
-State: Jharkhand, Address: -----, District: Khunti, Company: Ashpra Skills Private Limited
-State: Jharkhand, Address: -----, District: Koderma, Company: JITM Skills Private Limited
-State: Jharkhand, Address: -----, District: Chatra, Company: Vikas Bharti Bishunpur
-State: Jharkhand, Address: Lohardaga, District: Lohardaga, Name: AISECT Limited (AISECT SKILLS MISSION)
-State: Jharkhand, Address: Pakur, District: Rajmahal, Name: Ashpra Skills Private Limited
-State: Jharkhand, Address: Palamu, District: Palamu, Name: Vikas Bharti Bishunpur
-State: Jharkhand, Address: Pashchimi Singhbhum, District: Singhbhum, Name: Ashpra Skills Private Limited
-State: Jharkhand, Address: Purbi Singhbhum, District: Jamshedpur, Name: Ashpra Skills Private Limited
-State: Jharkhand, Address: Ramgarh, District: Hazaribagh, Name: Star Secutech Pvt. Ltd.
-State: Jharkhand, Address: Ranchi, District: Ranchi, Name: Don Bosco Tech Society
-State: Jharkhand, Address: Sahibganj, District: Rajmahal, Name: Ashpra Skills Private Limited
-State: Jharkhand, Address: Seraikela-Kharsawan, District: Singhbhum, Name: Ashpra Skills Private Limited
-State: Jharkhand, Address: Simdega, District: Khunti, Name: Ashpra Skills Private Limited
-State: Karnataka, Address: Bagalkot, District: Bagalkot, Name: ICA Edu Skills Private Limited
-State: Karnataka, Address: Bangalore Rural, District: Chikkaballapur, Name: Rooman Technologies Private Limited
-State: Karnataka, Address: Bangalore Urban, District: Bangalore North, Organization: Don Bosco Tech Society
-State: Karnataka, Address: Bangalore Urban, District: Bangalore Central, Organization: Rooman Technologies Private Limited
-State: Karnataka, Address: Bangalore Urban, District: Bangalore North, Organization: Rooman Technologies Private Limited
-State: Karnataka, Address: Bangalore Urban, District: Bangalore Rural, Organization: Rooman Technologies Private Limited
-State: Karnataka, Address: Bangalore Urban, District: Bangalore South, Organization: UTL Technologies Limited
-State: Karnataka, Address: Belgaum, District: Chikkodi, Organization: Empower Pragati Vocational & Staffing Private Limited
-State: Karnataka, Address: Belgaum, District: Belgaum, Organization: Rooman Technologies Private Limited
-State: Karnataka, Address: Bellary, District: Bellary, Organization: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Karnataka, Address: Quess Corp Limited (Excelus, District: Bidar, Learning Solutions Private Limited
-State: Karnataka, Address: Bidar, District: Bijapur, ICA Edu Skills Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus, District: Chamarajanagar, Learning Solutions Private Limited
-State: Karnataka, Address: Chikkaballapur, District: Chikkaballapur, Rooman Technologies Private Limited
-State: Karnataka, Address: Chikmagalur, District: Udupi, ICA Edu Skills Private Limited, Chikmagaluru
-State: Karnataka, Address: Chitradurga, District: Chitradurga, ICA Edu Skills Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus, District: Kannada, Learning Solutions Private Limited
-State: Karnataka, Address: Davangere, District: Davangere, Rooman Technologies Private Limited
-State: Karnataka, Address: Dharwad, District: Dharwad, ICA Edu Skills Private Limited
-State: Karnataka, Address: Gadag, District: Haveri, ICA Edu Skills Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Gulbarga, Company: Learning Solutions Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Hassan, Company: ICA Edu Skills Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Haveri, Company: Rooman Technologies Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Kodagu, Company: Learning Solutions Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Kolar, Company: Rooman Technologies Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Koppal, Company: ICA Edu Skills Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Mandya, Company: Learning Solutions Private Limited
-State: Karnataka, Address: Quess Corp Limited (Excelus), District: Mysore, Company: Learning Solutions Private Limited
-State: Karnataka, Address: -----, District: Raichur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Karnataka, Address: -----, District: Ramanagara, Company: Rooman Technologies Private Limited
-State: Karnataka, Address: -----, District: Shimoga, Company: Rooman Technologies Private Limited
-State: Karnataka, Address: -----, District: Tumkur, Company: ICA Edu Skills Private Limited
-State: Karnataka, Address: -----, District: Udupi, Chikmagaluru, Company: Rooman Technologies Private Limited
-State: Karnataka, Address: -----, District: Uttara Kannada, Company: ICA Edu Skills Private Limited
-State: Karnataka, Address: -----, District: Yadgir, Raichur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: -----, District: Alapuza, Company: Edujobs Academy Private Limited
-State: Kerala, Address: -----, District: Ernakulam, Company Name: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC Number: TC041066
-State: Kerala, Address: -----, District: Ernakulam, Company Name: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC Number: TC124861
-State: Kerala, Address: -----, District: Idukki, Company Name: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC Number: TC041065
-State: Kerala, Address: -----, District: Kannur, Company Name: JITM Skills Private Limited, TC Number: TC112328
-State: Kerala, Address: -----, District: Kannur, Company Name: JITM Skills Private Limited, TC Number: TC116080
-State: Kerala, Address: -----, District: Kasargod, Company Name: JITM Skills Private Limited, TC Number: TC113331
-State: Kerala, Address: -----, District: Kollam, Company Name: De Unique Educational Society, TC Number: TC101176
-State: Kerala, Address: -----, District: Kollam, Company Name: Edujobs Academy Private Limited, TC Number: TC028492
-State: Kerala, Address: -----, District: Kottayam, Company Name: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC Number: TC050799
-State: Kerala, Address: -----, District: Kozhikode, Company Name: JITM Skills Private Limited, TC Number: TC110504
-State: Kerala, Address: Malappuram, District: Malappuram, Company: Ascensive Educare Private Limited
-State: Kerala, Address: Malappuram, District: Ponnani, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: Palakkad, District: Palakkad, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: Pattanamthitta, District: Pattanamthitta, Company: Edujobs Academy Private Limited
-State: Kerala, Address: Thiruvananthpur am, District: Thiruvananthpur am, Company: Edujobs Academy Private Limited
-State: Kerala, Address: Thiruvananthpur am, District: Attingal, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: Thrissur, District: Alathur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: Thrissur, District: Thrissur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Kerala, Address: Wayanad, District: Wayanad, Company: JITM Skills Private Limited
-State: Ladakh, Address: Kargil, District: Ladakh, Company: National Paramedical Sciences Society
-State: Ladakh, Address: -----, District: Leh, Organization: Care Educational & Welfare Society
-State: Madhya Pradesh, Address: -----, District: Agar Malwa, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: -----, District: Alirajpur, Organization: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: -----, District: Anuppur, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: -----, District: Ashok Nagar, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: -----, District: Balaghat, Organization: Calance Software Private Limited
-State: Madhya Pradesh, Address: -----, District: Barwani, Organization: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: -----, District: Betul, Organization: ICA Edu Skills Private Limited
-State: Madhya Pradesh, Address: -----, District: Bhind, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: -----, District: Bhopal, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: -----, District: Burhanpur, Organization: ICA Edu Skills Private Limited
-State: Madhya Pradesh, Address: Quess Corp Limited (Excelus), District: Chhattarpur, Tikamgarh, Company Name: Learning Solutions Private Limited
-State: Madhya Pradesh, Address: Calance Software Private Limited, District: Chhindwara, Chhindwara
-State: Madhya Pradesh, Address: Quess Corp Limited (Excelus), District: Damoh, Damoh, Company Name: Learning Solutions Private Limited
-State: Madhya Pradesh, Address: Mahendra Skills Training and Development Private Limited, District: Datia, Bhind
-State: Madhya Pradesh, Address: ICA Edu Skills Private Limited, District: Dewas, Dewas
-State: Madhya Pradesh, Address: Centum Workskills India Limited, District: Dhar, Dhar
-State: Madhya Pradesh, Address: Calance Software Private Limited, District: Dindori, Mandla
-State: Madhya Pradesh, Address: Centum Workskills India Limited, District: East Nimar (Khandwa), Khandwa
-State: Madhya Pradesh, Address: Mahendra Skills Training and Development Private Limited, District: Guna, Guna
-State: Madhya Pradesh, Address: Gwalior, District: Gwalior, Training Provider: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Harda, District: Betul, Training Provider: ICA Edu Skills Private Limited
-State: Madhya Pradesh, Address: Hoshangabad, District: Hoshangabad, Training Provider: ICA Edu Skills Private Limited
-State: Madhya Pradesh, Address: Indore, District: Indore, Training Provider: Centum Workskills India Limited
-State: Madhya Pradesh, Address: Indore, District: Indore, Training Provider: Mosaic Workskills Private Limited
-State: Madhya Pradesh, Address: Jabalpur, District: Jabalpur, Training Provider: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Jhabua, District: Ratlam, Training Provider: Calance Software Private Limited
-State: Madhya Pradesh, Address: Katni, District: Khajuraho, Training Provider: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Mandla, District: Mandla, Training Provider: Calance Software Private Limited
-State: Madhya Pradesh, Address: Mandsaur, District: Mandsaur, Training Provider: Calance Software Private Limited
-State: Madhya Pradesh, Address: Morena, District: Morena, Training Provider: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Narsinghpur, District: Hoshangabad, Training Provider: Calance Software Private Limited
-State: Madhya Pradesh, Address: Neemuch, District: Mandsaur, Company: Calance Software Private Limited
-State: Madhya Pradesh, Address: Panna, District: Khajuraho, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Madhya Pradesh, Address: Raisen, District: Vidisha, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Rajgarh, District: Rajgarh, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Ratlam, District: Ratlam, Company: Calance Software Private Limited
-State: Madhya Pradesh, Address: Rewa, District: Rewa, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Sagar, District: Sagar, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Madhya Pradesh, Address: Satna, District: Satna, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Sehore, District: Bhopal, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Seoni, District: Balaghat, Company: Calance Software Private Limited
-State: Madhya Pradesh, Address: Shahdol, District: Shahdol, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Shajapur, District: Dewas, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Sheopur, District: Morena, Company: Mosaic Workskills Private Limited
-State: Madhya Pradesh, Address: Shivpuri, District: Guna, Company: Mosaic Workskills Private Limited
-State: Madhya Pradesh, Address: Sidhi, District: Sidhi, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Singrauli, District: Sidhi, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: Tikamgarh, District: Tikamgarh, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Madhya Pradesh, Address: Ujjain, District: Ujjain, Company: Calance Software Private Limited
-State: Madhya Pradesh, Address: Umaria, District: Shahdol, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Madhya Pradesh, Address: Vidisha, District: Vidisha, Company: Mahendra Skills Training and Development Private Limited
-State: Madhya Pradesh, Address: West Nimar (Khargone), District: Khargone, Company: ICA Edu Skills Private Limited
-State: Maharashtra, Address: Ahmednagar, District: Shirdi, Company: Pratt Muller Distributors Limited
-State: Maharashtra, Address: Ahmednagar, District: Ahmednagar, Company: Silver Oak Shops & Office Co-Op Housing Society Limited
-State: Maharashtra, Address: Akola, District: Akola, Company: Orion Edutech Private Limited
-State: Maharashtra, Address: Amravati, District: Amravati, Company: Orion Edutech Private Limited
-State: Maharashtra, Address: Aurangabad, District: Aurangabad, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Maharashtra, Address: Beed, District: Beed, Company: Gautam Buddh Welfare Society
-State: Maharashtra, Address: Bhandara, District: Bhandara, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: Bhandara, District: Gondia, Company: Orion Edutech Private Limited
-State: Maharashtra, Address: Buldhana, District: Buldhana, Company: Orion Edutech Private Limited
-State: Maharashtra, Address: Chandrapur, District: Chandrapur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: Dhule, District: Dhule, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: Gadchiroli, District: Gadchiroli, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC: 364
-State: Maharashtra, Address: Gondia, District: Gondia, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC: 365
-State: Maharashtra, Address: Hingoli, District: Hingoli, Company: Mosaic Workskills Private Limited, TC: 366
-State: Maharashtra, Address: Jalgaon, District: Raver, Company: Pratt Muller Distributors Limited, TC: 367
-State: Maharashtra, Address: Jalgaon, District: Jalgaon, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited), TC: 368
-State: Maharashtra, Address: Jalna, District: Jalna, Company: Empower Pragati Vocational & Staffing Private Limited, TC: 369
-State: Maharashtra, Address: Kolhapur, District: Kolhapur, Company: Rooman Technologies Private Limited, TC: 370
-State: Maharashtra, Address: Latur, District: Latur, Company: Empower Pragati Vocational & Staffing Private Limited, TC: 371
-State: Maharashtra, Address: -----, District: Nagpur, Company: Mahendra Skills Training and Development Private Limited
-State: Maharashtra, Address: -----, District: Nagpur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: -----, District: Nanded, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Maharashtra, Address: -----, District: Nandurbar, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: -----, District: Nashik, Company: Pratt Muller Distributors Limited
-State: Maharashtra, Address: -----, District: Nashik, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: -----, District: Osmanabad, Company: Rooman Technologies Private Limited
-State: Maharashtra, Address: -----, District: Palghar, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Maharashtra, Address: -----, District: Parbhani, Company: Mosaic Workskills Private Limited
-State: Maharashtra, Address: Pune, District: Baramati, Company: Centum Workskills India Limited
-State: Maharashtra, Address: Pune, District: Shirur, Company: Funfirst Global Skillers Private Limited
-State: Maharashtra, Address: Pune, District: Maval, Company: National Yuva Cooperative Society
-State: Maharashtra, Address: Pune, District: Pune, Company: Rooman Technologies Private Limited
-State: Maharashtra, Address: Raigad, District: Maval, Company: Jawaharlal Nehru Port Trust
-State: Maharashtra, Address: Raigad, District: Raigad, Company: Pratt Muller Distributors Limited
-State: Maharashtra, Address: Sangli, District: Sangli, Company: Rooman Technologies Private Limited
-State: Maharashtra, Address: Satara, District: Satara, Company: Rooman Technologies Private Limited
-State: Maharashtra, Address: Solapur, District: Solapur, Company: Mosaic Workskills Private Limited
-State: Maharashtra, Address: Solapur, District: Madha, Company: Silver Oak Shops & Office Co-Op Housing Society Limited
-State: Maharashtra, Address: Thane, District: Bhiwandi, Company: Funfirst Global Skillers Private Limited
-State: Maharashtra, Address: Quess Corp Limited (Excelus), District: Thane
-State: Maharashtra, Address: Silver Oak Shops & Office Co-Op Housing Society Limited, District: Thane
-State: Maharashtra, Address: Orion Edutech Private Limited, District: Wardha
-State: Maharashtra, Address: Empower Pragati Vocational & Staffing Private Limited, District: Washim
-State: Maharashtra, Address: Orion Edutech Private Limited, District: Yavatmal
-State: Manipur, Address: St. Joan's Education Society, District: Bishnupur
-State: Manipur, Address: JITM Skills Private Limited, District: Chandel
-State: Manipur, Address: JITM Skills Private Limited, District: Churcahndpur
-State: Manipur, Address: Rooman Technologies Private Limited, District: Imphal West
-State: Manipur, Address: JITM Skills Private Limited, District: Jiribam
-State: Manipur, Address: Kakching, District: -----, Organization: St. Joan's Education Society
-State: Manipur, Address: Kamjong, District: -----, Organization: JITM Skills Private Limited
-State: Manipur, Address: Kangpokpi, District: -----, Organization: Star Secutech Pvt. Ltd.
-State: Manipur, Address: Noney, District: Outer Manipur, Organization: JITM Skills Private Limited
-State: Manipur, Address: Pherzwal, District: Outer Manipur, Organization: JITM Skills Private Limited
-State: Manipur, Address: Senapati, District: Outer Manipur, Organization: Don Bosco Tech Society
-State: Manipur, Address: Tamenglong, District: Outer Manipur, Organization: Don Bosco Tech Society
-State: Manipur, Address: Tengnoupal, District: Outer Manipur, Organization: JITM Skills Private Limited
-State: Manipur, Address: Thoubal, District: Inner Manipur, Organization: Rooman Technologies Private Limited
-State: Manipur, Address: Ukhrul, District: Outer Manipur, Organization: JITM Skills Private Limited
-State: Meghalaya, Address: East Jaintia Hills, District: Shillong, Organization: Care Educational & Welfare Society
-State: Meghalaya, Address: East Khasi Hills, District: Shillong, Organization: Ascensive Educare Private Limited
-State: Meghalaya, Address: Ri Bhoi, District: Shillong, Organization: Care Educational & Welfare Society
-State: Meghalaya, Address: West Garo Hills, District: Tura, Organization: Care Educational & Welfare Society
-State: Meghalaya, Address: West Jaintia Hills Shillong, District: Care Educational & Welfare Society
-State: Meghalaya, Address: West Khasi Hills Shillong, District: Care Educational & Welfare Society
-State: Mizoram, Address: Aizwal Mizoram, District: Medhavi Foundation
-State: Mizoram, Address: Champhai Mizoram, District: JITM Skills Private Limited
-State: Mizoram, Address: Kolasib Mizoram, District: GS Techno Innovations Private Limited
-State: Nagaland, Address: Dimapur Nagaland, District: Orion Edutech Private Limited
-State: Nagaland, Address: Mokokchung Nagaland, District: Empower Pragati Vocational & Staffing Private Limited
-State: Nagaland, Address: Peren Nagaland, District: JITM Skills Private Limited
-State: Odisha, Address: Angul Dhenkanal, District: Siksha Trust
-State: Odisha, Address: Balangir Balangir, District: Datapro Computers Private Limited
-State: Odisha, Address: Balasore Bhadrak, District: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Bargarh, District: Bargarh, Company: Datapro Computers Private Limited
-State: Odisha, Address: Baudh, District: Kandhamal, Company: Datapro Computers Private Limited
-State: Odisha, Address: Cuttack, District: Cuttack, Company: Datapro Computers Private Limited
-State: Odisha, Address: Dhenkanal, District: Dhenkanal, Company: Datapro Computers Private Limited
-State: Odisha, Address: Gajapati, District: Berhampur, Company: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Ganjam, District: Aska, Company: Datapro Computers Private Limited
-State: Odisha, Address: Ganjam, District: Berhampur, Company: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Jagatsinghapur, District: Jagatsinghapur, Company: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Jajpur, District: Jajpur, Company: Siksha Trust
-State: Odisha, Address: Kalahandi, District: Kalahandi, Organization: Sri Sri Rural Development Programme Trust
-State: Odisha, Address: Kandhamal, District: Kandhamal, Organization: Datapro Computers Private Limited
-State: Odisha, Address: Kendrapara, District: Kendrapara, Organization: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Khordha, District: Bhubaneshwar, Organization: Datapro Computers Private Limited
-State: Odisha, Address: Koraput, District: Koraput, Organization: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Malkangiri, District: Nabarangpur, Organization: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: Mayurbhanj, District: Mayurbhanj, Organization: Siksha Trust
-State: Odisha, Address: Nabarangapur, District: Nabarangpur, Organization: Datapro Computers Private Limited
-State: Odisha, Address: -----, District: Nayagarh, Company: Datapro Computers Private Limited
-State: Odisha, Address: -----, District: Nuapada, Company: Datapro Computers Private Limited
-State: Odisha, Address: -----, District: Puri, Company: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: -----, District: Rayagada, Company: Gram Tarang Employability Training Services Limited
-State: Odisha, Address: -----, District: Subarnapur (Sonepur), Company: Datapro Computers Private Limited
-State: Odisha, Address: -----, District: Sundargarh, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Puducherry, Address: -----, District: Karaikal, Company: Rural Education and Environment Protection (REEP) Trust
-State: Puducherry, Address: -----, District: Mahe, Company: Namastasye Services Private Limited
-State: Puducherry, Address: -----, District: Puducherry, Company: IHT Network Ltd.
-State: Puducherry, Address: -----, District: Yanam, Company: Datapro Computers Private Limited
-State: Punjab, Address: -----, District: Amritsar, Company: Youth Welfare Council of India
-State: Punjab, Address: Barnala, District: Sangrur, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Punjab, Address: Bathinda, District: Bhatinda, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Punjab, Address: Faridkot, District: Faridkot, Company: ICA Edu Skills Private Limited
-State: Punjab, Address: Fatehgarh Sahib, District: Fatehgarh Sahib, Company: ICA Edu Skills Private Limited
-State: Punjab, Address: Fazilka, District: Firozpur, Company: Dreamweaver Edutrack Private Limited
-State: Punjab, Address: Firozpur, District: Firozpur, Company: Dreamweaver Edutrack Private Limited
-State: Punjab, Address: Gurdaspur, District: Gurdaspur, Company: De Unique Educational Society
-State: Punjab, Address: Hoshiarpur, District: Hoshiarpur, Company: JITM Skills Private Limited
-State: Punjab, Address: Jalandhar, District: Jalandhar, Company: Dreamweaver Edutrack Private Limited
-State: Punjab, Address: Kapurthala, District: Khadoor Sahib, Company: JITM Skills Private Limited
-State: Punjab, Address: Ludhiana, District: Ludhiana, Company: ICA Edu Skills Private Limited
-State: Punjab, Address: Ludhiana, District: Fatehgarh Sahib, Company: Rockman Industries Ltd
-State: Punjab, Address: Mansa, District: Bhatinda, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Punjab, Address: Moga, District: Faridkot, Name: ICA Edu Skills Private Limited
-State: Punjab, Address: Pathankot, District: Gurdaspur, Name: JITM Skills Private Limited
-State: Punjab, Address: Patiala, District: Patiala, Name: Empower Pragati Vocational & Staffing Private Limited
-State: Punjab, Address: Rupnagar / Ropar Anandpur Sahib, District: Anandpur Sahib, Name: Dreamweaver Edutrack Private Limited
-State: Punjab, Address: Sahibzada Ajit Singh Nagar, District: Anandpur Sahib, Name: ICA Edu Skills Private Limited
-State: Punjab, Address: Sahibzada Ajit Singh Nagar, District: Anandpur Sahib, Name: Mentor Skills
-State: Punjab, Address: Sangrur, District: Sangrur, Name: Empower Pragati Vocational & Staffing Private Limited
-State: Punjab, Address: Shahid Bhagat Singh Nagar, District: Anandpur Sahib, Name: Dreamweaver Edutrack Private Limited
-State: Punjab, Address: Shri Muktsar Sahib, District: Firozpur, Name: ICA Edu Skills Private Limited
-State: Punjab, Address: Tarn Taran, District: Khadoor Sahib, Name: Dreamweaver Edutrack Private Limited
-State: Rajasthan, Address: Ajmer, District: Ajmer, Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Alwar, District: Alwar, Name: Empower Pragati Vocational & Staffing Private Limited
-State: Rajasthan, Address: Banswara, District: Banswara, Company Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Baran, District: Jhalawar-Baran, Company Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Barmer, District: Barmer, Company Name: Foresight Edutech Private Limited
-State: Rajasthan, Address: Bharatpur, District: Bharatpur, Company Name: Empower Pragati Vocational & Staffing Private Limited
-State: Rajasthan, Address: Bhilwara, District: Bhilwara, Company Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Bikaner, District: Bikaner, Company Name: ICA Edu Skills Private Limited
-State: Rajasthan, Address: Bundi, District: Kota, Company Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Chittorgarh, District: Chittorgarh, Company Name: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Churu, District: Churu, Company Name: ICA Edu Skills Private Limited
-State: Rajasthan, Address: Dausa, District: Dausa, Company Name: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: Dholpur, District: Karauli-Dholpur, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Rajasthan, Address: Dungarpur, District: Banswara, Company: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: Ganganagar, District: Ganganagar, Company: ICA Edu Skills Private Limited
-State: Rajasthan, Address: Hanumangarh, District: Ganganagar, Company: ICA Edu Skills Private Limited
-State: Rajasthan, Address: Jaipur, District: Jaipur Rural, Company: Foresight Edutech Private Limited
-State: Rajasthan, Address: Jaipur, District: Jaipur, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: Jaipur, District: Jaipur, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: Jaisalmer, District: Barmer, Company: ICA Edu Skills Private Limited
-State: Rajasthan, Address: Jalore, District: Jalore, Company: JITM Skills Private Limited
-State: Rajasthan, Address: Jhalawar, District: Jhalawar-Baran, Company: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: -----, District: Jhunjhunun, Corporation: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: -----, District: Jodhpur, Corporation: Foresight Edutech Private Limited
-State: Rajasthan, Address: -----, District: Karauli, Corporation: Empower Pragati Vocational & Staffing Private Limited
-State: Rajasthan, Address: -----, District: Kota, Corporation: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: -----, District: Nagaur, Corporation: ICA Edu Skills Private Limited
-State: Rajasthan, Address: -----, District: Pali, Corporation: JITM Skills Private Limited
-State: Rajasthan, Address: -----, District: Pratapgarh, Corporation: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: -----, District: Rajsamand, Corporation: NIFA Infocomp Services Private Limited
-State: Rajasthan, Address: -----, District: Sikar, Corporation: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: -----, District: Sirohi, Corporation: Foresight Edutech Private Limited
-State: Rajasthan, Address: Tonk-Sawai Madhopur, District: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Rajasthan, Address: Udaipur-Udaipur, District: NIFA Infocomp Services Private Limited
-State: Sikkim, Address: Sikkim East-Sikkim, District: Medhavi Foundation
-State: Sikkim, Address: South Sikkim-Sikkim, District: Gautam Buddh Welfare Society
-State: Sikkim, Address: West Sikkim-Sikkim, District: JITM Skills Private Limited
-State: Tamil Nadu, Address: Ariyalur-Chidambaram, District: Jeyram Educational Trust
-State: Tamil Nadu, Address: Chennai-Chennai Central, District: Rooman Technologies Private Limited
-State: Tamil Nadu, Address: Chennai-Chennai North, District: Rural Education and Environment Protection (REEP) Trust
-State: Tamil Nadu, Address: Chennai-Chennai South, District: UTL Technologies Limited
-State: Tamil Nadu, Address: Coimbatore-Coimbatore, District: Aaruthal Foundation
-State: Tamil Nadu, Address: Cuddalore, District: Cuddalore, Company: UTL Technologies Limited
-State: Tamil Nadu, Address: Dharmapuri, District: Dharmapuri, Company: Silver Oak Shops & Office Co-Op Housing Society Limited, Quess Corp Limited (Excelus)
-State: Tamil Nadu, Address: Dindigul, District: Dindigul, Company: Learning Solutions Private Limited
-State: Tamil Nadu, Address: Erode, District: Erode, Company: Aaruthal Foundation
-State: Tamil Nadu, Address: Kanchipuram, District: Kanchipuram, Company: Jeyram Educational Trust
-State: Tamil Nadu, Address: Kanyakumari, District: Kanyakumari, Company: STC Technologies Private Limited
-State: Tamil Nadu, Address: Karur, District: Karur, Company: Aaruthal Foundation
-State: Tamil Nadu, Address: Krishnagiri, District: Krishnagiri, Company: Silver Oak Shops & Office Co-Op Housing Society Limited, Quess Corp Limited (Excelus)
-State: Tamil Nadu, Address: Madurai, District: Madurai, Company: Learning Solutions Private Limited
-State: Tamil Nadu, Address: Nagapattinam, District: Nagapattinam, Company: UTL Technologies Limited
-State: Tamil Nadu, Address: Namakkal, District: Namakkal, Company: Aaruthal Foundation
-State: Tamil Nadu, Address: Nilgiris, District: Nilgiris, Organization: Aaruthal Foundation
-State: Tamil Nadu, Address: Perambalur, District: Perambalur, Organization: Jeyram Educational Trust
-State: Tamil Nadu, Address: Ramanathapura, District: Ramanathapura, Organization: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Tamil Nadu, Address: Salem, District: Salem, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Tamil Nadu, Address: Sivaganga, District: Sivaganga, Organization: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Tamil Nadu, Address: Thanjavur, District: Thanjavur, Organization: Jeyram Educational Trust
-State: Tamil Nadu, Address: Theni, District: Theni, Organization: STC Technologies Private Limited
-State: Tamil Nadu, Address: Thiruvallur, District: Thiruvallur, Organization: UTL Technologies Limited
-State: Tamil Nadu, Address: Thoothukudi, District: Thoothukudi, Organization: STC Technologies Private Limited
-State: Tamil Nadu, Address: Tiruchirapalli, District: Tiruchirapalli, Organization: Jeyram Educational Trust
-State: Tamil Nadu, Address: Tirunelveli, District: Tirunelveli, Organization: STC Technologies Private Limited
-State: Tamil Nadu, Address: Tiruppur, District: Tiruppur, Organization: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Tamil Nadu, Address: Tiruvannamalai, District: Arani, Organization: IHT Network Ltd.
-State: Tamil Nadu, Address: Tiruvannamalai, District: Tiruvannamalai, Organization: IHT Network Ltd.
-State: Tamil Nadu, Address: Tiruvarur, District: Nagapattinam, Organization: Rural Education and Environment Protection (REEP) Trust
-State: Tamil Nadu, Address: Vellore, District: Arakkonam, Organization: IHT Network Ltd.
-State: Tamil Nadu, Address: Vellore, District: Vellore, Organization: UTL Technologies Limited
-State: Tamil Nadu, Address: Viluppuram, District: Viluppuram, Organization: UTL Technologies Limited
-State: Tamil Nadu, Address: Virudhunagar, District: Virudhunagar, Organization: STC Technologies Private Limited
-State: Telangana, Address: -----, District: Adilabad, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Telangana, Address: -----, District: Bhadradri Kothagudem, Company: Datapro Computers Private Limited
-State: Telangana, Address: -----, District: Hyderabad Secunderabad, Company: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: -----, District: Hyderabad, Company: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: -----, District: Jagtial Nizamabad, Company: Datapro Computers Private Limited
-State: Telangana, Address: -----, District: Jangaon Nalgonda Jayashankar, Company: Ultimate Energy Resource Pvt. Ltd.
-State: Telangana, Address: -----, District: Bhupalapally Peddapalli, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Telangana, Address: Jogulamba Nagarkurnool, District: Synchroserve Global Solutions Gadwal Private Limited
-State: Telangana, Address: Kamareddy, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Karimnagar Karimnagar, District: Datapro Computers Private Limited IL&FS Skills Development
-State: Telangana, Address: Khammam Khammam, District: Corporation Limited (Learnet Skills Limited)
-State: Telangana, Address: Komaram Bheem, District: Datapro Computers Private Limited
-State: Telangana, Address: Mahbubnagar Mahbubnagar, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Mancherial Peddapalli, District: Ultimate Energy Resource Pvt. Ltd.
-State: Telangana, Address: Medak Zahirabad, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Medchal-Malkajgiri, District: Synchroserve Global Solutions Malkajgiri Private Limited
-State: Telangana, Address: Nagarkurnool, District: SEWA International
-State: Telangana, Address: Nalgonda, District: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Telangana, Address: Nirmal, District: Datapro Computers Private Limited
-State: Telangana, Address: Nizamabad, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Peddapalli, District: Datapro Computers Private Limited
-State: Telangana, Address: Rajanna Siricilla, District: Datapro Computers Private Limited
-State: Telangana, Address: Rangareddy, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Sangareddy, District: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Suryapet, District: Ultimate Energy Resource Pvt. Ltd.
-State: Telangana, Address: Vikarabad, District: Chevella, Company Name: Super Intellectual Technologies Private Limited
-State: Telangana, Address: Wanaparthy, District: Wanaparthy, Company Name: Synchroserve Global Solutions Private Limited
-State: Telangana, Address: Warangal Rural, District: Mahabubabad, Company Name: Gautam Buddh Welfare Society
-State: Telangana, Address: Yadadri Bhuvanagiri, District: Bhongir, Company Name: Datapro Computers Private Limited
-State: Tripura, Address: Dhalai, District: Tripura East, Company Name: Valeur Fabtex Private Limited
-State: Tripura, Address: Gomati, District: Tripura East, Company Name: Orion Edutech Private Limited
-State: Tripura, Address: Unakoti, District: Tripura East, Company Name: Ascensive Educare Private Limited
-State: Tripura, Address: West Tripura, District: Tripura West, Company Name: Orion Edutech Private Limited
-State: Uttar Pradesh, Address: Agra, District: Fatehpur Sikri, Company Name: De Unique Educational Society
-State: Uttar Pradesh, Address: Agra, District: Agra, Company Name: NIFA Infocomp Services Private Limited
-State: Uttar Pradesh, Address: Aligarh, District: Aligarh, Company Name: Vision India Services Private Limited
-State: Uttar Pradesh, Address: Allahabad, District: Phulpur, Company Name: Funfirst Global Skillers Private Limited
-State: Uttar Pradesh, Address: Allahabad, District: Allahabad, Company Name: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Ambedkar Nagar, District: Ambedkar Nagar, Organization: Cultural AdvancementSocial Action for Welfare and
-State: Uttar Pradesh, Address: Amethi, District: Amethi, Organization: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Amroha / Jyotiba Phule Nagar, District: Amroha, Organization: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Auraiya, District: Etawah, Organization: Care Educational & Welfare Society
-State: Uttar Pradesh, Address: Azamgarh, District: Azamgarh, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Azamgarh, District: Lalganj, Organization: De Unique Educational Society
-State: Uttar Pradesh, Address: Badaun, District: Badaun, Organization: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Baghpat, District: Baghpat, Organization: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Bahraich, District: Kaiserganj, Organization: Bhartiya Samruddhi Investments & Consulting Services Limited
-State: Uttar Pradesh, Address: Bahraich, District: Bahraich, Name: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Ballia, District: Salempur, Name: De Unique Educational Society
-State: Uttar Pradesh, Address: Ballia, District: Ballia, Name: JITM Skills Private Limited
-State: Uttar Pradesh, Address: Balrampur, District: Shravasti, Name: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Balrampur, District: Shravasti, Name: Quess Corp Limited (Excelus
-State: Uttar Pradesh, Address: Banda, District: Banda, Name: Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: Barabanki, District: Barabanki, Name: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Bareilly, District: Aonla, Name: De Unique Educational Society
-State: Uttar Pradesh, Address: Bareilly, District: Bareilly, Name: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Basti, District: Basti, Name: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Bijnor, District: Bijnor, Name: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Bijnor, District: Nagina, Organization: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Bulandshahar, District: Bulandshahr, Organization: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Chandauli, District: Chandauli, Organization: Star Secutech Pvt. Ltd.
-State: Uttar Pradesh, Address: Chitrakoot, District: Banda, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Deoria, District: Bansgaon, Organization: De Unique Educational Society
-State: Uttar Pradesh, Address: Deoria, District: Deoria, Organization: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Etah, District: Etah, Organization: Vision India Services Private Limited
-State: Uttar Pradesh, Address: Etawah, District: Etawah, Organization: Care Educational & Welfare Society
-State: Uttar Pradesh, Address: Faizabad, District: Faizabad, Organization: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Farrukhabad, District: Farrukhabad, Organization: Vision India Services Private Limited
-State: Uttar Pradesh, Address: Fatehpur, District: Fatehpur, Organization: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: Firozabad, District: Firozabad, Organization: NIFA Infocomp Services Private Limited
-State: Uttar Pradesh, Address: Gautam Buddha Nagar, District: Gautam Buddha Nagar, Company: JITM Skills Private Limited
-State: Uttar Pradesh, Address: Ghaziabad, District: Ghaziabad, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Ghazipur, District: Ghazipur, Company: Orion Edutech Private Limited
-State: Uttar Pradesh, Address: Gonda, District: Gonda, Company: Social Action for Welfare and Cultural Advancement
-State: Uttar Pradesh, Address: Gonda, District: Gonda, Company: IL&FS Skills Development
-State: Uttar Pradesh, Address: Gorakhpur, District: Gorakhpur, Company: Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Gorakhpur, District: Gorakhpur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: Hamirpur, District: Hamirpur, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Hardoi, District: Hardoi, Company: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Hathras, District: Hathras, Company: NIFA Infocomp Services Private Limited
-State: Uttar Pradesh, Address: Jalaun, District: Jalaun, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Jaunpur, District: Jaunpur, Organization: De Unique Educational Society
-State: Uttar Pradesh, Address: Jaunpur, District: Machlishahr, Organization: Jan Kalyan Sewa Samiti
-State: Uttar Pradesh, Address: Jhansi, District: Jhansi, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Kannauj, District: Kannauj, Organization: NIFA Infocomp Services Private Limited
-State: Uttar Pradesh, Address: Kanpur Dehat, District: Akbarpur, Organization: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Kanpur Nagar, District: Kanpur Nagar, Organization: Care Educational & Welfare Society
-State: Uttar Pradesh, Address: Kanpur Nagar, District: Misrikh, Organization: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Kasganj (Kashiram Nagar) Etah, District: Kasganj, Organization: Vision India Services Private Limited
-State: Uttar Pradesh, Address: Kaushambi, District: Kaushambi, Organization: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Kushinagar, District: Kushinagar, Organization: JITM Skills Private Limited
-State: Uttar Pradesh, Address: Lakhimpur Kheri / Kheri, District: Lakhimpur Kheri, Organization: Development Private LimitedMahendra Skills Training and
-State: Uttar Pradesh, Address: Lalitpur, District: Jhansi, Company: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Lucknow, District: Mohanlalganj, Company: AISECT Limited (AISECT SKILLS MISSION)
-State: Uttar Pradesh, Address: Lucknow, District: Lucknow, Company: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Maharajganj, District: Maharajganj, Company: ADS Skill Private Limited
-State: Uttar Pradesh, Address: Mahoba, District: Hamirpur, Company: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: Mainpuri, District: Mainpuri, Company: NIFA Infocomp Services Private Limited
-State: Uttar Pradesh, Address: Mau, District: Ghosi, Company: JITM Skills Private Limited
-State: Uttar Pradesh, Address: Meerut, District: Meerut, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Mirzapur, District: Mirzapur, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Moradabad, District: Moradabad, Company: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: -----, District: Muzaffarnagar, Training Provider: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: -----, District: Pilibhit, Training Provider: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: -----, District: Pilibhit, Training Provider: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: -----, District: Pratapgarh, Training Provider: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: -----, District: Rae Bareli, Training Provider: Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: -----, District: Rampur, Training Provider: Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: -----, District: Saharanpur, Training Provider: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: -----, District: Sambhal, Training Provider: Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Sant Kabir Nagar, District: Sant Kabir Nagar Cultural AdvancementSocial Action for Welfare and Sant Ravidas IL&FS Skills Development
-State: Uttar Pradesh, Address: Nagar, District: Bhadohi Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Shahjahanpur, District: Shahjahanpur Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Shamli, District: Kairana Empower Pragati Vocational & Staffing Private Limited
-State: Uttar Pradesh, Address: Shravasti, District: Shravasti Mahendra Skills Training and Development Private Limited Quess Corp Limited (Excelus Learning Solutions Private Limited)
-State: Uttar Pradesh, Address: Siddharthnagar, District: Domariyaganj Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Sitapur, District: Sitapur Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Sonbhadra, District: Robertsganj Mahendra Skills Training and Development Private Limited
-State: Uttar Pradesh, Address: Sultanpur, District: Sultanpur, Corporation: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: Uttar Pradesh, Address: Unnao, District: Unnao, Corporation: Care Educational & Welfare Society
-State: Uttar Pradesh, Address: Varanasi, District: Varanasi, Corporation: Orion Edutech Private Limited
-State: Uttarakhand, Address: Almora, District: Almora, Corporation: JITM Skills Private Limited
-State: Uttarakhand, Address: Bageshwar, District: Almora, Corporation: JITM Skills Private Limited
-State: Uttarakhand, Address: Chamoli, District: Garhwal, Corporation: SEWA International
-State: Uttarakhand, Address: Champawat, District: Almora, Corporation: JITM Skills Private Limited
-State: Uttarakhand, Address: Dehradun, District: Tehri Garhwal, Corporation: SEWA International
-State: Uttarakhand, Address: Haridwar, District: Haridwar, Corporation: SEWA International
-State: Uttarakhand, Address: Nainital, District: Nainital-Udham Singh Nagar, Corporation: JITM Skills Private Limited
-State: Uttarakhand, Address: -----, District: Pauri Garhwal, Organization: SEWA International
-State: Uttarakhand, Address: -----, District: Pithoragarh, Organization: JITM Skills Private Limited
-State: Uttarakhand, Address: -----, District: Rudraprayag, Organization: SEWA International
-State: Uttarakhand, Address: -----, District: Tehri Garhwal, Organization: SEWA International
-State: Uttarakhand, Address: -----, District: Udham Singh Nagar, Organization: JITM Skills Private Limited
-State: Uttarakhand, Address: -----, District: Uttarkashi, Organization: SEWA International
-State: West Bengal, Address: -----, District: Alipurduar, Organization: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: Bankura, Organization: Edujobs Academy Private Limited
-State: West Bengal, Address: -----, District: Bardhaman Paschim Durgapur, Organization: Edujobs Academy Private Limited
-State: West Bengal, Address: -----, District: Bardhaman Asansol, Organization: ICA Edu Skills Private Limited
-State: West Bengal, Address: -----, District: Bardhaman Purba Purba, Organization: ICA Edu Skills Private Limited
-State: West Bengal, Address: Birbhum, District: Birbhum, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Cooch Behar, District: Cooch Behar, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Dakshin Dinajpur Balurghat, District: Dakshin Dinajpur, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Darjeeling, District: Darjeeling, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Hooghly, District: Arambag, Company: ICA Edu Skills Private Limited
-State: West Bengal, Address: Hooghly, District: Sreerampore, Company: ICA Edu Skills Private Limited
-State: West Bengal, Address: Hooghly, District: Hooghly, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Hooghly, District: Sreerampore, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Howrah, District: Uluberia, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: West Bengal, Address: Howrah, District: Howrah, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Jalpaiguri, District: Jalpaiguri, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Kolkata, District: Kolkata Dakshin, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Kolkata, District: Kolkata Uttar, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Malda, District: Malda Uttar, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: West Bengal, Address: Malda, District: Malda Dakshin, Company: Orion Edutech Private Limited
-State: West Bengal, Address: Midnapore East, District: Tamluk, Company: Edujobs Academy Private Limited
-State: West Bengal, Address: Midnapore East, District: Kanthi, Company: Medhavi Foundation
-State: West Bengal, Address: Midnapore West, District: Ghatal, Company: Edujobs Academy Private Limited
-State: West Bengal, Address: Midnapore West, District: Medinipur, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: West Bengal, Address: -----, District: Murshidabad, Jangipur, Company: Centum Workskills India Limited
-State: West Bengal, Address: -----, District: Murshidabad, Baharampur, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: West Bengal, Address: -----, District: Murshidabad, Murshidabad, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: Nadia, Krishnanagar, Company: ICA Edu Skills Private Limited
-State: West Bengal, Address: -----, District: Nadia, Bangaon, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: Nadia, Ranaghat, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: North 24 Parganas, Dum Dum, Company: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
-State: West Bengal, Address: -----, District: North 24 Parganas, Barasat, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: North 24 Parganas, Barasat, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: North 24 Parganas, Barasat, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: North 24 Parganas, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: North 24 Barrackpore, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: Purulia, Company: Edujobs Academy Private Limited
-State: West Bengal, Address: -----, District: South 24 Jaynagar Parganas, Company: ICA Edu Skills Private Limited
-State: West Bengal, Address: -----, District: South 24 Diamond Harbour Parganas, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: South 24 Jadavpur Parganas, Company: Orion Edutech Private Limited
-State: West Bengal, Address: -----, District: Uttar Dinajpur Raiganj, Company: Orion Edutech Private Limited
+Type of Center: Employment Exchange; Address: District Employment Exchange, Guwahati AK, Azad Road, Rehabari, Guwahati-8; State/UT: Assam
+Type of Center: Employment Exchange; Address: The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat-14, Assam.; State/UT: Assam
+Type of Center: Employment Exchange; Address: District Employment Exchange, Boildura, Haflong, Assam 788819; State/UT: Assam
+Type of Center: Employment Exchange; Address: District Employment Exchange, Silchar, District Cachar, Assam; State/UT: Assam
+Type of Center: Employment Exchange; Address: District Employment Exchange, Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam; State/UT: Assam
+Type of Center: NCSC for DA (Erstwhile VRC); Address: NCSC for DA (Erstwhile VRC), Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016; State/UT: Assam
+Type of Center: Employment Exchange; Address: Employment Exchange, Supply Lane Port Blair A&N Island 744101; State/UT: Andaman & Nicobar Islands
+Type of Center: Employment Exchange; Address: District Employment Exchange, Govt ITI Campus, Kongareddypalli, PutturRoad, Chittoor, AP; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Court Road, Ananthapuram-515001; State/UT: Andhra Pradesh
+Type of Center: Rashtriya Sanskrit Vidyapeeth; Address: Rashtriya Sanskrit Vidyapeeth, Tirupati 517507; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange Near Konda Reddy Buruju, Behind Printing Press. Kurnool District; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Govt.I.T.I, Campus, Kakinada; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Govt. ITI Campus, Vijayawada, Andhra Pradesh; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Technical and Unskilled, Industrial Estate, Vishakapatnam; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Auto Nagar, Nellore, Andhra Pradesh 524004; State/UT: Andhra Pradesh
+Type of Center: Employment Exchange; Address: District Employment Exchange, C- Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111; State/UT: Arunanchal Pradesh
+Type of Center: Employment Exchange; Address: Sub Regional Employment Exchange, ITI Campus, Gannipur, Muzaffarpur, Bihar; State/UT: Bihar
+Type of Center: Employment Exchange; Address: Sub Regional Employment Exchange, Patna, Bihar; State/UT: Bihar
+Type of Center: Employment Exchange; Address: Sub Regional Employment Exchange, Radha Rani Sinha Road, Labour court Campus, Bhagalpur, Bihar
+Type of Center: Employment Exchange; Address: District Employment Exchange, Malviya Nagar Chowk, Jailroad, Durg, Chhattisgarh
+Type of Center: Employment Exchange; Address: District Employment Exchange, Adawal, Near RTO Office, Jagadalpur, Bastar-494001
+Type of Center: Employment Exchange; Address: District Employment Exchange & Self Employment Guidance Centre, Koni, Bilaspur
+Type of Center: Employment Exchange; Address: District Employment and Self Employment Guidance Centre, Sarguja, Ambikapur, Chhattisgarh
+Type of Center: Employment Exchange; Address: District Employment Exchange(South), Sector-4, R.K. Puram, New Delhi-110022
+Type of Center: NCSC for DA (Erstwhile VRC); Address: NCSC for DA (Erstwhile VRC), Plot No. 9-11, KarkarDooma, Vikas Marg, Delhi-110092
+Type of Center: Employment Exchange; Address: Regional Employment Exchange, Shram Shakti Bhawan, 4th floor, Patto Plaza, Panaji, Goa-403 001
+Type of Center: Employment Exchange; Address: Employment Office, C-5, Narmada Bhawan, Jail Road, Vadodara 390001
+Type of Center: Employment Exchange; Address: District Employment Exchange, C-5, Govt MS Building, Nanpura, Surat
+Type of Center: Employment Exchange; Address: Assistant Director Employment F 5/6, Anexy Building, Bahumali Bhavan, Bhavnagar, Gujarat
+Type of Center: Employment Exchange; Address: Sardar Patel University, Sardal Patel Univ., Vallabh Vidyanagar-388120 Gujarat
+Type of Center: Employment Exchange; Address: District Employment Exchange, Block No.1, m.s Building, Rajmahal Campus Mehsana, Gujarat
+Type of Center: Employment Exchange; Address: Assistant Director Employment 1/3, Multistore building, opp. Race course, Rajkot
+Type of Center: District Employment Exchange; Address: Employment Exchange Office, Bharuch, Bharuch B/H Jilla Ayojan Bhavan, Old Collector Office Compound, Bharuch, Dist.- Bharuch, State Gujarat
+Type of Center: District Employment Exchange; Address: Office of Assistant Director (Employment), In The ITI Campus, ITI Hostel Building, Opp. ST Bus Stand, Jamnagar, Dist- Jamanagar Gujarat
+Type of Center: Employment Exchange; Address: Assistant Director (Employment) Office, Asarva Bahumali Bhawan, Block - D, 1st Floor, Near Girdharnagar Asarva, Ahmedabad; District: Ahemdabad; State: Gujarat
+Type of Center: Employment Exchange; Address: Divisional Employment Office, Mini Secretariat, Hisar; District: Haryana; State: Haryana
+Type of Center: CII; Address: MCC CII, 249-F, Sector-18, Udyog Vihar, Phase- IV, Gurgaon 122 015, Haryana; District: Gurgaon; State: Haryana
+Type of Center: Employment Exchange; Address: District Employment Exchange, Truck union Road, Near Bus Stand, Una, H.P., 174403; District: Una; State: Himachal Pradesh
+Type of Center: Employment Exchange; Address: Regional Employment Exchange, U.S. Club, H.P. Shimla -1; District: Shimla; State: Himachal Pradesh
+Type of Center: Employment Exchange; Address: District Employment & Counselling Centre, Nandhi Hills, Samba Jammu, J&K; District: Samba; State: Jammu and Kashmir
+Type of Center: Employment Exchange; Address: District Employment & Counselling Centre, Baramulla, J&K; District: Baramulla; State: Jammu and Kashmir
+Type of Center: Employment Exchange; Address: District Employment & Counselling Centre, Doda, J&K; District: Doda; State: Jammu and Kashmir
+Type of Center: Employment Exchange; Address: District Employment Exchange and Counselling Centre, Behind BDO Office, Pulwama-192301, Jammu and Kashmir; District: Pulwama; State: Jammu and Kashmir
+Type of Center: Employment Exchange; Address: District Employment & Counselling Centre, REASI, J&K; District: Reasi; State: Jammu and Kashmir
+Type of Center: NIELIT; Address: NIELIT, Old Education Building Near PWD Office Council Secratariat, Leh Ladakh; District: Leh (Laddakh); State: Jammu and Kashmir
+Type of Center: NIELIT; Address: NIELIT, SIDCO Electronics Complex, Old Airport Road, Rangreth, Srinagar; District: Srinagar; State: Jammu and Kashmir
+Type of Center: Employment Exchange; Address: Sub Regional Employment Exchange, Ranchi, Jharkhand; District: Ranchi; State: Jharkhand
+Type of Center: Employment Exchange; Address: District Employment Exchange Ghatsila, East Singhbhum; District: Ghatsila East Singham; State: Jharkhand
+Type of Center: Employment Exchange; Address: District Employment Exchange, Chandil, Saraikela Kharsawan; District: Chandil Sarai Kharaswa; State: Jharkhand
+Type of Center: Employment Exchange; Address: District Employment Exchange office, Kumardhubi, Dhanbad; District: Dhanbad; State: Jharkhand
+Type of Center: Employment Exchange; Address: District Employment Exchange Karnataka, Institute of Agricultural Marketing Building Hunsur Road Mysore-570006 Karnataka; District: Mysuru; State: Karanatka
+Type of Center: Employment Exchange; Address: District Employment Exchange, Government ITI Premises, B.M. Road Hassan 573201; District: Hasan; State: Karanatka
+Type of Center: Employment Exchange; Address: District Employment Exchange Dharwad, Rashtrakavi Kuvempu Road Navanagar Hubli-580025 Karnataka;
+
+Type of Center: Employment Exchange; Address: District Employment Exchange, Behind Govt. ITI College, MSK Mill Road, Kalaburgi;
+
+Type of Center: District Employment Exchange; Address: District Employment Exchnage, TUMKUR, District Education Training Centree Building, Opp. DCC Bank, SBM Road, Church Circle, TUMKUR- 572102;
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Antharagange Road, Near KSRTC Bus Stand, Kolar-563101;
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Devangere, Room no 51, 2nd Floor, Dist. Administrative Complex, P. B Road, Devangere-577006;
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Behind Taluk office, Ballari-583101;
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Mangalore Corporation Building, Lalbagh, Ground floor, Mangalore-575003;
+
+Type of Center: Don Bosco; Address: MCC Don Bosco Skill Mission, Bannerghatta Road, SOS Post, Bangalore 560076;
+
+Type of Center: University; Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Kerala University, Thiruvananthapuram, Kerala;
+
+Type of Center: NIELIT; Address: MCC NIELIT, P.O. Box No. 5 ,NIT Campus PO Calicut-673601;
+
+Type of Center: University; Address: University Employment Information & Guidance Bureau,Kannur University, Kerala;
+
+Type of Center: Employment Exchange; Address: District Employment Exchange, Kavaratti 682555;
+
+Type of Center: Employment Exchange; Address: District Employment & Self Employment, Guidance Centre,3rd Floor, Udyog Bhawan, Darwha Road, Yavatmal 445001;
+
+Type of Center: NIELIT; Address: MCC NIELIT, CEDIT Campus, Dr. BAM University Campus, Aurangabad 431004;
+
+Type of Center: CII; Address: MCC CII Maharashtra State Office, 105 Kakad Chambers, 132 Annie Besant Road, Worli, Mumbai- 400018, Maharashtra;
+Type of Center: CLR Facility Services Ltd.
+Address: B-2, 2nd Floor, Minar Apartments, Law College Road, Erandwana, Pune-411004
+Type of Center: YASHSHWEE Pune
+Address: 7, Amit Court, CTS No. 95A, Behind Mangala Theatre, Shivaji Nagar, Pune-5
+Type of Center: Employment Exchange
+Address: Central administrative building, ground floor, Osmanabad
+District: Osmanabad; State: Maharashtra
+Type of Center: District Employment Exchange
+Address: Old Treasury Office, Collectorate compound, Subhaschandra marg, Thane 40061
+District: Thane; State: Maharashtra
+Type of Center: Divisional Employment Exchange
+Address: Shilong
+District: Shillong; State: Meghalaya
+Type of Center: District Employment Exchange
+Address: Araimile, Tura, Meghalaya
+District: Tura; State: Meghalaya
+Type of Center: District Employment Office
+Address: Motimahal Near Baijataal Gwalior
+District: Gwalior; State: Madhya Pradesh
+Type of Center: District Employment Exchange
+Address: Court Road, Sadar Bazar, Shivpuri, Madhya Pradesh 473551
+District: Shivpuri; State: Madhya Pradesh
+Type of Center: District Employment Exchange
+Address: Idgah Hills, Bhopal
+District: Bhopal; State: Madhya Pradesh
+Type of Center: District Employment Exchange
+Address: Udyog Bhawan Katanga near to TV tower Jabalpur, Madhya Pradesh
+District: Jabalpur; State: Madhya Pradesh
+Type of Center: District Employment Exchange
+Address: Sagar
+District: Sagar; State: Madhya Pradesh
+Type of Center: District Employment Exchange
+Address: 10 Polo Ground, Near district industries centre, Indore, Madhya Pradesh
+District: Indore; State: Madhya Pradesh
+Type of Center: District Employment Office
+Address: near priyadarshini talkees Amaihya road Rewa MP
+District: Rewa; State: Madhya Pradesh
+Type of Center: District Employment Office
+Address: 153, Mahashwera Nagar, Near Iskcon Temple, Ujjain, MP
+District: Ujjain; State: Madhya Pradesh
+Type of Center: Devi Ahilya University
+Address: Takshshila Campus, Khandwa Road, Indore - 452001
+Type of Center: AISECT, Indore
+Address: AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall CourseRoad, Opp. IDA Building, Indore
+Type of Center: CAREER CLINIQUE, Imphal
+Address: DM College of Arts Library, Chinmeirong, Imphal 795001
+District: Imphal; State: Manipur
+Type of Center: NIELIT Imphal
+Address: MCC NIELIT, Singjamei Kshetri Leikai, Khongman, Imphal, Manipur 795008
+District: Imphal; State: Manipur
+Type of Center: Employment Exchange; Address: Regional Employment Exchange, Directorate of Employment, Skill Development & Entrepreneurship, NH-61, Above High School Junction, Kohima, 797001 Nagaland
+Type of Center: Employment Exchange; Address: Career Cliniq, B-7, c/o Directorate of Employment & Craftsmen Training, High School Junction, Kohima – 797001 Nagaland
+Type of Center: Employment Exchange; Address: District Employment Exchange, Sambhalpur, Bhutapada Chowk, JailRoad, Sambhalpur, Odisha
+Type of Center: Employment Exchange; Address: District Employment Exchange, Dhenaknal, Odisha
+Type of Center: Employment Exchange; Address: District Employment Exchange Rourkela, Dist. Sundargarh, Odisha
+Type of Center: Employment Exchange; Address: District Employment Exchange, Cuttack, Odisha
+Type of Center: Employment Exchange; Address: CUTM, H I G 5-P has e II, Duplex, Pokhoriput, BDA, Bhubanewar 751020, Khurda
+Type of Center: NCSC for DA (Erstwhile VRC); Address: NCSC for DA (Erstwhile VRC), Plot No. 1,2, 5 & 6, Adjacent to Indira Gandhi Ayurvedic College, PO Khandgiri, Odisha-751030, Bhubaneswar
+Type of Center: Employment Exchange; Address: District Employment Exchange, Ganjam, Berhampur, Odisha
+Type of Center: Employment Exchange; Address: District Employment Exchange, Koraput, Koraput (Odisha)
+Type of Center: Model Career Centre; Address: Park Line, Jagannathpur, KEONJHAR, Kendujhar, odisha – 758001, Keonjhar
+Type of Center: Employment Exchange; Address: District Employment Exchange, Labour complex, Gandhinagar, Vazhudhavur road, Puducherry6505009, Puducherry
+Type of Center: Employment Exchange; Address: District Employment Exchange, Rojgar Bhawan Opp. MALL, Near post office (Bhatinda), Punjab, Bathinda
+Type of Center: Employment Exchange; Address: District Employment Exchange, Fatehgarh Sahib, Punjab, Fatehgarhsahib
+Type of Center: Placement Departmnet; Address: M.R.S. Bhawan Guru Nanak Dev Univ. Amritsar Punjab 143005, Guru Nanak Dev University, Amritsar
+Type of Center: Employment Exchange; Address: District Employment Exchange, R.B. Road Nayapura Kota Rajasthan, Kota
+Type of Center: Employment Exchange; Address: Sub Regional employmnet office Chopra Katla, Rani Bazar, Bikaner Rajasthan; District: Bikaner; State: Rajasthan
+Type of Center: Employment Exchange; Address: District Employment Office, Bharatpur, Rajasthan; District: Bharatpur; State: Rajasthan
+Type of Center: Employment Exchange; Address: District Employment Exchange, J - 8A, EMI Campus, Jhalana Institutional Area, Jhalana Doongri, Jaipur - 302004, Rajasthan; District: Jaipur; State: Rajasthan
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Sanjay Nagar, Moti Doongri, Alwar, Rajasthan; District: Alwar; State: Rajasthan
+Type of Center: District Employment Exchange; Address: District Employment Office Dausa, Employment Office Building Collectorate Campus Dausa; District: Dausa; State: Rajasthan
+Type of Center: District Employment Exchange; Address: Employment Office, Room No 106-108, MINI SECRETARIAT, Jhalawar Pin - 326001; District: Jhalawar; State: Rajasthan
+Type of Center: District Employment Exchange; Address: Sub Regional Employment Office, Collectorate Campus, Jhunjhunu; District: Jhunjhunu; State: Rajasthan
+Type of Center: District Employment Exchange; Address: District Employment Office ,Collectorate Campus, Pali; District: Pali; State: Rajasthan
+Type of Center: District Employment Exchange; Address: District Employment Exchange, Collectrate campus, Sawai Madhopur, Rajasthan; District: Sawai Madhopur; State: Rajasthan
+Type of Center: District Employment Exchange; Address: District Employment Office ,Collectorate Campus, Sirohi; District: Sirohi; State: Rajasthan
+Type of Center: Dept. of Skill Development &Entrepreneureship; Address: State Institute of Capacity Building, Dept of Labour, Govt of Sikkim, Gangtok, Sikkim; District: Gangtok; State: Sikkim
+Type of Center: Dept. of Skill Development &Entrepreneureship; Address: State Institute of Capacity Building (SICB), Karfectar, Jorethang, South Sikkim- 737121; District: Jorethang; State: Sikkim
+Type of Center: Dept. of Skill Development &Entrepreneureship; Address: State Institute of Capacity Building (SICB), Karfectar, Dentam Bazar, West Sikkim; District: Dentam Bazar; State: Sikkim
+Type of Center: Employment Exchange; Address: District employment Office, Mettupalayam Road ITI Campus GN Mills Post Coimbatore 641029; District: Coimbatore; State: Tamil Nadu
+Type of Center: Employment Exchange; Address: District Employment Office, Government ITI Campus, Melmonavur, Vellore-10; District: Vellore; State: Tamil Nadu
+Type of Center: CII; Address: 98 / 1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032; City: Chennai; State: Tamil Nadu
+Type of Center: District Employment Exchange; Address: District Employment Office, Near Govt. Women Art College, Gorimedu, Salem - 8; District: Salem; State: Tamil Nadu
+Type of Center: District Employment Exchange; Address: District Employment Office District Collectorate Master Plan Campus Thiruvallur; District: Thiruvallur; State: Tamil Nadu
+Type of Center: District Employment Exchange; Address: District Employment Office, District Collectorate Campus, Kokkirakulam, Tirunelveli–627 009; District: Tirunelveli; State: Tamil Nadu
+Type of Center: District Employment Office
+Address: Additional District Employment Collectorate Floor, Block 4, 1st Floor, Fingar PO, UDHAGAMANDALAM - 6
+Field: District: Udhagamandalam
+Field: State:
+Field: TC ID: 121
+
+Type of Center: District Employment Office
+Address: District Employment Office,Collectorate Master Plan Complex, Ceo Office Back Side, Villupuram 605602
+Field: District: Villupuram
+Field: State:
+Field: TC ID: 122
+
+Type of Center: District Employment Office
+Address: District Employment Office, Govt. ITI Campus, Sulakarai, Virudhunagar–626 003
+Field: District: Virudhunagar DEX
+Field: State:
+Field: TC ID: 123
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange, Office Lane, Agartala, West Tripura, 799001
+Field: District: Agartala
+Field: State: Tripura
+Field: TC ID: 124
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange, Office Tilla, Dharmanagar, North Tripura, Tripura
+Field: District: Dharmanagar
+Field: State: Tripura
+Field: TC ID: 125
+
+Type of Center: NCSC for DA (Erstwhile VRC)
+Address: NCSC for DA (Erstwhile VRC), Abhoy Nagar, Agartala-799 005, Tripura (West)
+Field: District: Agartala
+Field: State: Tripura
+Field: TC ID: 126
+
+Type of Center: District Employment Exchange
+Address: Dist. Employment Exchange, Clerical & Technical, Hyd Govt. ITI Campus, Vijaynagar Colony, Mallepally, Hyd – 500057
+Field: District: Hyderabad Cl & T
+Field: State: Telangana
+Field: TC ID: 127
+
+Type of Center: District Employment Exchange
+Address: Dist. Employment Exchange Warangal Govt. ITI Campus Mulugu Road, Warangal - 506007
+Field: District: Warangal
+Field: State:
+Field: TC ID: 128
+
+Type of Center: University Employment Information Guidance Bureau
+Address: Osmania University, Hyderabad, Telangana- 500 022
+Field: District: Osmania University
+Field: State:
+Field: TC ID: 129
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange , R&B Quarters, Near TNGO's Function Hall Land mark TDP office, Khammam-507002
+Field: District: Khammam
+Field: State:
+Field: TC ID: 130
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange , Govt. ITI Campus, Ballampally Road, Macherial Dist. 504208
+Field: District: Mancherial
+Field: State:
+Field: TC ID: 131
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange , Govt. ITI Campus, Mallepally, Hyderabad, Rangareddy, Dist 500057
+Field: District: Rangareddy
+Field: State:
+Field: TC ID: 132
+
+Type of Center: Lucknow Employment Exchange
+Address: Rojgar Bhawan, Guru Govind Singh Marg, Lucknow, Uttar Pradesh
+Field: District: Lucknow
+Field: State: Uttar Pradesh
+Field: TC ID: 133
+
+Type of Center: District Employment Exchange
+Address: District Employment Exchange, Ghaziabad, Uttar Pradesh
+Field: District: Ghaziabad
+Field: State: Uttar Pradesh
+Field: TC ID: 134
+
+Type of Center: Regional Employment Office
+Address: Regional Employment Office Collectorate Compound Meerut UP
+Field: District: Meerut
+Field: State: Uttar Pradesh
+Field: TC ID: 135
+
+Type of Center: Univ. Employment information and counciling certre
+Address: Bundelkhand Univ. Kanpur Road Jhansi 284128 UP
+Field: District: Bundelkhand University
+Field: State:
+Field: TC ID: 136
+
+Type of Center: Regional Employment Exchange
+Address: Regional Employment Exchange, Kant road, Behind Vivekanand hospital, Moradabad
+Field: District: Moradabad
+Field: State:
+Field: TC ID: 137
+Type of Center: National Institute of Career Service, Noida; Address: NICS, A-49, Sector- 62, Opposite Nokia Building, Noida
+Type of Center: University of Allahabad; Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Dept. Of Electronics of Communication, Univ. Of Allahabad 211002 UP
+Type of Center: FICCI, Greater Noida; Address: FICCI, Tansen Marg, New Delhi-110001
+Type of Center: NIELIT, Gorakhpur; Address: MMM Engineering College Campus, Deoria Road, Gorakhpur-273010
+Type of Center: Banaras Hindu University; Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Ruiya Hostel Medical Block 1st Floor BHU – 221005 UP
+Type of Center: NCSC for DA (Erstwhile VRC), Kanpur; Address: NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.)
+Type of Center: Mirzapur, Regional Employment Exchange; Address: UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001 (UP)
+Type of Center: Barailly, District Employment Exchange; Address: Regional Employment Office, Civil Lines, Barerilly
+Type of Center: Agra, District Employment Exchange; Address: Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra (UP)
+Type of Center: Saharanpur, District Employment Exchange; Address: Regional Employment Office, Saharanpur, UP
+Type of Center: Gonda, District Employment Exchange; Address: Regional Employment Exchange Civil line Gonda(U.P.)
+Type of Center: Faizabad, District Employment Exchange; Address: Regional Employment Exchange, Faizabad, Pin Code -224001
+Type of Center: Basti, District Employment Exchange; Address: Regional Employment Office, Katra Moorghat Eoad, Basti 272001, UP
+Type of Center: Sitapur, District Employment Exchange; Address: District Employment Office Near G.I.T.I. SITAPUR
+Type of Center: Bijnor, District Employment Exchange; Address: District Employment Office, Bijnor, Uttar Pradesh
+Type of Center: Lakhimpurkhiri, District Employment Exchange; Address: District Employment Office Near DIET Rajapur Kheri -262701
+Type of Center: Hardoi, District Employment Exchange; Address: District Employment Officer, District Employment Office NEAR ITI, HARDOI -241001
+Type of Center: Muzaffarnagar, Employment Exchange; Address: Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar, UP
+Type of Center: Amity University; Address: Amity University, Sector 125, Noda-201313
+Type of Center: Employment Exchange; Address: Model Career Centre, Regional Employment Office, 4 Convent Road, Near Parade Ground, Dehradun; District: Uttarakhand; State: Dehradun
+
+Type of Center: Employment Exchange; Address: Model Career Centre/Employment Office, Near CMO Office, Police Line, Rudarpur, Udham Singh Nagar, Uttarakhand; District: Udham Singh Nagar; State: Uttarakhand
+
+Type of Center: Employment Exchange; Address: Regional District Employment Exchange, Almora, Pt.J.Joshi Govt.I.T.I. Brighten Corner Almora; District: Almora; State: Uttarakhand
+
+Type of Center: Employment Exchange; Address: Sub Regional Employment Exchange, Asansol, CDBlock, SenRelaigh Colony, Kanyapur Distt Burdwan; District: Kolkata; State: West Bengal
+
+Type of Center: Employment Exchange; Address: 188, Raja Subodh Chandra Mallick Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032; District: Asansol; State: West Bengal
+
+Type of Center: NIELIT; Address: National Institute of Electronics and Information Technology, Jadavpur University Campus, Kolkata, West Bengal-700032; District: Kolkata; State: West Bengal
+
+Type of Center: Sub District Employment Exchange; Address: District Employment Exchange Berhampur, Old Collectorate Building, PO- Berhampur, Dt. Murshidabad, Pin- 742101, West Bengal; District: Berhampur; State: West Bengal
+
+Type of Center: District Employment Exchnage; Address: District Employment Exchange Budgebudge, Bahala Industrial Estate, Block 2, 620 Diamond Harbour Road, Dist. South 24 Parganas West Bengal; District: Burdwan; State: West Bengal
+
+Type of Center: Sub Regional Employment Exchange; Address: District Employment Exchange Burdwan, Purta Bhawan (3rd Floor & 7th Floor) Sripally, PO- Sadarghata, Purba Burdwan, Pin - 713109 West Bengal; District: Durgapur; State: West Bengal
+
+Type of Center: Sub Regional Employment Exchange; Address: Sub Regional Employment Exchange Durgapur, ADDA Administrative Buildings, 1st floor, City Centre, PO Durgapur, Dist. Paschim Burdwan, PIN 713216, West Bengal; District: Khidirpur; State: West Bengal
+
+Type of Center: Sub Regional Employment Exchange; Address: Sub Regional Employment Exchange Khidirpur, 99/1 Karl Marx Sarani Kolkata 700023 West Bengal; District: Krishnagar; State: West Bengal
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange Krishnagar, Old Collectorate Buildings, PO Krishnagar, Dist. Nadia, PIN 741101 West Bengal; District: Budgebudge; State: West Bengal
+
+Type of Center: District Employment Exchange; Address: District Employment Exchange Siliguri, Kolkata, PO Siliguri, Dist. Darjeeling Pin 734401West Bengal; District: Siliguri; State: West Bengal
+
+Type of Center: Swastik Computer Education; Address: Swastik Institute of IT, Salt Lake Incubation Centre, Module-1B, Sector-5, Salt Lake, Kolkata-700091; District: Kolkata; State: West Bengal
+
+Type of Center: Edujobs Academy; Address: 2COMS, Consulting Pvt. Ltd., Edujobs Academy, 388 Block G, New Alipore, Kolkata-700053; District: Kolkata; State: West Bengal
+Type of Center: MCC
+Address: Non-Funded basis
+Type of Center: Established PMKK; Address: Quess Corp Limited (Excelus Learning Solutions Private Limited), Anantapur, Anantapur, Andhra Pradesh; TC ID: TC041077; District: Anantapur; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Rooman Technologies Private Limited, Hindupur, Anantapur, Andhra Pradesh; TC ID: TC040374; District: Anantapur; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: IL&FS Skills Development Corporation Limited (Learnet Skills Limited), Chittoor, Chittoor, Andhra Pradesh; TC ID: TC052972; District: Chittoor; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Rooman Technologies Private Limited, Tirupati, Chittoor, Andhra Pradesh; TC ID: TC040376; District: Chittoor; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Datapro Computers Private Limited, Amalapuram, East Godavari, Andhra Pradesh; TC ID: TC059033; District: East Godavari; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Datapro Computers Private Limited, Rajahmundry, East Godavari, Andhra Pradesh; TC ID: TC059026; District: East Godavari; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: ICA Edu Skills Private Limited, Kakinada, East Godavari, Andhra Pradesh; TC ID: TC041441; District: East Godavari; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Synchroserve Global Solutions Private Limited, Guntur, Guntur, Andhra Pradesh; TC ID: TC037375; District: Guntur; State: Andhra Pradesh
+Type of Center: Established PMKK; Address: Synchroserve Global Solutions Private Limited, Narasaraopet, Guntur, Andhra Pradesh; TC ID: TC052979; District: Guntur; State: Andhra Pradesh
+Type of Center: JSS; TC ID: TC037951; Address: Andhra Pradesh Kadapa Kadapa Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC052965; Address: Andhra Pradesh Krishna Machilipatnam Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC041989; Address: Andhra Pradesh Krishna Vijaywada Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC040098; Address: Andhra Pradesh Kurnool Kurnool Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC106081; Address: Andhra Pradesh Kurnool Nandyal Shri Proskills
+Type of Center: JSS; TC ID: TC040610; Address: Andhra Pradesh Nellore Nellore Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC048245; Address: Andhra Pradesh Prakasam Bapatla Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC029001; Address: Andhra Pradesh Prakasam Ongole Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC100246; Address: Andhra Pradesh Srikakulam Araku Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC041099; Address: Andhra Pradesh Srikakulam Srikakulam ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC040780; Address: Andhra Pradesh Visakhapatanam Visakhapatnam ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC109896; Address: Andhra Pradesh Visakhapatanam Anakapalle Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC041094; Address: Andhra Pradesh Vizianagaram Vizianagaram ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC041096; Address: Andhra Pradesh West Godavari Eluru ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC100110; Address: Andhra Pradesh West Godavari Narsapuram Shri Proskills
+Type of Center: JSS; TC ID: TC113165; Address: Arunachal Pradesh Changlang Arunachal East De Unique Educational Society
+Type of Center: JSS; TC ID: TC143696; Address: Arunachal Pradesh East Kameng Arunachal West Council of Education And Skill Development Trust
+Type of Center: JSS; TC ID: TC110505; Address: Arunachal Pradesh East Siang Arunachal East JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC105095; Address: Arunachal Pradesh Lohit Arunachal East De Unique Educational Society
+Type of Center: JSS; TC ID: TC104454; Address: Arunachal Pradesh Lower Siang Arunachal East JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC127009; Address: Arunachal Pradesh Lower Subansiri Arunachal West Council of Education And Skill Development Trust
+Type of Center: JSS; TC ID: TC105110; Address: Arunachal Pradesh Namsai Arunachal East De Unique Educational Society
+Type of Center: JSS; TC ID: TC104034; Address: Arunachal Pradesh Papum Pare Arunachal West Smart Brains Engineers & Technologist Private Limited
+Type of Center: JSS; TC ID: TC110508; Address: Arunachal Pradesh Tirap Arunachal East JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC115170; Address: Arunachal Pradesh West Siang Arunachal West De Unique Educational Society
+Type of Center: JSS; TC ID: TC027871; Address: Assam Baksa Kokrajhar Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC059089; Address: Assam Barpeta Barpeta JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC022284; Address: Assam Biswanath Tezpur Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC113900; Address: Assam Bongaigaon Barpeta Britti Prosikshan Private Limited
+Type of Center: JSS; TC ID: TC100151; Address: Assam Cachar Silchar Medhavi Foundation
+Type of Center: JSS; TC ID: TC028097; Address: Assam Chirang Kokrajhar Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC031858; Address: Assam Darrang Mangaldoi Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC114444; Address: Assam Dhubri Dhubri Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC101916; Address: Assam Dima Hasao Autonomous District Mahatma Gandhi University
+Type of Center: JSS; TC ID: TC114423; Address: Assam Goalpara Dhubri Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC040415; Address: Assam Golaghat Kaliabor Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC113376; Address: Assam Hailakandi Karimganj Medhavi Foundation
+Type of Center: JSS; TC ID: TC061988; Address: Assam Hojai Nagaon Mahatma Gandhi University
+Type of Center: JSS; TC ID: TC040547; Address: Assam Jorhat Jorhat Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC040341; Address: Assam Kamrup Guwahati Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC037346; Address: Assam Kamrup Metro Guwahati Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC022325; Address: Assam Karbi Anglong Autonomous District Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC101080; Address: Assam Karimganj Karimganj Mahatma Gandhi University
+Type of Center: JSS; TC ID: TC121841; Address: Assam Kokrajhar Kokrajhar Britti Prosikshan Private Limited
+Type of Center: JSS; TC ID: TC123918; Address: Assam Lakhimpur Lakhimpur Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC125890; Address: Assam Majuli Lakhimpur Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC027747; Address: Assam Marigaon Nagaon Orion Edutech Private Limited
+Type of Center: JSS; TC ID: 113561; Address: Assam Nagaon Kaliabor Mahatma Gandhi University
+Type of Center: JSS; TC ID: 100801; Address: Assam Nalbari Mangaldoi JITM Skills Private Limited
+Type of Center: JSS; TC ID: 022261; Address: Assam Sonitpur Tezpur Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 123907; Address: Assam South Salmara Dhubri Mancachar Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: 040529; Address: Assam Udalguri Mangaldoi Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 040403; Address: Assam West Karbi Anglong Autonomous District Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 049346; Address: Bihar Araria Araria Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 112225; Address: Bihar Arwal Jehanabad ADS Skill Private Limited
+Type of Center: JSS; TC ID: 040422; Address: Bihar Aurangabad Aurangabad Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: 059082; Address: Bihar Banka Banka JITM Skills Private Limited
+Type of Center: JSS; TC ID: 040551; Address: Bihar Begusarai Begusarai Vision India Services Private Limited
+Type of Center: JSS; TC ID: 100674; Address: Bihar Bhagalpur Bhagalpur AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 031781; Address: Bihar Bhojpur Arrah Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC040334; Address: Bihar Buxar Buxar Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC040555; Address: Bihar Darbhanga Darbhanga Vision India Services Private Limited
+Type of Center: Established PMKK; TC ID: TC027593; Address: Bihar Purbi Champaran East Champaran IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC039496; Address: Bihar Gaya Gaya Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC057354; Address: Bihar Gopalganj Gopalganj ADS Skill Private Limited
+Type of Center: JSS; TC ID: TC059130; Address: Bihar Jamui Jamui Medhavi Foundation
+Type of Center: JSS; TC ID: TC032062; Address: Bihar Jehanabad Jehanabad Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC039951; Address: Bihar Kaimur (Bhabua) Sasaram Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC040414; Address: Bihar Katihar Katihar Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: TC058662; Address: Bihar Khagaria Khagaria JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC040417; Address: Bihar Kishanganj Kishanganj Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: TC045828; Address: Bihar Lakhisarai Munger Vision India Services Private Limited
+Type of Center: JSS; TC ID: TC062415; Address: Bihar Madhepura Madhepura JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC041018; Address: Bihar Madhubani Madhubani Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: TC057650; Address: Bihar Madhubani Jhanjharpur Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC102778; Address: Bihar Munger Munger Bhartiya Samruddhi Investments & Consulting Services Limited IL&FS Skills Development
+Type of Center: JSS; TC ID: TC019816; Address: Bihar Muzaffarpur Muzaffarpur Corporation Limited (Learnet Skills Limited) IL&FS Skills Development
+Type of Center: JSS; TC ID: TC046465; Address: Bihar Muzaffarpur Vaishali Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC040377; Address: Bihar Nalanda Nalanda Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC040423; Address: Bihar Nawada Nawada Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC041428; Address: Bihar Patna Patna Sahib ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC040310; Address: Bihar Patna Patliputra Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC041020; Address: Bihar Purnia Purnia Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: TC052896; Address: Bihar Rohtas Karakat Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: TC039652; Address: Bihar Rohtas Sasaram Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC059269; Address: Bihar Saharsa Madhepura JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC042021; Address: Bihar Samastipur Samastipur Vision India Services Private Limited
+Type of Center: JSS; TC ID: TC000052; Address: Bihar Saran Maharajganj Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC041451; Address: Bihar Saran Saran Corporation Limited (Learnet Skills Limited)
+Type of Center: IL&FS Skills Development; TC ID: TC052454; Address: Bihar Saran Saran Corporation Limited (Learnet Skills Limited)
+Type of Center: IL&FS Skills Development; TC ID: TC014416; Address: Bihar Saran Saran Corporation Limited (Learnet Skills Limited)
+Type of Center: IL&FS Skills Development; TC ID: TC003206; Address: Bihar Saran Saran Corporation Limited (Learnet Skills Limited)
+Type of Center: Bhartiya Samruddhi Investments & Consulting Services Limited; TC ID: TC057595; Address: Bihar Sheikhpura Jamui
+Type of Center: The Manav Kalyan Avam Vikas Sanstha; TC ID: TC100113; Address: Bihar Sheohar Sheohar
+Type of Center: The Manav Kalyan Avam Vikas Sanstha; TC ID: TC108204; Address: Bihar Sitamarhi Sitamarhi
+Type of Center: Funfirst Global Skillers Private Limited; TC ID: TC040325; Address: Bihar Siwan Maharajganj
+Type of Center: IL&FS Skills Development; TC ID: TC027722; Address: Bihar Siwan Siwan Corporation Limited (Learnet Skills Limited)
+Type of Center: Ashpra Skills Private Limited; TC ID: TC041017; Address: Bihar Supaul Supaul
+Type of Center: Vision India Services Private Limited; TC ID: TC042020; Address: Bihar Vaishali Hajipur
+Type of Center: JSS; TC ID: 109; State: Bihar; District: Vaishali; Address: Ujiyarpur; Name: Vision India Services Private Limited
+Type of Center: JSS; TC ID: 110; State: Bihar; District: Pashchim Champaran; Address: West Champaran; Name: ADS Skill Private Limited
+Type of Center: JSS; TC ID: 111; State: Chandigarh; District: Chandigarh; Address: Chandigarh; Name: Edujobs Academy Private Limited
+Type of Center: JSS; TC ID: 112; State: Chhattisgarh; District: Baloda Bazar Raipur; Address: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 113; State: Chhattisgarh; District: Balrampur Surguja; Address: Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 114; State: Chhattisgarh; District: Bemetara Durg; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 115; State: Chhattisgarh; District: Bijapur Bastar; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 116; State: Chhattisgarh; District: Bilaspur Bilaspur; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 117; State: Chhattisgarh; District: Durg Durg; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 118; State: Chhattisgarh; District: Gariyaband Mahasamund; Address: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 119; State: Chhattisgarh; District: Janjgir-Champa Janjgir-Champa; Address: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 120; State: Chhattisgarh; District: Jashpur Raigarh; Address: Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 121; State: Chhattisgarh; District: Kabirdham Rajnandgaon; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 122; State: Chhattisgarh; District: Kondagaon Bastar; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 123; State: Chhattisgarh; District: Korba Korba; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 124; Address: Chhattisgarh Korea Korba Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 125; Address: Chhattisgarh Mahasamund Mahasamund Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 126; Address: Chhattisgarh Mungeli Bilaspur AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 127; Address: Chhattisgarh Narayanpur Bastar AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 128; Address: Chhattisgarh Raigarh Raigarh AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 129; Address: Chhattisgarh Raipur Raipur AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 130; Address: Chhattisgarh Rajnandgaon Rajnandgaon AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 131; Address: Chhattisgarh Surajpur Surguja Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 132; Address: Chhattisgarh Surguja Surguja Ashpra Skills Private Limited
+Type of Center: JSS; TC ID: 133; Address: Chhattisgarh Uttar Bastar Kanker AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Employment Exchange; TC ID: 134; Address: Delhi East Delhi East Delhi GS Techno Innovations Private Limited
+Type of Center: JSS; TC ID: 135; Address: Delhi New Delhi New Delhi Orion Edutech Private Limited
+Type of Center: JSS; TC ID: 136; Address: Delhi North Delhi North West Delhi De Unique Educational Society
+Type of Center: JSS; TC ID: 137; Address: Delhi North East Delhi North East Delhi LimitedForesight Edutech Private
+Type of Center: JSS; TC ID: 138; Address: Delhi North West Delhi DelhiNorth West IACM Smart Learn Limited
+Type of Center: JSS; TC ID: 139; Address: Delhi Shahdara East Delhi De Unique Educational Society
+Type of Center: Employment Exchange; Address: Delhi (Okhla) South Delhi IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: 141; Address: Delhi South East Delhi South Delhi JITM Skills Private Limited
+Type of Center: JSS; TC ID: 142; Address: Delhi South West Delhi West Delhi Don Bosco Tech Society (Najafgarh)
+Type of Center: JSS; TC ID: 143; Address: Goa South Goa South Goa Silver Oak Shops & Office Co-Op Housing Society Limited
+Type of Center: JSS; TC ID: 144; Address: Gujarat Ahmedabad West Ahmedabad ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 145; Address: Gujarat Amreli Amreli Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 146; Address: Gujarat Anand Anand Care Educational & Welfare Society
+Type of Center: JSS; Address: Bharuch, Gujarat; TC ID: TC040367; Name: NIFA Infocomp Services Private Limited
+Type of Center: JSS; Address: Bhavnagar, Gujarat; TC ID: TC100111; Name: Care Educational & Welfare Society
+Type of Center: JSS; Address: Botad, Bhavnagar, Gujarat; TC ID: TC041826; Name: Care Educational & Welfare Society
+Type of Center: JSS; Address: Chottaudaipur, Gujarat; TC ID: TC041917; Name: NIFA Infocomp Services Private Limited
+Type of Center: JSS; Address: Dahod, Gujarat; TC ID: TC040404; Name: NIFA Infocomp Services Private Limited
+Type of Center: JSS; Address: Devbhoomi Dwarka, Jamnagar, Gujarat; TC ID: TC061413; Name: De Unique Educational Society
+Type of Center: JSS; Address: Gandhinagar, Ahmedabad East Housing Society LimitedSilver Oak Shops & Office Co-Op, Gujarat; TC ID: TC110038
+Type of Center: JSS; Address: Gir Somnath, Junagadh, Gujarat; TC ID: TC060945; Name: De Unique Educational Society
+Type of Center: JSS; TC ID: 040351; Address: Gujarat Jamnagar Jamnagar ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 058872; Address: Gujarat Junagadh Junagadh JITM Skills Private Limited
+Type of Center: JSS; TC ID: 040349; Address: Gujarat Kachchh Kachchh ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 055943; Address: Gujarat Kheda Kheda Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 114454; Address: Gujarat Mahisagar Panchmahal Silver Oak Shops & Office Co-Op Housing Society Limited
+Type of Center: JSS; TC ID: 040350; Address: Gujarat Morbi Kachchh ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 040481; Address: Gujarat Narmada Chottaudaipur NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: 055033; Address: Gujarat Navsari Navsari Care Educational & Welfare Society
+Type of Center: JSS; TC ID: 041204; Address: Gujarat Panchmahal Panchmahal NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC057878; Address: Gujarat Porbandar Porbandar Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC058638; Address: Gujarat Rajkot Rajkot Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC048771; Address: Gujarat Surat Surat Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC040348; Address: Gujarat Surendranagar Surendranagar ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC054943; Address: Gujarat Tapi Bardoli Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC053596; Address: Gujarat The Dangs Valsad Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC041926; Address: Gujarat Vadodara Vadodara NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC056325; Address: Gujarat Valsad Valsad Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC035884; Address: Haryana Ambala Ambala ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC032560; Address: Haryana Bhiwani Bhiwani- Mahendragarh Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC034803; Address: Haryana Faridabad Faridabad Innovision Limited
+Type of Center: JSS; TC ID: TC101941; Address: Haryana Faridabad Faridabad Hettich India Private Limited
+Type of Center: JSS; TC ID: TC040751; Address: Haryana Fatehabad Sirsa Centum Workskills India Limited
+Type of Center: JSS; TC ID: TC040995; Address: Haryana Gurugram Gurgaon Innovision Limited
+Type of Center: JSS; TC ID: TC058643; Address: Haryana Gurugram Gurgaon Jet Serve Aviation Pvt. Ltd.
+Type of Center: JSS; TC ID: TC058572; Address: Haryana Gurugram Gurgaon Maruti Suzuki India Limited
+Type of Center: JSS; TC ID: TC018696; Address: Haryana Hisar Hisar Centum Workskills India Limited
+Type of Center: JSS; TC ID: TC032468; Address: Haryana Jhajjar Rohtak Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC040328; Address: Haryana Jind Sonipat Centum Workskills India Limited
+Type of Center: JSS; TC ID: TC012073; Address: Haryana Kaithal Kurukshetra Centum Workskills India Limited
+Type of Center: JSS; TC ID: TC035790; Address: Haryana Karnal Karnal ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC038057; Address: Haryana Kurukshetra Kurukshetra ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC034079; Address: Haryana Mahendragarh Bhiwani- Mahendragarh Innovision Limited
+Type of Center: JSS; TC ID: TC039983; Address: Haryana Mewat Gurgaon Innovision Limited
+Type of Center: JSS; TC ID: TC033971; Address: Haryana Palwal Faridabad Innovision Limited
+Type of Center: JSS; TC ID: TC041427; Address: Haryana Panchkula Ambala; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC032846; Address: Haryana Panipat Karnal; Name: Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC040495; Address: Haryana Rewari Gurgaon; Name: Innovision Limited
+Type of Center: JSS; TC ID: TC032729; Address: Haryana Rohtak Rohtak; Name: Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC046563; Address: Haryana Sirsa Sirsa; Name: Centum Workskills India Limited
+Type of Center: JSS; TC ID: TC032809; Address: Haryana Sonipat Sonipat; Name: Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC038140; Address: Haryana Yamunanagar Ambala; Name: ICA Edu Skills Private Limited
+Type of Center: Employment Exchange; TC ID: TC030731; Address: Himachal Pradesh Bilaspur Hamirpur; Name: Calance Software Private Limited
+Type of Center: Employment Exchange; TC ID: TC040616; Address: Himachal Pradesh Chamba Kangra; Name: De Unique Educational Society
+Type of Center: Employment Exchange; TC ID: TC059278; Address: Himachal Pradesh Hamirpur Hamirpur; Name: JITM Skills Private Limited
+Type of Center: JSS; Address: Himachal Pradesh, Kangra, Kangra, De Unique Educational Society; TC ID: TC057991
+
+Type of Center: JSS; Address: Himachal Pradesh, Kinnaur, Mandi, JITM Skills Private Limited; TC ID: TC110066
+
+Type of Center: JSS; Address: Himachal Pradesh, Kullu, Mandi, JITM Skills Private Limited; TC ID: TC058874
+
+Type of Center: JSS; Address: Himachal Pradesh, Mandi, Mandi, De Unique Educational Society; TC ID: TC056069
+
+Type of Center: JSS; Address: Himachal Pradesh, Shimla, Shimla, Calance Software Private Limited; TC ID: TC107509
+
+Type of Center: JSS; Address: Himachal Pradesh, Sirmaur, Shimla, Calance Software Private Limited; TC ID: TC040393
+
+Type of Center: JSS; Address: Himachal Pradesh, Solan, Shimla, Calance Software Private Limited; TC ID: TC032953
+
+Type of Center: JSS; Address: Himachal Pradesh, Una, Hamirpur, De Unique Educational Society; TC ID: TC054767
+
+Type of Center: Employment Exchange; Address: Jammu And Kashmir, Anantnag, Anantnag, Corporation Limited (Learnet Skills Limited); TC ID: TC027136
+
+Type of Center: JSS; Address: Jammu And Kashmir, Badgam, Srinagar, Orion Edutech Private Limited; TC ID: TC016579
+
+Type of Center: JSS; Address: Jammu And Kashmir, Badgam, Srinagar, Orion Edutech Private Limited; TC ID: TC050929
+
+Type of Center: JSS; Address: Jammu And Kashmir, Bandipora, Baramulla, Mosaic Workskills Private Limited; TC ID: TC062806
+Type of Center: JSS; Address: Baramulla, Baramulla, Jammu And Kashmir; Name: Care Educational & Welfare Society
+Type of Center: Employment Exchange; Address: Ganderbal, Srinagar, Jammu And Kashmir; Name: Mosaic Workskills Private Limited
+Type of Center: Established PMKK; Address: Jammu, Jammu, Jammu And Kashmir; Name: Corporation Limited (Learnet Skills Limited); District: Jammu; State: Jammu And Kashmir
+Type of Center: JSS; Address: Kathua, Udhampur, Jammu And Kashmir; Name: GK Educational Trust
+Type of Center: JSS; Address: Kishtwar, Udhampur, Jammu And Kashmir; Name: National Paramedical Sciences Society
+Type of Center: JSS; Address: Kulgam, Anantnag, Jammu And Kashmir; Name: Care Educational & Welfare Society
+Type of Center: Established PMMK; Address: Kupwara, Baramulla, Jammu And Kashmir; Name: Corporation Limited (Learnet Skills Limited); District: Baramulla; State: Jammu And Kashmir
+Type of Center: JSS; Address: Poonch, Jammu, Jammu And Kashmir; Name: GK Educational Trust
+Type of Center: JSS; Address: Pulwama, Anantnag, Jammu And Kashmir; Name: Care Educational & Welfare Society
+Type of Center: JSS; Address: Ramban, Udhampur, Jammu And Kashmir; Name: Shri Vishwamitra Shikshan Samiti
+Type of Center: JSS; Address: Reasi, Udhampur, Jammu And Kashmir; Name: GK Educational Trust
+Type of Center: Established PMKK; Address: Samba, Jammu, Jammu And Kashmir; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: Jammu And Kashmir, Srinagar, Srinagar; TC ID: TC040550; Name: Rooman Technologies Private Limited
+Type of Center: JSS; Address: Jammu And Kashmir, Udhampur, Udhampur; TC ID: TC100460; Name: GK Educational Trust
+Type of Center: JSS; Address: Jharkhand, Chatra, Chatra; TC ID: TC041934; Name: Vikas Bharti Bishunpur
+Type of Center: JSS; Address: Jharkhand, Dhanbad, Dhanbad; TC ID: TC042828; Name: Ashpra Skills Private Limited
+Type of Center: JSS; Address: Jharkhand, Dumka, Dumka; TC ID: TC041921; Name: Ashpra Skills Private Limited
+Type of Center: JSS; Address: Jharkhand, Garhwa, Palamu; TC ID: TC041067; Name: Vikas Bharti Bishunpur
+Type of Center: JSS; Address: Jharkhand, Gumla, Lohardaga; TC ID: TC041931; Name: Vikas Bharti Bishunpur
+Type of Center: JSS; Address: Jharkhand, Hazaribagh, Hazaribagh; TC ID: TC101181; Name: Medhavi Foundation
+Type of Center: JSS; Address: Jharkhand, Jamtara, Dumka; TC ID: TC041453; Name: Ashpra Skills Private Limited
+Type of Center: JSS; Address: Jharkhand, Khunti, Khunti; TC ID: TC040768; Name: Ashpra Skills Private Limited
+Type of Center: JSS; Address: Jharkhand, Koderma, Koderma; TC ID: TC059088; Name: JITM Skills Private Limited
+Type of Center: JSS; Address: Jharkhand, Latehar, Chatra; TC ID: TC041939; Name: Vikas Bharti Bishunpur
+Type of Center: JSS; Address: Lohardaga; TC ID: TC100256; Name: AISECT Limited (AISECT SKILLS MISSION);
+
+Type of Center: JSS; Address: Pakur; TC ID: TC042164; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Palamu; TC ID: TC040705; Name: Vikas Bharti Bishunpur;
+
+Type of Center: JSS; Address: Pashchimi Singhbhum; TC ID: TC052726; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Purbi Singhbhum Jamshedpur; TC ID: TC040772; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Ramgarh; TC ID: TC115183; Name: Star Secutech Pvt. Ltd.;
+
+Type of Center: JSS; Address: Ranchi; TC ID: TC040394; Name: Don Bosco Tech Society;
+
+Type of Center: JSS; Address: Sahibganj; TC ID: TC041927; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Seraikela-Kharsawan; TC ID: TC040407; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Simdega; TC ID: TC041461; Name: Ashpra Skills Private Limited;
+
+Type of Center: JSS; Address: Bagalkot; TC ID: TC041880; Name: ICA Edu Skills Private Limited;
+
+Type of Center: JSS; Address: Bangalore Rural Chikkaballapur; TC ID: TC040786; Name: Rooman Technologies Private Limited;
+Type of Center: JSS; Address: Karnataka, Bangalore Urban, Bangalore North, Don Bosco Tech Society; TC ID: TC041168
+Type of Center: Employment Exchange; Address: Karnataka, Bangalore Urban, Bangalore Central, Rooman Technologies Private Limited; TC ID: TC016338
+Type of Center: Unestablished PMKK; Address: Karnataka, Bangalore Urban, Bangalore North, Rooman Technologies Private Limited; TC ID: TC016371
+Type of Center: JSS; Address: Karnataka, Bangalore Urban, Bangalore Rural, Rooman Technologies Private Limited; TC ID: TC040759
+Type of Center: Established PMKK; Address: Karnataka, Bangalore Urban, Bangalore South, UTL Technologies Limited; TC ID: TC109773
+Type of Center: JSS; Address: Karnataka, Belgaum, Chikkodi, Empower Pragati Vocational & Staffing Private Limited; TC ID: TC054968
+Type of Center: Employment Exchange; Address: Karnataka, Belgaum, Belgaum, Rooman Technologies Private Limited; TC ID: TC040330
+Type of Center: Unestablished PMKK; Address: Karnataka, Bellary, Bellary, Learning Solutions Private Limited (Quess Corp Limited (Excelus); TC ID: TC041455
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC041029; Address: Karnataka Bidar Bidar
+
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC040346; Address: Karnataka Bijapur Bijapur
+
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC040338; Address: Karnataka Chamarajanagar Chamarajanagar
+
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040803; Address: Karnataka Chikkaballapur Chikkaballapur
+
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC053215; Address: Karnataka Chikmagalur Udupi Chikmagaluru
+
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC030580; Address: Karnataka Chitradurga Chitradurga
+
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC015037; Address: Karnataka Dakshina Kannada Kannada
+
+Type of Center: Rooman Technologies Private Limited; TC ID: TC041113; Address: Karnataka Davangere Davangere
+
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC040509; Address: Karnataka Dharwad Dharwad
+
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC029160; Address: Karnataka Gadag Haveri
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC043660; Address: Karnataka, Gulbarga, Gulbarga
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC039279; Address: Karnataka, Hassan, Hassan
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040375; Address: Karnataka, Haveri, Haveri
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC042070; Address: Karnataka, Kodagu, Mysore
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040373; Address: Karnataka, Kolar, Kolar
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC040344; Address: Karnataka, Koppal, Koppal
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC015035; Address: Karnataka, Mandya, Mandya
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC030341; Address: Karnataka, Mysore, Mysore
+Type of Center: Learning Solutions Private Limited; TC ID: TC042103; Address: Quess Corp Limited (Excelus), Raichur, Karnataka; District: Raichur; State: Karnataka
+Type of Center: Rooman Technologies Private Limited; TC ID: TC039488; Address: Ramanagara, Bangalore Rural, Karnataka
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040787; Address: Shimoga, Shimoga, Karnataka
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC040487; Address: Tumkur, Tumkur, Karnataka
+Type of Center: Rooman Technologies Private Limited; TC ID: TC043164; Address: Udupi, Udupi, Karnataka; District: Chikmagaluru
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC040413; Address: Uttara Kannada, Uttara Kannada, Karnataka
+Type of Center: Learning Solutions Private Limited; TC ID: TC041022; Address: Quess Corp Limited (Excelus), Yadgir, Karnataka; District: Raichur
+Type of Center: Edujobs Academy Private Limited; TC ID: TC028482; Address: Alapuza, Alapuza, Kerala
+Type of Center: JSS; Address: Quess Corp Limited (Excelus 281, Kerala, Ernakulam, Chalakudy, Learning Solutions Private Limited; TC ID: TC041066
+Type of Center: JSS; Address: Quess Corp Limited (Excelus 282, Kerala, Ernakulam, Ernakulam, Learning Solutions Private Limited; TC ID: TC124861
+Type of Center: JSS; Address: Quess Corp Limited (Excelus 283, Kerala, Idukki, Idukki, Learning Solutions Private Limited; TC ID: TC041065
+Type of Center: JSS; Address: JITM Skills Private Limited, Kerala, Kannur, Vadakara; TC ID: TC112328
+Type of Center: JSS; Address: JITM Skills Private Limited, Kerala, Kannur, Kannur; TC ID: TC116080
+Type of Center: JSS; Address: JITM Skills Private Limited, Kerala, Kasargod, Kasargod; TC ID: TC113331
+Type of Center: JSS; Address: De Unique Educational Society, Kerala, Kollam, Mavelikara; TC ID: TC101176
+Type of Center: JSS; Address: Edujobs Academy Private Limited, Kerala, Kollam, Kollam; TC ID: TC028492
+Type of Center: JSS; Address: Quess Corp Limited (Excelus 289, Kerala, Kottayam, Kottayam, Learning Solutions Private Limited; TC ID: TC050799
+Type of Center: JSS; Address: JITM Skills Private Limited, Kerala, Kozhikode, Kozhikode; TC ID: TC110504
+Type of Center: JSS; Address: Malappuram, Kerala; TC ID: TC180728; Name: Ascensive Educare Private Limited
+Type of Center: JSS; Address: Ponnani, Malappuram, Kerala; TC ID: TC124023; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; Address: Palakkad, Kerala; TC ID: TC042131; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; Address: Pattanamthitta, Kerala; TC ID: TC030260; Name: Edujobs Academy Private Limited
+Type of Center: JSS; Address: Thiruvananthpur am, Kerala; TC ID: TC041028; Name: Edujobs Academy Private Limited
+Type of Center: JSS; Address: Attingal, Thiruvananthpur am, Kerala; TC ID: TC124005; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; Address: Alathur, Thrissur, Kerala; TC ID: TC043708; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; Address: Thrissur, Thrissur, Kerala; TC ID: TC124017; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; Address: Wayanad, Kerala; TC ID: TC110118; Name: JITM Skills Private Limited
+Type of Center: Employment Exchange; Address: Kargil, Ladakh; TC ID: TC156383; Name: National Paramedical Sciences Society
+Type of Center: Ladakh; TC ID: TC042001; Address: Leh Ladakh Care Educational & Welfare Society
+Type of Center: Madhya Pradesh; TC ID: TC040384; Address: Agar Malwa Dewas AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Madhya Pradesh; TC ID: TC109544; Address: Alirajpur Ratlam Mahendra Skills Training and Development Private Limited
+Type of Center: Madhya Pradesh; TC ID: TC014154; Address: Anuppur Shahdol AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Madhya Pradesh; TC ID: TC015490; Address: Ashok Nagar Guna AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Madhya Pradesh; TC ID: TC025482; Address: Balaghat Balaghat Calance Software Private Limited
+Type of Center: Madhya Pradesh; TC ID: TC105865; Address: Barwani Khargone Mahendra Skills Training and Development Private Limited
+Type of Center: Madhya Pradesh; TC ID: TC040779; Address: Betul Betul ICA Edu Skills Private Limited
+Type of Center: Madhya Pradesh; TC ID: TC109072; Address: Bhind Bhind AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Madhya Pradesh; TC ID: TC026455; Address: Bhopal Bhopal AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: Madhya Pradesh; TC ID: TC041456; Address: Burhanpur Khandwa ICA Edu Skills Private Limited
+Type of Center: Quess Corp Limited (Excelus); TC ID: TC040356; District: Chhattarpur; State: Madhya Pradesh; Address: Tikamgarh Learning Solutions Private Limited
+Type of Center: Calance Software Private Limited; TC ID: TC030840; District: Chhindwara; State: Madhya Pradesh; Address: Chhindwara
+Type of Center: Quess Corp Limited (Excelus); TC ID: TC040556; District: Damoh; State: Madhya Pradesh; Address: Damoh Learning Solutions Private Limited
+Type of Center: Mahendra Skills Training and Development Private Limited; TC ID: TC041058; District: Datia; State: Madhya Pradesh; Address: Bhind
+Type of Center: ICA Edu Skills Private Limited; TC ID: TC041991; District: Dewas; State: Madhya Pradesh; Address: Dewas
+Type of Center: Centum Workskills India Limited; TC ID: TC029563; District: Dhar; State: Madhya Pradesh; Address: Dhar
+Type of Center: Calance Software Private Limited; TC ID: TC025144; District: Dindori; State: Madhya Pradesh; Address: Mandla
+Type of Center: Centum Workskills India Limited; TC ID: TC029678; District: East Nimar (Khandwa); State: Madhya Pradesh; Address: Khandwa
+Type of Center: Mahendra Skills Training and Development Private Limited; TC ID: TC040425; District: Guna; State: Madhya Pradesh; Address: Guna
+Type of Center: JSS; TC ID: 108960; Address: Madhya Pradesh Gwalior Gwalior Mahendra Skills Training and Development Private Limited
+Type of Center: JSS; TC ID: 041992; Address: Madhya Pradesh Harda Betul ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 040552; Address: Madhya Pradesh Hoshangabad Hoshangabad ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: 026924; Address: Madhya Pradesh Indore Indore Centum Workskills India Limited
+Type of Center: JSS; TC ID: 057373; Address: Madhya Pradesh Indore Indore Mosaic Workskills Private Limited
+Type of Center: JSS; TC ID: 040359; Address: Madhya Pradesh Jabalpur Jabalpur AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 040553; Address: Madhya Pradesh Jhabua Ratlam Calance Software Private Limited
+Type of Center: JSS; TC ID: 040383; Address: Madhya Pradesh Katni Khajuraho AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 030942; Address: Madhya Pradesh Mandla Mandla Calance Software Private Limited
+Type of Center: JSS; TC ID: 042063; Address: Madhya Pradesh Mandsaur Mandsaur Calance Software Private Limited
+Type of Center: JSS; TC ID: 108798; Address: Madhya Pradesh Morena Morena AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: 040392; Address: Madhya Pradesh Narsinghpur Hoshangabad Calance Software Private Limited
+Type of Center: JSS; TC ID: TC041276; Name: Calance Software Private Limited; Address: Madhya Pradesh Neemuch Mandsaur
+
+Type of Center: JSS; TC ID: TC037555; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Madhya Pradesh Panna Khajuraho
+
+Type of Center: JSS; TC ID: TC025701; Name: AISECT Limited (AISECT SKILLS MISSION); Address: Madhya Pradesh Raisen Vidisha
+
+Type of Center: JSS; TC ID: TC041061; Name: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Rajgarh Rajgarh
+
+Type of Center: JSS; TC ID: TC107743; Name: Calance Software Private Limited; Address: Madhya Pradesh Ratlam Ratlam
+
+Type of Center: JSS; TC ID: TC027876; Name: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Rewa Rewa
+
+Type of Center: JSS; TC ID: TC040784; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Madhya Pradesh Sagar Sagar
+
+Type of Center: JSS; TC ID: TC028040; Name: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Satna Satna
+
+Type of Center: JSS; TC ID: TC034872; Name: AISECT Limited (AISECT SKILLS MISSION); Address: Madhya Pradesh Sehore Bhopal
+
+Type of Center: JSS; TC ID: TC034634; Name: Calance Software Private Limited; Address: Madhya Pradesh Seoni Balaghat
+
+Type of Center: JSS; TC ID: TC013312; Name: AISECT Limited (AISECT SKILLS MISSION); Address: Madhya Pradesh Shahdol Shahdol
+Type of Center: AISECT Limited (AISECT SKILLS MISSION); Address: Madhya Pradesh Shajapur Dewas; TC ID: TC041176
+
+Type of Center: Mosaic Workskills Private Limited; Address: Madhya Pradesh Sheopur Morena; TC ID: TC114343
+
+Type of Center: Mosaic Workskills Private Limited; Address: Madhya Pradesh Shivpuri Guna; TC ID: TC117905
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Sidhi Sidhi; TC ID: TC027983
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Singrauli Sidhi; TC ID: TC038162
+
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Madhya Pradesh Tikamgarh Tikamgarh; TC ID: TC039581
+
+Type of Center: Calance Software Private Limited; Address: Madhya Pradesh Ujjain Ujjain; TC ID: TC040424
+
+Type of Center: AISECT Limited (AISECT SKILLS MISSION); Address: Madhya Pradesh Umaria Shahdol; TC ID: TC040324
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Madhya Pradesh Vidisha Vidisha; TC ID: TC040428
+
+Type of Center: ICA Edu Skills Private Limited (Khargone); Address: Madhya Pradesh West Nimar Khargone; TC ID: TC040611
+
+Type of Center: Pratt Muller Distributors Limited; Address: Maharashtra Ahmednagar Shirdi; TC ID: TC059288
+Type of Center: JSS; TC ID: TC059166; Name: Silver Oak Shops & Office Co-Op Housing Society Limited; Address: Maharashtra Ahmednagar Ahmednagar
+Type of Center: JSS; TC ID: TC041918; Name: Orion Edutech Private Limited; Address: Maharashtra Akola Akola
+Type of Center: JSS; TC ID: TC040387; Name: Orion Edutech Private Limited; Address: Maharashtra Amravati Amravati
+Type of Center: JSS; TC ID: TC051271; Name: Empower Pragati Vocational & Staffing Private Limited; Address: Maharashtra Aurangabad Aurangabad
+Type of Center: JSS; TC ID: TC109303; Name: Gautam Buddh Welfare Society; Address: Maharashtra Beed Beed
+Type of Center: JSS; TC ID: TC040357; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Maharashtra Bhandara Gondia
+Type of Center: JSS; TC ID: TC047404; Name: Orion Edutech Private Limited; Address: Maharashtra Buldhana Buldhana
+Type of Center: JSS; TC ID: TC041076; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Maharashtra Chandrapur Chandrapur
+Type of Center: JSS; TC ID: TC054554; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Maharashtra Dhule Dhule
+Type of Center: JSS; Address: Gadchiroli- Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: 364; District: Gadchiroli; State: Maharashtra
+Type of Center: JSS; Address: Bhandara Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: 365; District: Gondia; State: Maharashtra
+Type of Center: JSS; Address: Hingoli Mosaic Workskills Private Limited; TC ID: 366; District: Hingoli; State: Maharashtra
+Type of Center: Established PMKK; Address: Jalgaon Raver Pratt Muller Distributors Limited; TC ID: 367; District: Jalgaon; State: Maharashtra
+Type of Center: JSS; Address: Jalgaon Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: 368; District: Jalgaon; State: Maharashtra
+Type of Center: JSS; Address: Jalna Empower Pragati Vocational & Staffing Private Limited; TC ID: 369; District: Jalna; State: Maharashtra
+Type of Center: JSS; Address: Kolhapur Rooman Technologies Private Limited; TC ID: 370; District: Kolhapur; State: Maharashtra
+Type of Center: JSS; Address: Latur Empower Pragati Vocational & Staffing Private Limited; TC ID: 371; District: Latur; State: Maharashtra
+Type of Center: JSS; Address: Maharashtra Nagpur Ramtek Mahendra Skills Training and Development Private Limited; TC ID: TC106192
+
+Type of Center: JSS; Address: Maharashtra Nagpur Nagpur Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC040358
+
+Type of Center: JSS; Address: Maharashtra Nanded Nanded Empower Pragati Vocational & Staffing Private Limited; TC ID: TC052759
+
+Type of Center: JSS; Address: Maharashtra Nandurbar Nandurbar Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC042076
+
+Type of Center: JSS; Address: Maharashtra Nashik Dindori Pratt Muller Distributors Limited; TC ID: TC062207
+
+Type of Center: JSS; Address: Maharashtra Nashik Nashik Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC042072
+
+Type of Center: JSS; Address: Maharashtra Osmanabad Osmanabad Rooman Technologies Private Limited; TC ID: TC041093
+
+Type of Center: JSS; Address: Maharashtra Palghar Palgarh Quess Corp Limited (Excelus Learning Solutions Private Limited); TC ID: TC052351
+
+Type of Center: JSS; Address: Maharashtra Parbhani Parbhani Mosaic Workskills Private Limited; TC ID: TC058987
+Type of Center: Centum Workskills India Limited; TC ID: TC115304; Address: Maharashtra, Pune, Baramati
+
+Type of Center: Funfirst Global Skillers Private Limited; TC ID: TC040389; Address: Maharashtra, Pune, Shirur
+
+Type of Center: National Yuva Cooperative Society; TC ID: TC127276; Address: Maharashtra, Pune, Maval
+
+Type of Center: Rooman Technologies Private Limited; TC ID: TC042007; Address: Maharashtra, Pune, Pune
+
+Type of Center: Jawaharlal Nehru Port Trust; TC ID: TC062309; Address: Maharashtra, Raigad, Maval
+
+Type of Center: Pratt Muller Distributors Limited; TC ID: TC100854; Address: Maharashtra, Raigad, Raigad
+
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040807; Address: Maharashtra, Sangli, Sangli
+
+Type of Center: Rooman Technologies Private Limited; TC ID: TC042009; Address: Maharashtra, Satara, Satara
+
+Type of Center: Mosaic Workskills Private Limited; TC ID: TC100254; Address: Maharashtra, Solapur, Solapur
+
+Type of Center: Silver Oak Shops & Office Co-Op Housing Society Limited; TC ID: TC059400; Address: Maharashtra, Solapur, Madha
+
+Type of Center: Funfirst Global Skillers Private Limited; TC ID: TC062506; Address: Maharashtra, Thane, Bhiwandi
+Type of Center: JSS; TC ID: TC054552; Address: Quess Corp Limited (Excelus Learning Solutions Private Limited); District: Thane; State: Maharashtra
+Type of Center: JSS; TC ID: TC102585; Address: Silver Oak Shops & Office Co-Op Housing Society Limited; District: Thane; State: Maharashtra; City: Kalyan
+Type of Center: JSS; TC ID: TC040562; Address: Orion Edutech Private Limited; District: Wardha; State: Maharashtra
+Type of Center: JSS; TC ID: TC051424; Address: Empower Pragati Vocational & Staffing Private Limited; District: Washim; State: Maharashtra; City: Yavatmal-Washim
+Type of Center: JSS; TC ID: TC040959; Address: Orion Edutech Private Limited; District: Yavatmal; State: Maharashtra; City: Yavatmal-Washim
+Type of Center: JSS; TC ID: TC125806; Address: St. Joan's Education Society; District: Bishnupur; State: Manipur; City: Inner Manipur
+Type of Center: JSS; TC ID: TC103192; Address: JITM Skills Private Limited; District: Chandel; State: Manipur; City: Outer Manipur
+Type of Center: JSS; TC ID: TC103202; Address: JITM Skills Private Limited; District: Churcahndpur; State: Manipur; City: Outer Manipur
+Type of Center: JSS; TC ID: TC042008; Address: Rooman Technologies Private Limited; District: Imphal West; State: Manipur; City: Inner Manipur
+Type of Center: JSS; TC ID: TC103157; Address: JITM Skills Private Limited; District: Jiribam; State: Manipur; City: Outer Manipur
+Type of Center: JSS; TC ID: TC119471; Address: Manipur Kakching; Name: St. Joan's Education Society
+Type of Center: JSS; TC ID: TC123761; Address: Manipur Kamjong; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC126855; Address: Manipur Kangpokpi; Name: Star Secutech Pvt. Ltd.
+Type of Center: JSS; TC ID: TC103166; Address: Manipur Noney; District: Outer Manipur; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC113323; Address: Manipur Pherzwal; District: Outer Manipur; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC044768; Address: Manipur Senapati; District: Outer Manipur; Name: Don Bosco Tech Society
+Type of Center: JSS; TC ID: TC050626; Address: Manipur Tamenglong; District: Outer Manipur; Name: Don Bosco Tech Society
+Type of Center: JSS; TC ID: TC103175; Address: Manipur Tengnoupal; District: Outer Manipur; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC042010; Address: Manipur Thoubal; District: Inner Manipur; Name: Rooman Technologies Private Limited
+Type of Center: JSS; TC ID: TC127446; Address: Manipur Ukhrul; District: Outer Manipur; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC127491; Address: Meghalaya East Jaintia Hills Shillong; Name: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC115467; Address: Meghalaya East Khasi Hills Shillong; Name: Ascensive Educare Private Limited
+Type of Center: JSS; TC ID: TC008885; Address: Meghalaya Ri Bhoi Shillong; Name: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC127175; Address: Meghalaya West Garo Hills Tura; Name: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC054735; Address: Meghalaya West Jaintia Hills Shillong Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC056378; Address: Meghalaya West Khasi Hills Shillong Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC115699; Address: Mizoram Aizwal Mizoram Medhavi Foundation
+Type of Center: JSS; TC ID: TC113321; Address: Mizoram Champhai Mizoram JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC127144; Address: Mizoram Kolasib Mizoram GS Techno Innovations Private Limited
+Type of Center: JSS; TC ID: TC040286; Address: Nagaland Dimapur Nagaland Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC056148; Address: Nagaland Mokokchung Nagaland Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC115464; Address: Nagaland Peren Nagaland JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC141326; Address: Odisha Angul Dhenkanal Siksha Trust
+Type of Center: JSS; TC ID: TC034934; Address: Odisha Balangir Balangir Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC041010; Address: Odisha Balasore Bhadrak Gram Tarang Employability Training Services Limited
+Type of Center: JSS; Address: Odisha Bargarh Bargarh Datapro Computers Private Limited
+Type of Center: JSS; Address: Odisha Baudh Kandhamal Datapro Computers Private Limited
+Type of Center: JSS; Address: Odisha Cuttack Cuttack Datapro Computers Private Limited
+Type of Center: JSS; Address: Odisha Dhenkanal Dhenkanal Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Odisha Gajapati Berhampur Gram Tarang Employability Training Services Limited
+Type of Center: JSS; Address: Odisha Ganjam Aska Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Odisha Ganjam Berhampur Gram Tarang Employability Training Services Limited
+Type of Center: Established PMKK; Address: Odisha Jagatsinghapur Jagatsinghapur Gram Tarang Employability Training Services Limited
+Type of Center: JSS; Address: Odisha Jajpur Jajpur Siksha Trust
+Type of Center: JSS; Address: Odisha Kalahandi Kalahandi Sri Sri Rural Development Programme Trust; TC ID: TC055491
+
+Type of Center: JSS; Address: Odisha Kandhamal Kandhamal Datapro Computers Private Limited; TC ID: TC106324
+
+Type of Center: JSS; Address: Odisha Kendrapara Kendrapara Gram Tarang Employability Training Services Limited; TC ID: TC040353
+
+Type of Center: JSS; Address: Odisha Khordha Bhubaneshwar Datapro Computers Private Limited; TC ID: TC018687
+
+Type of Center: JSS; Address: Odisha Koraput Koraput Gram Tarang Employability Training Services Limited; TC ID: TC040567
+
+Type of Center: JSS; Address: Odisha Malkangiri Nabarangpur Gram Tarang Employability Training Services Limited; TC ID: TC040612
+
+Type of Center: JSS; Address: Odisha Mayurbhanj Mayurbhanj Siksha Trust; TC ID: TC111416
+
+Type of Center: JSS; Address: Odisha Nabarangapur Nabarangpur Datapro Computers Private Limited; TC ID: TC108053
+Type of Center: Established PMKK; Address: Odisha, Nayagarh, Puri; TC ID: TC001698; Name: Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Odisha, Nuapada, Kalahandi; TC ID: TC119176; Name: Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Odisha, Puri, Puri; TC ID: TC040412; Name: Gram Tarang Employability Training Services Limited
+Type of Center: Established PMKK; Address: Odisha, Rayagada, Koraput; TC ID: TC017851; Name: Gram Tarang Employability Training Services Limited
+Type of Center: Established PMKK; Address: Odisha, Subarnapur (Sonepur), Balangir; TC ID: TC053336; Name: Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Odisha, Sundargarh, Sundargarh; TC ID: TC033274; Name: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: Established PMKK; Address: Puducherry, Karaikal, Puducherry; TC ID: TC106231; Name: Rural Education and Environment Protection (REEP) Trust
+Type of Center: Established PMKK; Address: Puducherry, Mahe, Puducherry; TC ID: TC100418; Name: Namastasye Services Private Limited
+Type of Center: Established PMKK; Address: Puducherry, Puducherry, Puducherry; TC ID: TC107418; Name: IHT Network Ltd.
+Type of Center: Established PMKK; Address: Puducherry, Yanam, Puducherry; TC ID: TC057981; Name: Datapro Computers Private Limited
+Type of Center: Established PMKK; Address: Punjab, Amritsar, Amritsar; TC ID: TC162787; Name: Youth Welfare Council of India
+Type of Center: JSS; TC ID: TC042077; Address: Punjab Barnala Sangrur; Name: Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC041967; Address: Punjab Bathinda Bhatinda; Name: Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC041995; Address: Punjab Faridkot Faridkot; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC041997; Address: Punjab Fatehgarh Sahib Fatehgarh Sahib; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC055466; Address: Punjab Fazilka Firozpur; Name: Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC058505; Address: Punjab Firozpur Firozpur; Name: Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC060948; Address: Punjab Gurdaspur Gurdaspur; Name: De Unique Educational Society
+Type of Center: JSS; TC ID: TC059087; Address: Punjab Hoshiarpur Hoshiarpur; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC042095; Address: Punjab Jalandhar Jalandhar; Name: Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC059037; Address: Punjab Kapurthala Khadoor Sahib; Name: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC051237; Address: Punjab Ludhiana Ludhiana; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC052581; Address: Punjab Ludhiana Fatehgarh Sahib; Name: Rockman Industries Ltd
+Type of Center: JSS; TC ID: TC042075; Address: Punjab Mansa Bhatinda; Name: Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC041454; Address: Punjab Moga Faridkot ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC059272; Address: Punjab Pathankot Gurdaspur JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC048096; Address: Punjab Patiala Patiala Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC053930; Address: Punjab Rupnagar / Ropar Anandpur Sahib Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC041996; Address: Punjab Sahibzada Ajit Singh Nagar Anandpur Sahib ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC051663; Address: Punjab Sahibzada Ajit Singh Nagar Anandpur Sahib Mentor Skills
+Type of Center: JSS; TC ID: TC041966; Address: Punjab Sangrur Sangrur Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC042091; Address: Punjab Shahid Bhagat Singh Nagar Anandpur Sahib Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC041452; Address: Punjab Shri Muktsar Sahib Firozpur ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC053863; Address: Punjab Tarn Taran Khadoor Sahib Dreamweaver Edutrack Private Limited
+Type of Center: JSS; TC ID: TC106753; Address: Rajasthan Ajmer Ajmer NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC055373; Address: Rajasthan Alwar Alwar Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC040366; Address: Rajasthan Banswara Banswara NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC029201; Address: Rajasthan Baran Jhalawar-Baran NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC115323; Address: Rajasthan Barmer Barmer Foresight Edutech Private Limited
+Type of Center: JSS; TC ID: TC048793; Address: Rajasthan Bharatpur Bharatpur Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC133957; Address: Rajasthan Bhilwara Bhilwara NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC040781; Address: Rajasthan Bikaner Bikaner ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC041181; Address: Rajasthan Bundi Kota NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC029763; Address: Rajasthan Chittorgarh Chittorgarh NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC039360; Address: Rajasthan Churu Churu ICA Edu Skills Private Limited
+Type of Center: JSS; TC ID: TC046235; Address: Rajasthan Dausa Dausa IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: Empower Pragati Vocational & Staffing Private Limited; Address: Dholpur, Karauli-Dholpur, Rajasthan; TC ID: TC052951
+
+Type of Center: NIFA Infocomp Services Private Limited; Address: Dungarpur, Banswara, Rajasthan; TC ID: TC040406
+
+Type of Center: ICA Edu Skills Private Limited; Address: Ganganagar, Ganganagar, Rajasthan; TC ID: TC038071
+
+Type of Center: ICA Edu Skills Private Limited; Address: Hanumangarh, Ganganagar, Rajasthan; TC ID: TC029890
+
+Type of Center: Foresight Edutech Private Limited; Address: Jaipur, Jaipur Rural, Rajasthan; TC ID: TC056606
+
+Type of Center: IL&FS Skills Development Corporation Limited (Learnet Skills Limited); Address: Jaipur, Jaipur, Rajasthan; TC ID: TC000230
+
+Type of Center: IL&FS Skills Development Corporation Limited (Learnet Skills Limited); Address: Jaipur, Jaipur, Rajasthan; TC ID: TC054577
+
+Type of Center: ICA Edu Skills Private Limited; Address: Jaisalmer, Barmer, Rajasthan; TC ID: TC040486
+
+Type of Center: JITM Skills Private Limited; Address: Jalore, Jalore, Rajasthan; TC ID: TC059273
+
+Type of Center: NIFA Infocomp Services Private Limited; Address: Jhalawar, Jhalawar-Baran, Rajasthan; TC ID: TC041922
+Type of Center: JSS; Address: IL&FS Skills Development 500 TC041806 Rajasthan Jhunjhunun Jhunjhunun Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; Address: Foresight Edutech Private Limited Rajasthan Jodhpur Jodhpur
+Type of Center: JSS; Address: Empower Pragati Vocational & Staffing Private Limited Rajasthan Karauli Karauli-Dholpur
+Type of Center: JSS; Address: NIFA Infocomp Services Private Limited Rajasthan Kota Kota
+Type of Center: JSS; Address: ICA Edu Skills Private Limited Rajasthan Nagaur Nagaur
+Type of Center: JSS; Address: JITM Skills Private Limited Rajasthan Pali Pali
+Type of Center: JSS; Address: NIFA Infocomp Services Private Limited Rajasthan Pratapgarh Udaipur
+Type of Center: JSS; Address: NIFA Infocomp Services Private Limited Rajasthan Rajsamand Rajsamand
+Type of Center: JSS; Address: IL&FS Skills Development 508 TC040796 Rajasthan Sikar Sikar Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; Address: Foresight Edutech Private Limited Rajasthan Sirohi Jalore
+Type of Center: IL&FS Skills Development; TC ID: TC029574; Address: Rajasthan Tonk-Sawai Madhopur Corporation Limited (Learnet Skills Limited)
+Type of Center: NIFA Infocomp Services Private Limited; TC ID: TC003628; Address: Rajasthan Udaipur Udaipur
+Type of Center: Medhavi Foundation; TC ID: TC127120; Address: Sikkim Sikkim East Sikkim
+Type of Center: Gautam Buddh Welfare Society; TC ID: TC124158; Address: Sikkim South Sikkim Sikkim
+Type of Center: JITM Skills Private Limited; TC ID: TC104457; Address: Sikkim West Sikkim Sikkim
+Type of Center: Jeyram Educational Trust; TC ID: TC052776; Address: Tamil Nadu Ariyalur Chidambaram
+Type of Center: Rooman Technologies Private Limited; TC ID: TC040900; Address: Tamil Nadu Chennai Chennai Central
+Type of Center: Rural Education and Environment Protection (REEP) Trust; TC ID: TC105850; Address: Tamil Nadu Chennai Chennai North
+Type of Center: UTL Technologies Limited; TC ID: TC042120; Address: Tamil Nadu Chennai Chennai South
+Type of Center: Aaruthal Foundation; TC ID: TC040386; Address: Tamil Nadu Coimbatore Coimbatore
+Type of Center: JSS; Address: Tamil Nadu Cuddalore Cuddalore UTL Technologies Limited; TC ID: TC035531
+
+Type of Center: Employment Exchange; Address: Tamil Nadu Dharmapuri Dharmapuri Silver Oak Shops & Office Co-Op Housing Society Limited; Address: Quess Corp Limited (Excelus); TC ID: TC059182
+
+Type of Center: Established PMKK; Address: Tamil Nadu Dindigul Dindigul Learning Solutions Private Limited; TC ID: TC041019
+
+Type of Center: JSS; Address: Tamil Nadu Erode Erode Aaruthal Foundation; TC ID: TC021286
+
+Type of Center: JSS; Address: Tamil Nadu Kanchipuram Kanchipuram Jeyram Educational Trust; TC ID: TC100170
+
+Type of Center: JSS; Address: Tamil Nadu Kanyakumari Kanyakumari STC Technologies Private Limited; TC ID: TC017230
+
+Type of Center: JSS; Address: Tamil Nadu Karur Karur Aaruthal Foundation; TC ID: TC040385
+
+Type of Center: Employment Exchange; Address: Tamil Nadu Krishnagiri Krishnagiri Silver Oak Shops & Office Co-Op Housing Society Limited; Address: Quess Corp Limited (Excelus); TC ID: TC059177
+
+Type of Center: Established PMKK; Address: Tamil Nadu Madurai Madurai Learning Solutions Private Limited; TC ID: TC042083
+
+Type of Center: JSS; Address: Tamil Nadu Nagapattinam Nagapattinam UTL Technologies Limited; TC ID: TC017182
+
+Type of Center: JSS; Address: Tamil Nadu Namakkal Namakkal Aaruthal Foundation; TC ID: TC038117
+Type of Center: JSS; TC ID: TC041137; Name: Aaruthal Foundation; Address: Tamil Nadu Nilgiris Nilgiris
+
+Type of Center: JSS; TC ID: TC056396; Name: Jeyram Educational Trust; Address: Tamil Nadu Perambalur Perambalur
+
+Type of Center: Unestablished PMKK; TC ID: TC049627; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Tamil Nadu Ramanathapura Ramanathapura
+
+Type of Center: Established PMKK; TC ID: TC109056; Name: AISECT Limited (AISECT SKILLS MISSION); Address: Tamil Nadu Salem Salem
+
+Type of Center: Unestablished PMKK; TC ID: TC049633; Name: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Tamil Nadu Sivaganga Sivaganga
+
+Type of Center: JSS; TC ID: TC111797; Name: Jeyram Educational Trust; Address: Tamil Nadu Thanjavur Thanjavur
+
+Type of Center: JSS; TC ID: TC033855; Name: STC Technologies Private Limited; Address: Tamil Nadu Theni Theni
+
+Type of Center: JSS; TC ID: TC017001; Name: UTL Technologies Limited; Address: Tamil Nadu Thiruvallur Thiruvallur
+
+Type of Center: JSS; TC ID: TC010347; Name: STC Technologies Private Limited; Address: Tamil Nadu Thoothukudi Thoothukudi
+Type of Center: JSS; Address: Tamil Nadu, Tiruchirapalli, Tiruchirapalli, Jeyram Educational Trust; TC ID: TC056823
+
+Type of Center: Employment Exchange; Address: Tamil Nadu, Tirunelveli, Tirunelveli, STC Technologies Private Limited; Address: Quess Corp Limited (Excelus); TC ID: TC028477
+
+Type of Center: Established PMKK; Address: Tamil Nadu, Tiruppur, Tiruppur, Learning Solutions Private Limited; TC ID: TC042082
+
+Type of Center: JSS; Address: Tamil Nadu, Tiruvannamalai, Arani, IHT Network Ltd.; TC ID: TC116299
+
+Type of Center: JSS; Address: Tamil Nadu, Tiruvannamalai, Tiruvannamalai, IHT Network Ltd.; TC ID: TC114958
+
+Type of Center: Unestablished PMKK; Address: Tamil Nadu, Tiruvarur, Nagapattinam, Rural Education and Environment Protection (REEP) Trust; TC ID: TC106152
+
+Type of Center: JSS; Address: Tamil Nadu, Vellore, Arakkonam, IHT Network Ltd.; TC ID: TC127256
+
+Type of Center: Employment Exchange; Address: Tamil Nadu, Vellore, Vellore, UTL Technologies Limited; TC ID: TC042117
+
+Type of Center: JSS; Address: Tamil Nadu, Viluppuram, Viluppuram, UTL Technologies Limited; TC ID: TC017180
+
+Type of Center: Employment Exchange; Address: Tamil Nadu, Virudhunagar, Virudhunagar, STC Technologies Private Limited; TC ID: TC031533
+Type of Center: IL&FS Skills Development; TC ID: TC027331; Address: Adilabad, Telangana; Name: Adilabad Corporation Limited (Learnet Skills Limited)
+Type of Center: Datapro Computers Private Limited; TC ID: TC059061; Address: Bhadradri Kothagudem, Mahabubabad, Telangana
+Type of Center: Synchroserve Global Solutions Private Limited; TC ID: TC000496; Address: Hyderabad, Secunderabad, Telangana
+Type of Center: Synchroserve Global Solutions Private Limited; TC ID: TC037484; Address: Hyderabad, Hyderabad, Telangana
+Type of Center: Datapro Computers Private Limited; TC ID: TC060328; Address: Jagtial, Nizamabad, Telangana
+Type of Center: Ultimate Energy Resource Pvt. Ltd.; TC ID: TC114081; Address: Jangaon, Nalgonda, Telangana
+Type of Center: IL&FS Skills Development; TC ID: TC027323; Address: Bhupalapally, Peddapalli, Telangana; Name: Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC115537; Address: Jogulamba Nagarkurnool, Gadwal, Telangana; Name: Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC127146; Address: Kamareddy, Telangana; Name: Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC057973; Address: Karimnagar, Karimnagar, Telangana; Name: Datapro Computers Private Limited; Name: IL&FS Skills Development
+Type of Center: JSS; TC ID: TC027310; Address: Khammam, Khammam, Telangana; Name: Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC118029; Address: Komaram Bheem, Telangana; Name: Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC015862; Address: Mahbubnagar, Mahbubnagar, Telangana; Name: Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC107390; Address: Mancherial, Peddapalli, Telangana; Name: Ultimate Energy Resource Pvt. Ltd.
+Type of Center: JSS; TC ID: TC037485; Address: Medak, Zahirabad, Telangana; Name: Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC021072; Address: Telangana Medchal-Malkajgiri Synchroserve Global Solutions Malkajgiri Private Limited
+Type of Center: JSS; TC ID: TC052563; Address: Telangana Nagarkurnool Nagarkurnool SEWA International
+Type of Center: JSS; TC ID: TC041819; Address: Telangana Nalgonda Nalgonda IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC111789; Address: Telangana Nirmal Adilabad Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC037646; Address: Telangana Nizamabad Nizamabad Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC105545; Address: Telangana Peddapalli Peddapalli Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC110748; Address: Telangana Rajanna Siricilla Karimnagar Datapro Computers Private Limited
+Type of Center: JSS; TC ID: TC037480; Address: Telangana Rangareddy Chevella Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC037485; Address: Telangana Sangareddy Medak Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: TC107356; Address: Telangana Suryapet Nalgonda Ultimate Energy Resource Pvt. Ltd.
+Type of Center: JSS; TC ID: 110004; Address: Telangana Vikarabad Chevella Super Intellectual Technologies Private Limited
+Type of Center: JSS; TC ID: 125711; Address: Telangana Wanaparthy - Synchroserve Global Solutions Private Limited
+Type of Center: JSS; TC ID: 112440; Address: Telangana Warangal Rural Mahabubabad Gautam Buddh Welfare Society
+Type of Center: JSS; TC ID: 108658; Address: Telangana Yadadri Bhongir Bhuvanagiri Datapro Computers Private Limited
+Type of Center: JSS; TC ID: 111223; Address: Tripura Dhalai Tripura East Valeur Fabtex Private Limited
+Type of Center: JSS; TC ID: 055102; Address: Tripura Gomati Tripura East Orion Edutech Private Limited
+Type of Center: JSS; TC ID: 111502; Address: Tripura Unakoti Tripura East Ascensive Educare Private Limited
+Type of Center: JSS; TC ID: 059275; Address: Tripura West Tripura Tripura West Orion Edutech Private Limited
+Type of Center: JSS; TC ID: 045078; Address: Uttar Pradesh Agra Fatehpur Sikri De Unique Educational Society
+Type of Center: JSS; TC ID: 008189; Address: Uttar Pradesh Agra Agra NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: 040319; Address: Uttar Pradesh Aligarh Aligarh Vision India Services Private Limited
+Type of Center: JSS; TC ID: 040326; Address: Uttar Pradesh Allahabad Phulpur Funfirst Global Skillers Private Limited
+Type of Center: Established PMKK; Address: Uttar Pradesh Allahabad Allahabad IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC049173; Address: Uttar Pradesh Ambedkar Nagar Ambedkar Nagar Cultural AdvancementSocial Action for Welfare and
+
+Type of Center: JSS; TC ID: TC028952; Address: Uttar Pradesh Amethi Amethi Social Action for Welfare and Cultural Advancement
+
+Type of Center: JSS; TC ID: TC040421; Address: Uttar Pradesh Amroha / Jyotiba Amroha Empower Pragati Vocational & Staffing Private Limited
+
+Type of Center: JSS; TC ID: TC040402; Address: Uttar Pradesh Auraiya Etawah Care Educational & Welfare Society
+
+Type of Center: Established PMKK; TC ID: TC108599; Address: Uttar Pradesh Azamgarh Azamgarh AISECT Limited (AISECT SKILLS MISSION)
+
+Type of Center: JSS; TC ID: TC059073; Address: Uttar Pradesh Azamgarh Lalganj De Unique Educational Society
+
+Type of Center: JSS; TC ID: TC005681; Address: Uttar Pradesh Badaun Badaun Mahendra Skills Training and Development Private Limited
+
+Type of Center: JSS; TC ID: TC031693; Address: Uttar Pradesh Baghpat Baghpat Empower Pragati Vocational & Staffing Private Limited
+
+Type of Center: JSS; TC ID: TC105767; Address: Uttar Pradesh Bahraich Kaiserganj Bhartiya Samruddhi Investments & Consulting Services Limited
+Type of Center: JSS; TC ID: TC028039; Address: Uttar Pradesh Bahraich Bahraich Mahendra Skills Training and Development Private Limited
+Type of Center: JSS; TC ID: TC060914; Address: Uttar Pradesh Ballia Salempur De Unique Educational Society
+Type of Center: JSS; TC ID: TC058875; Address: Uttar Pradesh Ballia Ballia JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC045088; Address: Uttar Pradesh Balrampur Shravasti Social Action for Welfare and Cultural Advancement Quess Corp Limited (Excelus
+Type of Center: JSS; TC ID: TC036710; Address: Uttar Pradesh Banda Banda Learning Solutions Private Limited
+Type of Center: JSS; TC ID: TC044685; Address: Uttar Pradesh Barabanki Barabanki Social Action for Welfare and Cultural Advancement
+Type of Center: JSS; TC ID: TC059041; Address: Uttar Pradesh Bareilly Aonla De Unique Educational Society
+Type of Center: JSS; TC ID: TC003373; Address: Uttar Pradesh Bareilly Bareilly Mahendra Skills Training and Development Private Limited IL&FS Skills Development
+Type of Center: JSS; TC ID: TC046280; Address: Uttar Pradesh Basti Basti Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC040340; Address: Uttar Pradesh Bijnor Bijnor Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC110549; Address: Uttar Pradesh Bijnor Nagina Social Action for Welfare and Cultural Advancement
+Type of Center: Employment Exchange; TC ID: TC032000; Address: Uttar Pradesh Bulandshahar Bulandshahr Empower Pragati Vocational & Staffing Private Limited
+Type of Center: Unestablished PMKK; TC ID: TC116498; Address: Uttar Pradesh Chandauli Chandauli Star Secutech Pvt. Ltd.
+Type of Center: JSS; TC ID: TC100492; Address: Uttar Pradesh Chitrakoot Banda AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: TC057749; Address: Uttar Pradesh Deoria Bansgaon De Unique Educational Society
+Type of Center: Established PMKK; TC ID: TC040499; Address: Uttar Pradesh Deoria Deoria IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC040322; Address: Uttar Pradesh Etah Etah Vision India Services Private Limited
+Type of Center: JSS; TC ID: TC040992; Address: Uttar Pradesh Etawah Etawah Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC044994; Address: Uttar Pradesh Faizabad Faizabad Social Action for Welfare and Cultural Advancement
+Type of Center: JSS; TC ID: TC040288; Address: Uttar Pradesh Farrukhabad Farrukhabad Vision India Services Private Limited
+Type of Center: Established PMKK; TC ID: TC040337; Address: Uttar Pradesh Fatehpur Fatehpur Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; TC ID: TC007434; Address: Uttar Pradesh Firozabad Firozabad NIFA Infocomp Services Private Limited
+Type of Center: JSS; Address: Uttar Pradesh Gautam Buddha Gautam Buddha JITM Skills Private Limited; TC ID: TC110065; District: Gautam Buddha Nagar; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Ghaziabad Ghaziabad Empower Pragati Vocational & Staffing Private Limited; TC ID: TC019819; District: Ghaziabad; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Ghazipur Ghazipur Orion Edutech Private Limited; TC ID: TC039631; District: Ghazipur; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Gonda Gonda Social Action for Welfare and Cultural Advancement IL&FS Skills Development; TC ID: TC044735; District: Gonda; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Gorakhpur Gorakhpur Corporation Limited (Learnet Skills Limited) Quess Corp Limited (Excelus; TC ID: TC040541; District: Gorakhpur; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Hamirpur Hamirpur Learning Solutions Private Limited Quess Corp Limited (Excelus; TC ID: TC042084; District: Hamirpur; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Hapur Ghaziabad Empower Pragati Vocational & Staffing Private Limited; TC ID: TC041135; District: Hapur; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Hardoi Hardoi Mahendra Skills Training and Development Private Limited; TC ID: TC024929; District: Hardoi; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Hathras Hathras NIFA Infocomp Services Private Limited; TC ID: TC041919; District: Hathras; State: Uttar Pradesh
+Type of Center: JSS; Address: Uttar Pradesh Jalaun Jalaun AISECT Limited (AISECT SKILLS MISSION); TC ID: TC112865; District: Jalaun; State: Uttar Pradesh
+Type of Center: JSS; TC ID: TC057754; State: Uttar Pradesh; District: Jaunpur; Address: De Unique Educational Society
+Type of Center: JSS; TC ID: TC059586; State: Uttar Pradesh; District: Jaunpur; Address: Jan Kalyan Sewa Samiti
+Type of Center: Established PMKK; TC ID: TC100495; State: Uttar Pradesh; District: Jhansi; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: TC041924; State: Uttar Pradesh; District: Kannauj; Address: NIFA Infocomp Services Private Limited
+Type of Center: Established PMKK; TC ID: TC111629; State: Uttar Pradesh; District: Kanpur Dehat; Address: AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: TC040400; State: Uttar Pradesh; District: Kanpur Nagar; Address: Care Educational & Welfare Society
+Type of Center: JSS; TC ID: TC061645; State: Uttar Pradesh; District: Kanpur Nagar; Address: Mahendra Skills Training and Development Private Limited
+Type of Center: JSS; TC ID: TC045859; State: Uttar Pradesh; District: Kasganj (Kashiram Nagar) Etah; Address: Vision India Services Private Limited
+Type of Center: Established PMKK; TC ID: TC040580; State: Uttar Pradesh; District: Kaushambi; Address: IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC059035; State: Uttar Pradesh; District: Kushinagar; Address: JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC026431; State: Uttar Pradesh; District: Lakhimpur Kheri / Kheri; Address: Development Private LimitedMahendra Skills Training and
+Type of Center: JSS; TC ID: TC059593; Address: Uttar Pradesh Lalitpur Jhansi Mahendra Skills Training and Development Private Limited
+Type of Center: JSS; TC ID: TC105399; Address: Uttar Pradesh Lucknow Mohanlalganj AISECT Limited (AISECT SKILLS MISSION)
+Type of Center: JSS; TC ID: TC015992; Address: Uttar Pradesh Lucknow Lucknow Mahendra Skills Training and Development Private Limited
+Type of Center: JSS; TC ID: TC055410; Address: Uttar Pradesh Maharajganj Maharajganj ADS Skill Private Limited
+Type of Center: JSS; TC ID: TC033434; Address: Uttar Pradesh Mahoba Hamirpur Quess Corp Limited (Excelus Learning Solutions Private Limited)
+Type of Center: JSS; TC ID: TC041209; Address: Uttar Pradesh Mainpuri Mainpuri NIFA Infocomp Services Private Limited
+Type of Center: JSS; TC ID: TC059085; Address: Uttar Pradesh Mau Ghosi JITM Skills Private Limited
+Type of Center: JSS; TC ID: TC020093; Address: Uttar Pradesh Meerut Meerut Empower Pragati Vocational & Staffing Private Limited
+Type of Center: JSS; TC ID: TC041814; Address: Uttar Pradesh Mirzapur Mirzapur IL&FS Skills Development Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC040420; Address: Uttar Pradesh Moradabad Moradabad Empower Pragati Vocational & Staffing Private Limited
+Type of Center: Empower Pragati Vocational & Staffing Private Limited; Address: Uttar Pradesh, Muzaffarnagar; TC ID: TC040352
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Uttar Pradesh, Pilibhit; TC ID: TC005657
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Uttar Pradesh, Pilibhit; TC ID: TC052591
+
+Type of Center: IL&FS Skills Development Corporation Limited (Learnet Skills Limited); Address: Uttar Pradesh, Pratapgarh; TC ID: TC041815
+
+Type of Center: Quess Corp Limited (Excelus Learning Solutions Private Limited); Address: Uttar Pradesh, Rae Bareli; TC ID: TC030443
+
+Type of Center: Mahendra Skills Training and Development Private Limited; Address: Uttar Pradesh, Rampur; TC ID: TC008800
+
+Type of Center: Empower Pragati Vocational & Staffing Private Limited; Address: Uttar Pradesh, Saharanpur; TC ID: TC020088
+
+Type of Center: Empower Pragati Vocational & Staffing Private Limited; Address: Uttar Pradesh, Sambhal; TC ID: TC040419
+Type of Center: JSS; TC ID: TC060627; Address: Uttar Pradesh Sant Kabir Nagar Sant Kabir Nagar Cultural AdvancementSocial Action for Welfare and Sant Ravidas IL&FS Skills Development
+
+Type of Center: JSS; TC ID: TC041148; Address: Uttar Pradesh Nagar Bhadohi Corporation Limited (Learnet Skills Limited)
+
+Type of Center: JSS; TC ID: TC016876; Address: Uttar Pradesh Shahjahanpur Shahjahanpur Mahendra Skills Training and Development Private Limited
+
+Type of Center: JSS; TC ID: TC041134; Address: Uttar Pradesh Shamli Kairana Empower Pragati Vocational & Staffing Private Limited
+
+Type of Center: JSS; TC ID: TC038150; Address: Uttar Pradesh Shravasti Shravasti Mahendra Skills Training and Development Private Limited Quess Corp Limited (Excelus Learning Solutions Private Limited)
+
+Type of Center: JSS; TC ID: TC041289; Address: Uttar Pradesh Siddharthnagar Domariyaganj Mahendra Skills Training and Development Private Limited
+
+Type of Center: JSS; TC ID: TC028102; Address: Uttar Pradesh Sitapur Sitapur Mahendra Skills Training and Development Private Limited
+
+Type of Center: JSS; TC ID: TC118513; Address: Uttar Pradesh Sonbhadra Robertsganj Mahendra Skills Training and Development Private Limited
+Type of Center: IL&FS Skills Development; TC ID: TC040614; Address: Uttar Pradesh Sultanpur Sultanpur Corporation Limited (Learnet Skills Limited)
+Type of Center: Care Educational & Welfare Society; TC ID: TC003118; Address: Uttar Pradesh Unnao Unnao
+Type of Center: Orion Edutech Private Limited; TC ID: TC013057; Address: Uttar Pradesh Varanasi Varanasi
+Type of Center: JITM Skills Private Limited; TC ID: TC040650; Address: Uttarakhand Almora Almora
+Type of Center: JITM Skills Private Limited; TC ID: TC040654; Address: Uttarakhand Bageshwar Almora
+Type of Center: SEWA International; TC ID: TC041929; Address: Uttarakhand Chamoli Garhwal
+Type of Center: JITM Skills Private Limited; TC ID: TC040652; Address: Uttarakhand Champawat Almora
+Type of Center: SEWA International; TC ID: TC041920; Address: Uttarakhand Dehradun Tehri Garhwal
+Type of Center: SEWA International; TC ID: TC041069; Address: Uttarakhand Haridwar Haridwar
+Type of Center: JITM Skills Private Limited; TC ID: TC040815; Address: Uttarakhand Nainital Nainital-Udham Singh Nagar
+Type of Center: SEWA International; Address: Uttarakhand Pauri Garhwal Garhwal; TC ID: TC041178
+Type of Center: JITM Skills Private Limited; Address: Uttarakhand Pithoragarh Almora; TC ID: TC040656
+Type of Center: SEWA International; Address: Uttarakhand Rudraprayag Garhwal; TC ID: TC041928
+Type of Center: SEWA International; Address: Uttarakhand Tehri Garhwal Tehri Garhwal; TC ID: TC040729
+Type of Center: JITM Skills Private Limited; Address: Uttarakhand Udham Singh Nagar Nainital-Udham Singh Nagar; TC ID: TC040641
+Type of Center: SEWA International; Address: Uttarakhand Uttarkashi Tehri Garhwal; TC ID: TC041925
+Type of Center: Orion Edutech Private Limited; Address: West Bengal Alipurduar Alipurduar; TC ID: TC040494
+Type of Center: Edujobs Academy Private Limited; Address: West Bengal Bankura Bankura; TC ID: TC040804
+Type of Center: Edujobs Academy Private Limited; Address: West Bengal Bardhaman Paschim Durgapur; TC ID: TC016069
+Type of Center: ICA Edu Skills Private Limited; Address: West Bengal Bardhaman Asansol Paschim; TC ID: TC039290
+Type of Center: ICA Edu Skills Private Limited; Address: West Bengal Bardhaman Barddhaman Purba Purba; TC ID: TC040554
+Type of Center: JSS; Address: West Bengal, Birbhum; TC ID: TC039657; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Cooch Behar; TC ID: TC041822; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Dakshin Dinajpur Balurghat; TC ID: TC041935; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Darjeeling; TC ID: TC040497; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Hooghly, Arambag; TC ID: TC040507; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; Address: West Bengal, Hooghly, Sreerampore; TC ID: TC038160; Name: ICA Edu Skills Private Limited
+Type of Center: JSS; Address: West Bengal, Hooghly, Hooghly; TC ID: TC041930; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Hooghly, Sreerampore; TC ID: TC024955; Name: Orion Edutech Private Limited
+Type of Center: JSS; Address: West Bengal, Howrah, Uluberia; TC ID: TC041041; Name: Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; Address: West Bengal, Howrah, Howrah; TC ID: TC009174; Name: Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC039630; Address: West Bengal Jalpaiguri Jalpaiguri Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC041004; Address: West Bengal Kolkata Kolkata Dakshin Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC042171; Address: West Bengal Kolkata Kolkata Uttar Orion Edutech Private Limited
+Type of Center: Established PMKK; TC ID: TC047657; Address: West Bengal Malda Malda Uttar Corporation Limited (Learnet Skills Limited)
+Type of Center: JSS; TC ID: TC039522; Address: West Bengal Malda Malda Dakshin Orion Edutech Private Limited
+Type of Center: JSS; TC ID: TC038940; Address: West Bengal Midnapore East Tamluk Edujobs Academy Private Limited
+Type of Center: JSS; TC ID: TC108892; Address: West Bengal Midnapore East Kanthi Medhavi Foundation
+Type of Center: JSS; TC ID: TC040756; Address: West Bengal Midnapore West Ghatal Edujobs Academy Private Limited
+Type of Center: Established PMKK; TC ID: TC046270; Address: West Bengal Midnapore West Medinipur Corporation Limited (Learnet Skills Limited)
+Type of Center: Centum Workskills India Limited; Address: West Bengal, Murshidabad, Jangipur
+Type of Center: Corporation Limited (Learnet Skills Limited); Address: West Bengal, Murshidabad, Baharampur
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, Murshidabad, Murshidabad
+Type of Center: ICA Edu Skills Private Limited; Address: West Bengal, Nadia, Krishnanagar
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, Nadia, Bangaon
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, Nadia, Ranaghat
+Type of Center: Corporation Limited (Learnet Skills Limited); Address: West Bengal, Parganas, Dum Dum
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, North 24 Parganas, Barasat
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, North 24 Parganas, Barasat
+Type of Center: Orion Edutech Private Limited; Address: West Bengal, North 24 Parganas, Barasat
+Type of Center: JSS; TC ID: TC015358; Address: West Bengal North 24 Barasat Orion Edutech Private Limited Parganas
+Type of Center: JSS; TC ID: TC040482; Address: West Bengal North 24 Barrackpore Orion Edutech Private Limited Parganas
+Type of Center: JSS; TC ID: TC036736; Address: West Bengal Purulia Purulia Edujobs Academy Private Limited
+Type of Center: JSS; TC ID: TC040488; Address: West Bengal South 24 Jaynagar ICA Edu Skills Private Limited Parganas
+Type of Center: JSS; TC ID: TC026841; Address: West Bengal South 24 Diamond Harbour Orion Edutech Private Limited Parganas
+Type of Center: JSS; TC ID: TC041821; Address: West Bengal South 24 Jadavpur Orion Edutech Private Limited Parganas
+Type of Center: JSS; TC ID: TC028479; Address: West Bengal Uttar Dinajpur Raiganj Orion Edutech Private Limited

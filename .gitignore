@@ -6,3 +6,4 @@ llama_parsed/
 processed_chunks.pkl
 __pycache__/
 .vscode/
+parsing_data/

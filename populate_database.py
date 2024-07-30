@@ -2,6 +2,7 @@ import argparse
 import os
 import glob
 import shutil
+import json
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
@@ -10,13 +11,14 @@ from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
+from langchain_community.document_loaders import UnstructuredFileLoader
 import pickle
-
-# change to check if chunks are already saved in chroma before parsing instead of after...
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "./data/"
+PARSING_DATA_PATH = "./parsing_data/"
 CHUNKS_PATH = "processed_chunks.pkl"
+PARSED_FILES_LIST = "parsed_files.json"
 
 llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
@@ -28,7 +30,8 @@ def main():
     args = parser.parse_args()
 
     os.makedirs('llama_parsed', exist_ok=True)
-    
+    os.makedirs(PARSING_DATA_PATH, exist_ok=True)
+
     if args.reset:
         print("✨ Clearing Database")
         clear_database()
@@ -36,38 +39,74 @@ def main():
     # Update data store.
     documents = load_documents()
     chunks = split_documents(documents)
-    save_chunks(chunks)
+    save_chunks(chunks, args.reset)
     add_to_chroma(chunks)
 
+def load_parsed_files():
+    if os.path.exists(PARSED_FILES_LIST):
+        with open(PARSED_FILES_LIST, 'r') as f:
+            return json.load(f)
+    return []
+
+def save_parsed_files(parsed_files):
+    with open(PARSED_FILES_LIST, 'w') as f:
+        json.dump(parsed_files, f)
+
 def load_documents():
-    print("loading documents")
+    parsed_files = load_parsed_files()
+    files_to_parse = []
+
+    for file in os.listdir(DATA_PATH):
+        if file not in parsed_files:
+            files_to_parse.append(file)
+            shutil.copy(os.path.join(DATA_PATH, file), PARSING_DATA_PATH)
+
+    if not files_to_parse:
+        print("No new files to parse.")
+        return load_parsed_documents()
+    if (len(files_to_parse) == 1):
+        print(f"Parsing {len(files_to_parse)} new file...")
+    else:
+        print(f"Parsing {len(files_to_parse)} new files...")
     parser = LlamaParse(
         api_key=llamaparse_api_key,
         result_type="markdown",
         parsing_instruction="""
-            Remove all table formatting. 
-            One row per line.
-            Use previous row's state if empty.
-            Include all cell info for each row.
-            Use headers for each field (e.g., State: Assam, Address: -----, District: -----).
-            Adjust headers based on the specific table's contents.""",
+            Please. I need you to follow this. My entire career depends on it.
+            Convert each table row into a single line of text. There should be no vertical bars and each row should fit on one line. 
+            Begin each line with 'Type of Center: ' followed by the office type (e.g., JSS, employment exchange, PMKK, etc.).
+            Then include 'Address: ' followed by the full address.
+            For any additional fields present in the row (e.g., TC ID, name, mobile phone, email, district, state), add them to the line in the format 'Field: Value'.
+            Ensure all information from each row is captured in its respective line.
+            Separate different fields with a semicolon and space '; '.
+            """,
         skip_diagonal_text=True
     )
     print("loaded parser")
     file_extractor = {".pdf": parser}
-    llama_documents = SimpleDirectoryReader(input_dir=DATA_PATH, file_extractor=file_extractor).load_data()
+    llama_documents = SimpleDirectoryReader(input_dir=PARSING_DATA_PATH, file_extractor=file_extractor).load_data()
     print("created llama_parse documents")
     with open('llama_parsed/output.md', 'a') as f: 
         for doc in llama_documents:
             f.write(doc.text + '\n')
-    loader = DirectoryLoader('llama_parsed/', glob="**/*.md", show_progress=True)
+    
+    parsed_files.extend(files_to_parse)
+    save_parsed_files(parsed_files)
+
+    for file in os.listdir(PARSING_DATA_PATH):
+        os.remove(os.path.join(PARSING_DATA_PATH, file))
+
+    return load_parsed_documents()
+
+def load_parsed_documents():
+    loader = UnstructuredFileLoader('llama_parsed/output.md')
     documents = loader.load()
-    print("initialized final documents")
+    print("Loaded parsed documents")
     return documents
 
-def save_chunks(chunks: list[Document]):
+def save_chunks(chunks: list[Document], reset: bool):
     with open(CHUNKS_PATH, 'wb') as f:
-        pickle.dump(chunks, f)
+            pickle.dump(chunks, f)
     print(f"✅ Saved {len(chunks)} chunks to {CHUNKS_PATH}")
 
 def load_chunks():
@@ -77,15 +116,15 @@ def load_chunks():
         print(f"✅ Loaded {len(chunks)} chunks from {CHUNKS_PATH}")
         return chunks
     else:
-        print("❌ No saved chunks found. Please run populate_database.py first.")
+        print("❌ No saved chunks found.")
         return None
 
 def split_documents(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=512,
+        chunk_size=1000,
         chunk_overlap=200,
         length_function=len,
-        is_separator_regex=False,
+        separators=["\n\n", "\n", " ", ""]
     )
     return text_splitter.split_documents(documents)
 
@@ -151,7 +190,12 @@ def clear_database():
     if os.path.exists(output_path):
         with open(output_path, 'w') as f:
             f.write('')
-    print("✨ Cleared database, chunks, and output.md")
+    if os.path.exists(PARSED_FILES_LIST):
+        os.remove(PARSED_FILES_LIST)
+    if os.path.exists(PARSING_DATA_PATH):
+        shutil.rmtree(PARSING_DATA_PATH)
+        os.makedirs(PARSING_DATA_PATH)
+    print("✨ Cleared database, chunks, parsed files, and output.md")
 
 if __name__ == "__main__":
     main()
