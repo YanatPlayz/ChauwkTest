@@ -72,13 +72,11 @@ def load_documents():
         api_key=llamaparse_api_key,
         result_type="markdown",
         parsing_instruction="""
-            Please. I need you to follow this. My entire career depends on it.
-            Convert each table row into a single line of text. There should be no vertical bars and each row should fit on one line. 
-            Begin each line with 'Type of Center: ' followed by the office type (e.g., JSS, employment exchange, PMKK, etc.).
-            Then include 'Address: ' followed by the full address.
-            For any additional fields present in the row (e.g., TC ID, name, mobile phone, email, district, state), add them to the line in the format 'Field: Value'.
-            Ensure all information from each row is captured in its respective line.
-            Separate different fields with a semicolon and space '; '.
+            Using the format Column Name : Field Value, convert all of the fields with headers of one row into one single line of text. 
+            Example:
+                S.No: 1; State / UT: Assam; Location: Guwahati, Employment Exchange; Address: District Employment Exchange, Guwahati AK Azad Road, Rehabari, Guwahati-8; Type Of Center: Employment Exchange.
+                S.No: 10; JSS NAME: JSS Ongole; STATE: Andhra Pradesh; DISTRICT: Prakasham; ADDRESS: H.No.3-119/1, Satyanarayanapuram, 2nd Lane, Ongole, MARKAPUR-523002, PRAKASAM (Andhra Pradesh); EMAIL: jss.ongole@gmail.com; MOBILE: 8333046955; COURSES THEY ARE OFFERING: Handicrafts & Carpets; PIN CODE: 523002; Type of Training Centre: JSS.
+            Use semicolons to separate different fields.
             """,
         skip_diagonal_text=True
     )
