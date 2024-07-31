@@ -67,7 +67,7 @@ def get_conversation_chain(retriever):
     
     Assistant: Let's approach this step-by-step:
     1) First, I'll review the relevant information from the context.
-    2) Then, I'll provide a clear and concise answer to your question.
+    2) Then, I'll provide a clear and concise answer to your question without making up things.
     3) If any details are missing or unclear, I'll mention that.
     
     Here's my response:
@@ -92,7 +92,6 @@ def get_conversation_chain(retriever):
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
-
     processed_question = f"User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})

@@ -11,192 +11,174 @@ S.No: 10; JSS NAME: JSS Ongole; STATE: Andhra Pradesh; DISTRICT: Prakasham; ADDR
 S.No: 11; JSS NAME: JSS Visakhapatnam; STATE: Andhra Pradesh; DISTRICT: Visakhapatnam; ADDRESS: 9-36-22/3, Pitapuram colony, VISAKHAPATNAM (RURAL), VISAKHAPATANAM (Andhra Pradesh) -530003; EMAIL: djssvizag@gmail.com; MOBILE: 6301984929; COURSES THEY ARE OFFERING: Handicrafts & Carpets, IT-ITES, Food Processing, Beauty & Wellness, Domestic Worker, Textiles & Handlooms, Apparel. Made-Ups & Home Furnishing, Electronics & Hardware, Plumbing; PIN CODE: 530003; Type of Training Centre: JSS.
 S.No: 12; JSS NAME: JSS Vizianagaram; STATE: Andhra Pradesh; DISTRICT: Vizianagaram; ADDRESS: 17-11-2A, 1ST FLOOR, JEEYAR COMPLEX, KOTA JUNCTION, Kota junction, VIZIANAGARAM-535002, VIZIANAGARAM (Andhra Pradesh); EMAIL: jssvzm@gmail.com; MOBILE: 9948340591; COURSES THEY ARE OFFERING: Handicrafts & Carpets, IT-ITES, Food Processing, Beauty & Wellness, Domestic Worker, Capital Goods & Manufacturing, Apparel. Made-Ups & Home Furnishing, Automotive, Electronics & Hardware; PIN CODE: 535002; Type of Training Centre: JSS.
 S.No: 1; State/UT: Assam; Location: Guwahati, Employment Exchange; Address: District Employment Exchange, Guwahati AK Azad Road, Rehabari, Guwahati-8; Type of Centre: Employment/Job
-S.No: 2; State/UT: Assam; Location: Jorhat, Employment Exchange; Address: The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat-14, Assam; Type of Centre: Employment/Job
+S.No: 2; State/UT: Assam; Location: Jorhat, Employment Exchange; Address: The O/o Assistant Director of Employment (MCC), Dist. Employment Exchange, Jorhat- 14, Assam.; Type of Centre: Employment/Job
 S.No: 3; State/UT: Assam; Location: Haflong, Employment Exchange; Address: District Employment Exchange, Boildura, Haflong, Assam 788819; Type of Centre: Employment/Job
 S.No: 4; State/UT: Assam; Location: Silchar, Employment Exchange; Address: District Employment Exchange, Silchar, District Cachar, Assam; Type of Centre: Employment/Job
-S.No: 5; State/UT: Assam; Location: Nagaon, Employment Exchange; Address: Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam; Type of Centre: Employment/Job
-S.No: 6; State/UT: Assam; Location: NCSC for DA (Erstwhile VRC), Guwahati; Address: Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016; Type of Centre: Employment/Job
-S.No: 7; State/UT: Andaman & Nicobar Islands; Location: Port Blair - EEX; Address: Employment Exchange, Supply Lane, Port Blair, A&N Island 744101; Type of Centre: Employment/Job
-S.No: 8; State/UT: Andhra Pradesh; Location: Chittoor, Employment Exchange; Address: Govt ITI Campus, Kongareddypalli, Puttur Road, Chittoor, AP; Type of Centre: Employment/Job
+S.No: 5; State/UT: Assam; Location: Nagaon, Employment Exchange; Address: District Employment Exchange, Nagaon, P.O Panigaon (Itachali), Pin No. 782003, Dist. Nagaon, Assam; Type of Centre: Employment/Job
+S.No: 6; State/UT: Assam; Location: NCSC for DA (Erstwhile VRC), Guwahati; Address: NCSC for DA (Erstwhile VRC), Old Women Building, Gopinath Nagar (Near ITI Guwahati), Guwahati-781016; Type of Centre: Employment/Job
+S.No: 7; State/UT: Andaman & Nicobar Islands; Location: Port Blair - EEX; Address: Employment Exchange, Supply Lane Port Blair A&N Island 744101; Type of Centre: Employment/Job
+S.No: 8; State/UT: Andhra Pradesh; Location: Chittoor, Employment Exchange; Address: District Employment Exchange, Govt ITI Campus, Kongareddypalli, Puttur Road, Chittoor, AP; Type of Centre: Employment/Job
 S.No: 9; State/UT: Andhra Pradesh; Location: Anantapur, Employment Exchange; Address: District Employment Exchange, Court Road, Ananthapuram-515001; Type of Centre: Employment/Job
 S.No: 10; State/UT: Andhra Pradesh; Location: Rashtriya Sanskrit Vidyapeeth, Tirupati; Address: Rashtriya Sanskrit Vidyapeeth, Tirupati 517507; Type of Centre: Employment/Job
-S.No: 11; State/UT: Andhra Pradesh; Location: Kurnool, Employment Exchange; Address: Near Konda Reddy Buruju, Behind Printing Press, Kurnool District; Type of Centre: Employment/Job
-S.No: 12; State/UT: Andhra Pradesh; Location: Kakinada Employment Exchange; Address: District Employment Exchange, Govt. I.T.I, Campus, Kakinada; Type of Centre: Employment/Job
+S.No: 11; State/UT: Andhra Pradesh; Location: Kurnool, Employment Exchange; Address: District Employment Exchange Near Konda Reddy Buruju, Behind Printing Press, Kurnool; Type of Centre: Employment/Job
+S.No: 12; State/UT: Andhra Pradesh; Location: Kakinada Employment Exchange; Address: District Employment Exchange, Govt.I.T. I, Campus, Kakinada; Type of Centre: Employment/Job
 S.No: 13; State/UT: Andhra Pradesh; Location: Vijaywada Employment Exchange; Address: District Employment Exchange, Govt. ITI Campus, Vijayawada, Andhra Pradesh; Type of Centre: Employment/Job
 S.No: 14; State/UT: Andhra Pradesh; Location: Vishakapatnam (Technical & Unskilled) Employment Exchange; Address: District Employment Exchange, Technical and Unskilled, Industrial Estate, Vishakapatnam; Type of Centre: Employment/Job
 S.No: 15; State/UT: Andhra Pradesh; Location: Nellore, District Employment Exchange; Address: District Employment Exchange, Auto Nagar, Nellore, Andhra Pradesh 524004; Type of Centre: Employment/Job
-S.No: 16; State/UT: Arunanchal Pradesh; Location: Itanagar Employment Exchange; Address: C-Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111; Type of Centre: Employment/Job
+S.No: 16; State/UT: Arunanchal Pradesh; Location: Itanagar Employment Exchange; Address: District Employment Exchange, C-Sector, PO/PS Itanagar, Papumpare District (Arunanchal Pradesh), Pin - 791111; Type of Centre: Employment/Job
 S.No: 17; State/UT: Bihar; Location: Muzaffarpur, Employment Exchange; Address: Sub Regional Employment Exchange, ITI Campus, Gannipur, Muzaffarpur, Bihar; Type of Centre: Employment/Job
-S.No: 18; State/UT: Bihar; Location: Patna, Employment Exchange; Address: Sub Regional Employment Exchange, Patna, Bihar; Type of Centre: Employment/Job Centre
-S.No: 19; State/UT: Bihar; Location: Bhagalpur, Employment Exchange; Address: Sub Regional Employment Exchange, Radha Rani Sinha Road, Labour court Campus, Bhagalpur, Bihar; District Employment Exchange, Bhagalpur, Bihar; Type of Centre: Employment/Job Centre
-S.No: 20; State/UT: Chhattisgarh; Location: Durg, Employment Exchange; Address: Malviya Nagar Chowk, Jailroad, Durg.; Type of Centre: Employment/Job Centre
-S.No: 21; State/UT: Chhattisgarh; Location: Bastar, Employment Exchange; Address: District Employment Exchange, Adawal, Near RTO Office, Jagadalpur, Bastar- 494001; Type of Centre: Employment/Job Centre
-S.No: 22; State/UT: Chhattisgarh; Location: Bilaspur, Employment Exchange; Address: Exchange & Self Employment Guidance Centre, Koni, Bilaspur; District Employment and Self Employment Guidance Centre, Bilaspur; Type of Centre: Employment/Job Centre
-S.No: 23; State/UT: Chhattisgarh; Location: Ambikapur, Employment Exchange; Address: Employment Guidance Centre, Sarguja, Ambikapur, Chhattisgarh; Type of Centre: Employment/Job Centre
-S.No: 24; State/UT: Delhi; Location: R.K Puram, Employment Exchange; Address: District Employment Exchange (South), Sector-4, R.K. Puram, New Delhi-110022; Type of Centre: Employment/Job Centre
-S.No: 25; State/UT: Delhi; Location: NCSC for DA (Erstwhile VRC) Delhi; Address: NCSC for DA (Erstwhile VRC), Plot No. 9-11, KarkarDooma, Vikas Marg, Delhi-110092, Regional Employment; Type of Centre: Employment/Job Centre
-S.No: 26; State/UT: Goa; Location: Panaji, Employment Exchange; Address: Employment Exchange, Shram Shakti Bhawan, 4th floor, Patto Plaza, Panaji, Goa-403 001; Type of Centre: Employment/Job Centre
-S.No: 27; State/UT: Gujarat; Location: Vadodara, Employment Exchange; Address: Employment Office, C-5, Narmada Bhawan, Jail Roda, Vadodara 390001; District Employment Exchange, Vadodara; Type of Centre: Employment/Job Centre
-S.No: 28; State/UT: Gujarat; Location: Surat, Employment Exchange; Address: Employment Exchange, C-5, Govt MS Building, Nanpura, Surat; Assistant Director Employment; Type of Centre: Employment/Job Centre
-S.No: 29; State/UT: Gujarat; Location: Bhavnagar, Employment Exchange; Address: Employment Exchange, F 5/6, Anexy Building, Bahumali Bhavan, Bhavnagar, Gujarat; Type of Centre: Employment/Job Centre
-S.No: 30; State/UT: Gujarat; Location: Sardar Patel University, Anand; Address: Sardal Patel Univ., Vallabh Vidyanagar- 388120 Gujarat; District Employment Exchange, Anand; Type of Centre: Employment/Job Centre
-S.No: 31; State/UT: Gujarat; Location: Mehsana, Employment Exchange; Address: Block No.1, m.s Building, Rajmahal Campus Mehsana Gujarat; Type of Centre: Employment/Job Centre
-S.No: 32; State/UT: Gujarat; Location: Rajkot, Employment Exchange; Address: Assistant Director Employment, 1/3, Multistore building, opp. Race course, Rajkot; Employment Exchange Office, Bharuch, Bharuch B/H Jilla; Type of Centre: Employment/Job Centre
-S.No: 33; State/UT: Gujarat; Location: Bharuch, District Employment Exchange; Address: Ayojan Bhavan, Old Collector Office Compound, Bharuch, Dist.- Bharuch, State Gujarat; Type of Centre: Employment/Job Centre
-S.No: 34; State/UT: Gujarat; Location: Jamnagar, District Employment Exchange; Address: ITI Campus, ITI Hostel Building, Opp. ST Bus Stand, Jamnagar, Dist- Jamanagar, Gujarat; Type of Centre: Employment/Job
-S.No: 35; State/UT: Gujarat; Location: Ahemdabad, District Employment Exchange; Address: Bahumali Bhawan, Block - D, 1st Floor, Near Girdharnagar Asarva, Ahmedabad; Type of Centre: Employment/Job
-S.No: 36; State/UT: Haryana; Location: Hisar, Employment Exchange; Address: Mini Secretariat, HisarDivisional Employment Office; Type of Centre: Employment/Job
-S.No: 37; State/UT: Haryana; Location: CII, Gurgaon; Address: MCC CII, 249-F, Sector-18, Udyog Vihar, Phase- IV, Gurgaon 122 015, Haryana; Type of Centre: Employment/Job
-S.No: 38; State/UT: Himachal Pradesh; Location: Una, Employment Exchange; Address: Truck union Road, Near Bus Stand, Una, H.P., 174403; Type of Centre: Employment/Job
-S.No: 39; State/UT: Himachal Pradesh; Location: Shimla, Employment Exchange; Address: Regional Employment Exchange, U.S. Club, H.P. Shimla -1; Type of Centre: Employment/Job
-S.No: 40; State/UT: Jammu and Kashmir; Location: Samba, Employment Exchange; Address: District Employment & Counselling Centre, Nandhi Hills, Samba Jammu, J&K; Type of Centre: Employment/Job
-S.No: 41; State/UT: Jammu and Kashmir; Location: Baramulla, District Employment Exchange; Address: District Employment & Counselling Centre, Baramulla, J&K; Type of Centre: Employment/Job
-S.No: 42; State/UT: KashmirJammu and; Location: Doda, District Employment Exchange; Address: District Employment & Counselling Centre, Doda, J&K; Type of Centre: Employment/Job
-S.No: 43; State/UT: KashmirJammu and; Location: Pulwama, District Employment Exchange; Address: District Employment Exchange and Counselling Centre, Behind BDO Office, Pulwama-192301, Jammu and Kashmir; Type of Centre: Employment/Job
-S.No: 44; State/UT: Jammu and Kashmir; Location: Reasi, District Employment Exchange; Address: District Employment & Counselling Centre, REASI, J&K; Type of Centre: Employment/Job
-S.No: 45; State/UT: Jammu and Kashmir; Location: NIELIT, Leh (Laddakh); Address: Old Education Building Near PWD Office Council Secratariat, Leh Ladakh; Type of Centre: Employment/Job
-S.No: 46; State/UT: Jammu and Kashmir; Location: NIELIT, Srinagar; Address: SIDCO Electronics Complex, Old Airport Road, Rangreth, Srinagar; Type of Centre: Employment/Job
-S.No: 47; State/UT: Jharkhand; Location: Ranchi, Employment Exchange; Address: Sub Regional Employment Exchange, Ranchi, Jharkhand; Type of Centre: Employment/Job
-S.No: 48; State/UT: Jharkhand; Location: Ghatsila East Singham, District Employment Exchange; Address: District Employment Exchange Ghatsila, East Singhbhum; Type of Centre: Employment/Job
-S.No: 49; State/UT: Jharkhand; Location: Chandil Sarai Kharaswa, District Employment Exchange; Address: District Employment Exchange, Chandil, Saraikela Kharsawan; Type of Centre: Employment/Job
-S.No: 50; State/UT: Jharkhand; Location: Dhanbad, District Employment Exchange; Address: District Employment Exchange office, Kumardhubi, Dhanbad; Type of Centre: Employment/Job
-S.No: 51; State/UT: Karnataka; Location: Mysuru, Employment Exchange; Address: District Employment Exchange, Karnataka, Institute of Agricultural Marketing Building, Hunsur Road Mysore-570006, Karnataka; Type of Centre: Employment/Job Centre
-S.No: 52; State/UT: Karnataka; Location: Hasan, Employment Exchange; Address: District Employment Exchange, Government ITI Premises, B.M. Road Hassan 573201; Type of Centre: Employment/Job Centre
-S.No: 53; State/UT: Karnataka; Location: Hubli, Employment Exchange; Address: District Employment Exchange, Dharwad, Rashtrakavi Kuvempu Road, Navanagar Hubli-580025, Karnataka; Type of Centre: Employment/Job Centre
-S.No: 54; State/UT: Karnataka; Location: Kalaburgi, Employment Exchange; Address: District Employment Exchange, Behind Govt. ITI College, MSK Mill Road, Kalaburgi; Type of Centre: Employment/Job Centre
-S.No: 55; State/UT: Karnataka; Location: Tumkur, District Employment Exchange; Address: District Employment Exchange, TUMKUR, District Education Training Centree Building, Opp. DCC Bank, SBM Road, Church Circle, TUMKUR- 572102; Type of Centre: Employment/Job Centre
-S.No: 56; State/UT: Karnataka; Location: Kolar, District Employment Exchange; Address: District Employment Exchange, Antharagange Road, Near KSRTC Bus Stand, Kolar- 563101; Type of Centre: Employment/Job Centre
-S.No: 57; State/UT: Karnataka; Location: Davengere, District Employment Exchange; Address: District Employment Exchange, Devangere, Room no 51, 2nd Floor, Dist. Administrative Complex, P. B Road, Devangere-577006; Type of Centre: Employment/Job Centre
-S.No: 58; State/UT: Karnataka; Location: Bellari, District Employment Exchange; Address: District Employment Exchange, Behind Taluk office, Ballari- 583101; Type of Centre: Employment/Job Centre
-S.No: 59; State/UT: Karnataka; Location: Manglore, District Employment Exchange; Address: District Employment Exchange, Mangalore Corporation Building, Lalbagh, Ground floor, Mangalore-575003; Type of Centre: Employment/Job Centre
-S.No: 60; State/UT: Karnataka; Location: DON BOSCO, Bengaluru; Address: MCC Don Bosco Skill Mission, Bannerghatta Road, SOS Post, Bangalore 560076; Type of Centre: Employment/Job Centre
-S.No: 61; State/UT: Kerala; Location: Thiruvananthapuram, UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU; Address: University Employment Information & Guidance Bureau, Kerala University, Thiruvananthapuram, Kerala; Type of Centre: Employment/Job Centre
-S.No: 62; State/UT: Kerala; Location: NIELIT, Calicut; Address: MCC NIELIT, P.O. Box No. 5, NIT Campus PO, Calicut-673601; Type of Centre: Employment/Job Centre
-S.No: 63; State/UT: Kerala; Location: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Kannur; Address: University Employment Information & Guidance Bureau, Kannur University, Kerala; Type of Centre: Employment/Job Centre
-S.No: 64; State/UT: Lakshwadeep; Location: Kavaratti -EEX; Address: District Employment Exchange, Kavaratti 682555; Type of Centre: Employment/Job Centre
-S.No: 65; State/UT: Maharasthra; Location: Yavatmal -EEX; Address: District Employment & Self Employment, Guidance Centre, 3rd Floor, Udyog Bhawan, Darwha Road, Yavatmal 445001; Type of Centre: Employement/Job Centre
-S.No: 66; State/UT: Maharasthra; Location: NIELIT Aurangabad; Address: MCC NIELIT, CEDIT Campus, Dr. BAM University Campus, Aurangabad 431004; Type of Centre: Employement/Job Centre
-S.No: 67; State/UT: Maharasthra; Location: CII Mumbai; Address: MCC CII Maharashtra State Office, 105 Kakad Chambers, 132 Annie Besant Road, Worli, Mumbai- 400018, Maharashtra; Type of Centre: Employement/Job Centre
-S.No: 68; State/UT: Maharasthra; Location: CLFRS, Pune *; Address: CLR Facility Services Ltd., B-2, 2nd Floor, Minar Apartments, Law College Road, Erandwana, Pune-411004; Type of Centre: Employement/Job Centre
-S.No: 69; State/UT: Maharasthra; Location: YASHSHWEE Pune *; Address: 7, Amit Court, CTS No. 95A, Behind Mangala Theatre, Shivaji Nagar, Pune-5; Type of Centre: Employement/Job Centre
-S.No: 70; State/UT: Maharasthra; Location: Osmanabad, Employment Exchange; Address: District Skill Development, Employment & Entrepreneurship Guidance Centre, Central administrative building, ground floor, Osmanabad; Type of Centre: Employement/Job Centre
-S.No: 71; State/UT: Maharasthra; Location: Thane, District Employment Exchange; Address: District Skill Development, Employment & Entrepreneurship Guidance Centre, Old Treasury Office, Collectorate compound, Subhaschandra marg, Thane 40061; Type of Centre: Employement/Job Centre
-S.No: 72; State/UT: Meghalaya; Location: Shillong, Employment Exchange; Address: Divisional Employment Exchange, Shilong; Type of Centre: Employement/Job Centre
-S.No: 73; State/UT: Meghalaya; Location: Tura Employment Exchange; Address: District Employment Exchange, Araimile, Tura, Meghalaya; Type of Centre: Employement/Job Centre
-S.No: 74; State/UT: Madhya Pradesh; Location: Gwalior, Employment Exchange; Address: District Employment Office, Motimahal Near Baijataal, Gwalior 0751-242 1641; Type of Centre: Employement/Job Centre
-S.No: 75; State/UT: Madhya Pradesh; Location: Shivpuri, Employment Exchange; Address: District Employment Exchange, Court Road, Sadar Bazar, Shivpuri, Madhya Pradesh 473551; Type of Centre: Employement/Job Centre
-S.No: 76; State/UT: Madhya Pradesh; Location: Bhopal, Employment Exchange; Address: District Employment Exchange, Idgah Hills, Bhopal; Type of Centre: Employement/Job Centre
-S.No: 77; State/UT: Madhya Pradesh; Location: Jabalpur, Employment Exchange; Address: District Employment Exchange, Udyog Bhawan Katanga near to TV tower, Jabalpur, Madhya Pradesh; Type of Centre: Employement/Job Centre
-S.No: 78; State/UT: Madhya Pradesh; Location: Sagar, Employment Exchange; Address: District Employment Exchange, Sagar; Type of Centre: Employement/Job Centre
-S.No: 79; State/UT: Madhya Pradesh; Location: Indore, Employment Exchange; Address: District Employment Exchange, 10 Polo Ground, Near district industries centre, Indore, Madhya Pradesh; Type of Centre: Employement/Job Centre
-S.No: 80; State/UT: Madhya Pradesh; Location: Rewa, Employment Exchange
-S.No: 81; State/UT: Madhya Pradesh; Location: Ujjain, Employment Exchange
-S.No: 82; State/UT: Madhya Pradesh; Location: Devi Ahilya University, Indore
-S.No: 83; State/UT: Madhya Pradesh; Location: AISECT, Indore
-S.No: 84; State/UT: Manipur; Location: CAREER CLINIQUE, Imphal *;
-S.No: 85; State/UT: Manipur; Location: NIELIT Imphal
-S.No: 86; State/UT: Nagaland; Location: Kohima, Employment Exchange
-S.No: 87; State/UT: Nagaland; Location: CAREER CLINIQUE, Kohima *
-S.No: 88; State/UT: Odisha; Location: Sambalpur, Employment Exchange
-S.No: 89; State/UT: Odisha; Location: Dhenkanal, Employment Exchange
-S.No: 90; State/UT: Odisha; Location: Rourkela, Employment Exchange
-S.No: 91; State/UT: Odisha; Location: Cuttack, Employment Exchange
-S.No: 92; State/UT: Odisha; Location: CUTM, Khurda
-S.No: 93; State/UT: Odisha; Location: NCSC for DA (Erstwhile VRC), Bhubaneswar
-S.No: 94; State/UT: Odisha; Location: Berhampur, District Employment Exchange
-S.No: 95; State/UT: Odisha; Location: Koraput, District Employment Exchange
-Address: District Employment Office, near priyadarshini talkees, Amaihya road Rewa MP; Type of Centre: Employement/Job Centre
-Address: District Employment Office, 153, Mahashwera Nagar, Near Iskcon Temple, Ujjain, MP; Type of Centre: Employement/Job Centre
-Address: Takshshila Campus, Khandwa Road, Indore - 452001; Type of Centre: Employement/Job Centre
-Address: AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall, CourseRoad, Opp. IDA Building, Indore; Type of Centre: Employement/Job Centre
-Address: DM College of Arts Library, Chinmeirong, Imphal 795001; Type of Centre: Employement/Job Centre
-Address: MCC NIELIT, Singjamei Kshetri Leikai, Khongman, Imphal, Manipur 795008; Type of Centre: Employement/Job Centre
-Address: Regional Employment Exchange, Directorate of Employment, Skill Development & Entrepreneurship, NH-61, Above High School Junction, Kohima 797001 Nagaland; Type of Centre: Employement/Job Centre
-Address: Career Cliniq, B-7, c/o Directorate of Employment & Craftsmen Training, High School Junction, Kohima – 797001 Nagaland; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Sambhalpur, Bhutapada Chowk, JailRoad, Sambhalpur; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Dhenaknal, Odisha; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Rourkela, Dist. Sundargarh; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Cuttack, Odisha; Type of Centre: Employement/Job Centre
-Address: CUTM, H I G 5-P has e II, Duplex, Pokhoriput, BDA, Bhubanewar 751020; Type of Centre: Employement/Job Centre
-Address: NCSC for DA (Erstwhile VRC), Plot No. 1,2, 5 & 6, Adjacent to Indira Gandhi Ayurvedic College, PO Khandgiri, Odisha-751030; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Ganjam, Berhampur; Type of Centre: Employement/Job Centre
-Address: District Employment Exchange, Koraput (Odisha); Type of Centre: Employement/Job Centre
-S.No: 96; State/UT: Odisha; Location: Keonjhar; Address: Model Career Centre, Park Line, Jagannathpur, KEONJHAR Kendujhar, odisha – 758001; Type of Centre: Employement/Job
-S.No: 97; State/UT: Puducherry; Location: Puducherry , Employment Exchange; Address: Labour complex, Gandhinagar, Vazhudhavur road, Puducherry6505009; Type of Centre: Employement/Job
-S.No: 98; State/UT: Punjab; Location: Bathinda, Employment Exchange; Address: Rojgar Bhawan Opp. MALL, Near post office (Bhatinda), Punjab; Type of Centre: Employement/Job
-S.No: 99; State/UT: Punjab; Location: Fatehgarhsahib, Employment Exchange; Address: District Employment Exchange, Fatehgarh Sahib, Punjab Placement Departmnet M.R.S.; Type of Centre: Employement/Job
-S.No: 100; State/UT: Punjab; Location: Guru Nanak Dev University, Amritsar; Address: Guru Nanak Dev Univ. Amritsar Punjab 143005; Type of Centre: Employement/Job
-S.No: 101; State/UT: Rajasthan; Location: Kota, Employment Exchange; Address: R.B. Road Nayapura Kota Rajasthan; Type of Centre: Employement/Job
-S.No: 102; State/UT: Rajasthan; Location: Bikaner, Employment Exchange; Address: Sub Regional employmnet office Chopra Katla, Rani Bazar, Bikaner Rajasthan; Type of Centre: Employement/Job
-S.No: 103; State/UT: Rajasthan; Location: Bharatpur, Employment Exchange; Address: District Employment Office, Bharatpur, Rajasthan; Type of Centre: Employement/Job
-S.No: 104; State/UT: Rajasthan; Location: Jaipur, Employment Exchange; Address: J - 8A, EMI Campus, Jhalana Institutional Area, Jhalana Doongri, Jaipur - 302004, Rajasthan; Type of Centre: Employement/Job
-S.No: 105; State/UT: Rajasthan; Location: Alwar, District Employment Exchange; Address: District Employment Exchange, Sanjay Nagar, Moti Doongri, Alwar, Rajasthan; Type of Centre: Employement/Job
-S.No: 106; State/UT: Rajasthan; Location: Dausa, District Employment Exchange; Address: Employment Office, Building Collectorate Campus, Dausa; Type of Centre: Employement/Job
-S.No: 107; State/UT: Rajasthan; Location: Jhalawar, District Employment Exchange; Address: 106-108, MINI SECRETARIAT, Jhalawar Pin - 326001; Type of Centre: Employement/Job
-S.No: 108; State/UT: Rajasthan; Location: Jhunjhunu, District Employment Exchange; Address: Sub Regional Employment Office, Collectorate Campus, Jhunjhunu; Type of Centre: Employement/Job
-S.No: 109; State/UT: Rajasthan; Location: Pali, District Employment Exchange; Address: District Employment Office , Collectorate Campus, Pali; Type of Centre: Employement/Job
-S.No: 110; State/UT: Rajasthan; Location: Sawai Madhopur, District Employment Exchange; Address: District Employment Exchange, Collectrate campus, Sawai Madhopur, Rajasthan; Type of Centre: Employement/Job
-S.No: 111; State/UT: Rajasthan; Location: Sirohi, District Employment Exchange; Address: District Employment Office , Collectorate Campus, Sirohi; Type of Centre: Employement/Job
-S.No: 112; State/UT: Sikkim; Location: Gangtok, Dept. of Skill Development &Entrepreneureship; Address: State Institute of Capacity Building, Dept of Labour, Govt of Sikkim, Gangtok, Sikkim; Type of Centre: Employement/Job
-S.No: 113; State/UT: Sikkim; Location: Jorethang, Dept. of Skill Development; Address: State Institute of Capacity Building (SICB), Karfectar, Jorethang, South Sikkim-737121; Type of Centre: Employment/Job Centre
-S.No: 114; State/UT: Sikkim; Location: Dentam Bazar, Dept. of Skill Development; Address: State Institute of Capacity Building (SICB), Karfectar, Dentam Bazar, West Sikkim; Type of Centre: Employment/Job Centre
-S.No: 115; State/UT: Tamil Nadu; Location: Coimbatore, Employment Exchange; Address: Mettupalayam Road ITI Campus GN Mills, Post Coimbatore 641029; Type of Centre: Employment/Job Centre
-S.No: 116; State/UT: Tamil Nadu; Location: Vellore, Employment Exchange; Address: District Employment Office, Government ITI Campus, Melmonavur, Vellore-10; Type of Centre: Employment/Job Centre
-S.No: 117; State/UT: Tamil Nadu; Location: CII, Chennai; Address: 98 / 1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032; Type of Centre: Employment/Job Centre
-S.No: 118; State/UT: Tamil Nadu; Location: Salem, District Employment Exchange; Address: District Employment Office, Near Govt. Women Art College, Gorimedu, Salem - 8; Type of Centre: Employment/Job Centre
-S.No: 119; State/UT: Tamil Nadu; Location: Thiruvallur, District Employment Exchange; Address: District Employment Office, District Collectorate Master Plan Campus Thiruvallur; Type of Centre: Employment/Job Centre
+S.No: 18; State/UT: Bihar; Location: Patna, Employment Exchange; Address: Sub Regional Employment Exchange, Patna, Bihar; Type of Centre: Employment/Job
+S.No: 19; State/UT: Bihar; Location: Bhagalpur, Employment Exchange; Address: Radha Rani Sinha Road, Labour court Campus, Bhagalpur, Bihar; Type of Centre: Employment/Job
+S.No: 20; State/UT: Chhattisgarh; Location: Durg, Employment Exchange; Address: District Employment Exchange, Malviya Nagar Chowk, Jailroad, Durg; Type of Centre: Employment/Job
+S.No: 21; State/UT: Chhattisgarh; Location: Bastar, Employment Exchange; Address: District Employment Exchange, Adawal, Near RTO Office, Jagadalpur, Bastar-494001; Type of Centre: Employment/Job
+S.No: 22; State/UT: Chhattisgarh; Location: Bilaspur, Employment Exchange; Address: District Employment Exchange & Self Employment Guidance Centre, Koni, Bilaspur; Type of Centre: Employment/Job
+S.No: 23; State/UT: Chhattisgarh; Location: Ambikapur, Employment Exchange; Address: District Employment and Self Employment Guidance Centre, Sarguja, Ambikapur, Chhattisgarh; Type of Centre: Employment/Job
+S.No: 24; State/UT: Delhi; Location: R.K Puram, Employment Exchange; Address: District Employment Exchange(South), Sector-4, R.K. Puram, New Delhi-110022; Type of Centre: Employment/Job
+S.No: 25; State/UT: Delhi; Location: NCSC for DA (Erstwhile VRC) Delhi; Address: NCSC for DA (Erstwhile VRC), Plot No. 9-11, KarkarDooma, Vikas Marg, Delhi-110092; Type of Centre: Employment/Job
+S.No: 26; State/UT: Goa; Location: Panaji, Employment Exchange; Address: Regional Employment Exchange, Shram Shakti Bhawan, 4th floor, Patto Plaza, Panaji, Goa-403 001; Type of Centre: Employment/Job
+S.No: 27; State/UT: Gujarat; Location: Vadodara, Employment Exchange; Address: Employment Office, C-5, Narmada Bhawan, Jail Road, Vadodara 390001; Type of Centre: Employment/Job
+S.No: 28; State/UT: Gujarat; Location: Surat, Employment Exchange; Address: District Employment Exchange, C-5, Govt MS Building, Nanpura, Surat; Type of Centre: Employment/Job
+S.No: 29; State/UT: Gujarat; Location: Bhavnagar, Employment Exchange; Address: Assistant Director Employment F 5/6, Anexy Building, Bahumali Bhavan, Bhavnagar, Gujarat; Type of Centre: Employment/Job
+S.No: 30; State/UT: Gujarat; Location: Sardar Patel University, Anand; Address: Sardal Patel Univ., Vallabh Vidyanagar-388120 Gujarat; Type of Centre: Employment/Job
+S.No: 31; State/UT: Gujarat; Location: Mehsana, Employment Exchange; Address: District Employment Exchange, Block No.1, m.s Building, Rajmahal Campus, Mehsana Gujarat; Type of Centre: Employment/Job
+S.No: 32; State/UT: Gujarat; Location: Rajkot, Employment Exchange; Address: Assistant Director Employment 1/3, Multistore building, opp. Race course, Rajkot; Type of Centre: Employment/Job
+S.No: 33; State/UT: Gujarat; Location: Bharuch, District Employment Exchange; Address: Bharuch B/H Jilla Ayojan Bhavan, Old Collector Office Compound, Bharuch, Dist.- Bharuch, State Gujarat; Type of Centre: Employment/Job
+S.No: 34; State/UT: Gujarat; Location: Jamnagar, District Employment Exchange; Address: Office of Assistant Director (Employment), In The ITI Campus, ITI Hostel Building, Opp. ST Bus Stand, Jamnagar, Dist- Jamanagar Gujarat; Type of Centre: Employment/Job
+S.No: 35; State/UT: Gujarat; Location: Ahemdabad, District Employment Exchange; Address: Asarva Bahumali Bhawan, Block - D, 1st Floor, Near Girdharnagar Asarva, Ahmedabad; Type of Centre: Employement/Job Centre
+S.No: 36; State/UT: Haryana; Location: Hisar, Employment Exchange; Address: Divisional Employment Office, Mini Secretariat, Hisar; Type of Centre: Employement/Job Centre
+S.No: 37; State/UT: Haryana; Location: CII, Gurgaon; Address: MCC CII, 249-F, Sector-18, Udyog Vihar, Phase- IV, Gurgaon 122 015, Haryana; Type of Centre: Employement/Job Centre
+S.No: 38; State/UT: Himachal Pradesh; Location: Una, Employment Exchange; Address: District Employment Exchange, Truck union Road, Near Bus Stand, Una, H.P., 174403; Type of Centre: Employement/Job Centre
+S.No: 39; State/UT: Himachal Pradesh; Location: Shimla, Employment Exchange; Address: Regional Employment Exchange, U.S. Club, H.P. Shimla -1; Type of Centre: Employement/Job Centre
+S.No: 40; State/UT: Jammu andKashmir; Location: Samba, Employment Exchange; Address: District Employment & Counselling Centre, Nandhi Hills, Samba Jammu, J&K; Type of Centre: Employement/Job Centre
+S.No: 41; State/UT: Jammu andKashmir; Location: Baramulla, District Employment Exchange; Address: District Employment & Counselling Centre, Baramulla, J&K; Type of Centre: Employement/Job Centre
+S.No: 42; State/UT: Jammu andKashmir; Location: Doda, District Employment Exchange; Address: District Employment & Counselling Centre, Doda, J&K; Type of Centre: Employement/Job Centre
+S.No: 43; State/UT: Jammu andKashmir; Location: Pulwama, District Employment Exchange; Address: District Employment Exchange and Counselling Centre, Behind BDO Office, Pulwama-192301, Jammu and Kashmir; Type of Centre: Employement/Job Centre
+S.No: 44; State/UT: Jammu andKashmir; Location: Reasi, District Employment Exchange; Address: District Employment & Counselling Centre, REASI, J&K; Type of Centre: Employement/Job Centre
+S.No: 45; State/UT: Jammu andKashmir; Location: NIELIT, Leh (Laddakh); Address: NIELIT, Old Education Building Near PWD Office Council Secratariat, Leh Ladakh; Type of Centre: Employement/Job Centre
+S.No: 46; State/UT: Jammu andKashmir; Location: NIELIT, Srinagar; Address: NIELIT, SIDCO Electronics Complex, Old Airport Road, Rangreth, Srinagar; Type of Centre: Employement/Job Centre
+S.No: 47; State/UT: Jharkhand; Location: Ranchi, Employment Exchange; Address: Sub Regional Employment Exchange, Ranchi, Jharkhand; Type of Centre: Employement/Job Centre
+S.No: 48; State/UT: Jharkhand; Location: Ghatsila East Singham, District Employment Exchange; Address: District Employment Exchange Ghatsila, East Singhbhum; Type of Centre: Employement/Job Centre
+S.No: 49; State/UT: Jharkhand; Location: Chandil Sarai Kharaswa, District Employment Exchange; Address: District Employment Exchange, Chandil, Saraikela Kharsawan; Type of Centre: Employement/Job Centre
+S.No: 50; State/UT: Jharkhand; Location: Dhanbad, District Employment Exchange; Address: District Employment Exchange office, Kumardhubi, Dhanbad; Type of Centre: Employement/Job Centre
+S.No: 51; State/UT: Karanatka; Location: Mysuru, Employment Exchange; Address: Karnataka, Institute of Agricultural Marketing Building Hunsur Road, Mysore-570006, Karnataka; Type of Centre: Employement/Job Centre
+S.No: 52; State/UT: Karanatka; Location: Hasan, Employment Exchange; Address: District Employment Exchange, Government ITI Premises, B.M. Road, Hassan 573201; Type of Centre: Employement/Job Centre
+S.No: 53; State/UT: Karanatka; Location: Hubli, Employment Exchange; Address: District Employment Exchange Dharwad, Rashtrakavi Kuvempu Road, Navanagar Hubli-580025 Karnataka; Type of Centre: Employement/Job
+S.No: 54; State/UT: Karanatka; Location: Kalaburgi, Employment Exchange; Address: District Employment Exchange, Behind Govt. ITI College, MSK Mill Road, Kalaburgi; Type of Centre: Employement/Job
+S.No: 55; State/UT: Karanatka; Location: Tumkur, District Employment Exchange; Address: TUMKUR, District Education Training Centree Building, Opp. DCC Bank, SBM Road, Church Circle, TUMKUR- 572102; Type of Centre: Employement/Job
+S.No: 56; State/UT: Karanatka; Location: Kolar, District Employment Exchange; Address: District Employment Exchange, Antharagange Road, Near KSRTC Bus Stand, Kolar-563101; Type of Centre: Employement/Job
+S.No: 57; State/UT: Karanatka; Location: Davengere, District Employment Exchange; Address: Devangere, Room no 51, 2nd Floor, Dist. Administrative Complex, P. B Road, Devangere-577006; Type of Centre: Employement/Job
+S.No: 58; State/UT: Karanatka; Location: Bellari, District Employment Exchange; Address: District Employment Exchange, Behind Taluk office, Ballari-583101; Type of Centre: Employement/Job
+S.No: 59; State/UT: Karanatka; Location: Manglore, District Employment Exchange; Address: Mangalore Corporation Building, Lalbagh, Ground floor, Mangalore-575003; Type of Centre: Employement/Job
+S.No: 60; State/UT: Karanatka; Location: DON BOSCO, Bengaluru; Address: Bannerghatta Road, SOS Post, Bangalore 560076; Type of Centre: Employement/Job
+S.No: 61; State/UT: Kerala; Location: Thiruvananthapuram, UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU Kerala University; Address: Thiruvananthapuram, Kerala; Type of Centre: Employement/Job
+S.No: 62; State/UT: Kerala; Location: NIELIT, Calicut; Address: P.O. Box No. 5 ,NIT Campus, Calicut-673601; Type of Centre: Employement/Job
+S.No: 63; State/UT: Kerala; Location: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Kannur; Address: University Employment Information & Guidance Bureau, Kannur University, Kerala; Type of Centre: Employement/Job
+S.No: 64; State/UT: Lakshwadeep; Location: Kavaratti -EEX; Address: District Employment Exchange, Kavaratti 682555; Type of Centre: Employement/Job
+S.No: 65; State/UT: Maharasthra; Location: Yavatmal -EEX; Address: Guidance Centre,3rd Floor, Udyog Bhawan, Darwha Road, Yavatmal 445001; Type of Centre: Employement/Job
+S.No: 66; State/UT: Maharasthra; Location: NIELIT Aurangabad; Address: MCC NIELIT, CEDIT Campus, Dr. BAM University Campus, Aurangabad 431004; Type of Centre: Employement/Job
+S.No: 67; State/UT: Maharasthra; Location: CII Mumbai; Address: MCC CII Maharashtra State Office, 105 Kakad Chambers, 132 Annie Besant Road, Worli, Mumbai- 400018, Maharashtra; Type of Centre: Employement/Job
+S.No: 68; State/UT: Maharasthra; Location: CLFRS, Pune *; Address: CLR Facility Services Ltd., B-2, 2nd Floor, Minar Apartments, Law College Road, Erandwana, Pune-411004; Type of Centre: Employement/Job
+S.No: 69; State/UT: Maharasthra; Location: YASHSHWEE Pune *; Address: 7, Amit Court, CTS No. 95A, Behind Mangala Theatre, Shivaji Nagar, Pune-5; Type of Centre: Employement/Job
+S.No: 70; State/UT: Maharasthra; Location: Osmanabad, Employment Exchange; Address: District Skill Development, Employment & Entrepreneurship Guidance Centre, Central administrative building, ground floor, Osmanabad; Type of Centre: Employement/Job
+S.No: 71; State/UT: Maharasthra; Location: Thane, District Employment Exchange; Address: District Skill Development, Employment & Entrepreneurship Guidance Centre, Old Treasury Office, Collectorate compound, Subhaschandra marg, Thane 40061; Type of Centre: Employement/Job
+S.No: 72; State/UT: Meghalaya; Location: Shillong, Employment Exchange; Address: Divisional Employment Exchange, Shilong; Type of Centre: Employement/Job
+S.No: 73; State/UT: Meghalaya; Location: Tura Employment Exchange; Address: District Employment Exchange, Araimile, Tura, Meghalaya; Type of Centre: Employement/Job
+S.No: 74; State/UT: MadhyaPradesh; Location: Gwalior, Employment Exchange; Address: District Employment Office, Motimahal Near Baijataal Gwalior 0751-242 1641; Type of Centre: Employement/Job
+S.No: 75; State/UT: Madhya Pradesh; Location: Shivpuri, Employment Exchange; Address: District Employment Exchange, Court Road, Sadar Bazar, Shivpuri, Madhya Pradesh 473551; Type of Centre: Employement/Job
+S.No: 76; State/UT: MadhyaPradesh; Location: Bhopal, Employment Exchange; Address: District Employment Exchange, Idgah Hills, Bhopal; Type of Centre: Employement/Job
+S.No: 77; State/UT: MadhyaPradesh; Location: Jabalpur, Employment Exchange; Address: District Employment Exchange, Udyog Bhawan Katanga near to TV tower Jabalpur, Madhya Pradesh; Type of Centre: Employement/Job
+S.No: 78; State/UT: MadhyaPradesh; Location: Sagar, Employment Exchange; Address: District Employment Exchange, Sagar; Type of Centre: Employement/Job
+S.No: 79; State/UT: MadhyaPradesh; Location: Indore, Employment Exchange; Address: District Employment Exchange, 10 Polo Ground, Near district industries centre, Indore, Madhya Pradesh; Type of Centre: Employement/Job
+S.No: 80; State/UT: Madhya Pradesh; Location: Rewa, Employment Exchange; Address: District Employment Office near priyadarshini talkees Amaihya road Rewa MP; Type of Centre: Employement/Job
+S.No: 81; State/UT: Madhya Pradesh; Location: Ujjain, Employment Exchange; Address: District Employment Office, 153, Mahashwera Nagar, Near Iskcon Temple, Ujjain, MP; Type of Centre: Employement/Job
+S.No: 82; State/UT: MadhyaPradesh; Location: Devi Ahilya University, Indore; Address: Takshshila Campus, Khandwa Road, Indore - 452001; Type of Centre: Employement/Job
+S.No: 83; State/UT: Madhya Pradesh; Location: AISECT, Indore; Address: AISECT Education and Skill Development Center, 301, 3rd floor, Darshan Mall, CourseRoad, Opp. IDA Building, Indore; Type of Centre: Employment/Job Centre
+S.No: 84; State/UT: Manipur; Location: CAREER CLINIQUE, Imphal; Address: DM College of Arts Library, Chinmeirong, Imphal 795001; Type of Centre: Employment/Job Centre
+S.No: 85; State/UT: Manipur; Location: NIELIT Imphal; Address: MCC NIELIT, Singjamei Kshetri Leikai, Khongman, Imphal, Manipur 795008; Type of Centre: Employment/Job Centre
+S.No: 86; State/UT: Nagaland; Location: Kohima, Employment Exchange; Address: Directorate of Employment, Skill Development & Entrepreneurship, NH-61, Above High School Junction, Kohima 797001 Nagaland; Type of Centre: Employment/Job Centre
+S.No: 87; State/UT: Nagaland; Location: CAREER CLINIQUE Kohima; Address: B-7, c/o Directorate of Employment & Craftsmen Training, High School Junction, Kohima – 797001 Nagaland; Type of Centre: Employment/Job Centre
+S.No: 88; State/UT: Odisha; Location: Sambalpur, Employment Exchange; Address: Sambhalpur, Bhutapada Chowk, JailRoad, Sambhalpur; Type of Centre: Employment/Job Centre
+S.No: 89; State/UT: Odisha; Location: Dhenkanal, Employment Exchange; Address: District Employment Exchange, Dhenaknal, Odisha; Type of Centre: Employment/Job Centre
+S.No: 90; State/UT: Odisha; Location: Rourkela, Employment Exchange; Address: District Employment Exchange Rourkela, Dist. Sundargarh; Type of Centre: Employment/Job Centre
+S.No: 91; State/UT: Odisha; Location: Cuttack, Employment Exchange; Address: District Employment Exchange, Cuttack, Odisha; Type of Centre: Employment/Job Centre
+S.No: 92; State/UT: Odisha; Location: CUTM, Khurda; Address: CUTM, H I G 5-P has e II, Duplex, Pokhoriput, BDA, Bhubanewar 751020; Type of Centre: Employment/Job Centre
+S.No: 93; State/UT: Odisha; Location: NCSC for DA (Erstwhile VRC), Bhubaneswar; Address: Plot No. 1,2, 5 & 6, Adjacent to Indira Gandhi Ayurvedic College, PO Khandgiri, Odisha-751030; Type of Centre: Employment/Job Centre
+S.No: 94; State/UT: Odisha; Location: Berhampur, District Employment Exchange; Address: District Employment Exchange, Ganjam, Berhampur; Type of Centre: Employment/Job Centre
+S.No: 95; State/UT: Odisha; Location: Koraput, District Employment Exchange; Address: District Employment Exchange, Koraput (Odisha); Type of Centre: Employment/Job Centre
+S.No: 96; State/UT: Odisha; Location: Model Career Centre, Keonjhar; Address: Park Line, Jagannathpur, KEONJHAR Kendujhar, odisha – 758001; Type of Centre: Employment/Job Centre
+S.No: 97; State/UT: Puducherry; Location: Bathinda, Employment Exchange; Address: District Employment Exchange, Labour complex, Gandhinagar, Vazhudhavur road, Puducherry6505009; Type of Centre: Employment/Job Centre
+S.No: 98; State/UT: Punjab; Location: Bathinda, Employment Exchange; Address: District Employment Exchange, Rojgar Bhawan Opp. MALL, Near post office (Bhatinda), Punjab; Type of Centre: Employment/Job Centre
+S.No: 99; State/UT: Punjab; Location: Fatehgarhsahib, Employment Exchange; Address: District Employment Exchange, Fatehgarh Sahib, Punjab; Type of Centre: Employment/Job Centre
+S.No: 100; State/UT: Punjab; Location: Guru Nanak Dev University, Amritsar; Address: Placement Departmnet M.R.S. Bhawan, Guru Nanak Dev Univ. Amritsar Punjab 143005; Type of Centre: Employment/Job Centre
+S.No: 101; State/UT: Rajasthan; Location: Kota, Employment Exchange; Address: District Employment Exchange, R.B. Road Nayapura Kota Rajasthan; Type of Centre: Employment/Job
+S.No: 102; State/UT: Rajasthan; Location: Bikaner, Employment Exchange; Address: Sub Regional employmnet office Chopra Katla, Rani Bazar, Bikaner Rajasthan; Type of Centre: Employment/Job
+S.No: 103; State/UT: Rajasthan; Location: Bharatpur, Employment Exchange; Address: District Employment Office, Bharatpur, Rajasthan; Type of Centre: Employment/Job
+S.No: 104; State/UT: Rajasthan; Location: Jaipur, Employment Exchange; Address: EMI Campus, Jhalana Institutional Area, Jhalana, Doongri, Jaipur - 302004, Rajasthan; Type of Centre: Employment/Job
+S.No: 105; State/UT: Rajasthan; Location: Alwar, District Employment Exchange; Address: District Employment Exchange, Sanjay Nagar, Moti Doongri, Alwar, Rajasthan; Type of Centre: Employment/Job
+S.No: 106; State/UT: Rajasthan; Location: Dausa, District Employment Exchange; Address: District Employment Office Dausa, Employment Office Building Collectorate Campus Dausa; Type of Centre: Employment/Job
+S.No: 107; State/UT: Rajasthan; Location: Jhalawar, District Employment Exchange; Address: Employment Office, Room No 106-108, MINI SECRETARIAT, Jhalawar Pin - 326001; Type of Centre: Employment/Job
+S.No: 108; State/UT: Rajasthan; Location: Jhunjhunu, District Employment Exchange; Address: Sub Regional Employment Office, Collectorate Campus, Jhunjhunu; Type of Centre: Employment/Job
+S.No: 109; State/UT: Rajasthan; Location: Pali, District Employment Exchange; Address: District Employment Office, Collectorate Campus, Pali; Type of Centre: Employment/Job
+S.No: 110; State/UT: Rajasthan; Location: Sawai Madhopur, District Employment Exchange; Address: District Employment Exchange, Collectrate campus, Sawai Madhopur, Rajasthan; Type of Centre: Employment/Job
+S.No: 111; State/UT: Rajasthan; Location: Sirohi, District Employment Exchange; Address: District Employment Office, Collectorate Campus, Sirohi; Type of Centre: Employment/Job
+S.No: 112; State/UT: Sikkim; Location: Gangtok, Dept. of Skill Development & Entrepreneureship; Address: State Institute of Capacity Building, Dept of Labour, Govt of Sikkim, Gangtok, Sikkim; Type of Centre: Employment/Job
+S.No: 113; State/UT: Sikkim; Location: Jorethang, Dept. of Skill Development & Entrepreneureship; Address: State Institute of Capacity Building (SICB), Karfectar, Jorethang, South Sikkim- 737121; Type of Centre: Employment/Job
+S.No: 114; State/UT: Sikkim; Location: Dentam Bazar, Dept. of Skill Development & Entrepreneureship; Address: State Institute of Capacity Building (SICB), Karfectar, Dentam Bazar, West Sikkim; Type of Centre: Employment/Job
+S.No: 115; State/UT: Tamil Nadu; Location: Coimbatore, Employment Exchange; Address: District employment Office, Mettupalayam Road ITI Campus GN Mills Post Coimbatore 641029; Type of Centre: Employment/Job
+S.No: 116; State/UT: Tamil Nadu; Location: Vellore, Employment Exchange; Address: District Employment Office, Government ITI Campus, Melmonavur, Vellore-10; Type of Centre: Employment/Job
+S.No: 117; State/UT: Tamil Nadu; Location: CII, Chennai; Address: 98 / 1, Velachery Main Road, Guindy, Chennai, Tamil Nadu 600032; Type of Centre: Employment/Job
+S.No: 118; State/UT: Tamil Nadu; Location: Salem, District Employment Exchange; Address: District Employment Office, Near Govt. Women Art College, Gorimedu, Salem - 8; Type of Centre: Employment/Job
+S.No: 119; State/UT: Tamil Nadu; Location: Thiruvallur, District Employment Exchange; Address: District Employment Office, District Collectorate Master Plan Campus Thiruvallur; Type of Centre: Employment/Job
 S.No: 120; State/UT: Tamil Nadu; Location: Tirunelveli, District Employment Exchange; Address: District Employment Office, District Collectorate Campus, Kokkirakulam, Tirunelveli–627 009; Type of Centre: Employment/Job Centre
 S.No: 121; State/UT: Tamil Nadu; Location: Udhagamandalam, District Employment Exchange; Address: District Employment Office, Additional Collectorate Floor, Block 4, 1st Floor, Fingar PO, UDHAGAMANDALAM - 6; Type of Centre: Employment/Job Centre
-S.No: 122; State/UT: Tamil Nadu; Location: Villupuram, District Employment Exchange; Address: District Employment Office, Collectorate Master Plan Complex, Ceo Office Back Side, Villupuram 605602; Type of Centre: Employment/Job Centre
+S.No: 122; State/UT: Tamil Nadu; Location: Villupuram, District Employment Exchange; Address: Master Plan Complex, Ceo Office Back Side, Villupuram 605602; Type of Centre: Employment/Job Centre
 S.No: 123; State/UT: Tamil Nadu; Location: Virudhunagar DEX; Address: District Employment Office, Govt. ITI Campus, Sulakarai, Virudhunagar–626 003; Type of Centre: Employment/Job Centre
 S.No: 124; State/UT: Tripura; Location: Agartala, Employment Exchange; Address: District Employment Exchange, Office Lane, Agartala, West Tripura, 799001; Type of Centre: Employment/Job Centre
 S.No: 125; State/UT: Tripura; Location: Dharmanagar, Employment Exchange; Address: District Employment Exchange, Office Tilla, Dharmanagar, North Tripura, Tripura; Type of Centre: Employment/Job Centre
 S.No: 126; State/UT: Tripura; Location: NCSC for DA (Erstwhile VRC) Agartala; Address: NCSC for DA (Erstwhile VRC), Abhoy Nagar, Agartala-799 005, Tripura (West); Type of Centre: Employment/Job Centre
-S.No: 127; State/UT: Telangana; Location: Hyderabad Cl & T, Employment Exchange; Address: Dist. Employment Exchange, Clerical & Technical, Govt. ITI Campus, Vijaynagar Colony, Mallepally, Hyd – 500057; Type of Centre: Employment/Job Centre
-S.No: 128; State/UT: Telangana; Location: Warangal, Employment Exchange; Address: Dist. Employment Exchange, Warangal Govt. ITI Campus, Mulugu Road, Warangal - 506007; Type of Centre: Employment/Job Centre
-S.No: 129; State/UT: Telangana; Location: Osmania University, Hyderabad; Address: Information Guidance Bureau, Osmania University, Hyderabad, Telangana- 500 022; Type of Centre: Employment/Job Centre
-S.No: 130; State/UT: Telangana; Location: Khammam, Employment Exchange; Address: , R&B Quarters, Near TNGO's Function Hall Land mark TDP office, Khammam-507002; Type of Centre: Employment/Job Centre
-S.No: 131; State/UT: Telangana; Location: Mancherial, Employment Exchange; Address: , Govt. ITI Campus, Ballampally Road, Macherial Dist. 504208; Type of Centre: Employment/Job Centre
-S.No: 132; State/UT: Telangana; Location: Rangareddy, Employment Exchange; Address: , Govt. ITI Campus, Mallepally, Hyderabad, Rangareddy, Dist 500057; Type of Centre: Employment/Job Centre
-S.No: 133; State/UT: Uttar Pradesh; Location: Lucknow Employment Exchange; Address: Rojgar Bhawan, Guru Govind Singh Marg, Lucknow, Uttar Pradesh; Type of Centre: Employment/Job Centre
-S.No: 134; State/UT: Uttar Pradesh; Location: Ghaziabad, Employment Exchange; Address: District Employment Exchange, Ghaziabad, Uttar Pradesh; Type of Centre: Employment/Job Centre
-S.No: 135; State/UT: Uttar Pradesh; Location: Meerut, Employment Exchange; Address: Regional Employment Office, Collectorate Compound Meerut UP; Type of Centre: Employment/Job Centre
-S.No: 136; State/UT: Uttar Pradesh; Location: Bundelkhand University, Jhansi; Address: Bundelkhand Univ. Kanpur Road Jhansi 284128 UP; Type of Centre: Employment/Job Centre
+S.No: 127; State/UT: Telangana; Location: Hyderabad Cl & T, Employment Exchange; Address: Dist. Employment Exchange Warangal, Govt. ITI Campus Mulugu Road, Warangal - 506007; Type of Centre: Employment/Job Centre
+S.No: 128; State/UT: Telangana; Location: Osmania University, Hyderabad; Address: University Employment Information Guidance Bureau, Osmania University, Hyderabad, Telangana- 500 022; Type of Centre: Employment/Job Centre
+S.No: 129; State/UT: Telangana; Location: Khammam, Employment Exchange; Address: District Employment Exchange, R&B Quarters, Near TNGO's Function Hall Land mark TDP office, Khammam-507002; Type of Centre: Employment/Job Centre
+S.No: 130; State/UT: Telangana; Location: Mancherial, Employment Exchange; Address: District Employment Exchange, Govt. ITI Campus, Ballampally Road, Macherial Dist. 504208; Type of Centre: Employment/Job Centre
+S.No: 131; State/UT: Telangana; Location: Rangareddy, Employment Exchange; Address: District Employment Exchange, Govt. ITI Campus, Mallepally, Hyderabad, Rangareddy, Dist 500057; Type of Centre: Employment/Job Centre
+S.No: 132; State/UT: Uttar Pradesh; Location: Lucknow Employment Exchange; Address: Rojgar Bhawan, Guru Govind Singh Marg, Lucknow, Uttar Pradesh; Type of Centre: Employment/Job Centre
+S.No: 133; State/UT: Uttar Pradesh; Location: Ghaziabad, Employment Exchange; Address: District Employment Exchange, Ghaziabad, Uttar Pradesh; Type of Centre: Employment/Job Centre
+S.No: 134; State/UT: Uttar Pradesh; Location: Meerut, Employment Exchange; Address: Regional Employment Office, Collectorate Compound Meerut UP; Type of Centre: Employment/Job Centre
+S.No: 136; State/UT: Uttar Pradesh; Location: Bundelkhand University, Jhansi; Address: Univ. Employment information and counseling centre, Bundelkhand Univ. Kanpur Road Jhansi 284128 UP; Type of Centre: Employment/Job Centre
 S.No: 137; State/UT: Uttar Pradesh; Location: Moradabad, Employment Exchange; Address: Regional Employment Exchange, Kant road, Behind Vivekanand hospital, Moradabad; Type of Centre: Employment/Job Centre
 S.No: 138; State/UT: Uttar Pradesh; Location: National Institute of Career Service, Noida; Address: NICS, A-49, Sector- 62, Opposite Nokia Building, Noida; Type of Centre: Employment/Job Centre
-S.No: 139; State/UT: Uttar Pradesh; Location: University of Allahabad, Allahabad; Address: Dept. Of Electronics of Communication, Univ. Of Allahabad 211002 UP; Type of Centre: Employment/Job Centre
+S.No: 139; State/UT: Uttar Pradesh; Location: University of Allahabad, Allahabad; Address: UNIVERSITY EMPLOYMENT INFORMATION AND GUIDANCE BUREAU, Dept. Of Electronics of Communication, Univ. Of Allahabad 211002 UP; Type of Centre: Employment/Job Centre
 S.No: 140; State/UT: Uttar Pradesh; Location: FICCI, Greater Noida; Address: FICCI, Tansen Marg, New Delhi-110001; Type of Centre: Employment/Job Centre
-S.No: 141; State/UT: Uttar Pradesh; Location: MMM Engineering College; Address: Campus, Deoria Road, Gorakhpur-273010; Type of Centre: Employment/Job Centre
-S.No: 142; State/UT: Uttar Pradesh; Location: Banaras Hindu University; Address: INFORMATION AND GUIDANCE BUREAU Ruiya Hostel Medical Block 1st Floor BHU – 221005 UP; Type of Centre: Employment/Job Centre
-S.No: 143; State/UT: Uttar Pradesh; Location: NCSC for DA (Erstwhile VRC), Kanpur; Address: NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.); Type of Centre: Employment/Job Centre
-S.No: 144; State/UT: Uttar Pradesh; Location: Mirzapur, Regional Employment Exchange; Address: UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001 (UP); Type of Centre: Employement/Job Centre
-S.No: 145; State/UT: Uttar Pradesh; Location: Barailly, District Employment Exchange; Address: Regional Employment Office, Civil Lines, Barerilly; Type of Centre: Employement/Job Centre
-S.No: 146; State/UT: Uttar Pradesh; Location: Agra, District Employment Exchange; Address: Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra (UP); Type of Centre: Employement/Job Centre
-S.No: 147; State/UT: Uttar Pradesh; Location: Saharanpur, District Employment Exchange; Address: Regional Employment Office, Saharanpur, UP; Type of Centre: Employement/Job Centre
-S.No: 148; State/UT: Uttar Pradesh; Location: Gonda, District Employment Exchange; Address: Regional Employment Exchange Civil line Gonda(U.P.); Type of Centre: Employement/Job Centre
-S.No: 149; State/UT: Uttar Pradesh; Location: Faizabad, District Employment Exchange; Address: Regional Employment Exchange, Faizabad, Pin Code -224001; Type of Centre: Employement/Job Centre
-S.No: 150; State/UT: Uttar Pradesh; Location: Basti, District Employment Exchange; Address: Regional Employment Office, Katra Moorghat Eoad, Basti 272001, UP; Type of Centre: Employement/Job Centre
-S.No: 151; State/UT: Uttar Pradesh; Location: Sitapur, District Employment Exchange; Address: District Employment Office Near G.I.T.I. SITAPUR; Type of Centre: Employement/Job Centre
-S.No: 152; State/UT: Uttar Pradesh; Location: Bijnor, District Employment Exchange; Address: District Employment Office, Bijnor, Uttar Pradesh; Type of Centre: Employement/Job Centre
-S.No: 153; State/UT: Uttar Pradesh; Location: Lakhimpurkhiri, District Employment Exchange; Address: District Employment Office Near DIET Rajapur Kheri -262701; Type of Centre: Employement/Job Centre
-S.No: 154; State/UT: Uttar Pradesh; Location: Hardoi, District Employment Exchange; Address: District Employment Officer, District Employment Office NEAR ITI, HARDOI -241001; Type of Centre: Employement/Job Centre
-S.No: 155; State/UT: Uttar Pradesh; Location: Muzaffarnagar, Employment Exchange; Address: Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar, UP; Type of Centre: Employement/Job Centre
-S.No: 156; State/UT: Uttar Pradesh; Location: Amity University; Address: Amity University, Sector 125, Noda- 201313; Type of Centre: Employement/Job Centre
-S.No: 157; State/UT: Uttarakhand; Location: Dehradun, Employment Exchange; Address: Employment Office, 4 Convent Road, Near Parade Ground, Dehradun; Type of Centre: Employement/Job Centre
-S.No: 158; State/UT: Uttarakhand; Location: Udham Singh Nagar, Employment Exchange; Address: Employment Office, Near CMO Office, Police Line, Rudarpur, Udham Singh Nagar, Uttarakhand; Type of Centre: Employement/Job Centre
-S.No: 159; State/UT: Uttarakhand; Location: Almora, Regional Employment Exchange; Address: District Employment Exchange, Almora, Pt.J.Joshi Govt.I.T.I. Brighten Corner Almora; Type of Centre: Employement/Job Centre
-S.No: 160; State/UT: West Bengal; Location: Kolkata, Employment Exchange; Address: Employment Exchange, Asansol, CDBlock, SenRelaigh Colony, Kanyapur Distt Burdwan; Type of Centre: Employement/Job Centre
-S.No: 161; State/UT: West Bengal; Location: Asansol, Employment Exchange; Address: Employment Exchange, Mallick Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032; Type of Centre: Employement/Job Centre
-S.No: 162; State/UT: West Bengal; Location: NIELIT, Kolkata; Address: Jadavpur University Campus, Kolkata, West Bengal-700032; Type of Centre: Employment/Job Centre
-S.No: 163; State/UT: West Bengal; Location: Berhampur, Sub District Employment Exchange; Address: Berhampur, Old Collectorate Building, PO- Berhampur, Dt. Murshidabad, Pin- 742101, West Bengal; Type of Centre: Employment/Job Centre
-S.No: 164; State/UT: West Bengal; Location: Burdwan, District Employment Exchange; Address: Burdwan, Bahala Industrial Estate, Block 2, 620 Diamond Harbour Road, Dist. South 24 Parganas West Bengal; Type of Centre: Employment/Job Centre
-S.No: 165; State/UT: West Bengal; Location: Durgapur, Sub Regional Employment Exchange; Address: Durgapur, Sub Regional Employment Exchange, PO- Sadarghata, Purba Burdwan, Pin - 713109 West Bengal; Type of Centre: Employment/Job Centre
-S.No: 166; State/UT: West Bengal; Location: Khidirpur, Sub Regional Employment Exchange; Address: Khidirpur, Sub Regional Employment Exchange, Administrative Buildings, 1st floor, City Centre, PO Durgapur, Dist. Paschim Burdwan, PIN 713216, West Bengal; Type of Centre: Employment/Job Centre
-S.No: 167; State/UT: West Bengal; Location: Krishnagar, Sub Regional Employment Exchange; Address: Krishnagar, Sub Regional Employment Exchange, 99/1 Karl Marx Sarani Kolkata 700023 West Bengal; Type of Centre: Employment/Job Centre
+S.No: 141; State/UT: Uttar Pradesh; Location: NIELIT, Gorakhpur; Address: MMM Engineering College Campus, Deoria Road, Gorakhpur-273010; Type of Centre: Employment/Job Centre
+S.No: 142; State/UT: Uttar Pradesh; Location: Banaras Hindu University; Address: NCSC for DA (Erstwhile VRC), ATI Campus, Udyognagar Nagar, Kanpur-208022.(U.P.); Type of Centre: Employment/Job Centre
+S.No: 143; State/UT: Uttar Pradesh; Location: Mirzapur, Regional Employment Exchange; Address: UP Regional Employment Exchange, Mirzapur. Angarh Road, Mirzapur -231001 (UP); Type of Centre: Employment/Job Centre
+S.No: 144; State/UT: Uttar Pradesh; Location: Barailly, District Employment Exchange; Address: Regional Employment Office, Civil Lines, Barerilly; Type of Centre: Employment/Job Centre
+S.No: 145; State/UT: Uttar Pradesh; Location: Agra, District Employment Exchange; Address: Regional Employment Exchange, Sai Ki Takiya Crossing, M G Road, Agra (UP); Type of Centre: Employment/Job Centre
+S.No: 146; State/UT: Uttar Pradesh; Location: Saharanpur, District Employment Exchange; Address: Regional Employment Office, Saharanpur, UP; Type of Centre: Employment/Job Centre
+S.No: 147; State/UT: Uttar Pradesh; Location: Gonda, District Employment Exchange; Address: Regional Employment Exchange Civil line Gonda(U.P.); Type of Centre: Employment/Job Centre
+S.No: 148; State/UT: Uttar Pradesh; Location: Faizabad, District Employment Exchange; Address: Regional Employment Exchange, Faizabad, Pin Code -224001; Type of Centre: Employment/Job Centre
+S.No: 149; State/UT: Uttar Pradesh; Location: Basti, District Employment Exchange; Address: Regional Employment Office, Katra Moorghat Eoad, Basti 272001, UP; Type of Centre: Employment/Job Centre
+S.No: 150; State/UT: Uttar Pradesh; Location: Sitapur, District Employment Exchange; Address: District Employment Office Near G.I.T.I. SITAPUR; Type of Centre: Employment/Job Centre
+S.No: 151; State/UT: Uttar Pradesh; Location: Bijnor, District Employment Exchange; Address: District Employment Office, Bijnor, Uttar Pradesh; Type of Centre: Employment/Job Centre
+S.No: 152; State/UT: Uttar Pradesh; Location: Lakhimpurkhiri, District Employment Exchange; Address: District Employment Office Near DIET Rajapur Kheri -262701; Type of Centre: Employment/Job Centre
+S.No: 154; State/UT: Uttar Pradesh; Location: Hardoi, District Employment Exchange; Address: District Employment Officer, District Employment Office NEAR ITI, HARDOI-241001; Type of Centre: Employment/Job Centre
+S.No: 155; State/UT: Uttar Pradesh; Location: Muzaffarnagar, Employment Exchange; Address: Regional Employment Exchange, GITI CAMPUS, Meerut Road, Muzaffarnagar, UP; Type of Centre: Employment/Job Centre
+S.No: 156; State/UT: Uttar Pradesh; Location: Amity University *; Address: Amity University, Sector 125, Noda-201313; Type of Centre: Employment/Job Centre
+S.No: 157; State/UT: Uttarakhand; Location: Dehradun, Employment Exchange; Address: Model Career Centre, Regional Employment Office, 4 Convent Road, Near Parade Ground, Dehradun; Type of Centre: Employment/Job Centre
+S.No: 158; State/UT: Uttarakhand; Location: Udham Singh Nagar, Employment Exchange; Address: Model Career Centre/Employment Office, Near CMO Office, Police Line, Rudarpur, Udham Singh Nagar, Uttarakhand; Type of Centre: Employment/Job Centre
+S.No: 159; State/UT: Uttarakhand; Location: Almora, Regional Employment Exchange; Address: District Employment Exchange, Almora, Pt.J.Joshi Govt.I.T.I. Brighten Corner Almora; Type of Centre: Employment/Job Centre
+S.No: 160; State/UT: West Bengal; Location: Kolkata, Employment Exchange; Address: Sub Regional Employment Exchange, Asansol, CDBlock, SenRelaigh Colony, Kanyapur Distt Burdwan; Type of Centre: Employment/Job Centre
+S.No: 161; State/UT: West Bengal; Location: Asansol, Employment Exchange; Address: 188, Raja Subodh Chandra Mallick Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032; Type of Centre: Employment/Job Centre
+S.No: 162; State/UT: West Bengal; Location: NIELIT, Kolkata; Address: National Institute of Electronics and Information Technology, Jadavpur University Campus, Kolkata West Bengal-700032; Type of Centre: Employment/Job Centre
+S.No: 163; State/UT: West Bengal; Location: Berhampur, Sub District Employment Exchange; Address: District Employment Exchange, Berhampur, Old Collectorate Building, PO- Berhampur, Dt. Murshidabad, Pin- 742101, West Bengal; Type of Centre: Employment/Job Centre
+S.No: 164; State/UT: West Bengal; Location: Burdwan, District Employment Exchnage; Address: District Employment Exchange Burdwan, Budgebudge, Bahala Industrial Estate, Block 2, 620 Diamond Harbour Road, Dist. South 24 Parganas West Bengal; Type of Centre: Employment/Job Centre
+S.No: 165; State/UT: West Bengal; Location: Durgapur, Sub Regional Employment Exchange; Address: Purta Bhawan (3rd Floor & 7th Floor) Sripally, PO- Sadarghata, Purba Burdwan, Pin - 713109 West Bengal; Type of Centre: Employment/Job Centre
+S.No: 166; State/UT: West Bengal; Location: Khidirpur, Sub Regional Employment Exchange; Address: Sub Regional Employment Exchange, Durgapur, ADDA Administrative Buildings, 1st floor, City Centre, PO Durgapur, Dist. Paschim Burdwan, PIN 713216, West Bengal; Type of Centre: Employment/Job Centre
+S.No: 167; State/UT: West Bengal; Location: Krishnagar, Sub Regional Employment Exchange; Address: Sub Regional Employment Exchange, Khidirpur, 99/1 Karl Marx Sarani Kolkata 700023 West Bengal; Type of Centre: Employment/Job Centre
 S.No: 168; State/UT: West Bengal; Location: Budgebudge, District Employment Exchange; Address: Krishnagar, Old Collectorate Buildings, PO Krishnagar, Dist. Nadia, PIN 741101 West Bengal; Type of Centre: Employment/Job Centre
-S.No: 169; State/UT: West Bengal; Location: Siliguri, District Employment Exchange; Address: Siliguri, Kolkata, PO Siliguri, Dist. Darjeeling Pin 734401West Bengal; Type of Centre: Employment/Job Centre
-S.No: 170; State/UT: West Bengal; Location: Swastik Computer Education, Kolkata; Address: Salt Lake Incubatin Centre, Module- 1B, Sector-5, Salt Lake, Kolkata-700091; Type of Centre: Employment/Job Centre
-S.No: 171; State/UT: West Bengal; Location: Edujobs Academy, Kolkata (Under Process); Address: Edujobs Academy, 388 Block G, New Alipore, Kolkata-700053; Type of Centre: Employment/Job Centre
+S.No: 169; State/UT: West Bengal; Location: Siliguri, District Employment Exchange; Address: Kolkata, PO Siliguri, Dist. Darjeeling Pin 734401West Bengal; Type of Centre: Employment/Job Centre
+S.No: 170; State/UT: West Bengal; Location: Swastik Computer Education, Kolkata *; Address: Swastik Institute of IT, Salt Lake Incubatin Centre, Module-1B, Sector-5, Salt Lake, Kolkata-700091; Type of Centre: Employment/Job Centre
+S.No: 171; State/UT: West Bengal; Location: Edujobs Academy, Kolkata * (Under Process); Address: 2COMS, Consulting Pvt. Ltd., Edujobs Academy, 388 Block G, New Alipore, Kolkata-700053; Type of Centre: Employment/Job Centre
 S.No: 1; Institute Name: LEARNET SKILLS LIMITED; State: Telangana; District: Adilabad; Training Center ID: TC027331; Training Partner ID: TP000262; Allocated Target: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
 S.No: 2; Institute Name: DATAPRO COMPUTERS PRIVATE LIMITED; State: Telangana; District: B.Kothagudem; Training Center ID: TC059061; Training Partner ID: TP000440; Allocated Target: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
 S.No: 3; Institute Name: DATAPRO COMPUTERS PRIVATE LIMITED; State: Telangana; District: Jagitial; Training Center ID: TC060328; Training Partner ID: TP000440; Allocated Target: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
@@ -238,3 +220,53 @@ S.No: 40; INSTITUTE NAME: ICA EDU SKILLS PRIVATE LIMITED; STATE: Andhra Pradesh;
 S.No: 41; INSTITUTE NAME: ICA EDU SKILLS PRIVATE LIMITED; STATE: Andhra Pradesh; DISTRICT: Visakhapatnam; TRAINING CENTER ID: TC040780; TRAINING PARTNER ID: TP000433; TARGET ALLOCATED: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
 S.No: 42; INSTITUTE NAME: SHRI PROSKILLS LLP; STATE: Andhra Pradesh; DISTRICT: West Godavari; TRAINING CENTER ID: TC100110; TRAINING PARTNER ID: TP000187; TARGET ALLOCATED: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
 S.No: 44; INSTITUTE NAME: SYNCHROSERVE GLOBAL SOLUTIONS PRIVATE LIMITED; STATE: Andhra Pradesh; DISTRICT: Y.S.R.Kadapa; TRAINING CENTER ID: TC037951; TRAINING PARTNER ID: TP000006; TARGET ALLOCATED: 120; Type of Training Centre: Pradhan Mantri Kaushal Vikas Yojana - PMKVY
+S.NO: 1; NAME: Aerospace and Aviation Sector Skill Council; PARTNER NAME: Chetan S; E-MAIL: chetan@aassc.in
+S.NO: 2; NAME: Domestic Workers Sector Skill Council; PARTNER NAME: Mr. Adil Hussain; E-MAIL: info@dwsscindia.com
+S.NO: 3; NAME: Paints and Coatings Skill Council; PARTNER NAME: R Ramesh; E-MAIL: manageraccounts@pcsc.in
+S.NO: 4; NAME: Agriculture Skill Council of India; PARTNER NAME: Ms. Priyanka Bali; E-MAIL: bali.priyanka@asci-india.com
+S.NO: 5; NAME: Apparel Made-Ups & Home Furnishing Sector Skill Council; PARTNER NAME: Ashish Srivastava; E-MAIL: dop1@sscamh.com
+S.NO: 6; NAME: Automotive Skills Development Council; PARTNER NAME: Priyanka Gupta; E-MAIL: info@asdc.org.in
+S.NO: 7; NAME: Beauty & Wellness Sector Skill Council; PARTNER NAME: Ms. Barnali Sen Mazumdar; E-MAIL: info@bwssc.in
+S.NO: 8; NAME: BFSI Sector Skill Council Of India; PARTNER NAME: Soumya Ranjan; E-MAIL: ranjan.soumya@bfsissc.com
+S.NO: 9; NAME: Capital Goods Skill Council; PARTNER NAME: Jamir; E-MAIL: dm-ae@cgsc.in
+S.NO: 10; NAME: Construction Skill Development Council of India; PARTNER NAME: Akansha Mehrotra; E-MAIL: akansha@csdcindia.org
+S.NO: 11; NAME: Domestic Workers Sector Skill Council; PARTNER NAME: Mr. Adil Hussain; E-MAIL: info@dwsscindia.com
+S.NO: 12; NAME: Electronics Sector Skills Council of India; PARTNER NAME: Dr. Devraj Singh; E-MAIL: devraj@essc-india.org
+S.NO: 13; NAME: Food Industry Capacity & Skill Initiative; PARTNER NAME: Faraz Faridi; E-MAIL: faraz.faridi@ficsi.in
+S.NO: 14; NAME: Gem & Jewellery Skill Council of India; PARTNER NAME: Kiran Padture; E-MAIL: gmops@gjsci.org
+S.NO: 15; NAME: Handicrafts and Carpet Sector Skill Council; PARTNER NAME: Arjun Singh; E-MAIL: Project.cen@hcssc.in
+S.NO: 16; NAME: Healthcare Sector Skill Council; PARTNER NAME: Seemonti Bhattacharya; E-MAIL: Seemonti.sarkar@healthcare-ssc.in
+S.NO: 17; NAME: Infrastructure Equipment Skill Council; PARTNER NAME: Kamal Kumar Khosh; E-MAIL: kkg@iescindia.com
+S.NO: 18; NAME: Instrumentation Automation Surveillance & Communication Sector Skill Council; PARTNER NAME: Khusbu Singh; E-MAIL: apo@iascsectorskillcouncil.in
+S.NO: 19; NAME: Leather Sector Skill Council; PARTNER NAME: Rajesh Rathnam; E-MAIL: ceo@leatherssc.org
+CONTACT NUMBER: 9008885522; ADDRESS: # 11, Dynamatic Park, Peenya, Peenya Industrial Area, Bengaluru-560058; PIN CODE: 560058; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9696909732; ADDRESS: A-15, FIEE Complex, Okhla Industrial Area, Phase-II, New Delhi–110020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9830305301; ADDRESS: Unit No-1019, The Summit Business Park, Off Andheri Kurla Road, Andheri East, Mumbai-400093; PIN CODE: 400093; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9873465671; ADDRESS: 6th Floor, GNG Building, Plot No. 10, Sector 44, Gurgaon, Haryana-122004; PIN CODE: 122004; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 7835027705; ADDRESS: Flat No. A-312 To A-323 , Third Floor, Somdatt Chamber-I, Bhikaji Cama Place, New Delhi-110066; PIN CODE: 110066; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9654395229; ADDRESS: 153, GF, Okhla Industrial Area Phase 3, New Delhi 110020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9811358303; ADDRESS: 5B, Upper Ground Floor, 23 Himalaya House, Kasturba Gandhi Marg, Connaught Place, New Delhi-110001; PIN CODE: 110001; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 8291278155; ADDRESS: 1407 Lodha Supremus Powai, Saki Vihar Road, Powai, Mumbai. Pin - 400072; PIN CODE: 400072; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 7011228581; ADDRESS: C/O, AWFIS, L29, Outer Circle, Cannought Place , Next to Haldiram, New Delhi 110001.; PIN CODE: 110001; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9717552392; ADDRESS: CPB – 201 & 202, Block-4B, DLF corporate Park, Phase – III, MG Road Gurugram – 122002; PIN CODE: 122002; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 96969097320; ADDRESS: A-15, FIEE Complex, Okhla Industrial Area, Phase-II, New Delhi–110020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9560857975; ADDRESS: 155, Okhla Industrial Estate Phase III, New Delhi – 110 020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 8130786880; ADDRESS: 3rd Floor, Shriram Bharatiya Kala Kendra, 1, Copernicus Marg, New Delhi-110001, Oppsosite: Doordarshan Bhawan; PIN CODE: 110001; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9930684522; ADDRESS: Gem & Jewellery Skill Council of India, 4th Floor, BFC Building, SEEPZ SEZ, Andheri East, Mumbai-400 096; PIN CODE: 400096; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 8588979818; ADDRESS: OCF, Plot No-2, Pocket-9, Sector-B, Behind JIMS Institute, Vasant Kunj, New Delhi-110070; PIN CODE: 110070; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 1140505850; ADDRESS: Extn. # 113 Office No. 520-521, DLF Tower-A, Jasola District Center, New Delhi-110025; PIN CODE: 110025; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9886495592; ADDRESS: B-12, Sector-1, Noida -201301, Uttar Pradesh; PIN CODE: 201301; Type of Centre: Sector Skill Council - SSC
+CONTACT NUMBER: 9910884436; ADDRESS: GCV House 1st Floor, No.81, Nungambakkam High Road, Chennai - 600034; PIN CODE: 600034; Type of Centre: Sector Skill Council - SSC
+S.No: 20; NAME: Logistics Sector Skill Council; PARTNER NAME: Sai Saravanan; E-MAIL: saravanan@lsc-india.com; CONTACT NUMBER: 9790711544; ADDRESS: Temple Tower,No.476,Ground Floor, Anna Salai,Nandanam, Chennai-600035; PIN CODE: 600035; Type of Centre: Sector Skill Council - SSC
+S.No: 21; NAME: Management & Entrepreneurship and Professional Skills Council (MEPSC); PARTNER NAME: Shikher Saxena; E-MAIL: ssaxena@mepsc.in; CONTACT NUMBER: 9654477762; ADDRESS: F-04, First Floor, Plot No-212, Okhla Phase-III, New Delhi-110020, India; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+S.No: 22; NAME: Media & Entertainment Skill Council; PARTNER NAME: Ms.Roshni Sehgal; E-MAIL: projects@mescindia.org; CONTACT NUMBER: 011 49048335; ADDRESS: 522-524, 5th Floor, DLF Tower A, Jasola, New Delhi-110025; PIN CODE: 110025; Type of Centre: Sector Skill Council - SSC
+S.No: 23; NAME: Paints and Coatings Skill Council; PARTNER NAME: R Ramesh; E-MAIL: manageraccounts@pcsc.in; CONTACT NUMBER: 9830305301; ADDRESS: Business Park, Off Andheri Kurla Road, Andheri East, Mumbai-400093; PIN CODE: 400093; Type of Centre: Sector Skill Council - SSC
+S.No: 24; NAME: Retailers Association's Skill Council of India; PARTNER NAME: R Subramanian; E-MAIL: r.subramanian@rasci.in; CONTACT NUMBER: 022-40058210; ADDRESS: Andheri-Kurla Road, Sakinaka Junction, Sakinaka, Andheri (E), Mumbai-400 072; PIN CODE: 400072; Type of Centre: Sector Skill Council - SSC
+S.No: 25; NAME: Skill Council for Green Jobs; PARTNER NAME: Mr. Arpit Sharma; E-MAIL: coo@sscgj.in; CONTACT NUMBER: 9899505533; ADDRESS: CBIP Building, Malcha Marg, Chanakyapuri, New Delhi - 110021; PIN CODE: 110021; Type of Centre: Sector Skill Council - SSC
+S.No: 26; NAME: Skill Council For Mining Sector; PARTNER NAME: Deepak Mishra; E-MAIL: scms@skillcms.in; CONTACT NUMBER: 011-26814596; ADDRESS: FIMI House, Okhla Industrial Area, Okhla Phase-1, New Delhi-110020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
+S.No: 27; NAME: Skill Council For Persons with Disability; PARTNER NAME: Ashish Kumar Chaudhary; E-MAIL: chaudhary@scpwd.in; CONTACT NUMBER: 9810121410; ADDRESS: City Centre Mall, Plot No.5 Sector-12, Dwarka, New Delhi-110075; PIN CODE: 110075; Type of Centre: Sector Skill Council - SSC
+S.No: 28; NAME: Sports, Physical Education, Fitness & Leisure Skills Council; PARTNER NAME: Rakesh Kumar; E-MAIL: kumar@sportsskills.in; CONTACT NUMBER: 9711045448; ADDRESS: DLF Galleria Mall, Mayur Vihar Phase-1 (Extension), New Delhi-110091; PIN CODE: 110091; Type of Centre: Sector Skill Council - SSC
+S.No: 29; NAME: Telecom Sector Skill Council; PARTNER NAME: K N Jha; E-MAIL: kn.jha@tsscindia.com; CONTACT NUMBER: 9560030438; ADDRESS: Plot no.126, 3rd floor, sector 44, Gurugram, Haryana-122003; PIN CODE: 122003; Type of Centre: Sector Skill Council - SSC
+S.No: 30; NAME: Textile Sector Skill Council; PARTNER NAME: Dr. Vijay Yadav; E-MAIL: vijay@texskill.in; CONTACT NUMBER: 9311180831; ADDRESS: Hansalaya Builiding, 15, Barakhamba Road, New Delhi-110001; PIN CODE: 110001; Type of Centre: Sector Skill Council - SSC
+S.No: 31; NAME: Tourism and Hospitality Skill Council; PARTNER NAME: Mr. Vivek Shandilya; E-MAIL: vivek.shandilya@thsc.in; CONTACT NUMBER: 011 - 41608056; ADDRESS: Mercantile House, KG Marg, Cannaught Place, New Delhi-110001; PIN CODE: 110001; Type of Centre: Sector Skill Council - SSC
+S.No: 32; NAME: Water Management & Plumbing Skill Council; PARTNER NAME: Varun Tandon; E-MAIL: varun.tandon@ipssc.in; CONTACT NUMBER: 9650299060; ADDRESS: DLF Prime Tower, Okhla Phase-1 New Delhi-110020; PIN CODE: 110020; Type of Centre: Sector Skill Council - SSC
