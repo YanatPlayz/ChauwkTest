@@ -7,3 +7,6 @@ processed_chunks.pkl
 __pycache__/
 .vscode/
 parsing_data/
+llama_parsed/output.md
+processed_chunks.pkl
+parsed_files.json

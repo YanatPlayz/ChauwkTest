@@ -88,11 +88,11 @@ def get_conversation_chain(retriever):
     )
     
     return chain
-
+#I want to pursue a career in Electronics. I live in Andhra Pradesh. What job training offices are in my area that offer courses of my field of interest?
 
 def handle_userinput(user_question):
     bhashini = Bhashini("en", sourceLanguage)
-    processed_question = f"User: {user_question}"
+    processed_question = f"Make your response accurate and complete by only using information from the provided context. Use addresses. Make the conversation casual but professional. Use bullet points for lengthy responses.  User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
