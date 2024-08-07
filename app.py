@@ -9,19 +9,40 @@ from langchain.retrievers import ContextualCompressionRetriever
 from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_community.vectorstores import Chroma
-from get_embedding_function import get_embedding_function
+from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
-from bhashini_translator import Bhashini
+from bhashini_translator import Bhashini #custom module
 import base64
 from populate_database import load_chunks
 
+# Stored at local paths.
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
+
+# Language set by the user.
 sourceLanguage = "hi"
 targetLanguage = "en"
 
+def get_embedding_function():
+    """
+    Get the FastEmbed embedding function for document embeddings.
+
+    Returns:
+        FastEmbedEmbeddings: An instance of FastEmbedEmbeddings for creating document embeddings.
+    """
+    embeddings = FastEmbedEmbeddings()
+    return embeddings
+
 def get_vectorstore():
+    """
+    Load the vector store from ChromaDB.
+
+    Returns:
+        Tuple[Chroma, list[Document]]:
+            - Chroma object: The loaded vector store.
+            - list[Document]: The document chunks used to create the vector store.
+    """
     embedding_function = get_embedding_function()
     chunks = load_chunks()
     if chunks is None:
@@ -32,6 +53,17 @@ def get_vectorstore():
     return db, chunks
 
 def get_improved_retriever(vectorstore, chunks):
+    """
+    Get an advanced retriever with hybrid search and contextual compression.
+
+    Args:
+        vectorstore (Chroma): used for semantic search.
+        chunks (list[Document]): used for keyword search.
+
+    Returns:
+        ContextualCompressionRetriever: Improved retriever combining vector and keyword search
+        with contextual compression.
+    """
     # Vector store retriever
     vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
     
@@ -42,7 +74,7 @@ def get_improved_retriever(vectorstore, chunks):
     # Ensemble retriever
     ensemble_retriever = EnsembleRetriever(
         retrievers=[vectorstore_retriever, bm25_retriever],
-        weights=[0.7, 0.3]
+        weights=[0.5, 0.5]
     )
     
     # Contextual compression
@@ -57,16 +89,25 @@ def get_improved_retriever(vectorstore, chunks):
     return compression_retriever
 
 def get_conversation_chain(retriever):
+    """
+    Get a conversational chain using the provided retriever.
+
+    Args:
+        retriever (ContextualCompressionRetriever): The retriever to use in the chain.
+
+    Returns:
+        ConversationalRetrievalChain: A chain that combines the language model, retriever, and conversation memory.
+    """
     system_prompt = """You are a helpful assistant for the Government of India's National Career Service. 
     Provide accurate, concise information about career centers, job opportunities, and related services. 
-    Use simple language and give specific details when available. If unsure, say so."""
+    Use simple language and give specific details when available. If unsure, say so without making up information."""
     
     human_prompt = """Context: {context}
     
     Human: {question}
     
     Assistant: Let's approach this step-by-step:
-    1) First, I'll review the relevant information from the context.
+    1) First, I'll review the relevant information from the context searching through all of the documents.
     2) Then, I'll provide a clear and concise answer to your question without making up things.
     3) If any details are missing or unclear, I'll mention that.
     
@@ -88,9 +129,16 @@ def get_conversation_chain(retriever):
     )
     
     return chain
-#I want to pursue a career in Electronics. I live in Andhra Pradesh. What job training offices are in my area that offer courses of my field of interest?
 
 def handle_userinput(user_question):
+    """
+    Process user input, generate a response, update the chat history, and display results on the Streamlit application.
+
+    This function retrieves Chatbot responses, translates messages, and generates text-to-speech output for the bot's responses.
+
+    Args:
+        user_question (str): The user's input question translated to English.
+    """
     bhashini = Bhashini("en", sourceLanguage)
     processed_question = f"Make your response accurate and complete by only using information from the provided context. Use addresses. Make the conversation casual but professional. Use bullet points for lengthy responses.  User: {user_question}"
 
@@ -134,6 +182,11 @@ def handle_userinput(user_question):
             st.audio(base64.b64decode(base64_aud), format="audio/wav")
             
 def main():
+    """
+    Main function that runs the Streamlit application.
+
+    This function initializes the Streamlit interface, loads the database, and handles user queries and interactions.
+    """
     load_dotenv()
     st.set_page_config(page_title="ChauwkBot", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)

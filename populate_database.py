@@ -6,23 +6,30 @@ import json
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
-from get_embedding_function import get_embedding_function
 from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
 from langchain_community.document_loaders import UnstructuredFileLoader
 import pickle
+from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 
+# Stored at local paths.
 CHROMA_PATH = "chroma"
 DATA_PATH = "./data/"
 PARSING_DATA_PATH = "./parsing_data/"
 CHUNKS_PATH = "processed_chunks.pkl"
 PARSED_FILES_LIST = "parsed_files.json"
 
+# LlamaParse API key from .env file.
 llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
 def main():
+    """
+    Main function that runs the Chroma database population process.
+
+    Run the populate_database.py script with the '--reset" flag to fully clear the database before adding files in the data path.
+    """
     load_dotenv()
     # Check if the database should be cleared (using the --reset flag).
     parser = argparse.ArgumentParser()
@@ -39,20 +46,40 @@ def main():
     # Update data store.
     documents = load_documents()
     chunks = split_documents(documents)
-    save_chunks(chunks, args.reset)
+    save_chunks(chunks)
     add_to_chroma(chunks)
 
 def load_parsed_files():
+    """
+    Load the list of previously parsed files.
+
+    Returns:
+        List[str]: A list of filenames that have already been parsed.
+    """
     if os.path.exists(PARSED_FILES_LIST):
         with open(PARSED_FILES_LIST, 'r') as f:
             return json.load(f)
     return []
 
 def save_parsed_files(parsed_files):
+    """
+    Save the list of parsed files.
+
+    Args:
+        parsed_files (List[str]): A list of filenames that have been parsed.
+    """
     with open(PARSED_FILES_LIST, 'w') as f:
         json.dump(parsed_files, f)
 
 def load_documents():
+    """
+    Load and parse new documents from the data directory.
+
+    This function uses LlamaParse to process PDF files into a structured format.
+
+    Returns:
+        List[Documents]: A list containing the parsed content.
+    """
     parsed_files = load_parsed_files()
     files_to_parse = []
 
@@ -97,17 +124,39 @@ def load_documents():
     return load_parsed_documents()
 
 def load_parsed_documents():
+    """
+    Load all parsed documents from the 'output.md' file.
+
+    Returns:
+        List[Documents]: A list containing the parsed content.
+    """
     loader = UnstructuredFileLoader('llama_parsed/output.md')
     documents = loader.load()
     print("Loaded parsed documents")
     return documents
 
-def save_chunks(chunks: list[Document], reset: bool):
+def save_chunks(chunks: list[Document]):
+    """
+    Save processed document chunks to a pickle file.
+
+    Args:
+        chunks (List[Document]): A list containing the processed chunks.
+    """
     with open(CHUNKS_PATH, 'wb') as f:
             pickle.dump(chunks, f)
     print(f"✅ Saved {len(chunks)} chunks to {CHUNKS_PATH}")
 
 def load_chunks():
+    """
+    Load previously saved document chunks from the pickle file.
+
+    Returns:
+        None: If no saved chunks are found
+
+        or
+
+        List[Document]: A list containing the processed chunks.
+    """
     if os.path.exists(CHUNKS_PATH):
         with open(CHUNKS_PATH, 'rb') as f:
             chunks = pickle.load(f)
@@ -118,6 +167,15 @@ def load_chunks():
         return None
 
 def split_documents(documents: list[Document]):
+    """
+    Split the input documents into smaller chunks for processing.
+
+    Args:
+        documents (List[Document]): A list of documents to be split.
+
+    Returns:
+        List[Document]: A list containing the split chunks.
+    """
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
         chunk_overlap=200,
@@ -128,6 +186,14 @@ def split_documents(documents: list[Document]):
 
 
 def add_to_chroma(chunks: list[Document]):
+    """
+    Add new document chunks to the Chroma vector store.
+
+    This function only adds new documents that don't already exist in the database using chunk IDs.
+
+    Args:
+        chunks (List[Document]): A list of document chunks to be added to the database.
+    """
     db = Chroma(
         persist_directory=CHROMA_PATH, embedding_function=get_embedding_function()
     )
@@ -154,10 +220,18 @@ def add_to_chroma(chunks: list[Document]):
 
 
 def calculate_chunk_ids(chunks):
+    """
+    Calculate unique IDs for each document chunk.
 
-    # Create IDs, eg: "data/Model_Career_Centres.pdf:6:2"
-    # Page Source : Page Number : Chunk Index
+    Page Source : Page Number : Chunk Index 
+    "data/Model_Career_Centres.pdf:6:2"
 
+    Args:
+        chunks (List[Document]): A list of document chunks objects to assign IDs to.
+
+    Returns:
+        List[Document]: The input list of document chunk objects with added 'id' metadata.
+    """
     last_page_id = None
     current_chunk_index = 0
 
@@ -178,8 +252,22 @@ def calculate_chunk_ids(chunks):
 
     return chunks
 
+def get_embedding_function():
+    """
+    Get the FastEmbed embedding function for document embeddings.
+
+    Returns:
+        FastEmbedEmbeddings: An instance of FastEmbedEmbeddings for creating document embeddings.
+    """
+    embeddings = FastEmbedEmbeddings()
+    return embeddings
 
 def clear_database():
+    """
+    Clear the existing database, chunks, and parsed files.
+
+    This function removes all previously processed local input (except for files in the /data directory).
+    """
     if os.path.exists(CHROMA_PATH):
         shutil.rmtree(CHROMA_PATH)
     if os.path.exists(CHUNKS_PATH):
