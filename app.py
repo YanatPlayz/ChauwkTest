@@ -10,7 +10,6 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
-from htmlTemplates import css, bot_template, user_template
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini #custom module
 import base64
@@ -23,6 +22,53 @@ DATA_PATH = "data"
 # Language set by the user.
 sourceLanguage = "hi"
 targetLanguage = "en"
+
+# Streamlit messages UI templates.
+css = '''
+<style>
+.chat-message {
+    padding: 1.5rem; border-radius: 0.5rem; margin-bottom: 1rem; display: flex
+}
+.chat-message.user {
+    background-color: #2b313e
+}
+.chat-message.bot {
+    background-color: #475063
+}
+.chat-message .avatar {
+  width: 20%;
+}
+.chat-message .avatar img {
+  max-width: 78px;
+  max-height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chat-message .message {
+  width: 80%;
+  padding: 0 1.5rem;
+  color: #fff;
+}
+'''
+
+bot_template = '''
+<div class="chat-message bot">
+    <div class="avatar">
+        <img src="https://i.ibb.co/cN0nmSj/Screenshot-2023-05-28-at-02-37-21.png">
+    </div>
+    <div class="message">{{MSG}}</div>
+</div>
+'''
+
+# replace image with User's profile photo.
+user_template = '''
+<div class="chat-message user">
+    <div class="avatar">
+        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg">
+    </div>    
+    <div class="message">{{MSG}}</div>
+</div>
+'''
 
 def get_embedding_function():
     """
