@@ -61,7 +61,7 @@ def get_improved_retriever(vectorstore, chunks):
         chunks (list[Document]): used for keyword search.
 
     Returns:
-        Ensemble retriever: Improved retriever combining vector and keyword search.
+        EnsembleRetriever: Improved retriever combining vector and keyword search.
     """
     # Vector store retriever
     vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
@@ -83,7 +83,7 @@ def get_conversation_chain(retriever):
     Get a conversational chain using the provided retriever.
 
     Args:
-        retriever (ContextualCompressionRetriever): The retriever to use in the chain.
+        retriever (EnsembleRetrever): The retriever to use in the chain.
 
     Returns:
         ConversationalRetrievalChain: A chain that combines the language model, retriever, and conversation memory.
