@@ -54,15 +54,14 @@ def get_vectorstore():
 
 def get_improved_retriever(vectorstore, chunks):
     """
-    Get an advanced retriever with hybrid search and contextual compression.
+    Get an advanced retriever with hybrid search.
 
     Args:
         vectorstore (Chroma): used for semantic search.
         chunks (list[Document]): used for keyword search.
 
     Returns:
-        ContextualCompressionRetriever: Improved retriever combining vector and keyword search
-        with contextual compression.
+        Ensemble retriever: Improved retriever combining vector and keyword search.
     """
     # Vector store retriever
     vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
@@ -77,16 +76,7 @@ def get_improved_retriever(vectorstore, chunks):
         weights=[0.5, 0.5]
     )
     
-    # Contextual compression
-    llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
-    compressor = LLMChainExtractor.from_llm(llm)
-    
-    compression_retriever = ContextualCompressionRetriever(
-        base_compressor=compressor,
-        base_retriever=ensemble_retriever
-    )
-    
-    return compression_retriever
+    return ensemble_retriever
 
 def get_conversation_chain(retriever):
     """
