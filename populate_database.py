@@ -13,6 +13,9 @@ from llama_index.core import SimpleDirectoryReader
 from langchain_community.document_loaders import UnstructuredFileLoader
 import pickle
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
+from img2table.ocr import TesseractOCR
+from img2table.document import PDF
+import pandas as pd
 
 # Stored at local paths.
 CHROMA_PATH = "chroma"
@@ -44,10 +47,98 @@ def main():
         clear_database()
 
     # Update data store.
-    documents = load_documents()
+    documents = extract_tables_from_pdf(DATA_PATH)
     chunks = split_documents(documents)
     save_chunks(chunks)
     add_to_chroma(chunks)
+
+def extract_tables_from_pdf(directory_path):
+    """
+    Extract tables from a PDF document using img2table and return structured data.
+    
+    Returns:
+        List[dict]: A dictionary of extracted tables keyed by file name.
+    """
+    ocr = TesseractOCR(n_threads=1, lang="eng")
+    all_extracted_tables = []
+    for filename in os.listdir(directory_path):
+        if filename.endswith(".pdf"):
+            pdf_path = os.path.join(directory_path, filename)
+            doc = PDF(pdf_path)
+            extracted_tables = doc.extract_tables(ocr=ocr, implicit_rows=False, borderless_tables=False, min_confidence=50)
+            
+            all_extracted_tables.append({filename: extracted_tables})
+            
+            with open('llama_parsed/output.md', 'a') as f:
+                for key, value_list in extracted_tables.items():
+                    for value in value_list:
+                        table_df = value.df
+                        f.write(f"Table {key} from {filename}:\n")
+                        f.write(table_df.to_string())
+                        f.write("\n\n")
+    
+    return load_parsed_documents()
+
+def load_parsed_documents():
+    """
+    Load all parsed documents from the 'output.md' file.
+
+    Returns:
+        List[Documents]: A list containing the parsed content.
+    """
+    loader = UnstructuredFileLoader('llama_parsed/output.md')
+    documents = loader.load()
+    print("Loaded parsed documents")
+    return documents
+
+def split_documents(documents: list[Document]):
+    """
+    Split the input documents into smaller chunks for processing.
+
+    Args:
+        documents (List[Document]): A list of documents to be split.
+
+    Returns:
+        List[Document]: A list containing the split chunks.
+    """
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200,
+        length_function=len,
+        separators=["\n\n", "\n", " ", ""]
+    )
+    return text_splitter.split_documents(documents)
+
+def save_chunks(chunks: list[Document]):
+    """
+    Save processed document chunks to a pickle file.
+
+    Args:
+        chunks (List[Document]): A list containing the processed chunks.
+    """
+    with open(CHUNKS_PATH, 'wb') as f:
+            pickle.dump(chunks, f)
+    print(f"✅ Saved {len(chunks)} chunks to {CHUNKS_PATH}")
+
+def load_chunks():
+    """
+    Load previously saved document chunks from the pickle file.
+
+    Returns:
+        None: If no saved chunks are found
+
+        or
+
+        List[Document]: A list containing the processed chunks.
+    """
+    if os.path.exists(CHUNKS_PATH):
+        with open(CHUNKS_PATH, 'rb') as f:
+            chunks = pickle.load(f)
+        print(f"✅ Loaded {len(chunks)} chunks from {CHUNKS_PATH}")
+        return chunks
+    else:
+        print("❌ No saved chunks found.")
+        return None
 
 def load_parsed_files():
     """
@@ -60,16 +151,6 @@ def load_parsed_files():
         with open(PARSED_FILES_LIST, 'r') as f:
             return json.load(f)
     return []
-
-def save_parsed_files(parsed_files):
-    """
-    Save the list of parsed files.
-
-    Args:
-        parsed_files (List[str]): A list of filenames that have been parsed.
-    """
-    with open(PARSED_FILES_LIST, 'w') as f:
-        json.dump(parsed_files, f)
 
 def load_documents():
     """
@@ -123,67 +204,15 @@ def load_documents():
 
     return load_parsed_documents()
 
-def load_parsed_documents():
+def save_parsed_files(parsed_files):
     """
-    Load all parsed documents from the 'output.md' file.
-
-    Returns:
-        List[Documents]: A list containing the parsed content.
-    """
-    loader = UnstructuredFileLoader('llama_parsed/output.md')
-    documents = loader.load()
-    print("Loaded parsed documents")
-    return documents
-
-def save_chunks(chunks: list[Document]):
-    """
-    Save processed document chunks to a pickle file.
+    Save the list of parsed files.
 
     Args:
-        chunks (List[Document]): A list containing the processed chunks.
+        parsed_files (List[str]): A list of filenames that have been parsed.
     """
-    with open(CHUNKS_PATH, 'wb') as f:
-            pickle.dump(chunks, f)
-    print(f"✅ Saved {len(chunks)} chunks to {CHUNKS_PATH}")
-
-def load_chunks():
-    """
-    Load previously saved document chunks from the pickle file.
-
-    Returns:
-        None: If no saved chunks are found
-
-        or
-
-        List[Document]: A list containing the processed chunks.
-    """
-    if os.path.exists(CHUNKS_PATH):
-        with open(CHUNKS_PATH, 'rb') as f:
-            chunks = pickle.load(f)
-        print(f"✅ Loaded {len(chunks)} chunks from {CHUNKS_PATH}")
-        return chunks
-    else:
-        print("❌ No saved chunks found.")
-        return None
-
-def split_documents(documents: list[Document]):
-    """
-    Split the input documents into smaller chunks for processing.
-
-    Args:
-        documents (List[Document]): A list of documents to be split.
-
-    Returns:
-        List[Document]: A list containing the split chunks.
-    """
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
-        length_function=len,
-        separators=["\n\n", "\n", " ", ""]
-    )
-    return text_splitter.split_documents(documents)
-
+    with open(PARSED_FILES_LIST, 'w') as f:
+        json.dump(parsed_files, f)
 
 def add_to_chroma(chunks: list[Document]):
     """

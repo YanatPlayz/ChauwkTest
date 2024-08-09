@@ -6,6 +6,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
 from langchain.retrievers import ContextualCompressionRetriever
+from langchain_cohere import CohereRerank
 from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_community.vectorstores import Chroma
@@ -107,29 +108,34 @@ def get_improved_retriever(vectorstore, chunks):
         chunks (list[Document]): used for keyword search.
 
     Returns:
-        EnsembleRetriever: Improved retriever combining vector and keyword search.
+        ContextualCompressionRetriever: Improved retriever combining vector and keyword search, as well as a reranker.
     """
     # Vector store retriever
-    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
     
     # Keyword retriever
     bm25_retriever = BM25Retriever.from_documents(chunks)
-    bm25_retriever.k = 5
+    bm25_retriever.k = 10
     
     # Ensemble retriever
     ensemble_retriever = EnsembleRetriever(
         retrievers=[vectorstore_retriever, bm25_retriever],
-        weights=[0.5, 0.5]
+        weights=[0.7, 0.3]
     )
-    
-    return ensemble_retriever
+
+    compressor = CohereRerank(model="rerank-english-v3.0")
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, base_retriever=ensemble_retriever
+    )
+
+    return compression_retriever
 
 def get_conversation_chain(retriever):
     """
     Get a conversational chain using the provided retriever.
 
     Args:
-        retriever (EnsembleRetrever): The retriever to use in the chain.
+        retriever (ContextualCompressionRetriever): The retriever to use in the chain.
 
     Returns:
         ConversationalRetrievalChain: A chain that combines the language model, retriever, and conversation memory.
@@ -143,9 +149,10 @@ def get_conversation_chain(retriever):
     Human: {question}
     
     Assistant: Let's approach this step-by-step:
-    1) First, I'll review the relevant information from the context searching through all of the documents.
-    2) Then, I'll provide a clear and concise answer to your question without making up things.
-    3) If any details are missing or unclear, I'll mention that.
+    1) First, I'll determine the specific information need to answer the question, including info such as the state / location that the query asks for or the type of training center.
+    2) Then, I'll review the relevant information from the context by searching through all of the documents.
+    3) After that, I'll provide a clear and concise answer to your question without making up things.
+    4) If any details are missing or unclear, I'll mention that.
     
     Here's my response:
     """
