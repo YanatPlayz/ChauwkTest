@@ -123,7 +123,7 @@ def get_improved_retriever(vectorstore, chunks):
         weights=[0.7, 0.3]
     )
 
-    compressor = CohereRerank(model="rerank-english-v3.0")
+    compressor = CohereRerank(model="rerank-english-v3.0", top_n=10)
     compression_retriever = ContextualCompressionRetriever(
         base_compressor=compressor, base_retriever=ensemble_retriever
     )
@@ -167,8 +167,10 @@ def get_conversation_chain(retriever):
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=retriever,
-        memory=ConversationBufferMemory(memory_key='chat_history', return_messages=True),
-        combine_docs_chain_kwargs={"prompt": prompt}
+        memory=ConversationBufferMemory(memory_key='chat_history', return_messages=True, output_key='answer'),
+        combine_docs_chain_kwargs={"prompt": prompt},
+        return_source_documents=True,
+        return_generated_question=True 
     )
     
     return chain
@@ -188,6 +190,15 @@ def handle_userinput(user_question):
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
     chat_history = response['chat_history']
+
+    print("Retrieved Documents:")
+    for i, doc in enumerate(response['source_documents']):
+        print(f"Document {i+1}:")
+        print(f"Content: {doc.page_content}")
+        print(f"Metadata: {doc.metadata}")
+        print("---------")
+
+    print(f"Generated Question: {response['generated_question']}")
     translated_new_messages = []
 
     for index, message in enumerate(chat_history):
@@ -196,7 +207,7 @@ def handle_userinput(user_question):
             st.session_state.translated_messages_record.add(message_id)
             if hasattr(message, 'content'):
                 if index % 2 == 0:
-                    st.write("Recieving message with original prompt, will cut for translation: ", message)
+                    st.write("Receiving message with original prompt, will cut for translation: ", message)
                     user_question_content = getattr(message, 'content').split("User: ")[1]
                     translated_message_content = bhashini.translate(user_question_content)
                     st.write("User message, no need for audio: ", user_question_content)

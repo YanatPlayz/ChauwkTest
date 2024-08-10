@@ -15,7 +15,6 @@ import pickle
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from img2table.ocr import TesseractOCR
 from img2table.document import PDF
-import pandas as pd
 
 # Stored at local paths.
 CHROMA_PATH = "chroma"
@@ -59,6 +58,21 @@ def extract_tables_from_pdf(directory_path):
     Returns:
         List[dict]: A dictionary of extracted tables keyed by file name.
     """
+    parsed_files = load_parsed_files()
+    files_to_parse = []
+
+    for file in os.listdir(DATA_PATH):
+        if file not in parsed_files:
+            files_to_parse.append(file)
+            shutil.copy(os.path.join(DATA_PATH, file), PARSING_DATA_PATH)
+
+    if not files_to_parse:
+        print("No new files to parse.")
+        return load_parsed_documents()
+    if (len(files_to_parse) == 1):
+        print(f"Parsing {len(files_to_parse)} new file...")
+    else:
+        print(f"Parsing {len(files_to_parse)} new files...")
     ocr = TesseractOCR(n_threads=1, lang="eng")
     all_extracted_tables = []
     for filename in os.listdir(directory_path):
@@ -77,6 +91,11 @@ def extract_tables_from_pdf(directory_path):
                         f.write(table_df.to_string())
                         f.write("\n\n")
     
+    parsed_files.extend(files_to_parse)
+    save_parsed_files(parsed_files)
+
+    for file in os.listdir(PARSING_DATA_PATH):
+        os.remove(os.path.join(PARSING_DATA_PATH, file))
     return load_parsed_documents()
 
 def load_parsed_documents():
