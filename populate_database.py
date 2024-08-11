@@ -121,10 +121,7 @@ def split_documents(documents: list[Document]):
         List[Document]: A list containing the split chunks.
     """
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
-        length_function=len,
-        separators=["\n\n", "\n", " ", ""]
+        separators=["\n\n"]
     )
     return text_splitter.split_documents(documents)
 

@@ -111,19 +111,18 @@ def get_improved_retriever(vectorstore, chunks):
         ContextualCompressionRetriever: Improved retriever combining vector and keyword search, as well as a reranker.
     """
     # Vector store retriever
-    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
+    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 7})
     
     # Keyword retriever
     bm25_retriever = BM25Retriever.from_documents(chunks)
-    bm25_retriever.k = 10
+    bm25_retriever.k = 7
     
     # Ensemble retriever
     ensemble_retriever = EnsembleRetriever(
         retrievers=[vectorstore_retriever, bm25_retriever],
         weights=[0.7, 0.3]
     )
-
-    compressor = CohereRerank(model="rerank-english-v3.0", top_n=10)
+    compressor = CohereRerank(model="rerank-english-v3.0", top_n=5)
     compression_retriever = ContextualCompressionRetriever(
         base_compressor=compressor, base_retriever=ensemble_retriever
     )

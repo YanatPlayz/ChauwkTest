@@ -10,3 +10,4 @@ parsing_data/
 llama_parsed/output.md
 processed_chunks.pkl
 parsed_files.json
+bhashini_translator/__pycache__/
