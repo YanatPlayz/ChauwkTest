@@ -172,7 +172,7 @@ def load_parsed_files():
             return json.load(f)
     return []
 
-def load_documents():
+def load_documents(directory_path):
     """
     Load and parse new documents from the data directory using LlamaParse - use for files with text / paragraph.
 
