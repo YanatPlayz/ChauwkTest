@@ -4,8 +4,8 @@ from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
-from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import DocumentCompressorPipeline
 from langchain_cohere import CohereRerank
 from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
@@ -15,6 +15,9 @@ from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini #custom module
 import base64
 from populate_database import load_chunks
+from langchain_core.documents import BaseDocumentTransformer, Document
+from langchain_core.pydantic_v1 import BaseModel, Field
+from typing import Any, Callable, List, Sequence
 
 # Stored at local paths.
 CHROMA_PATH = "chroma"
@@ -96,8 +99,33 @@ def get_vectorstore():
         st.error("No saved chunks found. Please run populate_database.py first.")
         return None, None
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-    st.write("✅ Loaded the database")
     return db, chunks
+
+class RelevanceScoreFilter(BaseDocumentTransformer, BaseModel):
+    """Filter that drops documents below a certain relevance score threshold."""
+    
+    relevance_threshold: float = Field(default=0.5, ge=0.0, le=1.0)
+    """Threshold for determining when a document is relevant enough to be included."""
+
+    class Config:
+        arbitrary_types_allowed = True
+
+    def transform_documents(
+        self, documents: Sequence[Document], **kwargs: Any
+    ) -> List[Document]:
+        """Filter down documents based on relevance scores."""
+        filtered_documents = []
+        for doc in documents:
+            if 'relevance_score' in doc.metadata and doc.metadata['relevance_score'] >= self.relevance_threshold:
+                filtered_documents.append(doc)
+        return filtered_documents
+
+    def _call(
+        self,
+        documents: Sequence[Document],
+        **kwargs: Any,
+    ) -> List[Document]:
+        return self.transform_documents(documents, **kwargs)
 
 def get_improved_retriever(vectorstore, chunks):
     """
@@ -111,22 +139,29 @@ def get_improved_retriever(vectorstore, chunks):
         ContextualCompressionRetriever: Improved retriever combining vector and keyword search, as well as a reranker.
     """
     # Vector store retriever
-    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 7})
+    vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 8})
     
     # Keyword retriever
     bm25_retriever = BM25Retriever.from_documents(chunks)
-    bm25_retriever.k = 7
+    bm25_retriever.k = 8
     
     # Ensemble retriever
     ensemble_retriever = EnsembleRetriever(
         retrievers=[vectorstore_retriever, bm25_retriever],
-        weights=[0.7, 0.3]
+        weights=[0.5, 0.5]
     )
-    compressor = CohereRerank(model="rerank-english-v3.0", top_n=5)
-    compression_retriever = ContextualCompressionRetriever(
-        base_compressor=compressor, base_retriever=ensemble_retriever
-    )
+    cohere_compressor = CohereRerank(model="rerank-english-v3.0", top_n=5)
+    relevance_filter = RelevanceScoreFilter(relevance_threshold=0.76)
+    llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
+    compressor = LLMChainExtractor.from_llm(llm)
 
+    pipeline_compressor = DocumentCompressorPipeline(
+        transformers=[cohere_compressor, relevance_filter, compressor]
+    )
+    
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=pipeline_compressor, base_retriever=ensemble_retriever
+    )
     return compression_retriever
 
 def get_conversation_chain(retriever):
@@ -184,7 +219,7 @@ def handle_userinput(user_question):
         user_question (str): The user's input question translated to English.
     """
     bhashini = Bhashini("en", sourceLanguage)
-    processed_question = f"Make your response accurate and complete by only using information from the provided context. Use addresses. Make the conversation casual but professional. Use bullet points for lengthy responses.  User: {user_question}"
+    processed_question = f"Be revelant. If the context provided isn't neccessary, don't add it to your response. However, make your response accurate and complete by only using information from the provided context. Use addresses. Use bullet points for lengthy responses.  User: {user_question}"
 
     response = st.session_state.conversation({'question': processed_question})
     st.session_state.chat_history = response['chat_history']
@@ -286,6 +321,7 @@ def main():
                 vectorstore, chunks = get_vectorstore()
                 retriever = get_improved_retriever(vectorstore, chunks)
                 st.session_state.conversation = get_conversation_chain(retriever)
+                st.write("✅ Loaded the database")
 
 if __name__ == '__main__':
     main()
