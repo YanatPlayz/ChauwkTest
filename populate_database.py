@@ -6,7 +6,7 @@ import json
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from dotenv import load_dotenv
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
@@ -30,6 +30,8 @@ def main():
     """
     Main function that runs the Chroma database population process.
 
+    To add files with text paragraphs, change the extract_tables_from_pdf() call with load_documents() and run 'python populate_database.py' without the reset flag.
+
     Run the populate_database.py script with the '--reset" flag to fully clear the database before adding files in the data path.
     """
     load_dotenv()
@@ -46,14 +48,16 @@ def main():
         clear_database()
 
     # Update data store.
-    documents = extract_tables_from_pdf(DATA_PATH)
+    documents = extract_tables_from_pdf(DATA_PATH) # switch this with the load_documents() function for PDF files with text paragraphs.
     chunks = split_documents(documents)
     save_chunks(chunks)
     add_to_chroma(chunks)
 
 def extract_tables_from_pdf(directory_path):
     """
-    Extract tables from a PDF document using img2table and return structured data.
+    Extract ONLY tables from a PDF document using img2table and return structured data - use for PDFs with only tables.
+
+    If the PDF contains text paragraphs, this function will not extract it. Instead, use the load_documents() functionLlamaParse.
     
     Returns:
         List[dict]: A dictionary of extracted tables keyed by file name.
@@ -170,7 +174,7 @@ def load_parsed_files():
 
 def load_documents():
     """
-    Load and parse new documents from the data directory.
+    Load and parse new documents from the data directory using LlamaParse - use for files with text / paragraph.
 
     This function uses LlamaParse to process PDF files into a structured format.
 
@@ -259,7 +263,6 @@ def add_to_chroma(chunks: list[Document]):
         print(f"👉 Adding new documents: {len(new_chunks)}")
         new_chunk_ids = [chunk.metadata["id"] for chunk in new_chunks]
         db.add_documents(new_chunks, ids=new_chunk_ids)
-        db.persist()
     else:
         print("✅ No new documents to add")
 

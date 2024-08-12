@@ -9,7 +9,7 @@ from langchain.retrievers.document_compressors import DocumentCompressorPipeline
 from langchain_cohere import CohereRerank
 from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini #custom module
