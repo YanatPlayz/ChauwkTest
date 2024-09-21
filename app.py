@@ -10,14 +10,24 @@ from langchain_cohere import CohereRerank
 from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_chroma import Chroma
-from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini #custom module
 import base64
 from populate_database import load_chunks
 from langchain_core.documents import BaseDocumentTransformer, Document
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from typing import Any, Callable, List, Sequence
+
+def get_embedding_function():
+    """
+    Get the OpenAI embedding function for document embeddings.
+    
+    Returns:
+        OpenAIEmbeddings: An instance of OpenAIEmbeddings for creating document embeddings.
+    """
+    embeddings = OpenAIEmbeddings()
+    return embeddings
 
 # Stored at local paths.
 CHROMA_PATH = "chroma"
@@ -74,16 +84,6 @@ user_template = '''
 </div>
 '''
 
-def get_embedding_function():
-    """
-    Get the FastEmbed embedding function for document embeddings.
-
-    Returns:
-        FastEmbedEmbeddings: An instance of FastEmbedEmbeddings for creating document embeddings.
-    """
-    embeddings = FastEmbedEmbeddings()
-    return embeddings
-
 def get_vectorstore():
     """
     Load the vector store from ChromaDB.
@@ -93,12 +93,11 @@ def get_vectorstore():
             - Chroma object: The loaded vector store.
             - list[Document]: The document chunks used to create the vector store.
     """
-    embedding_function = get_embedding_function()
     chunks = load_chunks()
     if chunks is None:
         st.error("No saved chunks found. Please run populate_database.py first.")
         return None, None
-    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
+    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=get_embedding_function())
     return db, chunks
 
 class RelevanceScoreFilter(BaseDocumentTransformer, BaseModel):

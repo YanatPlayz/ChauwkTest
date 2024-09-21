@@ -12,8 +12,8 @@ from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
 from langchain_community.document_loaders import UnstructuredFileLoader
 import pickle
-from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from img2table.ocr import TesseractOCR
+from langchain_community.embeddings import OpenAIEmbeddings
 from img2table.document import PDF
 
 # Stored at local paths.
@@ -26,6 +26,15 @@ PARSED_FILES_LIST = "parsed_files.json"
 # LlamaParse API key from .env file.
 llamaparse_api_key = os.getenv("LLAMA_CLOUD_API_KEY")
 
+def get_embedding_function():
+    """
+    Get the OpenAI embedding function for document embeddings.
+    
+    Returns:
+        OpenAIEmbeddings: An instance of OpenAIEmbeddings for creating document embeddings.
+    """
+    embeddings = OpenAIEmbeddings()
+    return embeddings
 def main():
     """
     Main function that runs the Chroma database population process.
@@ -299,16 +308,6 @@ def calculate_chunk_ids(chunks):
         chunk.metadata["id"] = chunk_id
 
     return chunks
-
-def get_embedding_function():
-    """
-    Get the FastEmbed embedding function for document embeddings.
-
-    Returns:
-        FastEmbedEmbeddings: An instance of FastEmbedEmbeddings for creating document embeddings.
-    """
-    embeddings = FastEmbedEmbeddings()
-    return embeddings
 
 def clear_database():
     """
