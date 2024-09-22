@@ -13,7 +13,7 @@ from llama_index.core import SimpleDirectoryReader
 from langchain_community.document_loaders import UnstructuredFileLoader
 import pickle
 from img2table.ocr import TesseractOCR
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from img2table.document import PDF
 
 # Stored at local paths.
@@ -33,8 +33,9 @@ def get_embedding_function():
     Returns:
         OpenAIEmbeddings: An instance of OpenAIEmbeddings for creating document embeddings.
     """
-    embeddings = OpenAIEmbeddings()
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
     return embeddings
+
 def main():
     """
     Main function that runs the Chroma database population process.

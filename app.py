@@ -1,6 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_cerebras import ChatCerebras
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.retrievers import BM25Retriever
@@ -11,6 +11,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.retrievers.document_compressors import LLMChainExtractor
 from langchain_chroma import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from streamlit_mic_recorder import mic_recorder
 from bhashini_translator import Bhashini #custom module
 import base64
@@ -26,7 +27,7 @@ def get_embedding_function():
     Returns:
         OpenAIEmbeddings: An instance of OpenAIEmbeddings for creating document embeddings.
     """
-    embeddings = OpenAIEmbeddings()
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
     return embeddings
 
 # Stored at local paths.
@@ -151,7 +152,7 @@ def get_improved_retriever(vectorstore, chunks):
     )
     cohere_compressor = CohereRerank(model="rerank-english-v3.0", top_n=5)
     relevance_filter = RelevanceScoreFilter(relevance_threshold=0.76)
-    llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
+    llm = ChatCerebras(temperature=0, model="llama3.1-70b")
     compressor = LLMChainExtractor.from_llm(llm)
 
     pipeline_compressor = DocumentCompressorPipeline(
@@ -195,7 +196,7 @@ def get_conversation_chain(retriever):
         ("human", human_prompt),
     ])
     
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatCerebras(model="llama3.1-70b", temperature=0)
     
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
